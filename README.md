@@ -22,4 +22,4 @@ Les traductions suivent les conventions et le glossaire définis dans le projet.
 
 ## Version
 
-Basé sur Society: Sunlit Valley v4.0.
+Basé sur Society: Sunlit Valley v4.X.
