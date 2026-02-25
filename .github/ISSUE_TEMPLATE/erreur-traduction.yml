@@ -1,0 +1,41 @@
+name: Erreur de traduction
+description: Signaler une erreur dans une traduction existante
+labels: ["bug", "traduction"]
+body:
+  - type: input
+    id: fichier
+    attributes:
+      label: Fichier concerne
+      description: Chemin du fichier (ex. kubejs/assets/dialog/lang/fr_fr.json)
+      placeholder: kubejs/assets/.../fr_fr.json
+    validations:
+      required: true
+  - type: input
+    id: cle
+    attributes:
+      label: Cle JSON
+      description: La cle exacte dans le fichier JSON
+      placeholder: dialog.npc.banker.chatter_friendship0.1.line_0
+    validations:
+      required: false
+  - type: textarea
+    id: actuel
+    attributes:
+      label: Texte actuel (errone)
+      description: La traduction actuelle qui pose probleme
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggestion de correction
+      description: Votre proposition de traduction corrigee
+    validations:
+      required: false
+  - type: textarea
+    id: contexte
+    attributes:
+      label: Contexte
+      description: Pourquoi la traduction actuelle est incorrecte (faux-ami, contresens, typographie, etc.)
+    validations:
+      required: false

@@ -1,0 +1,35 @@
+name: Traduction manquante
+description: Signaler du contenu non traduit en francais
+labels: ["enhancement", "traduction"]
+body:
+  - type: input
+    id: contenu
+    attributes:
+      label: Contenu non traduit
+      description: Quel element apparait en anglais en jeu ?
+      placeholder: Nom d'item, texte de quete, dialogue...
+    validations:
+      required: true
+  - type: input
+    id: ou
+    attributes:
+      label: Ou dans le jeu ?
+      description: Ou avez-vous vu ce texte en anglais ?
+      placeholder: Menu inventaire, dialogue avec Leon, quete du chapitre 2...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version du modpack
+      description: Quelle version de Society Sunlit Valley utilisez-vous ?
+      placeholder: "4.0.2"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details supplementaires
+      description: Screenshots ou informations complementaires
+    validations:
+      required: false
