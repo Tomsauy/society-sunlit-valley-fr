@@ -4,12 +4,13 @@ Merci de votre interet pour la traduction francaise de Society: Sunlit Valley !
 
 ## Comment contribuer
 
-### 1. Fork et branche
+### 1. Cloner et creer une branche
 
-1. Forkez ce repo
-2. Creez une branche depuis `main` (ex: `trad/nom-du-mod` ou `fix/correction-description`)
-3. Faites vos modifications
-4. Ouvrez une Pull Request vers `main`
+1. Demandez a etre ajoute comme collaborateur (via les Discussions ou en contactant un mainteneur)
+2. Clonez le repo : `git clone https://github.com/Tomsauy/society-sunlit-valley-fr.git`
+3. Creez une branche depuis `main` (ex: `trad/nom-du-mod` ou `fix/correction-description`)
+4. Faites vos modifications
+5. Poussez votre branche et ouvrez une Pull Request vers `main`
 
 ### 2. Conventions de traduction
 

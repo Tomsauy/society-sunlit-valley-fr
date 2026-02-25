@@ -25,8 +25,8 @@ Traduction communautaire francaise du modpack Minecraft [Society: Sunlit Valley]
 Les contributions sont les bienvenues ! Consultez le [guide de contribution](CONTRIBUTING.md) pour savoir comment participer.
 
 **En bref :**
-1. Forkez le repo
-2. Creez une branche pour vos modifications
+1. Demandez l'acces collaborateur (via les [Discussions](../../discussions))
+2. Clonez le repo et creez une branche
 3. Ouvrez une Pull Request
 
 Vous pouvez aussi [signaler une erreur](../../issues/new?template=erreur-traduction.yml) ou [demander une traduction manquante](../../issues/new?template=traduction-manquante.yml).
