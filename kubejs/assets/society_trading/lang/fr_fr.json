@@ -18,6 +18,8 @@
   "jei.society_trading.only_spring": "Vendu au printemps uniquement",
   "jei.society_trading.only_summer": "Vendu en été uniquement",
   "jei.society_trading.only_winter": "Vendu en hiver uniquement",
+  "item.society_trading.auto_trader.description": "Permet de commercer automatiquement depuis toutes les boutiques débloquées. Ne peut pas commercer pour les articles à stock limité ou les échanges débloqués.",
+
   "jei.society_trading.price": "%s ●",
   "jei.society_trading.vault_complete": "Compléter le coffre-fort",
   "shop.society_trading.banker": "Banquier",
