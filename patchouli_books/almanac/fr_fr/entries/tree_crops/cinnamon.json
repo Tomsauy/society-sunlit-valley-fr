@@ -9,7 +9,7 @@
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Prunier",
+            "name ": "Cannelier",
             "enable_visualize": false,
             "multiblock": {
                 "mapping": {

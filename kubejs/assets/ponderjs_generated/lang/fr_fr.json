@@ -14,7 +14,7 @@
   "kubejs.ponder.brewingstation_scene_one.text_2": "Pour commencer, placez vos ingrédients dans le bassin et remplissez-le d'eau.",
   "kubejs.ponder.brewingstation_scene_one.text_3": "Placez votre combustible dans le bloc four pour commencer le brassage.",
   "kubejs.ponder.brewingstation_scene_three.header": "Niveaux de la station de brassage",
-  "kubejs.ponder.brewingstation_scene_three.text_1": "Il existe trois niveaux de station de brassage :.",
+  "kubejs.ponder.brewingstation_scene_three.text_1": "Il existe trois niveaux de station de brassage :",
   "kubejs.ponder.brewingstation_scene_three.text_2": "Le niveau en bois est le niveau de départ, et ne peut brasser que des bières.",
   "kubejs.ponder.brewingstation_scene_three.text_3": "Le niveau en cuivre est le deuxième niveau, capable de brasser des spiritueux et des bières. Il ne fait jamais apparaître d'élémentaires.",
   "kubejs.ponder.brewingstation_scene_three.text_4": "Le niveau renforcé est le niveau final. Il peut brasser toutes les boissons, et offre une qualité minimale de 3.",

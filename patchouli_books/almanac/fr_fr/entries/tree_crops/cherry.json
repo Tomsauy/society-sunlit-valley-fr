@@ -9,7 +9,7 @@
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Pommier",
+            "name ": "Cerisier",
             "enable_visualize": false,
             "multiblock": {
                 "mapping": {

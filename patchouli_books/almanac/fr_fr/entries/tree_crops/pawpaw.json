@@ -5,11 +5,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li):coin: 80$(li)\ud83c\udf42 \u00a74Automne\u00a7r$(li)Rendement : 1$(li)\u00c9tapes de croissance : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/pawpaw)Pawpaw$(/l)"
+            "text": "$(l)Statistiques$()$(li):coin: 80$(li)\ud83c\udf42 \u00a74Automne\u00a7r$(li)Rendement : 1$(li)\u00c9tapes de croissance : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/pawpaw)Papayer$(/l)"
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Pawpaw",
+            "name ": "Papaye",
             "enable_visualize": false,
             "multiblock": {
                 "mapping": {
