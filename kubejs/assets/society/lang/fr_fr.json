@@ -953,7 +953,7 @@
   "item.society.inserter.description": "Utilisez sur un %s pour lui permettre de traiter 4 objets à la fois",
   "item.society.intro_to_algorithms": "Introduction aux algorithmes",
   "item.society.intro_to_algorithms.description": "Miner du minerai de plomb ne provoque plus de nuages de dégâts cérébraux.",
-  "item.society.invitation": "Invitation",
+  "item.society.invitation": "Invitation : %s",
   "item.society.iron_upgrade_smithing_template": "Patron de forge en fer",
   "item.society.iron_upgrade_smithing_template.applies_to": "Équipement en pierre, cuir, cotte de mailles et coton",
   "item.society.iron_upgrade_smithing_template.ingredients": "Lingot de fer",
