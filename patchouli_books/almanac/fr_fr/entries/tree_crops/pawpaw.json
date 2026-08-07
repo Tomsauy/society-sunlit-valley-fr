@@ -1,15 +1,15 @@
 {
-    "name": "Papaye \ud83c\udf42",
+    "name": "Asimine 🍂",
     "category": "patchouli:tree_crops",
     "icon": "pamhc2trees:pawpawitem",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li):coin: 80$(li)\ud83c\udf42 \u00a74Automne\u00a7r$(li)Rendement : 1$(li)\u00c9tapes de croissance : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/pawpaw)Papayer$(/l)"
+            "text": "$(l)Stats$()$(li):coin: 80$(li)🍂 §4Automne§r$(li)Rendement : 1$(li)Stades de pousse : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/pawpaw)Asiminier$(/l)"
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Papaye",
+            "name ": "Asiminier",
             "enable_visualize": false,
             "multiblock": {
                 "mapping": {
@@ -17,8 +17,12 @@
                     "F": "pamhc2trees:pampawpaw[age=7]"
                 },
                 "pattern": [
-                    ["0"],
-                    ["F"]
+                    [
+                        "0"
+                    ],
+                    [
+                        "F"
+                    ]
                 ]
             }
         }

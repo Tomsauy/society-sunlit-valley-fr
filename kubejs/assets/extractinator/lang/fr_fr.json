@@ -1,0 +1,18 @@
+{
+  "block.extractinator.extractinator": "Extractinateur",
+  "block.extractinator.silt": "Limon",
+  "block.extractinator.slush": "Gadoue",
+  "emi.category.extractinator.extractinator": "Extractinateur",
+  "itemGroup.extractinator.main": "Extractinateur",
+  "text.extractinator.drop_chance": "Chance de butin : %s%%",
+  "text.resourcefulconfig.extractinator.option.extractTicks": "Ticks d'extraction",
+  "text.resourcefulconfig.extractinator.option.extractTicks.tooltip": "Temps nécessaire à l'extractinateur pour extraire un seul bloc",
+  "text.resourcefulconfig.extractinator.option.extractinatorDurability": "Durabilité de l'extractinateur",
+  "text.resourcefulconfig.extractinator.option.extractinatorDurability.tooltip": "Nombre d'utilisations avant que l'extractinateur ne se casse",
+  "text.resourcefulconfig.extractinator.option.lootMultiplier": "Multiplicateur de butin",
+  "text.resourcefulconfig.extractinator.option.lootMultiplier.tooltip": "Multiplie la quantité de butin obtenu par cette valeur",
+  "text.resourcefulconfig.extractinator.option.silent": "Silencieux",
+  "text.resourcefulconfig.extractinator.option.silent.tooltip": "Si l'extractinateur doit être silencieux",
+  "text.resourcefulconfig.extractinator.option.worldgen": "Génération du monde",
+  "text.resourcefulconfig.extractinator.option.worldgen.tooltip": "[Fabric uniquement] Génère les minerais de limon et de gadoue"
+}

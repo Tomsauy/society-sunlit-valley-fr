@@ -1,0 +1,13 @@
+{
+  "badwithernocookiereloaded.general.tooltip": "Sons et événements de base globaux pouvant être annulés",
+  "badwithernocookiereloaded.localized settings.silenceus": "Exemple : entity.sheep.step - utiliser /listen pour les autres sons",
+  "badwithernocookiereloaded.xtra.tooltip": "Sons localisés supplémentaires pouvant être annulés",
+  "text.autoconfig.bwncr.option.general": "Général",
+  "text.autoconfig.bwncr.option.general.debugMode": "Débogage",
+  "text.autoconfig.bwncr.option.general.silenceDragon": "Faire taire le dragon",
+  "text.autoconfig.bwncr.option.general.silenceLightning": "Faire taire la foudre",
+  "text.autoconfig.bwncr.option.general.silenceTrader": "Faire taire le marchand",
+  "text.autoconfig.bwncr.option.general.silenceUs": "Sons à faire taire",
+  "text.autoconfig.bwncr.option.general.silenceWither": "Faire taire le Wither",
+  "text.autoconfig.bwncr.title": "Bad Wither No Cookie - Reloaded"
+}

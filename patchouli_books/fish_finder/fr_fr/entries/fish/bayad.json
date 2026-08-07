@@ -1,18 +1,18 @@
 {
-  "name": "Bayad",
-  "category": "patchouli:fish",
-  "icon": "aquaculture:bayad",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "$(l)Stats$()$(li):coin: 208$(li)\u00a70\ud83c\udf3c \u00a72Printemps\u00a70$(li)Eau : Rivière$(li)Météo : Pluie Neige$(li)Horaire : Nuit"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "aquaculture:bayad",
-      "scale": 0.8,
-      "rotate": true,
-      "text": "Un beau bébé."
-    }
-  ]
+    "name": "Carangue",
+    "category": "patchouli:fish",
+    "icon": "aquaculture:bayad",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Stats$()$(li):coin: 208$(li)§0🌼 §2Printemps§0$(li)Eau : Rivière$(li)Météo : Pluie Neige$(li)Moment : Nuit"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "aquaculture:bayad",
+            "scale": 0.8,
+            "rotate": true,
+            "text": "Une vraie carangue-ster."
+        }
+    ]
 }

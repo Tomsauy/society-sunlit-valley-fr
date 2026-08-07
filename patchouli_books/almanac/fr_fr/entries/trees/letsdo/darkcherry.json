@@ -1,16 +1,16 @@
 {
-    "name": "Cerisier noir 🌼",
+    "name": "Cerisier sombre 🌼",
     "category": "patchouli:trees",
     "icon": "vinery:dark_cherry_sapling",
     "sortnum": -1,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li)🌼 §2Printemps§r $(li)Prix de la pousse : :coin: 256$(li)Taille : 1x1$(li)Produit :$(l:tree_crops/cherry)Cerises$(/l)$(br2)$(l)Notes$()$(li)Pousses achetées au Marché."
+            "text": "$(l)Stats$()$(li)🌼 §2Printemps§r $(li)Prix des pousses : :coin: 256$(li)Taille : 1x1$(li)Produit : $(l:tree_crops/cherry)Cerises$(/l)$(br2)$(l)Notes$()$(li)Pousses en vente au Marché."
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Oak Tree",
+            "name ": "Cerisier sombre",
             "enable_visualize": false,
             "multiblock": {
                 "pattern": [

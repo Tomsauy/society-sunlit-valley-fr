@@ -5,11 +5,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li)🍂 §4Automne§r $(li)Prix de la pousse : :coin: 8$(li)Taille : 2x2"
+            "text": "$(l)Stats$()$(li)🍂 §4Automne§r $(li)Prix de la pousse : :coin: 8$(li)Taille : 2x2"
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Oak Tree",
+            "name ": "Chêne noir",
             "enable_visualize": false,
             "multiblock": {
                 "pattern": [

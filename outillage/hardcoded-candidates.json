@@ -1,0 +1,254 @@
+[
+ {
+  "file": "kubejs/startup_scripts/registration/registerItems.js",
+  "line": 25,
+  "text": "Smithing Template",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerItems.js",
+  "line": 72,
+  "text": "Sea Biscuit",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerItems.js",
+  "line": 307,
+  "text": "Artisan Canvas",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerItems.js",
+  "line": 351,
+  "text": "Crystal of Regret: Farming",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerItems.js",
+  "line": 367,
+  "text": "Crystal of Regret: Husbandry",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerItems.js",
+  "line": 383,
+  "text": "Crystal of Regret: Mining",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerItems.js",
+  "line": 399,
+  "text": "Crystal of Regret: Fishing",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerItems.js",
+  "line": 415,
+  "text": "Crystal of Regret: Adventuring",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerItems.js",
+  "line": 673,
+  "text": "Debt: The First 5000 Caverns",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerItems.js",
+  "line": 676,
+  "text": "Frog",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerItems.js",
+  "line": 679,
+  "text": "The Phenomenology of Treasure",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerItems.js",
+  "line": 850,
+  "text": "Spark-Gro",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerWhimsyBlocks.js",
+  "line": 6,
+  "text": "Statue of Endless Fortune",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerBlocks.js",
+  "line": 327,
+  "text": "Sturdy Block of Bamboo",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerBlocks.js",
+  "line": 524,
+  "text": "London Beer",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerBlocks.js",
+  "line": 544,
+  "text": "Attunecore Beer",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerFluids.js",
+  "line": 7,
+  "text": "Oak Resin",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerFluids.js",
+  "line": 13,
+  "text": "Pine Tar",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerFluids.js",
+  "line": 19,
+  "text": "Maple Syrup",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerFluids.js",
+  "line": 25,
+  "text": "Mystic Syrup",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerFluids.js",
+  "line": 31,
+  "text": "Vinegar",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerFluids.js",
+  "line": 37,
+  "text": "Alchemical Varnish",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerFluids.js",
+  "line": 43,
+  "text": "Mystic Jelly",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerFluids.js",
+  "line": 49,
+  "text": "Milk",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerFluids.js",
+  "line": 56,
+  "text": "Apple Juice",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerFluids.js",
+  "line": 62,
+  "text": "White Grape Juice",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerFluids.js",
+  "line": 68,
+  "text": "Red Grape Juice",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerFluids.js",
+  "line": 74,
+  "text": "Crimson Grape Juice",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerFluids.js",
+  "line": 80,
+  "text": "Warped Grape Juice",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerFluids.js",
+  "line": 86,
+  "text": "Ancient Fruit Juice",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerFluids.js",
+  "line": 92,
+  "text": "Starfruit Juice",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerFluids.js",
+  "line": 98,
+  "text": "Sparkpod Juice",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerFluids.js",
+  "line": 104,
+  "text": "Mana Fruit Juice",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/registration/registerFluids.js",
+  "line": 110,
+  "text": "Relic Experience",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/customMachines/moonStatue.js",
+  "line": 61,
+  "text": "Statue of The Moon Gnome",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/customMachines/loom.js",
+  "line": 20,
+  "text": "Canvas Loom",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/customMachines/cheesePress.js",
+  "line": 44,
+  "text": "Artisan Cheese Press",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/powerfulMachines/autoPetter.js",
+  "line": 59,
+  "text": "Auto-Petter",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/powerfulMachines/autoTapper.js",
+  "line": 6,
+  "text": "Auto-Tapper",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/powerfulMachines/drumCornucopia.js",
+  "line": 154,
+  "text": "Drum of the Cornucopia",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/powerfulMachines/autoGrabber.js",
+  "line": 263,
+  "text": "Auto-Grabber",
+  "kind": "kubejs"
+ },
+ {
+  "file": "kubejs/startup_scripts/powerfulMachines/manaFruit.js",
+  "line": 71,
+  "text": "Mana Fruit Seed",
+  "kind": "kubejs"
+ }
+]

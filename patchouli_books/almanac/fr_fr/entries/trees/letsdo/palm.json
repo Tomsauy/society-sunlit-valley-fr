@@ -5,11 +5,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li)🔥 §6Été§r $(li)Prix : :coin: 128$(li)Taille : 1x1$(br2)$(l)Notes$()$(li)Pousses achetées au Marché."
+            "text": "$(l)Stats$()$(li)🔥 §6Été§r $(li)Prix : :coin: 128$(li)Taille : 1x1$(br2)$(l)Notes$()$(li)Pousses en vente au Marché."
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Palm Tree",
+            "name ": "Palmier",
             "enable_visualize": false,
             "multiblock": {
                 "pattern": [

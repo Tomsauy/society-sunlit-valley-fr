@@ -1,17 +1,17 @@
 {
-  "name": "Toile",
-  "category": "patchouli:slimes",
-  "icon": "splendid_slimes:plort{plort:{id:\"splendid_slimes:webby\"}}",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "$(l)Lieux :$()$(li)Structure : Mines abandonnées de la Caverne du Crâne, coffres de mines abandonnées de l'Overworld, coffres de donjons$(li)Boîtes à ballons : Rouge$(br2)$(l)Risques :$()$(br)Escalade les murs ! Provoque l'effet Lenteur lorsqu'il est contrarié."
-    },
-    {
-      "type": "patchouli:entity",
-      "name": "Slime Toile",
-      "entity": "splendid_slimes:splendid_slime{Breed:\"splendid_slimes:webby\"}",
-      "scale": 0.9
-    }
-  ]
+    "name": "Tisseur",
+    "category": "patchouli:slimes",
+    "icon": "splendid_slimes:plort{plort:{id:\"splendid_slimes:webby\"}}",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Emplacements :$()$(li)Structure : Mines abandonnées de la Caverne du Crâne, coffres des mines abandonnées de la Surface, coffres de donjon$(li)Boîtes à ballons : rouges$(br2)$(l)Risques :$()$(br)Escalade les parois ! Provoque un effet de Lenteur quand il est contrarié."
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Slime tisseur",
+            "entity": "splendid_slimes:splendid_slime{Breed:\"splendid_slimes:webby\"}",
+            "scale": 0.9
+        }
+    ]
 }

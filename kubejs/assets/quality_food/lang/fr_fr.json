@@ -1,3 +1,15 @@
 {
-  "quality_type.quality_food.diamond": "Iridium"
+  "commands.quality_food.quality.failed.already_has_quality": "%s a déjà une qualité appliquée",
+  "commands.quality_food.quality.failed.invalid_quality": "Tentative d'application d'une qualité invalide",
+  "commands.quality_food.quality.failed.missing_quality": "%s n'a aucune qualité à retirer",
+  "commands.quality_food.quality.failed.no_quality": "%s ne peut pas recevoir de qualité",
+  "config.jade.plugin_quality_food.quality": "Qualité",
+  "create.item_attributes.quality_food.quality": "a la qualité '%1$s'",
+  "create.item_attributes.quality_food.quality.inverted": "n'a pas la qualité '%1$s'",
+  "potion.withProbability": "%s (%s)",
+  "quality_food.quality": "Qualité : ",
+  "quality_type.quality_food.diamond": "Iridium",
+  "quality_type.quality_food.gold": "Or",
+  "quality_type.quality_food.iron": "Fer",
+  "quality_type.quality_food.none": "Aucune"
 }

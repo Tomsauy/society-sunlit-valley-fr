@@ -1,3 +1,18 @@
 {
-  "item.smallships.cannon_ball": "Boulet de canon de navire"
+  "item.smallships.bamboo_brigg": "Brigg de bambou",
+  "item.smallships.bamboo_cog": "Cog de bambou",
+  "item.smallships.bamboo_dhow": "Dhow de bambou",
+  "item.smallships.bamboo_drakkar": "Drakkar de bambou",
+  "item.smallships.bamboo_galley": "Galere de bambou",
+  "item.smallships.bamboo_rowboat": "Bateau a rames de bambou",
+  "item.smallships.bamboo_war_galley": "Galere de guerre de bambou",
+  "item.smallships.cannon_ball": "Boulet de canon de navire",
+  "item.smallships.cherry_brigg": "Brigg de cerisier",
+  "item.smallships.cherry_cog": "Cog de cerisier",
+  "item.smallships.cherry_dhow": "Dhow de cerisier",
+  "item.smallships.cherry_drakkar": "Drakkar de cerisier",
+  "item.smallships.cherry_galley": "Galere de cerisier",
+  "item.smallships.cherry_rowboat": "Bateau a rames de cerisier",
+  "item.smallships.cherry_war_galley": "Galere de guerre de cerisier",
+  "smallships.creative_mode_tab": "Mod Small Ships"
 }

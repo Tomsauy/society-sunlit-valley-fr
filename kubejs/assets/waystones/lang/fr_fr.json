@@ -1,0 +1,13 @@
+{
+  "block.waystones.blackstone_waystone": "Waystone de pierre noire",
+  "block.waystones.deepslate_waystone": "Waystone d'ardoise des abimes",
+  "block.waystones.end_stone_waystone": "Waystone de l'Ender",
+  "chat.waystones.cannot_break_waystone": "Impossible de casser cette waystone.",
+  "chat.waystones.warp_plate_has_invalid_target": "L'éclat placé dans cette plaque de téléportation a perdu son harmonisation.",
+  "item.waystones.attuned_shard": "Eclat harmonise",
+  "item.waystones.crumbling_attuned_shard": "Eclat harmonise friable",
+  "tooltip.waystones.attuned_shard.attunement_crumbling": "Il sera consommé lors de la prochaine téléportation.",
+  "tooltip.waystones.attuned_shard.attunement_lost": "Cet éclat a perdu son harmonisation.",
+  "tooltip.waystones.attuned_shard.move_to_other_warp_plate": "Apporter cet éclat à une autre plaque de téléportation.",
+  "tooltip.waystones.attuned_shard.plug_into_warp_plate": "Insérer cet éclat dans une plaque de téléportation."
+}

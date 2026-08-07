@@ -1,0 +1,13 @@
+{
+  "attribute.shippingbin.crop_sell_multiplier": "Multiplicateur de vente des cultures",
+  "attribute.shippingbin.gem_sell_multiplier": "Multiplicateur de vente des gemmes",
+  "attribute.shippingbin.meat_sell_multiplier": "Multiplicateur de vente de la viande",
+  "attribute.shippingbin.sell_multiplier": "Multiplicateur de vente",
+  "attribute.shippingbin.wood_sell_multiplier": "Multiplicateur de vente du bois",
+  "block.shippingbin.basic_shipping_bin": "Bac d'expedition basique",
+  "block.shippingbin.shipping_bin": "Bac d'expedition",
+  "block.shippingbin.smart_shipping_bin": "Bac d'expedition intelligent",
+  "category.shippingbin.trading": "Échanges",
+  "category.shippingbin.trading.attribute": "Bonus : %s",
+  "shippingbin.toast.trade": "Vendu %s %s pour %s %s"
+}

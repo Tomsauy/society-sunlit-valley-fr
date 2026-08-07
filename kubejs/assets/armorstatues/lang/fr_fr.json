@@ -1,0 +1,23 @@
+{
+  "armorstatues.dataSync.failure": "Impossible de modifier les données du porte-armure : %s",
+  "armorstatues.dataSync.failure.noArmorStand": "Aucun porte-armure valide",
+  "armorstatues.dataSync.failure.noPermission": "Aucune permission",
+  "armorstatues.dataSync.failure.notFinished": "File d'attente non vide",
+  "armorstatues.dataSync.failure.outOfRange": "Hors de portée",
+  "armorstatues.dataSync.finished": "Envoi des données du porte-armure en attente terminé",
+  "armorstatues.screen.vanillaTweaks.checkTarget": "Vérifier la cible du porte-armure",
+  "armorstatues.screen.vanillaTweaks.checkTarget.description": "Met en surbrillance le porte-armure le plus proche dans un rayon de trois blocs autour du joueur, celui qui sera ajusté. En raison du fonctionnement des packs de données, ce n'est pas forcément le porte-armure qui a ouvert ce menu.",
+  "armorstatues.screen.vanillaTweaks.lock": "Verrouiller",
+  "armorstatues.screen.vanillaTweaks.lock.description": "Verrouiller un porte-armure empêche de le modifier depuis ce menu et désactive l'interaction avec les emplacements d'équipement.",
+  "armorstatues.screen.vanillaTweaks.swapMainhandAndHead": "Échanger main principale et casque",
+  "armorstatues.screen.vanillaTweaks.swapMainhandAndHead.description": "Échange les objets entre les emplacements d'équipement de la main principale et du casque.",
+  "armorstatues.screen.vanillaTweaks.swapMainhandAndOffhand": "Échanger main principale et main secondaire",
+  "armorstatues.screen.vanillaTweaks.swapMainhandAndOffhand.description": "Échange les objets entre les emplacements d'équipement de la main principale et de la main secondaire.",
+  "armorstatues.screen.vanillaTweaks.toolRack": "Aligner l'outil en porte-outils",
+  "armorstatues.screen.vanillaTweaks.toolRack.description": "Aligne un porte-armure avec un crochet de fil de détente placé sur le mur au-dessus de lui, afin que l'outil qu'il tient semble accroché. Verrouille également le porte-armure et désactive tous les emplacements sauf la main principale.",
+  "armorstatues.screen.vanillaTweaks.triggerSent": "Envoyé !",
+  "armorstatues.screen.vanillaTweaks.unlock": "Déverrouiller",
+  "armorstatues.screen.vanillaTweaks.unlock.description": "Déverrouiller un porte-armure annule tous les ajustements effectués par un verrouillage précédent.",
+  "puzzlesapi.screen.type.alignments": "Alignements",
+  "puzzlesapi.screen.type.vanillaTweaks": "Ajustements Vanilla"
+}

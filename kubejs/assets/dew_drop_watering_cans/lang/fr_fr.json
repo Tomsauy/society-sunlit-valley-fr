@@ -1,3 +1,7 @@
 {
+  "item.dew_drop_watering_cans.copper_watering_can": "Arrosoir en cuivre",
+  "item.dew_drop_watering_cans.diamond_watering_can": "Arrosoir en diamant",
+  "item.dew_drop_watering_cans.gold_watering_can": "Arrosoir en or",
+  "item.dew_drop_watering_cans.iron_watering_can": "Arrosoir en fer",
   "item.dew_drop_watering_cans.netherite_watering_can": "Arrosoir en iridium"
 }

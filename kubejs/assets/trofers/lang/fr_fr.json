@@ -1,0 +1,19 @@
+{
+  "block.trofers.trophy": "Trophee",
+  "message.trofers.reward_cooldown": "Récompense suivante disponible dans %s",
+  "text.autoconfig.trofers.option.general.enableTrophyEffects": "Activer les effets des trophées",
+  "text.autoconfig.trofers.option.general.enableTrophyEffects.@Tooltip": "Détermine si les trophées peuvent appliquer des effets de potion lors d'un clic droit",
+  "text.autoconfig.trofers.option.general.enableTrophyLoot": "Activer le butin des trophées",
+  "text.autoconfig.trofers.option.general.enableTrophyLoot.@Tooltip": "Détermine si les trophées peuvent lâcher du butin lors d'un clic droit",
+  "text.autoconfig.trofers.option.general.trophyChance": "Probabilité de trophée",
+  "text.autoconfig.trofers.option.general.trophyChance.@Tooltip": "La probabilité qu'une entité lâche un trophée lorsqu'elle est tuée",
+  "text.autoconfig.trofers.title": "Configuration de Trofers",
+  "time.trofers.hour": "1 heure",
+  "time.trofers.hours": "%s heures",
+  "time.trofers.minute": "1 minute",
+  "time.trofers.minutes": "%s minutes",
+  "time.trofers.second": "1 seconde",
+  "time.trofers.seconds": "%s secondes",
+  "trofers.creative_tab": "Trofers",
+  "trophy.trofers.composed": "Trophée de %s"
+}

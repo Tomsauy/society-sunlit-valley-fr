@@ -1,6 +1,6 @@
 {
     "name": "Slimes",
-	"description": "Donne des informations sur où trouver les Splendid Slimes ainsi que les risques liés à l'élevage. Certains Slimes ne peuvent être obtenus qu'en fabriquant leurs Coeurs de Slime dans une Plort Press. Cette méthode est appelée « Fusion de Coeur » dans cette section.",
+    "description": "Indique où trouver les Slimes splendides, ainsi que les risques liés à leur élevage. Certains Slimes ne s'obtiennent qu'en fabriquant leur Cœur de slime dans une Presse à plorts. C'est ce qu'on appelle la \"Fusion de cœurs\" dans cette section.",
     "icon": "splendid_slimes:slime_heart{slime:{id:\"splendid_slimes:slimy\"}}",
     "category": "patchouli:slimes"
 }

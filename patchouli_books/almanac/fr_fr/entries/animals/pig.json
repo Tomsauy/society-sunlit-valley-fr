@@ -1,17 +1,17 @@
 {
-  "name": "Cochon",
-  "category": "patchouli:animals",
-  "icon": "society:truffle",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "$(l)Statistiques$()$(li)Prix : :coin: 8 192$(li)Cueillette : Truffe (20% de chance)$(li)Butin : Côtelette de porc crue$(br2)$(l)Notes$()$(br)La cueillette nécessite 4+ cœurs d'affection."
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "minecraft:pig",
-      "scale": 0.7,
-      "text": "Simple et capricieux, ils demandent beaucoup d'attention avant de déterrer de précieuses truffes."
-    }
-  ]
+    "name": "Cochon",
+    "category": "patchouli:animals",
+    "icon": "society:truffle",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Stats$()$(li)Prix : :coin: 8 192$(li)Cueillette : Truffe (20 % de chances)$(li)Butin : Côtelette de porc crue$(br2)$(l)Notes$()$(br)La cueillette demande 4 cœurs d'affection ou plus."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:pig",
+            "scale": 0.7,
+            "text": "Simples mais lunatiques, ils réclament beaucoup d'attention avant de déterrer de précieuses truffes."
+        }
+    ]
 }

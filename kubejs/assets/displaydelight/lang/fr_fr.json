@@ -1,0 +1,6 @@
+{
+  "block.displaydelight.food_plate": "Assiette de nourriture",
+  "block.displaydelight.small_food_plate": "Petite assiette de nourriture",
+  "item.displaydelight.tooltip.can_placed_on": "Peut être placé sur : ",
+  "item.displaydelight.tooltip.displayable": "Peut être placé en s'accroupissant"
+}

@@ -6,11 +6,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li)🌼 §2Printemps§r 🔥 §6Été§r$(li)Taille : 1x1$(li)Produit :$(l:tree_crops/lemon)8x Citrons$(/l)$(br2)$(l)Notes$()$(li)Pousses échangées au Commerce Elfique."
+            "text": "$(l)Stats$()$(li)🌼 §2Printemps§r 🔥 §6Été§r$(li)Taille : 1x1$(li)Produit : $(l:tree_crops/lemon)8x citrons$(/l)$(br2)$(l)Notes$()$(li)Pousses à troquer au Commerce elfique."
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Apple Tree",
+            "name ": "Citronnier",
             "enable_visualize": false,
             "multiblock": {
                 "mapping": {

@@ -1,0 +1,9 @@
+{
+  "modmenu.descriptionTranslation.chat_heads": "Voir avec qui l'on discute !\nCe mod ajoute la tête des joueurs à côté de leurs messages dans le tchat.",
+  "text.autoconfig.chat_heads.option.handleSystemMessages": "Gérer les messages système",
+  "text.autoconfig.chat_heads.option.handleSystemMessages.@Tooltip": "Détermine si les têtes peuvent être ajoutées aux messages \"purs\" du serveur.\nÀ noter que de nombreux serveurs (ex. ceux utilisant le plugin FreedomChat)\ntransforment les messages des joueurs en messages du serveur !\nNe désactiver cette option qu'en connaissance de cause !",
+  "text.autoconfig.chat_heads.option.renderPosition": "Position d'affichage",
+  "text.autoconfig.chat_heads.option.renderPosition.@Tooltip": "Où afficher les têtes dans le tchat\n\nNote : \"Avant le nom\" peut être incompatible avec certains mods.\nPour Caxton et Modern UI, \"Avant la ligne\" sera utilisé automatiquement.",
+  "text.autoconfig.chat_heads.option.renderPosition.BEFORE_LINE": "Avant la ligne",
+  "text.autoconfig.chat_heads.option.renderPosition.BEFORE_NAME": "Avant le nom"
+}

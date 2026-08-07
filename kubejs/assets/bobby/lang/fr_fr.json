@@ -1,0 +1,22 @@
+{
+  "bobby.upgrade.begin": "[Bobby] Mise à jour des données du monde vers la version actuelle de Minecraft. Cela peut prendre quelques minutes.",
+  "bobby.upgrade.done": "[Bobby] Mise à jour des données du monde terminée. Les anciens chunks devraient être de nouveau visibles.",
+  "bobby.upgrade.fallback_world": "[Bobby] Le monde de secours contient des données issues d'une ancienne version de Minecraft. Le mettre à jour depuis le menu \"Solo\" avec l'option \"Modifier\" -> \"Optimiser le monde\".",
+  "bobby.upgrade.not_enabled": "Bobby n'est pas activé pour ce monde.",
+  "bobby.upgrade.progress": "[Bobby] %d chunks mis à jour sur %d (estimation).",
+  "bobby.upgrade.required": "[Bobby] Ce monde contient des données issues d'une ancienne version de Minecraft. Exécuter `/bobby upgrade` pour le mettre à jour.",
+  "option.bobby.delete_unused_regions_after_days": "Nettoyage des régions inutilisées (jours)",
+  "option.bobby.enabled": "Activé",
+  "option.bobby.max_render_distance": "Distance d'affichage maximale",
+  "option.bobby.no_block_entities": "Désactiver les entités de bloc",
+  "option.bobby.taint_fake_chunks": "Teinter les faux chunks",
+  "option.bobby.unload_delay": "Délai de déchargement des chunks (secondes)",
+  "option.bobby.view_distance_overwrite": "Distance de vue du serveur solo",
+  "title.bobby.config": "Configuration de Bobby",
+  "tooltip.option.bobby.delete_unused_regions_after_days": "Supprimer du cache les régions qui n'ont pas été chargées depuis X jours.\n\nLe cache d'un monde donné est nettoyé à chaque déconnexion du serveur.\nLes mondes entiers sont nettoyés au démarrage du jeu s'ils n'ont pas été visités depuis X jours.\n\nMettre à -1 pour désactiver.\nMettre à 0 pour tout nettoyer après chaque déconnexion.",
+  "tooltip.option.bobby.max_render_distance": "Modifie la valeur maximale configurable pour la distance d'affichage.\n\nNécessite Sodium.",
+  "tooltip.option.bobby.no_block_entities": "Ne pas charger les entités de bloc (les coffres, par exemple) dans les faux chunks.\nElles doivent être mises à jour à chaque tick, ce qui finit par peser.\n\nActivé par défaut, car la distance d'affichage des entités de bloc est de toute façon généralement inférieure à la distance de vue du serveur.",
+  "tooltip.option.bobby.taint_fake_chunks": "Réduit les niveaux de lumière dans les faux chunks afin de les distinguer des vrais.",
+  "tooltip.option.bobby.unload_delay": "Retarde le déchargement des chunks situés hors de la distance d'affichage.\nÉvite d'avoir à recharger tous les chunks lorsqu'on\nquitte une zone un court instant (les cinématiques, par exemple).\nNe fonctionne pas d'une dimension à l'autre.",
+  "tooltip.option.bobby.view_distance_overwrite": "Remplace la distance de vue du serveur intégré.\nPermet à Bobby d'être utile en solo.\n\nDésactivé lorsque la valeur est à 0.\nBobby n'est actif en solo que si cette option est activée.\nNécessite une reconnexion pour l'activer ou la désactiver."
+}

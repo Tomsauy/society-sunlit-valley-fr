@@ -1,0 +1,7 @@
+{
+  "embeddium.options.added_by_mod_string": "Ajouté par le mod : %s",
+  "embeddium.options.fullscreen.resolution.tooltip": "Contrôle la résolution du jeu en mode plein écran.",
+  "embeddium.options.use_quad_normals_for_lighting.name": "Utiliser l'ombrage précis des quads",
+  "embeddium.options.use_quad_normals_for_lighting.tooltip": "Lorsque cette option est activée, Embeddium applique l'ombrage aux faces de blocs non vanilla en fonction de leur orientation réelle, et non de leur orientation alignée sur les axes. Cela peut améliorer la qualité de l'éclairage lorsque le pipeline d'éclairage expérimental de Forge est désactivé (ce qui est recommandé pour de meilleures performances).\n\nCette option n'a aucun effet si le pipeline d'éclairage expérimental est activé.",
+  "embeddium.search_bar_empty": "Rechercher des options..."
+}

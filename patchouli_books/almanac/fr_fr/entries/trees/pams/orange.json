@@ -6,11 +6,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li)🔥 §6Été§r $(li)Prix : :coin: 18 432$(li)Taille : 1x1$(li)Produit :$(l:tree_crops/orange)8x Oranges$(/l)$(br2)$(l)Notes$()$(li)Pousses achetées chez le Maître Cultivateur."
+            "text": "$(l)Stats$()$(li)🔥 §6Été§r $(li)Prix : :coin: 18 432$(li)Taille : 1x1$(li)Produit : $(l:tree_crops/orange)8x Oranges$(/l)$(br2)$(l)Notes$()$(li)Pousses en vente au Marché après la première année."
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Apple Tree",
+            "name ": "Oranger",
             "enable_visualize": false,
             "multiblock": {
                 "mapping": {

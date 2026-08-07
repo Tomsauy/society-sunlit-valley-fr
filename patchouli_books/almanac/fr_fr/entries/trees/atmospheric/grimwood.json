@@ -1,15 +1,15 @@
 {
-    "name": "Sombrepin 🌐",
+    "name": "Arbre grimwood 🌐",
     "category": "patchouli:trees",
     "icon": "atmospheric:grimwood_sapling",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li)🌐 §5Toute l'année§r$(li)Taille : 2x2"
+            "text": "$(l)Stats$()$(li)🌐 §5Toute l'année§r$(li)Taille : 2x2"
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Arbre de sombrepin",
+            "name ": "Arbre grimwood",
             "enable_visualize": false,
             "multiblock": {
                 "pattern": [

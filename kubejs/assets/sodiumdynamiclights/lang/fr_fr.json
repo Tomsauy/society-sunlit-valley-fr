@@ -1,0 +1,17 @@
+{
+  "sodium.dynamiclights.options.blockentities": "Éclairage dynamique des entités de blocs",
+  "sodium.dynamiclights.options.blockentities.desc": "Si activé, les entités de blocs auront un éclairage dynamique.",
+  "sodium.dynamiclights.options.creeper": "Qualité de l'éclairage des Creepers",
+  "sodium.dynamiclights.options.creeper.desc": "Configure la fréquence de mise à jour de l'éclairage des Creepers.",
+  "sodium.dynamiclights.options.entities": "Éclairage dynamique des entités",
+  "sodium.dynamiclights.options.entities.desc": "Si activé, les entités (comme les créatures et les objets au sol) auront un éclairage dynamique.",
+  "sodium.dynamiclights.options.mode": "Mode de qualité",
+  "sodium.dynamiclights.options.mode.desc": "Configure la fréquence de mise à jour des sources de lumière dynamiques",
+  "sodium.dynamiclights.options.page": "Lumières dynamiques",
+  "sodium.dynamiclights.options.self": "Éclairage des objets en main",
+  "sodium.dynamiclights.options.self.desc": "Active les lumières dynamiques provenant du personnage à la première personne. Il est recommandé de désactiver cette option si des shaders qui ont leur propre éclairage dynamique sont utilisés.",
+  "sodium.dynamiclights.options.tnt": "Qualité de l'éclairage de la TNT",
+  "sodium.dynamiclights.options.tnt.desc": "Configure la fréquence de mise à jour de l'éclairage de la TNT.",
+  "sodium.dynamiclights.options.underwater": "Extinction sous l'eau",
+  "sodium.dynamiclights.options.underwater.desc": "Active la vérification des sources de lumière sensibles à l'eau. Cela signifie que certains objets n'émettront pas de lumière lorsqu'ils sont immergés dans l'eau."
+}

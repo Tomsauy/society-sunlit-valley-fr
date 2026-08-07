@@ -5,11 +5,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li)🌐 §5Toute l'année$(li)Prix de la pousse : :coin: 8$(li)Taille : 1x1$(br2)$(l)Notes$()$(li)Possède une rare variante de grande taille."
+            "text": "$(l)Stats$()$(li)🌐 §5Toute l'année$(li)Prix de la pousse : :coin: 8$(li)Taille : 1x1$(br2)$(l)Notes$()$(li)Possède une rare variante de grande taille."
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Oak Tree",
+            "name ": "Chêne",
             "enable_visualize": false,
             "multiblock": {
                 "pattern": [

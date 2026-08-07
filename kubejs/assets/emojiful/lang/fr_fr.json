@@ -1,0 +1,23 @@
+{
+  "emojiful.midnightconfig.emojiAutocomplete": "Autocomplétion des emojis",
+  "emojiful.midnightconfig.emojiReplacement": "Remplacement des emojis courts",
+  "emojiful.midnightconfig.emojiSelector": "Sélecteur d'emojis",
+  "emojiful.midnightconfig.emojiTypes": "Types d'emojis",
+  "emojiful.midnightconfig.enableLoadCustom": "Charge les emojis personnalisés fournis par Emojiful",
+  "emojiful.midnightconfig.enableLoadDatapack": "Charge les emojis de datapack fournis par le serveur rejoint",
+  "emojiful.midnightconfig.enableLoadTwemoji": "Charger les Twemojis",
+  "emojiful.midnightconfig.enableProfanityFilter": "Activer le filtre anti-grossièretés : les mots vulgaires seront remplacés par un emoji",
+  "emojiful.midnightconfig.enableRenderEmoji": "Activer l'affichage des emojis",
+  "emojiful.midnightconfig.gifEmojis": "Emojis GIF",
+  "emojiful.midnightconfig.loadCustom": "Charger les emojis personnalisés",
+  "emojiful.midnightconfig.loadDatapack": "Charger les datapacks du serveur",
+  "emojiful.midnightconfig.loadGifEmojis": "Charge les emojis animés ; si l'option est désactivée, ils s'affichent en image fixe",
+  "emojiful.midnightconfig.loadTwemoji": "Charge les Twemojis utilisés sur des sites comme Twitter et Discord",
+  "emojiful.midnightconfig.profanityFilter": "Filtre anti-grossièretés",
+  "emojiful.midnightconfig.profanityFilterReplacement": "Mot de remplacement",
+  "emojiful.midnightconfig.profanityFilterString": "Mot de remplacement utilisé par le filtre anti-grossièretés",
+  "emojiful.midnightconfig.renderEmoji": "Affichage des emojis",
+  "emojiful.midnightconfig.shortEmojiReplacement": "Remplace les versions courtes des emojis comme :) par :smile: afin qu'elles s'affichent en emoji",
+  "emojiful.midnightconfig.showEmojiSelector": "Activer l'interface de sélection d'emojis dans la ligne de saisie du tchat",
+  "emojiful.midnightconfig.title": "Emojiful"
+}

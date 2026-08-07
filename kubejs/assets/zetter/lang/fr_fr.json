@@ -1,0 +1,18 @@
+{
+  "console.zetter.error.file_write_file": "Impossible d'écrire le fichier image",
+  "console.zetter.error.file_write_folder": "Impossible de créer le dossier d'exportation",
+  "console.zetter.error.file_write_folder_exists": "Un fichier du même nom existe déjà",
+  "console.zetter.error.file_write_folder_unable": "Impossible de créer le dossier d'exportation",
+  "console.zetter.error.unknown": "Une erreur inattendue s'est produite : %1$s",
+  "console.zetter.result.exported_painting_client": "La peinture %1$s a été sauvegardée dans le dossier Minecraft",
+  "console.zetter.result.exported_painting_server": "La peinture %1$s a été sauvegardée dans le dossier du serveur",
+  "console.zetter.result.requested_painting": "La peinture %1$s a été demandée au serveur, veuillez patienter",
+  "container.zetter.painting": "Tableau",
+  "container.zetter.painting.history": "Historique",
+  "container.zetter.painting.history.redo": "Rétablir",
+  "container.zetter.painting.tools.brush": "Pinceau",
+  "forge.configgui.zetter.gui.helpButton": "Afficher le bouton d'aide",
+  "forge.configgui.zetter.painting.resolution": "Résolution de la peinture",
+  "item.zetter.painting": "Tableau",
+  "painting.zetter.banned": "Cette peinture a été bannie par les administrateurs du serveur, une peinture de remplacement est utilisée"
+}

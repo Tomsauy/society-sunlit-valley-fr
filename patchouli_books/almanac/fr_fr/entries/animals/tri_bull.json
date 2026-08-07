@@ -1,17 +1,17 @@
 {
-  "name": "Tri-bull domestique",
-  "category": "patchouli:animals",
-  "icon": "society:large_tri_bull_milk",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "$(l)Statistiques$()$(li)Prix : Non vendu$(li)Lait : Lait de Tri-bull$(li)Délai de traite : 1 jour$(li)Butin : Jarret de Tri-bull cru, Cuir$(br2)$(l)Notes$()$(br)Créé en utilisant un Sérum de Mutation Lunaire sur une Vache."
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "farmlife:domestic_tribull",
-      "scale": 0.6,
-      "text": "Il n'est pas de ce monde... Manger son fromage vous purifie d'un effet de potion."
-    }
-  ]
+    "name": "Tri-bull domestique",
+    "category": "patchouli:animals",
+    "icon": "society:large_tri_bull_milk",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Lait : Lait de tri-bull$(li)Délai de traite : 1 jour$(li)Butin : Jarret de tri-bull cru, Cuir $(br2)$(l)Notes$()$(br)Créé en utilisant un sérum de mutation lunaire sur une vache."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "farmlife:domestic_tribull",
+            "scale": 0.6,
+            "text": "Il ne vient pas de ce monde... Manger son fromage te purge d'un effet de potion. "
+        }
+    ]
 }

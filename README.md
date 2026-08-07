@@ -15,10 +15,27 @@ Traduction communautaire francaise du modpack Minecraft [Society: Sunlit Valley]
 
 | Categorie | Chemin | Description |
 |-----------|--------|-------------|
-| Mods & modpack | `kubejs/assets/*/lang/fr_fr.json` | Traductions des items, blocs, interfaces et quetes (66 fichiers) |
-| Dialog NPC | `kubejs/assets/dialog/lang/fr_fr.json` | Dialogue de tous les NPC (v4) |
-| Almanac | `patchouli_books/almanac/fr_fr/` | Guide en jeu sur les animaux (~196 pages) |
-| Fish Finder | `patchouli_books/fish_finder/fr_fr/` | Guide de peche (~70 pages) |
+| Mods & modpack | `kubejs/assets/*/lang/fr_fr.json` | Items, blocs, interfaces et infobulles (258 fichiers, 238 mods) |
+| Quetes | `kubejs/assets/ftbquestlocalizer/lang/fr_fr.json` | Livre de quetes complet (1 659 entrees) |
+| Dialog NPC | `kubejs/assets/dialog/lang/fr_fr.json` | Dialogues de tous les PNJ (1 475 repliques) |
+| Almanac | `patchouli_books/almanac/fr_fr/` | Guide en jeu sur les cultures et animaux |
+| Fish Finder | `patchouli_books/fish_finder/fr_fr/` | Guide de peche |
+
+Plus de 31 500 entrees traduites au total.
+
+## Documentation et outillage
+
+| Chemin | Contenu |
+|--------|---------|
+| `outillage/STYLE.md` | Guide de style : registre, capitalisation, politique d'accents, conventions de nommage |
+| `outillage/GLOSSAIRE.md` | Glossaire (1 698 termes) classe par origine : vanilla Mojang, traductions officielles des mods, terminologie Stardew Valley |
+| `outillage/KEEP-ENGLISH.md` | Termes volontairement laisses en anglais, avec justification et emplacements |
+| `outillage/provenance.json` | Tracabilite de 2 408 decisions : arbitrages, corrections de relecture et leurs motifs |
+| `outillage/scripts/` | Pipeline complet : inventaire, validation mecanique, reconciliation, generation du pack |
+| `docs/` | Specification, plan de travail et rapport final |
+
+Le pipeline est relancable a chaque mise a jour du modpack : il detecte les cles nouvelles
+ou modifiees et ne retraduit que le delta. Voir `docs/RAPPORT-TRADUCTION-FR.md`.
 
 ## Contribuer
 
@@ -33,7 +50,12 @@ Vous pouvez aussi [signaler une erreur](../../issues/new?template=erreur-traduct
 
 ## Version
 
-Base sur Society: Sunlit Valley **v4.0.2**.
+Base sur Society: Sunlit Valley **v4.1.1**.
+
+Les noms d'objets, de blocs et de creatures sont volontairement ecrits **sans accents** :
+la recherche d'EMI compare les chaines sans normaliser les diacritiques, donc taper
+« ble » doit pouvoir trouver « Ble ». Tout le reste — quetes, dialogues, descriptions,
+livres — est accentue normalement. Voir `outillage/DECISION-ACCENTS.md`.
 
 ## Licence
 

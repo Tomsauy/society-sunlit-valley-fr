@@ -1,0 +1,15 @@
+{
+  "dialog.button.ABORT": "Abandonner",
+  "gui.config.enabled": "Activés",
+  "gui.config.reset": "r",
+  "gui.content": "Contenu",
+  "gui.day": "j",
+  "gui.hour": "h",
+  "gui.ingredient.latest": "Ingrédients récents :",
+  "gui.minute": "m",
+  "gui.perm.add": "Ajouter un groupe",
+  "gui.perm.open": "Ouvrir les permissions",
+  "gui.second": "s",
+  "minecraft.blocks": "Blocs",
+  "minecraft.blocks.counting": "%s bloc(s)"
+}

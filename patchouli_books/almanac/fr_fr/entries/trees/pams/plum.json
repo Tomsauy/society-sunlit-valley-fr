@@ -6,11 +6,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li)🍂 §4Automne§r $(li)Prix : :coin: 27 648$(li)Taille : 1x1$(li)Produit :$(l:tree_crops/plum)8x Prunes$(/l)$(br2)$(l)Notes$()$(li)Pousses achetées chez le Maître Cultivateur."
+            "text": "$(l)Stats$()$(li)🍂 §4Automne§r $(li)Prix : :coin: 27 648$(li)Taille : 1x1$(li)Produit : $(l:tree_crops/plum)8x Prunes$(/l)$(br2)$(l)Notes$()$(li)Pousses vendues au Marché après la première année."
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Plum Tree",
+            "name ": "Prunier",
             "enable_visualize": false,
             "multiblock": {
                 "mapping": {

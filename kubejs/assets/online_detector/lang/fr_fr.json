@@ -1,0 +1,14 @@
+{
+  "_comment": "Blocs",
+  "_comment1": "Interface",
+  "_comment2": "Configuration",
+  "text.autoconfig.online_detector.category.client": "Client",
+  "text.autoconfig.online_detector.category.common": "Commun",
+  "text.autoconfig.online_detector.option.ODClientConfig.shouldShowPortalParticles": "Afficher les particules de portail",
+  "text.autoconfig.online_detector.option.ODClientConfig.shouldShowPortalParticles.@PrefixText": "Indique s'il doit y avoir des particules de portail lorsque le bloc détecteur en ligne est actif.",
+  "text.autoconfig.online_detector.option.ODClientConfig.shouldShowRedstoneParticles": "Afficher les particules de redstone",
+  "text.autoconfig.online_detector.option.ODClientConfig.shouldShowRedstoneParticles.@PrefixText": "Indique s'il doit y avoir des particules de redstone lorsque le bloc détecteur en ligne est actif.",
+  "text.autoconfig.online_detector.option.ODCommonConfig.onlineCheckFrequency": "Fréquence de vérification en ligne",
+  "text.autoconfig.online_detector.option.ODCommonConfig.onlineCheckFrequency.@PrefixText": "Fréquence à laquelle le bloc détecteur en ligne doit vérifier si le joueur assigné est en ligne ; cette valeur est mesurée en ticks (20 ticks font 1 seconde), il n'est pas recommandé de la régler en dessous de 20",
+  "text.autoconfig.online_detector.title": "Configuration du détecteur en ligne"
+}

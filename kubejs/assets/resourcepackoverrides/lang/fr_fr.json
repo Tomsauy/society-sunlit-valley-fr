@@ -1,0 +1,11 @@
+{
+  "packAction.copyId.description": "Maintenir %s pour copier",
+  "packAction.copyId.success": "Copié !",
+  "packAction.copyId.title": "Copier l'ID du pack",
+  "packAction.reloadSettings.description": "Maintenir %s pour recharger",
+  "packAction.reloadSettings.success": "Rechargé !",
+  "packAction.reloadSettings.title": "Recharger les paramètres",
+  "packAction.toggleDebug.description": "Maintenir %s pour basculer",
+  "packAction.toggleDebug.success": "Basculé !",
+  "packAction.toggleDebug.title": "Basculer l'affichage des ID des packs"
+}

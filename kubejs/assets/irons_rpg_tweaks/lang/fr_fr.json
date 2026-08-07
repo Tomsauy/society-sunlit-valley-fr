@@ -1,0 +1,14 @@
+{
+  "entity.irons_rpg_tweaks.xp_catalyst": "Catalyseur d'XP",
+  "item.irons_rpg_tweaks.identification_scroll": "Parchemin d'identification",
+  "item.irons_rpg_tweaks.identification_scroll.description": "Utiliser sur un objet non identifié dans l'inventaire",
+  "ui.irons_rpg_tweaks.enchanting_table_error.disabled": "Les tables d'enchantement sont désactivées.",
+  "ui.irons_rpg_tweaks.enchanting_table_error.identified": "Cet objet est déjà identifié.",
+  "ui.irons_rpg_tweaks.enchanting_table_error.unenchanted": "Cet objet n'est pas enchanté.",
+  "ui.irons_rpg_tweaks.enchanting_table_success": "%s identifié.",
+  "ui.irons_rpg_tweaks.item_broken": "%s s'est cassé !",
+  "ui.irons_rpg_tweaks.item_damaged": "%s a subi %d points de dégâts.",
+  "ui.irons_rpg_tweaks.item_damaged_critical": "%s a subi %d points de dégâts et sa durabilité est critique !",
+  "ui.irons_rpg_tweaks.shift_tooltip": "[Maj+]",
+  "ui.irons_rpg_tweaks.xp_retrieve_error": "Ce catalyseur d'XP ne t'appartient pas."
+}

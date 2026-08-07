@@ -1,0 +1,9 @@
+{
+  "block.croptania.cropnolia": "Cropnolia",
+  "block.croptania.floating_cropnolia": "Cropnolia flottant",
+  "croptania.entry.cropnolia": "Cropnolia",
+  "croptania.page.cropnolia0": "Fleur curieusement herbivore, le $(item)Cropnolia$(0) dissout l'énergie naturelle des $(thing)cultures$(0) qui l'entourent en $(thing)mana$(0), les ramenant à leur forme d'origine. Les cultures qui poussent lentement, comme le $(thing)blé$(0), produisent exponentiellement plus de $(thing)mana$(0) que les plus rapides.",
+  "croptania.page.cropnolia1": "$(o)Le cacher dans ma... chaussette ? (chaussette)$()",
+  "croptania.tagline.cropnolia": "Grignoteur de mana",
+  "itemGroup.croptania": "Croptania"
+}

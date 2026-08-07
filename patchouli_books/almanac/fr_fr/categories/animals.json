@@ -1,6 +1,6 @@
 {
-    "name": "Animaux de ferme",
-	"description": "Un résumé détaillé de tous les animaux de ferme",
+    "name": "Animaux de la ferme",
+    "description": "Un récapitulatif détaillé de tous les animaux de la ferme",
     "icon": "society:animal_feed",
     "category": "patchouli:animals"
 }

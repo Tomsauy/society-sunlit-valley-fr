@@ -1,3 +1,16 @@
 {
-  "item.oreganized.netherite_nugget": "Pépite d'iridium"
+  "advancements.oreganized.shake_it_off.description": "Secoue le thermomètre et recalibre sa valeur",
+  "advancements.oreganized.shake_it_off.title": "Secoue-moi ça !",
+  "advancements.oreganized.terminal_velocity.description": "Atteins la vitesse limite en chutant",
+  "advancements.oreganized.terminal_velocity.title": "Y a plus qu'à tomber !",
+  "advancements.oreganized.thermal_shock.description": "Refroidis ton thermomètre trop vite dans l'eau, au point de le détruire",
+  "advancements.oreganized.thermal_shock.title": "Choc thermique",
+  "item.oreganized.electrum_upgrade_smithing_template": "Modele de forge d'amelioration en electrum",
+  "item.oreganized.lead_bolt": "Flechette en plomb",
+  "item.oreganized.netherite_nugget": "Pepite d'iridium",
+  "item.oreganized.smithing_template.electrum_upgrade.base_slot_description": "Ajouter une armure, une arme ou un outil en diamant",
+  "item.oreganized.speedometer": "Compteur de vitesse",
+  "tooltip.oreganized.lead": "Matériau en plomb",
+  "tooltip.oreganized.speed": "Vitesse : %s",
+  "trim_material.oreganized.lead": "Matériau en plomb"
 }

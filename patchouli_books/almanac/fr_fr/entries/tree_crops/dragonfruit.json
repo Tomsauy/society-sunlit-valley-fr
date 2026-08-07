@@ -1,15 +1,15 @@
 {
-    "name": "Fruit du dragon \u2746",
+    "name": "Fruit du dragon ❆",
     "category": "patchouli:tree_crops",
     "icon": "pamhc2trees:dragonfruititem",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li):coin: 128$(li)\ud83c\udf42 \u00a74Automne\u00a7r$(li)Rendement : 1$(li)\u00c9tapes de croissance : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/dragonfruit)Arbre \u00e0 fruit du dragon$(/l)"
+            "text": "$(l)Stats$()$(li):coin: 128$(li)🍂 §4Automne§r$(li)Rendement : 1$(li)Stades de pousse : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/dragonfruit)Arbre à fruits du dragon$(/l)"
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Arbre à fruit du dragon",
+            "name ": "Arbre à fruits du dragon",
             "enable_visualize": false,
             "multiblock": {
                 "mapping": {
@@ -17,8 +17,12 @@
                     "F": "pamhc2trees:pamdragonfruit[age=7]"
                 },
                 "pattern": [
-                    ["0"],
-                    ["F"]
+                    [
+                        "0"
+                    ],
+                    [
+                        "F"
+                    ]
                 ]
             }
         }

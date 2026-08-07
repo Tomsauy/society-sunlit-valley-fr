@@ -1,0 +1,18 @@
+{
+  "config.craftingtweaks.client": "Client",
+  "config.craftingtweaks.client.disabledAddons": "Add-ons désactivés",
+  "config.craftingtweaks.client.disabledAddons.tooltip": "Ajouter ici les ID des mods pour lesquels la prise en charge de Raccourcis de craft doit être désactivée.",
+  "config.craftingtweaks.client.hideVanillaCraftingGuide": "Cacher le guide de fabrication Vanilla",
+  "config.craftingtweaks.client.hideVanillaCraftingGuide.tooltip": "On sait tous les deux que JEI est bien meilleur. Cette option cache le bouton du livre de fabrication de Vanilla au lieu de le déplacer.",
+  "config.craftingtweaks.client.mode": "Mode",
+  "config.craftingtweaks.client.mode.tooltip": "Régler sur 'DEFAULT' pour activer à la fois les boutons et les raccourcis clavier. Régler sur 'BUTTONS' pour n'activer que les boutons. Régler sur 'HOTKEYS' pour n'activer que les raccourcis clavier. Régler sur 'DISABLED' pour tout désactiver.",
+  "config.craftingtweaks.client.rightClickCraftsStack": "Clic droit fabrique un stack",
+  "config.craftingtweaks.client.rightClickCraftsStack.tooltip": "Si réglé sur vrai, un clic droit sur la case de résultat d'un établi fabrique un stack complet.",
+  "config.craftingtweaks.common": "Commun",
+  "config.craftingtweaks.common.compressDenylist": "Liste d'exclusion de la compression",
+  "config.craftingtweaks.common.compressDenylist.tooltip": "Liste d'entrées modid:name qui ne seront pas fabriquées par la touche de compression.",
+  "config.craftingtweaks.common.compressRequiresCraftingGrid": "La compression nécessite une grille de fabrication",
+  "config.craftingtweaks.common.compressRequiresCraftingGrid.tooltip": "Régler sur faux pour que la fonction de (dé)compression marche en dehors des interfaces de fabrication (ne fonctionne que si le mod est installé sur le serveur, dans l'inventaire du joueur)",
+  "config.craftingtweaks.title": "Raccourcis de craft",
+  "key.craftingtweaks.transfer_stack": "Transférer vers la grille de fabrication"
+}

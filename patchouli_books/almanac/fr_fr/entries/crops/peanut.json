@@ -1,26 +1,30 @@
 {
-  "name": "Cacahuète 🍂",
-  "category": "patchouli:crops",
-  "icon": "vintagedelight:peanut",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "$(l)Statistiques$()$(li):coin: 24$(li)🍂 §4Automne$(li)Prix des graines : :coin: 512$(li)Rendement : 1-3$(li)Temps de pousse : 7 jours$(br2)$(l)Notes$()$(br)Graines achetables uniquement chez le Maître cultivateur.$(br)Donne rarement une Cacahuète magique."
-    },
-    {
-      "type": "patchouli:multiblock",
-      "name ": "Culture de Cacahuète",
-      "enable_visualize": false,
-      "multiblock": {
-        "pattern": [
-          ["0"],
-          ["F"]
-        ],
-        "mapping": {
-          "0": "vintagedelight:peanut_crop[age=7]",
-          "F": "minecraft:farmland[moisture=7]"
+    "name": "Cacahuète 🍂",
+    "category": "patchouli:crops",
+    "icon": "vintagedelight:peanut",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Stats$()$(li):coin: 24$(li)🍂 §4Automne$(li)Prix des graines : :coin: 512$(li)Rendement : 1-3$(li)Temps de pousse : 7 jours$(br2)$(l)Notes$()$(br)Graines en vente au Marché après la première année.$(br)Donne rarement une cacahuète magique."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name ": "Pousse de cacahuète",
+            "enable_visualize": false,
+            "multiblock": {
+                "pattern": [
+                    [
+                        "0"
+                    ],
+                    [
+                        "F"
+                    ]
+                ],
+                "mapping": {
+                    "0": "vintagedelight:peanut_crop[age=7]",
+                    "F": "minecraft:farmland[moisture=7]"
+                }
+            }
         }
-      }
-    }
-  ]
+    ]
 }

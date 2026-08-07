@@ -5,11 +5,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li)🌐 §5Toute l'année§r$(li)Prix : :coin: 16$(li)Taille : 1x1$(br2)$(l)Notes$()$(li)Pousses achetées au Marché.$(li)Transforme la terre environnante."
+            "text": "$(l)Stats$()$(li)🌐 §5Toute l'année§r$(li)Prix : :coin: 16$(li)Taille : 1x1$(br2)$(l)Notes$()$(li)Pousses en vente au Marché.$(li)Transforme la terre alentour."
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Pine Tree",
+            "name ": "Pin",
             "enable_visualize": false,
             "multiblock": {
                 "pattern": [

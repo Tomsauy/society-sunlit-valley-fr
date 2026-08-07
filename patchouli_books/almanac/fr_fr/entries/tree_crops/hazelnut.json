@@ -1,11 +1,11 @@
 {
-    "name": "Noisette \ud83c\udf42",
+    "name": "Noisette 🍂",
     "category": "patchouli:tree_crops",
     "icon": "pamhc2trees:hazelnutitem",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li):coin: 32$(li)\ud83c\udf42 \u00a74Automne\u00a7r$(li)Rendement : 3$(li)\u00c9tapes de croissance : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/hazelnut)Noisetier$(/l)"
+            "text": "$(l)Stats$()$(li):coin: 32$(li)🍂 §4Automne§r$(li)Rendement : 3$(li)Stades de pousse : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/hazelnut)Noisetier$(/l)"
         },
         {
             "type": "patchouli:multiblock",
@@ -17,8 +17,12 @@
                     "F": "pamhc2trees:pamhazelnut[age=7]"
                 },
                 "pattern": [
-                    ["0"],
-                    ["F"]
+                    [
+                        "0"
+                    ],
+                    [
+                        "F"
+                    ]
                 ]
             }
         }
