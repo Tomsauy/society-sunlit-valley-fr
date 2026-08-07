@@ -1,0 +1,16 @@
+{
+  "entity.strawstatues.straw_statue": "Statue de paille",
+  "item.strawstatues.straw_statue": "Statue de paille",
+  "puzzlesapi.screen.rotations.pose.cape": "Cape",
+  "puzzlesapi.screen.style.crouching": "Accroupie",
+  "puzzlesapi.screen.style.crouching.description": "Fait apparaître la statue comme si elle était accroupie.",
+  "puzzlesapi.screen.style.slimArms": "Bras fins",
+  "puzzlesapi.screen.style.slimArms.description": "Rend les bras de la statue plus fins de quelques pixels, comme le skin Alex de Minecraft.",
+  "puzzlesapi.screen.type.modelParts": "Parties du modèle",
+  "puzzlesapi.screen.type.scale": "Échelle et rotations",
+  "strawstatues.screen.modelParts.name": "Définir le nom du joueur dont le skin sera appliqué à la statue.",
+  "strawstatues.screen.position.rotationX": "Rotation X :",
+  "strawstatues.screen.position.rotationY": "Rotation Y :",
+  "strawstatues.screen.position.rotationZ": "Rotation Z :",
+  "strawstatues.screen.position.scale": "Échelle :"
+}

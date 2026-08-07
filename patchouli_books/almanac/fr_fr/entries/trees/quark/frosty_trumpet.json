@@ -1,15 +1,15 @@
 {
-    "name": "Trompette givrée 🌐",
+    "name": "Arbre trompette givré 🌐",
     "category": "patchouli:trees",
     "icon": "quark:blue_blossom_sapling",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li)🌐 §5Toute l'année§r$(li)Taille : 1x1."
+            "text": "$(l)Stats$()$(li)🌐 §5Toute l'année§r$(li)Taille : 1x1."
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Frosty Trumpet Tree",
+            "name ": "Arbre trompette givré",
             "enable_visualize": false,
             "multiblock": {
                 "pattern": [

@@ -1,0 +1,11 @@
+{
+  "_comment": "SONS",
+  "cheerchance.creeperconfetti.config": "Probabilité d'acclamation",
+  "cheerchance.creeperconfetti.config.tooltip": "Probabilité en pourcentage que le son d'acclamation soit joué.",
+  "confettichance.creeperconfetti.config": "Probabilité de confettis",
+  "confettichance.creeperconfetti.config.tooltip": "Probabilité en pourcentage qu'un Creeper explose en confettis.",
+  "creeperconfetti.config.title": "Configuration de Creeper Confetti",
+  "creeperconfetti.subtitle.confetti": "Sons de confettis",
+  "damageplayers.creeperconfetti.config": "Dégâts infligés au joueur",
+  "damageplayers.creeperconfetti.config.tooltip": "Définir sur vrai pour que les Creepers continuent d'infliger des dégâts aux joueurs."
+}

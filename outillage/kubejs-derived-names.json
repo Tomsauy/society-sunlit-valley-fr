@@ -1,0 +1,72 @@
+[
+ {
+  "key": "item.nethervinery.crimson_grape_juice",
+  "namespace": "nethervinery",
+  "en": "Crimson Grape Juice"
+ },
+ {
+  "key": "item.nethervinery.warped_grape_juice",
+  "namespace": "nethervinery",
+  "en": "Warped Grape Juice"
+ },
+ {
+  "key": "item.relics.relic_experience",
+  "namespace": "relics",
+  "en": "Relic Experience"
+ },
+ {
+  "key": "block.society.berry_bush_crop",
+  "namespace": "society",
+  "en": "Berry Bush Crop"
+ },
+ {
+  "key": "item.society.alchemical_varnish",
+  "namespace": "society",
+  "en": "Alchemical Varnish"
+ },
+ {
+  "key": "item.society.ancient_fruit_juice",
+  "namespace": "society",
+  "en": "Ancient Fruit Juice"
+ },
+ {
+  "key": "item.society.berry_bush_crop_seed",
+  "namespace": "society",
+  "en": "Berry Bush Crop Seed"
+ },
+ {
+  "key": "item.society.blazing_drift_fever_ex",
+  "namespace": "society",
+  "en": "Blazing Drift Fever Ex"
+ },
+ {
+  "key": "item.society.mystic_jelly",
+  "namespace": "society",
+  "en": "Mystic Jelly"
+ },
+ {
+  "key": "item.society.vinegar",
+  "namespace": "society",
+  "en": "Vinegar"
+ },
+ {
+  "key": "item.vinery.red_grape_juice",
+  "namespace": "vinery",
+  "en": "Red Grape Juice"
+ },
+ {
+  "key": "item.vinery.white_grape_juice",
+  "namespace": "vinery",
+  "en": "White Grape Juice"
+ },
+ {
+  "key": "block.whimsy_deco.paw_carpet",
+  "namespace": "whimsy_deco",
+  "en": "Paw Carpet"
+ },
+ {
+  "key": "item.whimsy_deco.paw_carpet_entity",
+  "namespace": "whimsy_deco",
+  "en": "Paw Carpet Entity"
+ }
+]

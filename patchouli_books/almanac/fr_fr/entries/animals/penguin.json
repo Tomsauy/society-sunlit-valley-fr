@@ -1,17 +1,17 @@
 {
-  "name": "Pingouin",
-  "category": "patchouli:animals",
-  "icon": "society:penguin_egg",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "$(l)Statistiques$()$(li)Prix : Non vendu$(li)Œuf : Œuf de pingouin$(li)Butin : Plume$(br2)$(l)Notes$()$(br)Les œufs nécessitent 2+ cœurs. Se trouve dans les biomes d'Océan gelé et de Pics de glace."
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "wildernature:penguin",
-      "scale": 0.5,
-      "text": "Je suis comme le Pingouin mais en mob Minecraft."
-    }
-  ]
+    "name": "Manchot",
+    "category": "patchouli:animals",
+    "icon": "society:penguin_egg",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Œuf : Œuf de manchot$(li)Butin : Plume$(br2)$(l)Notes$()$(br)Les œufs demandent 2 cœurs ou plus. On le trouve dans les biomes d'océan gelé et de pics de glace."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "wildernature:penguin",
+            "scale": 0.5,
+            "text": "Je suis comme le Pingouin, mais en mob Minecraft"
+        }
+    ]
 }

@@ -1,11 +1,11 @@
 {
-    "name": "Prune \ud83c\udf42",
+    "name": "Prune 🍂",
     "category": "patchouli:tree_crops",
     "icon": "pamhc2trees:plumitem",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li):coin: 96$(li)\ud83c\udf42 \u00a74Automne\u00a7r$(li)Rendement : 1$(li)\u00c9tapes de croissance : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/plum)Prunier$(/l)"
+            "text": "$(l)Stats$()$(li):coin: 96$(li)🍂 §4Automne§r$(li)Rendement : 1$(li)Stades de pousse : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/plum)Prunier$(/l)"
         },
         {
             "type": "patchouli:multiblock",
@@ -17,8 +17,12 @@
                     "F": "pamhc2trees:pamplum[age=7]"
                 },
                 "pattern": [
-                    ["0"],
-                    ["F"]
+                    [
+                        "0"
+                    ],
+                    [
+                        "F"
+                    ]
                 ]
             }
         }

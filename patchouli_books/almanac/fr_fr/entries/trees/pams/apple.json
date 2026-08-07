@@ -6,11 +6,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li)🍂 §4Automne§r $(li)Prix : :coin: 512$(li)Taille : 1x1$(li)Produit :$(l:tree_crops/apple)8x Pommes$(/l)$(br2)$(l)Notes$()$(li)Pousses achetées chez le Maître Cultivateur."
+            "text": "$(l)Stats$()$(li)🍂 §4Automne§r $(li)Prix : :coin: 512$(li)Taille : 1x1$(li)Produit : $(l:tree_crops/apple)8x Pommes$(/l)$(br2)$(l)Notes$()$(li)Pousses en vente au Marché après la première année."
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Apple Tree",
+            "name ": "Pommier",
             "enable_visualize": false,
             "multiblock": {
                 "mapping": {

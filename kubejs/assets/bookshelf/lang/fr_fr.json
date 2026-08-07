@@ -1,0 +1,7 @@
+{
+  "_comment": "Divers",
+  "argument.bookshelf.unknown_value": "La valeur '%s' est inconnue.",
+  "commands.bookshelf.loot_tables": "%d tables de butin manquantes trouvées pour %s.",
+  "commands.bookshelf.loot_tables.wildcard": "%d tables de butin manquantes trouvées pour tous les mods.",
+  "text.bookshelf.ticks": "Ticks : %s"
+}

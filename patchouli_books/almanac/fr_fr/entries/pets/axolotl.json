@@ -1,17 +1,17 @@
 {
-  "name": "Axolotl",
-  "category": "patchouli:pets",
-  "icon": "beachparty:rubber_ring_axolotl",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "$(l)Cadeaux possibles :$()$(br)Ami Axolotl, Bouée Axolotl"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "minecraft:axolotl",
-      "scale": 0.8  ,
-      "text": "Habitant des grottes luxuriantes qui adore chasser les poissons"
-    }
-  ]
+    "name": "Axolotl",
+    "category": "patchouli:pets",
+    "icon": "beachparty:rubber_ring_axolotl",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Cadeaux possibles :$()$(br)Ami axolotl, Bouée axolotl"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:axolotl",
+            "scale": 0.8,
+            "text": "Originaire des Grottes luxuriantes, il adore chasser les poissons"
+        }
+    ]
 }

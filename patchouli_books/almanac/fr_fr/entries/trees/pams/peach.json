@@ -6,11 +6,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li)🔥 §6Été§r $(li)Prix : :coin: 16 384$(li)Taille : 1x1$(li)Produit :$(l:tree_crops/peach)8x Pêches$(/l)$(br2)$(l)Notes$()$(li)Pousses achetées au Marché."
+            "text": "$(l)Stats$()$(li)🔥 §6Été§r $(li)Prix : :coin: 16 384$(li)Taille : 1x1$(li)Produit : $(l:tree_crops/peach)8x Pêches$(/l)$(br2)$(l)Notes$()$(li)Pousses en vente au Marché."
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Peach Tree",
+            "name ": "Pêcher",
             "enable_visualize": false,
             "multiblock": {
                 "mapping": {

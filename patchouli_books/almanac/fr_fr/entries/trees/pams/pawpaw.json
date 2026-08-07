@@ -1,16 +1,16 @@
 {
-    "name": "Papaye 🍂",
+    "name": "Asiminier 🍂",
     "category": "patchouli:trees",
     "icon": "pamhc2trees:pawpaw_sapling",
     "sortnum": -1,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li)🍂 §4Automne§r $(li)Taille : 1x1$(li)Produit :$(l:tree_crops/pawpaw)8x Papaye$(/l)$(br2)$(l)Notes$()$(li)Pousses gagnées à la Machine à Prix."
+            "text": "$(l)Stats$()$(li)🍂 §4Automne§r $(li)Taille : 1x1$(li)Produit : $(l:tree_crops/pawpaw)8x Asimines$(/l)$(br2)$(l)Notes$()$(li)Pousses gagnées à la machine à lots."
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Papayer",
+            "name ": "Asiminier",
             "enable_visualize": false,
             "multiblock": {
                 "mapping": {

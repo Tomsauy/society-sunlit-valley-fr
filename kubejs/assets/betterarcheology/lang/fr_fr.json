@@ -1,4 +1,9 @@
 {
-  "block.betterarcheology.growth_totem": "Totem de brillance",
-  "block.betterarcheology.growth_totem_tooltip": "Ajoute l'effet de lueur aux créatures à proximité."
+  "advancements.netherite_brush.description": "Parfois, le chemin vers la grandeur est pavé de choix douteux - mais jamais de poussière.",
+  "advancements.netherite_brush.title": "Investissement insensé",
+  "block.betterarcheology.growth_totem": "Totem de luissance",
+  "block.betterarcheology.growth_totem_tooltip": "Ajoute l'effet de surbrillance aux creatures proches",
+  "config.notify.disabled": "Cette fonctionnalité a été désactivée dans la configuration !",
+  "entity.minecraft.villager.betterarcheology.archeologist": "Archéologue",
+  "item.betterarcheology.netherite_brush": "Brosse en netherite"
 }

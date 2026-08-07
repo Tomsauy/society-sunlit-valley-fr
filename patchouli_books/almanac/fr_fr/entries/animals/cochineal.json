@@ -1,17 +1,17 @@
 {
-  "name": "Cochenille",
-  "category": "patchouli:animals",
-  "icon": "atmospheric:carmine_husk",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "$(l)Statistiques$()$(li)Prix : Non vendu$(li)Cueillette : Coque de carmin, Fruit du dragon (50% de chance)$(li)Butin : Coque de carmin$(br2)$(l)Notes$()$(br)La cueillette nécessite 1+ cœurs."
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "atmospheric:cochineal",
-      "scale": 0.5,
-      "text": "Le cauchemar incarné, j'espère que vos jolis blocs en valent la peine."
-    }
-  ]
+    "name": "Cochenille",
+    "category": "patchouli:animals",
+    "icon": "atmospheric:carmine_husk",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Stats$()$(li)Prix : non vendue$(li)Cueillette : Carapace carmine, Fruit du dragon (50 % de chance) $(li)Butin : Carapace carmine$(br2)$(l)Notes$()$(br)La cueillette nécessite au moins 1 cœur."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "atmospheric:cochineal",
+            "scale": 0.5,
+            "text": "De quoi faire des cauchemars, j'espère que tes jolis blocs en valent la peine."
+        }
+    ]
 }

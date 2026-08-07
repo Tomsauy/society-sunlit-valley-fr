@@ -1,0 +1,12 @@
+{
+  "entity.immersive_paintings.painting": "Tableau",
+  "immersive_paintings.error.image_load_failed": "Impossible de charger l'image, consulte le journal !",
+  "immersive_paintings.hidden": "Masqué",
+  "immersive_paintings.material.crimson": "Carmin",
+  "immersive_paintings.material.dark_oak": "Chêne noir",
+  "immersive_paintings.material.lapis": "Lapis-lazuli",
+  "immersive_paintings.material.stone": "Roche",
+  "immersive_paintings.save": "Sauvegarder",
+  "immersive_paintings.search": "Rechercher",
+  "item.immersive_paintings.painting": "Tableau"
+}

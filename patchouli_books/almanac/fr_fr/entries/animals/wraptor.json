@@ -1,17 +1,17 @@
 {
-  "name": "Wraptor",
-  "category": "patchouli:animals",
-  "icon": "species:wraptor_egg",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "$(l)Statistiques$()$(li)Prix : Non vendu$(li)Œuf : Œuf de Wraptor$(br2)$(l)Notes$()$(br)Les œufs nécessitent 2+ cœurs. Se trouve dans les Forêts tordues. Disparaîtra s'il n'a pas d'étiquette !"
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "species:wraptor",
-      "scale": 0.8,
-      "text": "Ils détestent être hors de la chaleur réconfortante du Nether."
-    }
-  ]
+    "name": "Wraptor",
+    "category": "patchouli:animals",
+    "icon": "species:wraptor_egg",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Œuf : Œuf de wraptor $(br2)$(l)Notes$()$(br)Les œufs demandent au moins 2 cœurs. On le trouve dans les forêts biscornues. Il disparaîtra s'il ne porte pas d'étiquette de nom !"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "species:wraptor",
+            "scale": 0.8,
+            "text": "Ils détestent quitter la chaleur réconfortante du Nether."
+        }
+    ]
 }

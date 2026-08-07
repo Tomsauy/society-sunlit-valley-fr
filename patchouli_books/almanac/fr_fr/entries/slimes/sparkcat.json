@@ -1,17 +1,17 @@
 {
-  "name": "Sparkcat",
-  "category": "patchouli:slimes",
-  "icon": "splendid_slimes:plort{plort:{id:\"splendid_slimes:sparkcat\"}}",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "$(l)Lieux :$()$(li)Structure : Générateurs de Slimes des Landes d'Umbra (Caverne du Crâne)$(li)Fusion de Cœur$(br2)$(l)Risques :$()$(br)Provoque l'effet Frappe de foudre lorsqu'il est contrarié. Explose violemment lorsqu'il est furieux et est très glissant. Humeurs extrêmement volatiles."
-    },
-    {
-      "type": "patchouli:entity",
-      "name": "Slime Sparkcat",
-      "entity": "splendid_slimes:splendid_slime{Breed:\"splendid_slimes:sparkcat\"}",
-      "scale": 0.9
-    }
-  ]
+    "name": "Chat-étincelle",
+    "category": "patchouli:slimes",
+    "icon": "splendid_slimes:plort{plort:{id:\"splendid_slimes:sparkcat\"}}",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Emplacements :$()$(li)Structure : Générateurs de slimes des Landes de l'Ombre (Caverne du Crâne)$(li)Fusion de cœurs$(br2)$(l)Risques :$()$(br)Provoque un effet d'Impact de foudre quand il est contrarié. Explose violemment quand il est furieux et se révèle très glissant. Humeur extrêmement changeante."
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Slime chat-étincelle",
+            "entity": "splendid_slimes:splendid_slime{Breed:\"splendid_slimes:sparkcat\"}",
+            "scale": 0.9
+        }
+    ]
 }

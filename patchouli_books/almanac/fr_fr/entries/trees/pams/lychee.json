@@ -1,16 +1,16 @@
 {
-    "name": "Litchi 🌼",
+    "name": "Arbre à litchis 🌼",
     "category": "patchouli:trees",
     "icon": "pamhc2trees:lychee_sapling",
     "sortnum": -1,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li)🌼 §2Printemps§r $(li)Prix : :coin: 256$(li)Taille : 1x1$(li)Produit :$(l:tree_crops/lychee)8x Litchis$(/l)$(br2)$(l)Notes$()$(li)Pousses achetées au Marché."
+            "text": "$(l)Stats$()$(li)🌼 §2Printemps§r $(li)Prix : :coin: 256$(li)Taille : 1x1$(li)Produit : $(l:tree_crops/lychee)8x Litchis$(/l)$(br2)$(l)Notes$()$(li)Pousses en vente au Marché."
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Lychee Tree",
+            "name ": "Arbre à litchis",
             "enable_visualize": false,
             "multiblock": {
                 "mapping": {

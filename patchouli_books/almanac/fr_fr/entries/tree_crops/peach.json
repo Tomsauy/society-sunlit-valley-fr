@@ -1,11 +1,11 @@
 {
-    "name": "P\u00eache \ud83d\udd25",
+    "name": "Pêche 🔥",
     "category": "patchouli:tree_crops",
     "icon": "pamhc2trees:peachitem",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li):coin: 64$(li)\ud83d\udd25 \u00a76\u00c9t\u00e9\u00a7r$(li)Rendement : 1$(li)\u00c9tapes de croissance : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/peach)P\u00eacher$(/l)"
+            "text": "$(l)Stats$()$(li):coin: 64$(li)🔥 §6Été§r$(li)Rendement : 1$(li)Stades de pousse : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/peach)Pêcher$(/l)"
         },
         {
             "type": "patchouli:multiblock",
@@ -17,8 +17,12 @@
                     "F": "pamhc2trees:pampeach[age=7]"
                 },
                 "pattern": [
-                    ["0"],
-                    ["F"]
+                    [
+                        "0"
+                    ],
+                    [
+                        "F"
+                    ]
                 ]
             }
         }

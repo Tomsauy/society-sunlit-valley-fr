@@ -1,6 +1,6 @@
 {
-    "name": "Animaux de compagnie",
-	"description": "Des compagnons qui offrent des cadeaux uniques lorsqu'ils atteignent l'affection maximale",
+    "name": "Animaux familiers",
+    "description": "Des animaux de compagnie qui offrent des cadeaux uniques une fois leur affection au maximum",
     "icon": "candlelight:hearth",
     "category": "patchouli:pets"
 }

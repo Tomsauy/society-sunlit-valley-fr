@@ -1,0 +1,9 @@
+{
+  "commands.sereneseasonsfix.get_season.not_whitelisted": "Les saisons sont désactivées pour cette dimension",
+  "commands.sereneseasonsfix.set_season.not_whitelisted": "Les saisons sont désactivées pour cette dimension",
+  "commands.sereneseasonsfix.time.info": "Temps saisonnier : %s\nTemps du monde : %s\nDelta : %s\nDimension en liste blanche : %s",
+  "commands.sereneseasonsfix.time.set_season.not_whitelisted": "Les saisons sont désactivées pour cette dimension",
+  "commands.sereneseasonsfix.time.set_season.success": "Temps saisonnier réglé sur %s",
+  "commands.sereneseasonsfix.time.sync_season.not_whitelisted": "Les saisons sont désactivées pour cette dimension",
+  "commands.sereneseasonsfix.time.sync_season.success": "Temps saisonnier synchronisé avec le temps du monde"
+}

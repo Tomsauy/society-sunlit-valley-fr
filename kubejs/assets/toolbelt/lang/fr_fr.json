@@ -1,0 +1,15 @@
+{
+  "item.toolbelt.belt": "Ceinture porte-outils",
+  "item.toolbelt.pouch": "Pochette de ceinture",
+  "key.toolbelt.category": "Ceinture porte-outils",
+  "key.toolbelt.cycle.left": "Faire défiler l'outil vers la gauche",
+  "key.toolbelt.cycle.right": "Faire défiler l'outil vers la droite",
+  "key.toolbelt.open": "Échanger l'outil",
+  "key.toolbelt.slot": "Ouvrir l'inventaire de la ceinture",
+  "text.toolbelt": "Ceinture porte-outils",
+  "text.toolbelt.empty": "VIDE",
+  "text.toolbelt.extract": "RETIRER",
+  "text.toolbelt.insert": "INSÉRER",
+  "text.toolbelt.swap": "ÉCHANGER",
+  "text.toolbelt.tooltip": "Améliorations : %s (%s emplacements)"
+}

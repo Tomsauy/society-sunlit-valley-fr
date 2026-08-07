@@ -1,0 +1,22 @@
+{
+  "key.category.libtooltips.libtooltips": "LibTooltips",
+  "key.libtooltips.expand": "Développer l'info-bulle",
+  "libtooltips.configuration.default_color": "Couleur de la description",
+  "libtooltips.configuration.default_color.tooltip": "Couleur à utiliser comme base pour l'info-bulle. La valeur est la couleur sous forme d'entier (utiliser un sélecteur de couleur en ligne)",
+  "libtooltips.configuration.line_after": "Ligne vide après",
+  "libtooltips.configuration.line_after.tooltip": "Ajoute une ligne vide APRÈS la description",
+  "libtooltips.configuration.line_before": "Ligne vide avant",
+  "libtooltips.configuration.line_before.tooltip": "Ajoute une ligne vide AVANT la description, APRÈS le [shift]",
+  "libtooltips.configuration.title": "Configuration de LibTooltips",
+  "tooltip.always.namespace.path.0": "Cette info-bulle s'affichera toujours !",
+  "tooltip.libtooltips.generic.empty": "",
+  "tooltip.libtooltips.generic.shift_down": "§8Maintenir [<ltkeybind>keybind=key.libtooltips.expand;§7</ltkeybind>§8] ⏫",
+  "tooltip.libtooltips.generic.shift_up": "§8Maintenir [<ltkeybind>keybind=key.libtooltips.expand;§7</ltkeybind>§8] ⏬",
+  "tooltip.namespace.path.0": "Quelle info-bulle <ltrgb>arc-en-ciel rgb</ltrgb> élégante !",
+  "tooltip.namespace.path.1": "Et en plus, elle gère même plusieurs lignes, waouh",
+  "tooltip.namespace.path.2": "Pour éviter les incompatibilités avec les autres API de traitement de texte,",
+  "tooltip.namespace.path.3": "il est recommandé que les balises portent un nom non générique comme 'ltrgb' plutôt que 'rgb'",
+  "tooltip.namespace.path.4": "hide",
+  "tooltip.namespace.path.5": "Définir une ligne sur 'hide' empêche l'affichage des lignes suivantes.",
+  "tooltip.namespace.path.6": "C'est utile pour les traductions, certaines langues pouvant compter moins de lignes que la version par défaut."
+}

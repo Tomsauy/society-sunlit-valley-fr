@@ -1,0 +1,5 @@
+{
+  "ftbteams.name_too_short": "Le nom de l'équipe est trop court ! (doit être >=3 caractères)",
+  "ftbteams.party_api_only": "Dans ce modpack, il n'est pas possible de créer une équipe directement !",
+  "ftbteams.team_already_exists": "Le nom de l'équipe est trop court ! (3 caractères minimum)"
+}

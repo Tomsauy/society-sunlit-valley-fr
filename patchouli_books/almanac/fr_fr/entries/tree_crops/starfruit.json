@@ -1,11 +1,11 @@
 {
-    "name": "Carambole \ud83c\udf10",
+    "name": "Carambole 🌐",
     "category": "patchouli:tree_crops",
     "icon": "pamhc2trees:starfruititem",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li):coin: 200$(li)\ud83c\udf10 \u00a75Toute l'ann\u00e9e\u00a7r$(li)Rendement : 1$(li)\u00c9tapes de croissance : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/starfruit)Carambolier$(/l)"
+            "text": "$(l)Stats$()$(li):coin: 200$(li)🌐 §5Toute l'année§r$(li)Rendement : 1$(li)Stades de pousse : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/starfruit)Carambolier$(/l)"
         },
         {
             "type": "patchouli:multiblock",
@@ -17,8 +17,12 @@
                     "F": "pamhc2trees:pamstarfruit[age=7]"
                 },
                 "pattern": [
-                    ["0"],
-                    ["F"]
+                    [
+                        "0"
+                    ],
+                    [
+                        "F"
+                    ]
                 ]
             }
         }

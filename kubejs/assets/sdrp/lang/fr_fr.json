@@ -1,10 +1,17 @@
 {
   "sdrp.logo": "Logo Society: Sunlit Valley",
   "sdrp.mainmenu": "Menu principal",
+  "sdrp.mining": "Dimension de minage",
+  "sdrp.mining.in": "Dans la dimension de minage",
+  "sdrp.otherside": "Autre côté",
+  "sdrp.otherside.in": "Dans l'Autre côté",
   "sdrp.overworld": "Surface",
-  "sdrp.overworld.in": "Dans la Surface",
-  "sdrp.the_nether": "Nether",
-  "sdrp.the_nether.in": "Dans le Nether",
+  "sdrp.overworld.in": "À la Surface",
+  "sdrp.paradise_lost": "Paradis perdu",
+  "sdrp.paradise_lost.in": "Dans le Paradis perdu",
   "sdrp.skull_cavern": "Caverne du Crâne",
-  "sdrp.skull_cavern.in": "Dans la Caverne du Crâne"
+  "sdrp.skull_cavern.in": "Dans la Caverne du Crâne",
+  "sdrp.the_end": "L'End",
+  "sdrp.the_nether": "Nether",
+  "sdrp.the_nether.in": "Dans le Nether"
 }

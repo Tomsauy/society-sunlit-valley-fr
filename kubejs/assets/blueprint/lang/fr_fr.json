@@ -1,0 +1,21 @@
+{
+  "biome.blueprint.original_source_marker": "Marqueur de source d'origine",
+  "blueprint.config.disable_experimental_settings_screen": "Désactiver l'écran des paramètres expérimentaux",
+  "blueprint.config.max_screen_shakers": "Nombre maximal de secousses d'écran",
+  "blueprint.config.screen_shake_scale": "Échelle des secousses d'écran",
+  "blueprint.config.slabfish_hat.backpack": "Sac à dos",
+  "blueprint.config.slabfish_hat.backpack.tooltip": "Active ou désactive le sac à dos du chapeau Slabfish. Disponible pour les mécènes de palier 3 et plus.",
+  "blueprint.config.slabfish_hat.enabled": "Chapeau Slabfish",
+  "blueprint.config.slabfish_hat.enabled.tooltip": "Active ou désactive le chapeau Slabfish. Disponible pour les mécènes de palier 2 et plus.",
+  "blueprint.config.slabfish_hat.sweater": "Pull",
+  "blueprint.config.slabfish_hat.sweater.tooltip": "Active ou désactive le pull du chapeau Slabfish. Disponible pour les mécènes de palier 2 et plus.",
+  "blueprint.config.slabfish_hat.type": "Type",
+  "blueprint.config.slabfish_hat.type.tooltip": "Change le type du chapeau Slabfish. Disponible pour les mécènes de palier 4 et plus.",
+  "blueprint.message.redirect": "Redirection en cours",
+  "blueprint.screen.slabfish_settings": "Paramètres du chapeau Slabfish...",
+  "blueprint.screen.slabfish_settings.title": "Paramètres du chapeau Slabfish",
+  "blueprint.screen.slabfish_settings.tooltip": "Paramètres du chapeau Slabfish réservé aux mécènes de Team Abnormals. Devenir mécène sur %s.",
+  "entity.blueprint.boat": "Bateau",
+  "entity.blueprint.chest_boat": "Bateau de stockage",
+  "entity.blueprint.falling_block": "Bloc qui tombe"
+}

@@ -1,16 +1,16 @@
 {
-    "name": "Fruit du dragon ❆",
+    "name": "Arbre à fruits du dragon ❆",
     "category": "patchouli:trees",
     "icon": "pamhc2trees:dragonfruit_sapling",
     "sortnum": -1,
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li)❆ §bHiver§r $(li)Prix : :coin: 43 008$(li)Taille : 1x1$(li)Produit :$(l:tree_crops/dragonfruit)8x Fruits du dragon$(/l)$(br2)$(l)Notes$()$(li)Pousses achetées chez le Maître Cultivateur."
+            "text": "$(l)Stats$()$(li)❆ §bHiver§r $(li)Prix : :coin: 43 008$(li)Taille : 1x1$(li)Produit : $(l:tree_crops/dragonfruit)8x Fruits du dragon$(/l)$(br2)$(l)Notes$()$(li)Pousses en vente au Marché après la première année."
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Dragonfruit Tree",
+            "name ": "Arbre à fruits du dragon",
             "enable_visualize": false,
             "multiblock": {
                 "mapping": {

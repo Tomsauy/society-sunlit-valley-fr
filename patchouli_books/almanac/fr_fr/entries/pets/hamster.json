@@ -1,18 +1,17 @@
 {
-  "name": "Hamster",
-  "category": "patchouli:pets",
-  "icon": "hamsters:hamster",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "$(l)Cadeaux possibles :$()$(br)Petit Gnome$(br)$(l)Objet d'apprivoisement :$()$(br)Graines$()$(br2)$(l)Notes$()$(br)Se trouve dans les plaines. Ils n'aiment pas être portés, et cela réinitialisera leur affection."
-    },
-
-    {
-      "type": "patchouli:entity",
-      "entity": "hamsters:hamster",
-      "scale": 0.7,
-      "text": "Peut exploser quand on le nourrit"
-    }
-  ]
+    "name": "Hamster",
+    "category": "patchouli:pets",
+    "icon": "hamsters:hamster",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Cadeaux possibles :$()$(br)Gnome minuscule$(br)$(l)Objet d'apprivoisement :$()$(br)Graines$()$(br2)$(l)Notes$()$(br)On le trouve dans les plaines. Il n'aime pas qu'on le prenne dans les bras : cela réinitialise son affection."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "hamsters:hamster",
+            "scale": 0.7,
+            "text": "Peut exploser quand on le nourrit"
+        }
+    ]
 }

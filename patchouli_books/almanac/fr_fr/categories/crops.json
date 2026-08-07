@@ -1,6 +1,6 @@
 {
     "name": "Cultures",
-	"description": "Un aperçu de toutes les cultures. Indique comment les obtenir et combien de jours elles mettent à pousser.",
+    "description": "Un aperçu de toutes les cultures. Indique comment les obtenir et combien de jours il leur faut pour pousser.",
     "icon": "minecraft:netherite_hoe",
     "category": "patchouli:crops"
 }

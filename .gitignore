@@ -2,3 +2,11 @@
 .DS_Store
 .vscode/
 *.swp
+
+# Caches locaux du pipeline (regenerables par outillage/scripts/)
+outillage/jars/
+outillage/extracted/
+outillage/references/
+outillage/out/
+outillage/batches/
+__pycache__/

@@ -1,0 +1,15 @@
+{
+  "argument.entity.options.curios.description": "Inventaire Curios de l'entité",
+  "commands.curios.drop.success": "Les objets de la case %s ont été jetés pour %s",
+  "commands.curios.dropAll.success": "Les objets de toutes les cases ont été jetés pour %s",
+  "commands.curios.replace.success": "La case %s a été remplacée pour %s par %s",
+  "curios.modifiers.slots.plus.0": "+%s cases %s",
+  "curios.modifiers.slots.plus.1": "+%s%% cases %s",
+  "curios.modifiers.slots.plus.2": "+%s%% cases %s",
+  "curios.modifiers.slots.take.0": "-%s cases %s",
+  "curios.modifiers.slots.take.1": "-%s%% cases %s",
+  "curios.modifiers.slots.take.2": "-%s%% cases %s",
+  "gui.curios.page": "Page %d / %d",
+  "gui.curios.toggle": "Basculer la visibilité",
+  "gui.curios.toggle.cosmetics": "Afficher/masquer les cosmétiques"
+}

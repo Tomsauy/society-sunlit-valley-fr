@@ -1,0 +1,8 @@
+{
+  "text.easy_npc_example.hello.name": "Traducteur",
+  "text.easy_npc_example.hello.no_answer": "D'accord, bonne journée !",
+  "text.easy_npc_example.hello.no_button": "Non, merci.",
+  "text.easy_npc_example.hello.text": "Bonjour @initiator, je m'appelle @npc, ravi de te rencontrer !\n\nTu veux en savoir plus sur moi ?",
+  "text.easy_npc_example.hello.yes_answer": "Je suis traducteur, je peux t'aider à comprendre la langue du monde.",
+  "text.easy_npc_example.hello.yes_button": "Oui, bien sûr."
+}

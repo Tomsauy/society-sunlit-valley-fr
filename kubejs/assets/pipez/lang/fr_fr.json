@@ -1,0 +1,9 @@
+{
+  "block.pipez.fluid_pipe": "Tuyau a fluide",
+  "message.pipez.filter.edit": "Modifier",
+  "message.pipez.filter.item": "Objet : %s",
+  "message.pipez.filter.tag": "Mot clé : %s",
+  "tooltip.pipez.distribution.round_robin": "Chacun un par un",
+  "tooltip.pipez.item": "Objets",
+  "tooltip.pipez.upgrade.configured.item": "Objets"
+}

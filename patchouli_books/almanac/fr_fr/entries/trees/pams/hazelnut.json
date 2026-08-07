@@ -6,11 +6,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li)🍂 §4Automne§r $(li)Taille : 1x1$(li)Produit :$(l:tree_crops/hazelnut)8x Noisettes$(/l)$(br2)$(l)Notes$()$(li)Pousses gagnées à la Machine à Prix."
+            "text": "$(l)Stats$()$(li)🍂 §4Automne§r $(li)Taille : 1x1$(li)Produit : $(l:tree_crops/hazelnut)8x Noisettes$(/l)$(br2)$(l)Notes$()$(li)Pousses à gagner à la machine à lots."
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Hazelnut Tree",
+            "name ": "Noisetier",
             "enable_visualize": false,
             "multiblock": {
                 "mapping": {

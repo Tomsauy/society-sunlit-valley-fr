@@ -1,11 +1,11 @@
 {
-    "name": "Orange \ud83d\udd25",
+    "name": "Orange 🔥",
     "category": "patchouli:tree_crops",
     "icon": "atmospheric:orange",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li):coin: 96$(li)\ud83d\udd25 \u00a76\u00c9t\u00e9\u00a7r$(li)Rendement : 1$(li)\u00c9tapes de croissance : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/orange)Oranger$(/l)"
+            "text": "$(l)Stats$()$(li):coin: 96$(li)🔥 §6Été§r$(li)Rendement : 1$(li)Stades de pousse : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/orange)Oranger$(/l)"
         },
         {
             "type": "patchouli:multiblock",
@@ -17,8 +17,12 @@
                     "F": "pamhc2trees:pamorange[age=7]"
                 },
                 "pattern": [
-                    ["0"],
-                    ["F"]
+                    [
+                        "0"
+                    ],
+                    [
+                        "F"
+                    ]
                 ]
             }
         }

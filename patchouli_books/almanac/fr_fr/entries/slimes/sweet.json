@@ -1,17 +1,17 @@
 {
-  "name": "Sucré",
-  "category": "patchouli:slimes",
-  "icon": "splendid_slimes:plort{plort:{id:\"splendid_slimes:sweet\"}}",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "$(l)Lieux :$()$(li)Fusion de Cœur$(br2)$(l)Risques :$()$(br)Provoque l'effet Vitesse lorsqu'il est contrarié. Humeurs extrêmement volatiles."
-    },
-    {
-      "type": "patchouli:entity",
-      "name": "Slime Sucré",
-      "entity": "splendid_slimes:splendid_slime{Breed:\"splendid_slimes:sweet\"}",
-      "scale": 0.9
-    }
-  ]
+    "name": "Sucré",
+    "category": "patchouli:slimes",
+    "icon": "splendid_slimes:plort{plort:{id:\"splendid_slimes:sweet\"}}",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Emplacements :$()$(li)Fusion de cœurs$(br2)$(l)Risques :$()$(br)Provoque un effet de Rapidité quand il est contrarié. Humeur extrêmement changeante."
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Slime sucré",
+            "entity": "splendid_slimes:splendid_slime{Breed:\"splendid_slimes:sweet\"}",
+            "scale": 0.9
+        }
+    ]
 }

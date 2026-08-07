@@ -1,15 +1,15 @@
 {
-    "name": "Litchi \ud83c\udf10",
+    "name": "Litchi 🌐",
     "category": "patchouli:tree_crops",
     "icon": "pamhc2trees:lycheeitem",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li):coin: 16$(li)\ud83c\udf10 \u00a75Toute l'ann\u00e9e\u00a7r$(li)Rendement : 3$(li)\u00c9tapes de croissance : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/lychee)Litchier$(/l)"
+            "text": "$(l)Stats$()$(li):coin: 16$(li)🌐 §5Toute l'année§r$(li)Rendement : 3$(li)Stades de pousse : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/lychee)Arbre à litchis$(/l)"
         },
         {
             "type": "patchouli:multiblock",
-            "name ": "Litchier",
+            "name ": "Arbre à litchis",
             "enable_visualize": false,
             "multiblock": {
                 "mapping": {
@@ -17,8 +17,12 @@
                     "F": "pamhc2trees:pamlychee[age=7]"
                 },
                 "pattern": [
-                    ["0"],
-                    ["F"]
+                    [
+                        "0"
+                    ],
+                    [
+                        "F"
+                    ]
                 ]
             }
         }

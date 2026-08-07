@@ -1,0 +1,9 @@
+{
+  "block.sawmill.sawmill": "Scie",
+  "container.sawmill.sawmill": "Scie",
+  "entity.minecraft.villager.carpenter": "Charpentier",
+  "entity.minecraft.villager.sawmill.carpenter": "Charpentier",
+  "sawmill.category.wood_cutting": "Sciage",
+  "subtitles.sawmill.entity.villager.work_carpenter": "Charpentier qui travaille",
+  "subtitles.sawmill.ui.sawmill.take_result": "Scierie utilisée"
+}

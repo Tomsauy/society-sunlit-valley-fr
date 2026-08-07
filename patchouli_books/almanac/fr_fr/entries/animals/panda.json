@@ -1,17 +1,17 @@
 {
-  "name": "Panda",
-  "category": "patchouli:animals",
-  "icon": "pamhc2trees:mangoitem",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "$(l)Statistiques$()$(li)Prix : Non vendu$(li)Cueillette : Fruits tropicaux aléatoires (75% de chance)$(br2)$(l)Notes$()$(br)La cueillette nécessite 2+ cœurs. Les pandas ont des problèmes de fertilité et les Potions Miracle ont de fortes chances d'échouer..."
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "minecraft:panda",
-      "scale": 0.8,
-      "text": "Ils adorent partager les fruits qu'ils trouvent. Mais d'où viennent ces fruits... ?"
-    }
-  ]
+    "name": "Panda",
+    "category": "patchouli:animals",
+    "icon": "pamhc2trees:mangoitem",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Cueillette : fruits tropicaux aléatoires (75 % de chances)$(br2)$(l)Notes$()$(br)La cueillette demande 2 cœurs ou plus. Les pandas ont des soucis de fertilité, et les potions miracles ont de fortes chances d'échouer..."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:panda",
+            "scale": 0.8,
+            "text": "Ils adorent partager les fruits qu'ils trouvent. Mais d'où sortent ces fruits, au juste... ?"
+        }
+    ]
 }

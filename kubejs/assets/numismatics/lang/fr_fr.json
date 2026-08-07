@@ -1,10 +1,10 @@
 {
-  "item.numismatics.sprocket": "Pièce en fer",
-  "item.numismatics.spur": "Pièce en cuivre",
-  "item.numismatics.sun": "Pièce en iridium",
-  "item.numismatics.cog": "Pièce en laiton",
-  "item.numismatics.crown": "Pièce en or",
-  "item.numismatics.bevel": "Pièce en zinc",
+  "item.numismatics.bevel": "Piece de zinc",
+  "item.numismatics.cog": "Piece de laiton",
   "item.numismatics.coin.tooltip.value": " ",
-  "item.numismatics.coin.tooltip.value.basic": " "
+  "item.numismatics.coin.tooltip.value.basic": " ",
+  "item.numismatics.crown": "Piece d'or",
+  "item.numismatics.sprocket": "Piece de fer",
+  "item.numismatics.spur": "Piece de cuivre",
+  "item.numismatics.sun": "Piece d'iridium"
 }

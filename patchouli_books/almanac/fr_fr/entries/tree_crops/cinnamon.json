@@ -1,11 +1,11 @@
 {
-    "name": "Cannelle \ud83c\udf42\u2746",
+    "name": "Cannelle 🍂❆",
     "category": "patchouli:tree_crops",
     "icon": "pamhc2trees:cinnamonitem",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li):coin: 160$(li)\ud83c\udf42 \u00a74Automne\u00a7r \u2746 \u00a7bHiver\u00a7r$(li)Rendement : 1$(li)\u00c9tapes de croissance : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/cinnamon)Cannelier$(/l)"
+            "text": "$(l)Stats$()$(li):coin: 160$(li)🍂 §4Automne§r ❆ §bHiver§r$(li)Rendement : 1$(li)Stades de pousse : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/cinnamon)Cannelier$(/l)"
         },
         {
             "type": "patchouli:multiblock",
@@ -18,9 +18,15 @@
                     "H": "pamhc2trees:pamcinnamon[age=0]"
                 },
                 "pattern": [
-                    ["0"],
-                    ["L"],
-                    ["H"]
+                    [
+                        "0"
+                    ],
+                    [
+                        "L"
+                    ],
+                    [
+                        "H"
+                    ]
                 ]
             }
         }

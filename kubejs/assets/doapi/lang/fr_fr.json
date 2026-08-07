@@ -1,0 +1,23 @@
+{
+  "block.doapi.standard": "Banniere du perfectionniste",
+  "block.doapi.wall_standard": "Banniere murale du perfectionniste",
+  "pack.source.builtinMod": "intégré : %s",
+  "sound.doapi.beer_elemental_ambient": "Ambiance de l'élémentaire de bière",
+  "sound.doapi.beer_elemental_attack": "Attaque de l'élémentaire de bière",
+  "sound.doapi.beer_elemental_death": "Agonie de l'élémentaire de bière",
+  "sound.doapi.beer_elemental_hurt": "Blessure de l'élémentaire de bière",
+  "sound.doapi.breath": "Souffle",
+  "sound.doapi.brewstation_ambient": "Bourdonnement de la station de brassage",
+  "sound.doapi.brewstation_kettle": "Bulles qui éclatent",
+  "sound.doapi.brewstation_oven": "Crépitement du four",
+  "sound.doapi.brewstation_timer": "Tic-tac du minuteur",
+  "sound.doapi.brewstation_whistle": "Sifflement du sifflet",
+  "sound.doapi.cabinet_close": "Fermeture d'un placard",
+  "sound.doapi.cabinet_open": "Ouverture d'un placard",
+  "sound.doapi.cake_cut": "Découpe du gâteau",
+  "sound.doapi.dinner_bell": "Tintement de la cloche du dîner",
+  "sound.doapi.drawer_close": "Fermeture d'un tiroir",
+  "sound.doapi.drawer_open": "Ouverture d'un tiroir",
+  "sound.doapi.timer_ticking": "Tic-tac du minuteur",
+  "sound.doapi.typewriter": "Cliquetis de la machine à écrire"
+}

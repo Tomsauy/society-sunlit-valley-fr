@@ -1,11 +1,11 @@
 {
-    "name": "Citron \ud83c\udf3c\ud83d\udd25",
+    "name": "Citron 🌼🔥",
     "category": "patchouli:tree_crops",
     "icon": "pamhc2trees:lemonitem",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Statistiques$()$(li):coin: 160$(li)\ud83c\udf3c \u00a72Printemps\u00a7r \ud83d\udd25 \u00a76\u00c9t\u00e9\u00a7r$(li)Rendement : 1$(li)\u00c9tapes de croissance : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/lemon)Citronnier$(/l)"
+            "text": "$(l)Stats$()$(li):coin: 160$(li)🌼 §2Printemps§r 🔥 §6Été§r$(li)Rendement : 1$(li)Stades de pousse : 8$(br2)$(l)Notes$()$(li)Voir : $(l:trees/pams/lemon)Citronnier$(/l)"
         },
         {
             "type": "patchouli:multiblock",
@@ -17,8 +17,12 @@
                     "F": "pamhc2trees:pamlemon[age=7]"
                 },
                 "pattern": [
-                    ["0"],
-                    ["F"]
+                    [
+                        "0"
+                    ],
+                    [
+                        "F"
+                    ]
                 ]
             }
         }

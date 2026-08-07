@@ -1,0 +1,3 @@
+{
+  "framework.gui.process_config_fail": "Échec du traitement de la configuration envoyée par le serveur : %s"
+}

@@ -1,17 +1,17 @@
 {
-  "name": "Renifleur",
-  "category": "patchouli:animals",
-  "icon": "minecraft:sniffer_egg",
-  "pages": [
-    {
-      "type": "patchouli:text",
-      "text": "$(l)Statistiques$()$(li)Prix : Non vendu$(li)Œuf : Œuf de renifleur$(li)Cueillette : Éclats d'artefact$(br2)$(l)Notes$()$(br)La cueillette nécessite 5+ cœurs."
-    },
-    {
-      "type": "patchouli:entity",
-      "entity": "minecraft:sniffer",
-      "scale": 0.8,
-      "text": "Ils adorent creuser dans la terre à la recherche de vieilles choses."
-    }
-  ]
+    "name": "Renifleur",
+    "category": "patchouli:animals",
+    "icon": "minecraft:sniffer_egg",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Œuf : Œuf de renifleur$(li)Cueillette : Fragments d'artéfact$(br2)$(l)Notes$()$(br)La cueillette demande 5 cœurs ou plus."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:sniffer",
+            "scale": 0.8,
+            "text": "Ils adorent fouiller la terre à la recherche de vieux objets."
+        }
+    ]
 }

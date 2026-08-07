@@ -1,0 +1,174 @@
+{
+ "splendid_slimes": {
+  "info.splendid_slimes.slime_vac": {
+   "ko_kr": "반대쪽 손의 아이템을 발사합니다. 웅크리기 상태에서 슬라임/아이템을 빨아들입니다.",
+   "zh_cn": "潜行使用射出副手的史莱姆/物品。"
+  },
+  "item.splendid_slimes.slime_feeder": {
+   "zh_cn": "史莱姆喂食器"
+  }
+ },
+ "oreganized": {
+  "item.oreganized.electrum_upgrade_smithing_template": {
+   "zh_cn": "锻造模板"
+  }
+ },
+ "veggiesdelight": {
+  "block.veggiesdelight.bellpepper_crop": {
+   "ko_kr": "피망",
+   "zh_cn": "甜椒"
+  },
+  "block.veggiesdelight.broccoli_crop": {
+   "ko_kr": "브로콜리",
+   "zh_cn": "西兰花"
+  },
+  "block.veggiesdelight.cauliflower_crop": {
+   "ko_kr": "콜리플라워",
+   "zh_cn": "花椰菜"
+  },
+  "block.veggiesdelight.turnip_crop": {
+   "ko_kr": "순무",
+   "zh_cn": "芜菁"
+  },
+  "block.veggiesdelight.zucchini_crop": {
+   "ko_kr": "애호박",
+   "zh_cn": "西葫芦"
+  },
+  "item.veggiesdelight.cauliflower_burger": {
+   "ko_kr": "콜리플라워 버거"
+  },
+  "item.veggiesdelight.cooked_cauliflower_patty": {
+   "ko_kr": "조리된 콜리플라워 패티"
+  },
+  "block.veggiesdelight.garlic_crop": {
+   "zh_cn": "大蒜"
+  }
+ },
+ "brewery": {
+  "block.brewery.hop_trellis": {
+   "ko_kr": "홉",
+   "zh_cn": "啤酒花"
+  },
+  "item.brewery.hop_trellis_seed": {
+   "ko_kr": "홉 씨앗",
+   "zh_cn": "啤酒花种子"
+  },
+  "tooltip.brewery.rope": {
+   "zh_cn": "可系在栅栏或绊线钩上"
+  }
+ },
+ "farm_and_charm": {
+  "block.farm_and_charm.strawberry": {
+   "ko_kr": "딸기",
+   "zh_cn": "草莓"
+  },
+  "item.farm_and_charm.strawberry_seed": {
+   "ko_kr": "딸기 씨앗",
+   "zh_cn": "草莓种子"
+  }
+ },
+ "society": {
+  "tooltip.society.furniture_catalog": {
+   "ko_kr": "%2$s %1$s개를 들고 우클릭하여\n%3$s를 구매할 수 있습니다.\n시프트 + 우클릭하여 대량 구매",
+   "es_es": "Right click with %s %s\nto purchase 1 %s.\nShift + Right click to bulk purchase[EN]",
+   "pt_br": "Clique com o botão direito com %s %s\npara comprar 1 %s.\nShift + botão direito para comprar em quantidade"
+  },
+  "item.society.tanuki_leaf": {
+   "ko_kr": "§f♤ §r너구리 잎파리",
+   "es_es": "Hoja Tanuki",
+   "th_th": "ใบทานูกิ",
+   "pt_br": "§f♤ §rFolha de Tanuki"
+  },
+  "item.society.architects_digest": {
+   "ko_kr": "§f♧ §r건축 요점 정리",
+   "es_es": "Diseño del arquitecto",
+   "th_th": "อาคิเทคส์ไดเจสต์",
+   "pt_br": "§f♧ §rRevista do Arquiteto"
+  },
+  "block.society.ancient_fruit": {
+   "ko_kr": "고대 과일",
+   "zh_cn": "上古水果"
+  },
+  "block.society.blueberry": {
+   "ko_kr": "블루베리",
+   "zh_cn": "蓝莓"
+  },
+  "block.society.carrot": {
+   "ko_kr": "당근",
+   "zh_cn": "胡萝卜"
+  },
+  "block.society.cranberry": {
+   "ko_kr": "크랜베리",
+   "zh_cn": "蔓越莓"
+  },
+  "block.society.eggplant": {
+   "ko_kr": "가지",
+   "zh_cn": "茄子"
+  },
+  "block.society.onion": {
+   "ko_kr": "양파",
+   "zh_cn": "洋葱"
+  },
+  "block.society.peanut": {
+   "ko_kr": "땅콩",
+   "zh_cn": "花生"
+  },
+  "block.society.potato": {
+   "ko_kr": "감자",
+   "zh_cn": "土豆"
+  },
+  "block.society.sparkpod": {
+   "ko_kr": "스파크포드",
+   "zh_cn": "火花豆"
+  },
+  "block.society.sweet_potato": {
+   "ko_kr": "고구마",
+   "zh_cn": "红薯"
+  },
+  "block.society.tubabacco_leaf": {
+   "ko_kr": "투바바코",
+   "zh_cn": "土烟叶"
+  },
+  "block.veggiesdelight.garlic": {
+   "zh_cn": "大蒜"
+  }
+ },
+ "quark": {
+  "entity.quark.frog": {
+   "ko_kr": "개구리"
+  }
+ },
+ "minecraft": {
+  "item.minecraft.cod": {
+   "ko_kr": "대구"
+  },
+  "item.minecraft.salmon": {
+   "ko_kr": "연어"
+  },
+  "block.minecraft.torchflower_crop": {
+   "zh_cn": "火把花"
+  },
+  "block.minecraft.wheat": {
+   "zh_cn": "小麦"
+  },
+  "block.minecraft.beetroots": {
+   "zh_cn": "甜菜"
+  },
+  "item.minecraft.pitcher_pod": {
+   "zh_cn": "瓶子草种子"
+  },
+  "block.minecraft.pitcher_crop": {
+   "zh_cn": "瓶子草"
+  }
+ },
+ "shippingbin": {
+  "block.shippingbin.basic_shipping_bin": {
+   "ko_kr": "기본 배송 상자",
+   "zh_cn": "出货箱"
+  },
+  "block.shippingbin.smart_shipping_bin": {
+   "ko_kr": "스마트 배송 상자",
+   "zh_cn": "自动出货箱"
+  }
+ }
+}
