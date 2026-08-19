@@ -1,0 +1,23 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "dev": "vite",
+    "build": "vite build",
+    "watch": "vitest",
+    "dev:integre": "ATELIER_PACK=. ATELIER_WORKSPACE=outillage vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.1.1",
+    "svelte": "^5.56.9",
+    "vite": "^6.4.3",
+    "vitest": "^2.1.9"
+  }
+}

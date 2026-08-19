@@ -10,3 +10,8 @@ outillage/references/
 outillage/out/
 outillage/batches/
 __pycache__/
+
+# Atelier (site/) — dependances et artefacts de build
+atelier/node_modules/
+atelier/dist/
+atelier/.vite/

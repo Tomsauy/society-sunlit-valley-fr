@@ -1,0 +1,12 @@
+:root {
+  --bench:#1B2027; --bench-2:#232A33; --bench-line:#2E3742; --bench-ink:#AEB8C4;
+  --paper:#FAF9F6; --paper-2:#F1EFE9; --rule:#E2DFD7;
+  --ink:#15181C; --muted:#6B7280; --faint:#9AA1AA;
+  --verdigris:#2F7D6B; --verdigris-soft:#E4EFEA;
+  --amber:#A9701A; --amber-soft:#F8F0DE; --rose:#9E4238; --rose-soft:#F7E9E7;
+  --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+* { box-sizing: border-box; }
+body { margin:0; font-family: var(--sans); background: var(--paper);
+       color: var(--ink); font-size:14px; -webkit-font-smoothing: antialiased; }
