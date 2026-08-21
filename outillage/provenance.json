@@ -1,9 +1,9 @@
 {
  "_a_propos": "Traçabilité des décisions de traduction FR — Society: Sunlit Valley",
  "_statistiques": {
-  "arbitrages": 612,
-  "corrections_relecture": 1438,
-  "cles_sans_anglais": 479,
+  "arbitrages": 613,
+  "corrections_relecture": 1439,
+  "cles_sans_anglais": 483,
   "reconciliations": 682,
   "termes_glossaire": 1698
  },
@@ -22069,6 +22069,78 @@
     "fr": ":carlos: Carlos apprécie un repas fait maison, après si longtemps sur les routes.",
     "raison": "Astuce neuve en 4.1.2. L'anglais (« :carlos: loves a home cooked meal... ») est la SEULE des astuces a omettre le sujet apres l'emoji — verifie sur l'ensemble du fichier. Le francais retablit le nom, comme les autres astuces, l'emoji etant une icone et non un sujet grammatical.",
     "fichier": "kubejs/assets/society_tips/lang/fr_fr.json"
+   }
+  ],
+  "item.society.ancient_builders_tool": [
+   {
+    "type": "sans_source_anglaise",
+    "fr": "Outil des batisseurs anciens",
+    "nom_affiche_en_jeu": "Ancient Builders Tool",
+    "certitude": "sur",
+    "raison": "Objet cree en 4.1.3 par kubejs/startup_scripts/registration/registerItems.js sans displayName() : KubeJS derive alors le nom de l'identifiant en casse de titre. Verifie dans le script. Sans accents (cle a 3 segments, cherchable dans EMI).",
+    "temoins": {
+     "ko_kr": "고대 건축가의 도구",
+     "zh_cn": "上古建筑师工具"
+    },
+    "fichier": "kubejs/assets/society/lang/fr_fr.json"
+   }
+  ],
+  "item.society.red_wrench": [
+   {
+    "type": "sans_source_anglaise",
+    "fr": "Cle rouge",
+    "nom_affiche_en_jeu": "Red Wrench",
+    "certitude": "sur",
+    "raison": "Meme cas : e.create(\"society:red_wrench\") sans displayName(), nom derive de l'id. Tague forge:wrenches, donc bien une cle a molette et non une clef.",
+    "temoins": {
+     "ko_kr": "붉은 렌치",
+     "zh_cn": "红色扳手"
+    },
+    "fichier": "kubejs/assets/society/lang/fr_fr.json"
+   }
+  ],
+  "item.society.suspicious_milk_tea": [
+   {
+    "type": "sans_source_anglaise",
+    "fr": "The au lait suspect",
+    "nom_affiche_en_jeu": "Suspicious Milk Tea",
+    "certitude": "sur",
+    "raison": "Nom derive de l'id. Sans accents malgre « The », conformement a la politique EMI deja appliquee a « Bloc de feuilles de the vert sechees ».",
+    "temoins": {
+     "ko_kr": "수상한 밀크티",
+     "zh_cn": "可疑的奶茶"
+    },
+    "fichier": "kubejs/assets/society/lang/fr_fr.json"
+   }
+  ],
+  "item.society.deep_a_mochi": [
+   {
+    "type": "arbitrage_identique",
+    "fr": "Deep-a-Mochi",
+    "raison": "SEUL des cinq objets de 4.1.3 a porter un displayName() explicite dans le script : .displayName(\"Deep-a-Mochi\"). Jeu de mots sur « deep-fried » conserve tel quel, comme les autres noms-valises du pack.",
+    "fichier": "kubejs/assets/society/lang/fr_fr.json"
+   }
+  ],
+  "item.society.lemon_beignets": [
+   {
+    "type": "sans_source_anglaise",
+    "fr": "Beignets au citron",
+    "nom_affiche_en_jeu": "Lemon Beignets",
+    "certitude": "sur",
+    "raison": "Nom derive de l'id. « Beignet » etant deja francais, on developpe en « Beignets au citron » plutot que de calquer.",
+    "temoins": {
+     "ko_kr": "레몬 베녜",
+     "zh_cn": "柠檬甜甜圈"
+    },
+    "fichier": "kubejs/assets/society/lang/fr_fr.json"
+   }
+  ],
+  "ftbquests.chapter.getting_started.quest66D159252C70D5F2.description3": [
+   {
+    "type": "relecture",
+    "fr": "Tu peux voir à quoi ressemblent les différents bâtiments de villageois offerts en récompense de quête en allant parler au Charpentier.",
+    "raison": "L'anglais a CHANGE DE SENS en 4.1.4 : il parlait d'inviter d'autres villageois contre des materiaux, il parle desormais de previsualiser les batiments chez le Charpentier. Retraduction complete, pas un simple ajustement.",
+    "fichier": "kubejs/assets/ftbquestlocalizer/lang/fr_fr.json"
    }
   ]
  },

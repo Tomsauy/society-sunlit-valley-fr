@@ -1,36 +1,15 @@
 ^^^
 Un café bien à soi
 ## Cozy Cafe
-### v4.1.2
+### v4.1.4
 ^^^
 --- 
-## 4.1.2
-- Ajout d'une recette convertissant les nouilles de pomme de terre en pâtes crues
-- Ajout d'une recette convertissant la plume de canard en plume
-- Ajout de la traduction du journal des modifications (merci Hexagreen !)
-- Ajout du tag « minable à la hache » au menu de café
-- Ajout d'émojis pour les nouveaux PNJ
-- Traduction chinoise mise à jour (merci Thirace !)
-- Traduction coréenne mise à jour (merci Hexagreen !)
-- Nettoyage des tags des blocs Whimsy Deco
-- Correction des problèmes de dialogue du Chêne sage
-- Correction de l'écloserie d'étang à poissons qui ne se liait pas aux joueurs (il faudra la casser et la reposer)
-- Correction des quêtes de nouveaux villageois qui acceptaient n'importe quelle invitation
-- Correction de la dépendance erronée de la quête du bibliothécaire
-- Correction des objets retirés qui restaient obtenables dans le butin
-- Correction de l'écloserie d'étang à poissons qui ne pouvait pas être améliorée
-- Correction de la triple truffe qui ne fonctionnait pas avec les auto-ramasseurs
-- Correction des problèmes de schémas Create
-- Correction du Chêne sage qui possédait une invitation
-- Correction de l'écloserie d'étang à poissons qui ne fonctionnait pas avec la loupe
-- Correction des zones inexactes de la hutte ribbit et du tambour de la corne d'abondance vues à la loupe
-- Correction des tomates qui ne grimpaient pas aux cordes
-- Correction des cafés servant uniquement des boissons, qui provoquaient un flânage sans fin
-- Correction de l'aspirateur de slimes qui supprimait les largos en main secondaire
-- Correction du bloc de feuilles de thé vert mélangées qui donnait du thé vert au lieu du thé vert séché
-- Correction des dialogues qui n'apparaissaient pas au cinquième cadeau
-- Correction de la tige et du treillis de vigne qui n'affichaient pas le compteur de jours dans Jade
-- Correction de l'engrais de croissance qui ne s'appliquait pas aux buissons à baies alors que Jade indiquait le contraire
+
+- Ajout d'un pack de ressources retexturant les pièces (merci Jamiscus !)
+- Correction des blocs à qualité tirée au hasard, qui ne se ramassaient pas
+- Correction des particules de nourriture de qualité, qui ne s'arrêtaient jamais
+- Correction du plantage lié aux copycats
+- Correction de l'achat groupé avec Maj, qui achetait jusqu'à remplir l'inventaire et ruinait les fermiers de toute la vallée
 
 ## 4.0.0
 - Ajout de Cozy Cafe, un mod créé pour le pack, qui ajoute un mini-jeu de gestion de café dans l'esprit de Diner Dash et Plate Up !
@@ -113,3 +92,56 @@ Un café bien à soi
 - Correction des entonnoirs d'artisan, des paniers d'étang à poissons et des auto-ramasseurs, qui ne tenaient pas compte des compétences à cause du changement de mise en cache
 - Correction du problème de modèles manquants pour les arbalètes et les peintures (probablement)
 - Correction du plantage avec Create Central Kitchen
+
+## 4.1.2
+- Ajout d'une recette convertissant les nouilles de pomme de terre en pâtes crues
+- Ajout d'une recette convertissant la plume de canard en plume
+- Ajout de la traduction du journal des modifications (merci Hexagreen !)
+- Ajout du tag « minable à la hache » au menu de café
+- Ajout d'émojis pour les nouveaux PNJ
+- Traduction chinoise mise à jour (merci Thirace !)
+- Traduction coréenne mise à jour (merci Hexagreen !)
+- Nettoyage des tags des blocs Whimsy Deco
+- Correction des problèmes de dialogue du Chêne sage
+- Correction de l'écloserie d'étang à poissons qui ne se liait pas aux joueurs (il faudra la casser et la reposer)
+- Correction des quêtes de nouveaux villageois qui acceptaient n'importe quelle invitation
+- Correction de la dépendance erronée de la quête du bibliothécaire
+- Correction des objets retirés qui restaient obtenables dans le butin
+- Correction de l'écloserie d'étang à poissons qui ne pouvait pas être améliorée
+- Correction de la triple truffe qui ne fonctionnait pas avec les auto-ramasseurs
+- Correction des problèmes de schémas Create
+- Correction du Chêne sage qui possédait une invitation
+- Correction de l'écloserie d'étang à poissons qui ne fonctionnait pas avec la loupe
+- Correction des zones inexactes de la hutte ribbit et du tambour de la corne d'abondance vues à la loupe
+- Correction des tomates qui ne grimpaient pas aux cordes
+- Correction des cafés servant uniquement des boissons, qui provoquaient un flânage sans fin
+- Correction de l'aspirateur de slimes qui supprimait les largos en main secondaire
+- Correction du bloc de feuilles de thé vert mélangées qui donnait du thé vert au lieu du thé vert séché
+- Correction des dialogues qui n'apparaissaient pas au cinquième cadeau
+- Correction de la tige et du treillis de vigne qui n'affichaient pas le compteur de jours dans Jade
+- Correction de l'engrais de croissance qui ne s'appliquait pas aux buissons à baies alors que Jade indiquait le contraire
+
+## 4.1.3
+- Ajout de l'ensemble de maisons de villageois Pineconetown, par beawitched
+- Ajout du Deep-a-Mochi
+- Ajout des beignets au citron
+- Ajout du thé au lait suspect
+- Ajout de l'artéfact Outil des bâtisseurs anciens
+- Ajout de l'artéfact Clé rouge
+- Ajout de la prise en charge des jetons de surplus pour les comptes partagés (rééquiper la carte bancaire pour mettre à jour)
+- Échange du marchand de cristaux de terre modifié : du riz vers le coton
+- Échange du marchand de jade modifié : du vin Aegis vers le citron séché
+- Le classement des pièces récupère désormais les données une seule fois au lieu d'une fois par classement, ce qui améliore les performances sur les gros serveurs
+- Hauteur du classement des pièces augmentée d'un quart de bloc, pour un rendu moins baveux
+- Mod Quality Food mis à jour, avec diverses corrections de qualité
+- Traduction chinoise mise à jour (merci Thirace !)
+- Traduction coréenne mise à jour (merci Hexagreen !)
+- Retrait de la possibilité d'appliquer le masque Wicked à certaines entités, à cause des bannissements de chunks
+- Correction des comptes partagés du classement des pièces, pour de bon cette fois (rééquiper la carte bancaire) (merci ManlyTorch !)
+- Correction du golem de slime et de la loutre, qui décimaient les populations
+- Correction de certaines bûches à champignons qui donnaient des colonies de champignons rouges au lieu de brunes
+- Correction des problèmes de l'ensemble de bâtiments Sakura
+- Correction des gnomes qui n'étaient pas des gnomes sur Gnomeymap
+- Correction de l'achigan à petite bouche, impossible à pêcher la nuit en automne
+- Correction des peluches Sylvestre, qui agissaient au mauvais endroit
+- Correction d'EMI qui ne permettait plus la recherche par tag de bloc, en revenant à une version antérieure
