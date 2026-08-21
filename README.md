@@ -20,6 +20,7 @@ Traduction communautaire francaise du modpack Minecraft [Society: Sunlit Valley]
 | Dialog NPC | `kubejs/assets/dialog/lang/fr_fr.json` | Dialogues de tous les PNJ (1 475 repliques) |
 | Almanac | `patchouli_books/almanac/fr_fr/` | Guide en jeu sur les cultures et animaux |
 | Fish Finder | `patchouli_books/fish_finder/fr_fr/` | Guide de peche |
+| Journal des modifications | `config/fancymenu/assets/changelog_fr_fr.markdown` | Journal affiche sur l'ecran titre (nouveau en 4.1.2) |
 
 Plus de 31 500 entrees traduites au total.
 
@@ -50,7 +51,7 @@ Vous pouvez aussi [signaler une erreur](../../issues/new?template=erreur-traduct
 
 ## Version
 
-Base sur Society: Sunlit Valley **v4.1.1**.
+A jour pour Society: Sunlit Valley **v4.1.2**.
 
 Les noms d'objets, de blocs et de creatures sont volontairement ecrits **sans accents** :
 la recherche d'EMI compare les chaines sans normaliser les diacritiques, donc taper

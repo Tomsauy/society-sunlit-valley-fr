@@ -1,8 +1,8 @@
 {
  "_a_propos": "Traçabilité des décisions de traduction FR — Society: Sunlit Valley",
  "_statistiques": {
-  "arbitrages": 611,
-  "corrections_relecture": 1436,
+  "arbitrages": 612,
+  "corrections_relecture": 1438,
   "cles_sans_anglais": 479,
   "reconciliations": 682,
   "termes_glossaire": 1698
@@ -12226,6 +12226,12 @@
      "verdict": "corrige",
      "raison": "Clé = condition, pas un nom ; absente de l'anglais, témoin zh vide"
     }
+   },
+   {
+    "type": "relecture",
+    "fr": "Trouver le Chêne sage dans la nature et lui parler...",
+    "raison": "La cle existait chez nous avec une valeur VIDE, faute d'anglais avant 4.1.2 — un audit des cles manquantes ne la voyait donc pas. Un balayage du pack confirme qu'elle etait le seul cas d'anglais renseigne face a un francais vide. Tournure a l'infinitif, comme les neuf autres conditions de deblocage. « Chêne sage » suit le glossaire (arbitrage de traduction).",
+    "fichier": "kubejs/assets/society/lang/fr_fr.json"
    }
   ],
   "info.splendid_slimes.slime_vac": [
@@ -22047,6 +22053,22 @@
     "decision": "garde_anglais",
     "en": "[Zeta]\n",
     "lot": "tr-mod-mod_zeta-000.json"
+   }
+  ],
+  "modpack.current_language_code": [
+   {
+    "type": "arbitrage_identique",
+    "fr": "fr_fr",
+    "raison": "Cle technique introduite en 4.1.2 : FancyMenu la resout a l'execution pour construire le nom du fichier de journal des modifications a afficher (changelog_<code>.markdown). Sa valeur est un code de locale, pas du texte. Sans elle, le repli Minecraft sur en_us fait voir le journal anglais ; avec elle mais sans changelog_fr_fr.markdown, FancyMenu chercherait un fichier inexistant — les deux ont donc ete poses ensemble.",
+    "fichier": "kubejs/assets/society/lang/fr_fr.json"
+   }
+  ],
+  "society_tips.tip.villager_carlos": [
+   {
+    "type": "relecture",
+    "fr": ":carlos: Carlos apprécie un repas fait maison, après si longtemps sur les routes.",
+    "raison": "Astuce neuve en 4.1.2. L'anglais (« :carlos: loves a home cooked meal... ») est la SEULE des astuces a omettre le sujet apres l'emoji — verifie sur l'ensemble du fichier. Le francais retablit le nom, comme les autres astuces, l'emoji etant une icone et non un sujet grammatical.",
+    "fichier": "kubejs/assets/society_tips/lang/fr_fr.json"
    }
   ]
  },
