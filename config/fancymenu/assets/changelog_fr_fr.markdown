@@ -1,0 +1,147 @@
+^^^
+Un café bien à soi
+## Cozy Cafe
+### v4.1.4
+^^^
+--- 
+
+- Ajout d'un pack de ressources retexturant les pièces (merci Jamiscus !)
+- Correction des blocs à qualité tirée au hasard, qui ne se ramassaient pas
+- Correction des particules de nourriture de qualité, qui ne s'arrêtaient jamais
+- Correction du plantage lié aux copycats
+- Correction de l'achat groupé avec Maj, qui achetait jusqu'à remplir l'inventaire et ruinait les fermiers de toute la vallée
+
+## 4.0.0
+- Ajout de Cozy Cafe, un mod créé pour le pack, qui ajoute un mini-jeu de gestion de café dans l'esprit de Diner Dash et Plate Up !
+- Ajout de nouveaux villageois : le Marchand, la Sorcière et le Bibliothécaire (anciennement Magasinier)
+- Ajout d'un nouveau système pour la boutique de construction (auparavant dans le livre de quêtes), utilisant les matériaux de construction
+- Ajout de l'ensemble de bâtiments Ferme rurale et villageois, par Duy Luong
+- Ajout de l'ensemble de bâtiments Ferme fleurie, par SianaTheSavage
+- Ajout de l'ensemble de bâtiments Ferme Sakura, par EeveeBeby
+- Ajout des mécaniques d'élevage et de génétique des papillons de jour et de nuit
+- Ajout des œufs de chenille et de la boîte à chenilles
+- Ajout de longwings : le papillon Leafwing tropical et le papillon Comète
+- Ajout de valeurs de vente pour les papillons de jour et de nuit, calculées selon leur rareté et leur taille
+- Ajout du livre de compétence : La Métamorphosation
+- Ajout des gnomes vivants, qui existent vraiment, promis
+- Ajout de l'écloserie d'étang à poissons
+- Ajout du gestionnaire d'étang à poissons (merci Mayhan !)
+- Ajout du tambour de la corne d'abondance
+- Ajout du totem de sécheresse
+- Ajout du totem de pluie
+- Ajout du totem de tonnerre
+- Ajout de la poussière de fée
+- Ajout de la capacité de la baguette sylvestre à consulter le niveau de mana des blocs Botania personnalisés (ça a l'air bancal, mais ça marche !)
+- Ajout d'objets de mobilier tirés au hasard chaque jour, en vente chez le charpentier
+- Ajout d'un support Jade plus complet pour la croissance des cultures (merci Hexagreen !)
+- Ajout d'une recette de remplissage pour la cacahuète grillée au miel (merci Emma !)
+- Ajout de la possibilité de se lier d'amitié avec le mystique Chêne sage
+- Ajout d'une recette de fabrication pour l'œuf d'apparition de tatou
+- Ajout de la mise à jour Chaos Cubed via Vanilla Backport
+- Ajout du retour des villages vanille, ainsi que d'un nouveau type
+- Ajout des boissons énergisantes blanche, rose et au mana (non vieillissables, le vieillissement de la boisson énergisante normale étant appelé à disparaître)
+- Ajout d'une mise en cache hors ligne pour l'entonnoir d'artisan, l'auto-ramasseur et le panier d'étang à poissons (merci simonLeary42 !)
+- Ajout de valeurs de vente pour les parts de gâteau et les plats de festin
+- Ajout de la carte d'arpentage à la guilde
+- Ajout de la prise en charge des comptes partagés dans le classement des pièces
+- Ajout des fenêtres Create d'everycompat avec RP, pour de plus jolies textures
+- Ajout de la mayonnaise suprême comme base de balise
+- Ajout de groupes de piles dans EMI et JEI
+- Refonte de l'horloge de mana : elle fonctionne désormais exactement comme l'horloge dorée, mais avec un rayon plus petit et un coût en mana
+- Refonte des catalogues de mobilier : ce sont maintenant des boutiques, au lieu de contenir des objets uniques
+- Traduction portugaise du Brésil mise à jour (merci RafaelJMBR !)
+- Textes de l'Épée galactique et de Miaoumageddon rendus scintillants
+- Taux de conversion de la terre cuite augmenté : 1/30 s → 1/10 s
+- Production de l'engrais d'abondance augmentée à la fabrication : 1 → 4
+- Tolérance de portée des coins de pêche augmentée
+- Amélioration de pompe avancée réintégrée, les problèmes ayant été corrigés
+- Mana maximal des cultures à fruits de mana réduit, pour qu'elles absorbent moins de mana
+- Consommation de mana du recycleur de sparkstone réduite par recyclage : 10 000 → 5 000
+- Amélioration maximale réduite, des golems de foin à l'engrais de qualité élevée
+- Coût effectif des types de bâtiment les plus grands de la boutique de construction réduit
+- Chaleur requise réduite pour les thés vert, d'hibiscus, de yerba maté et de rooibos
+- Volume sonore des arroseurs de mana réduit
+- Retrait de la radio beachparty, à cause de problèmes
+- Retrait des types de fluide des raisins secondaires, désormais unifiés en rouge et blanc
+- Libraire renommé en Foire aux livres
+- Correction de certains blocs society qui n'avaient pas le tag « minable à la pioche »
+- Correction de la zone d'action erronée de l'arroseur de mana
+- Correction de l'horloge de mana qui ne fonctionnait pas
+- Correction de la dent de déchiqueteur qui ne fonctionnait pas
+- Correction de la baguette en diamant qui ne fonctionnait pas avec le cœur de destruction
+- Correction de Élevage horaire qui n'apparaissait pas chez le libraire / à la Foire aux livres
+- Correction de l'amélioration Opale noire du cristalarium, qui ne fonctionnait pas sur les récoltes manuelles
+- Correction de la viande de pélican qui n'avait pas les bons tags
+- Correction du trait Sommelière qui ne tenait pas compte du nombre de résultats d'une recette (par exemple les éclats d'artéfact)
+- Correction des blocs de varech du bas, qui n'étaient pas des blocs d'eau valides pour un étang à poissons
+- Correction du lien de redstone, qui utilisait un châssis en laiton au lieu d'un châssis en andésite
+- Correction des ensembles de bâtiments, dont le nombre d'abreuvoirs était incohérent
+- Correction des blocs de tesson prismatique et de sparkstone, qui n'avaient pas de tag « minable »
+
+## 4.1.1
+- Ajout d'un message unique à la connexion, au sujet du changement de la boutique de construction
+- Ajout d'un message signalant qu'un nouveau villageois peut être invité
+- Ajout de flèches en vente à la guilde
+- Ajout de l'absence de restriction de tchat
+- Traduction chinoise mise à jour (merci Thirace !)
+- Longueur des comptes partagés du classement des pièces raccourcie
+- Correction de la quête « Construire une ferme », qui n'avait pas été mise à jour avec les nouveaux plans
+- Correction du message de cadeau maximal de Veronica, qui était erroné
+- Correction du classement des pièces, qui ne fonctionnait pas
+- Correction des boîtes fantaisie, qui ne fonctionnaient pas
+- Correction des entonnoirs d'artisan, des paniers d'étang à poissons et des auto-ramasseurs, qui ne tenaient pas compte des compétences à cause du changement de mise en cache
+- Correction du problème de modèles manquants pour les arbalètes et les peintures (probablement)
+- Correction du plantage avec Create Central Kitchen
+
+## 4.1.2
+- Ajout d'une recette convertissant les nouilles de pomme de terre en pâtes crues
+- Ajout d'une recette convertissant la plume de canard en plume
+- Ajout de la traduction du journal des modifications (merci Hexagreen !)
+- Ajout du tag « minable à la hache » au menu de café
+- Ajout d'émojis pour les nouveaux PNJ
+- Traduction chinoise mise à jour (merci Thirace !)
+- Traduction coréenne mise à jour (merci Hexagreen !)
+- Nettoyage des tags des blocs Whimsy Deco
+- Correction des problèmes de dialogue du Chêne sage
+- Correction de l'écloserie d'étang à poissons qui ne se liait pas aux joueurs (il faudra la casser et la reposer)
+- Correction des quêtes de nouveaux villageois qui acceptaient n'importe quelle invitation
+- Correction de la dépendance erronée de la quête du bibliothécaire
+- Correction des objets retirés qui restaient obtenables dans le butin
+- Correction de l'écloserie d'étang à poissons qui ne pouvait pas être améliorée
+- Correction de la triple truffe qui ne fonctionnait pas avec les auto-ramasseurs
+- Correction des problèmes de schémas Create
+- Correction du Chêne sage qui possédait une invitation
+- Correction de l'écloserie d'étang à poissons qui ne fonctionnait pas avec la loupe
+- Correction des zones inexactes de la hutte ribbit et du tambour de la corne d'abondance vues à la loupe
+- Correction des tomates qui ne grimpaient pas aux cordes
+- Correction des cafés servant uniquement des boissons, qui provoquaient un flânage sans fin
+- Correction de l'aspirateur de slimes qui supprimait les largos en main secondaire
+- Correction du bloc de feuilles de thé vert mélangées qui donnait du thé vert au lieu du thé vert séché
+- Correction des dialogues qui n'apparaissaient pas au cinquième cadeau
+- Correction de la tige et du treillis de vigne qui n'affichaient pas le compteur de jours dans Jade
+- Correction de l'engrais de croissance qui ne s'appliquait pas aux buissons à baies alors que Jade indiquait le contraire
+
+## 4.1.3
+- Ajout de l'ensemble de maisons de villageois Pineconetown, par beawitched
+- Ajout du Deep-a-Mochi
+- Ajout des beignets au citron
+- Ajout du thé au lait suspect
+- Ajout de l'artéfact Outil des bâtisseurs anciens
+- Ajout de l'artéfact Clé rouge
+- Ajout de la prise en charge des jetons de surplus pour les comptes partagés (rééquiper la carte bancaire pour mettre à jour)
+- Échange du marchand de cristaux de terre modifié : du riz vers le coton
+- Échange du marchand de jade modifié : du vin Aegis vers le citron séché
+- Le classement des pièces récupère désormais les données une seule fois au lieu d'une fois par classement, ce qui améliore les performances sur les gros serveurs
+- Hauteur du classement des pièces augmentée d'un quart de bloc, pour un rendu moins baveux
+- Mod Quality Food mis à jour, avec diverses corrections de qualité
+- Traduction chinoise mise à jour (merci Thirace !)
+- Traduction coréenne mise à jour (merci Hexagreen !)
+- Retrait de la possibilité d'appliquer le masque Wicked à certaines entités, à cause des bannissements de chunks
+- Correction des comptes partagés du classement des pièces, pour de bon cette fois (rééquiper la carte bancaire) (merci ManlyTorch !)
+- Correction du golem de slime et de la loutre, qui décimaient les populations
+- Correction de certaines bûches à champignons qui donnaient des colonies de champignons rouges au lieu de brunes
+- Correction des problèmes de l'ensemble de bâtiments Sakura
+- Correction des gnomes qui n'étaient pas des gnomes sur Gnomeymap
+- Correction de l'achigan à petite bouche, impossible à pêcher la nuit en automne
+- Correction des peluches Sylvestre, qui agissaient au mauvais endroit
+- Correction d'EMI qui ne permettait plus la recherche par tag de bloc, en revenant à une version antérieure

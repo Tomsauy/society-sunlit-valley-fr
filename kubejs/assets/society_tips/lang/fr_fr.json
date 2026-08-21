@@ -95,10 +95,14 @@
   "society_tips.tip.string": "Besoin de ficelle en début de partie ? Les quenouilles et le lin peuvent t'aider.",
   "society_tips.tip.suggestions": "Envie de faire une suggestion pour le pack ? Rejoins le Discord !",
   "society_tips.tip.supreme_mayo": "Ne pas boire la mayonnaise suprême.",
+  "society_tips.tip.trading_depot": "Le dépôt commercial permet d'automatiser les échanges avec n'importe quel villageois.",
+  "society_tips.tip.translocators": "Les translocateurs peuvent transférer des objets entre deux inventaires dans un espace très réduit.",
   "society_tips.tip.tubasmoke_stick": "Le Tubasmoke tue...",
   "society_tips.tip.villager_ace": ":ace: Ace aime garder une réserve de barres de céréales pour grignoter sur le terrain.",
   "society_tips.tip.villager_aiden": ":aiden: Une fleur par semaine est la clé du cœur d'Aiden...",
+  "society_tips.tip.villager_carlos": ":carlos: Carlos apprécie un repas fait maison, après si longtemps sur les routes.",
   "society_tips.tip.villager_caroline": ":caroline: Caroline respecte un fermier capable de gérer les chèvres.",
+  "society_tips.tip.villager_decor": "Les villageois décorent leurs maisons à la fin de l'hiver !",
   "society_tips.tip.villager_evelyne": ":evelyne: Evelyne trouve le chapeau de sorcière professionnellement dégradant.",
   "society_tips.tip.villager_friendship_one": "Chaque fois que tu parles à un villageois, il t'apprécie un peu plus.",
   "society_tips.tip.villager_friendship_two": "Tu peux faire Maj + clic sur un villageois pour lui offrir un cadeau. Assure-toi juste qu'il l'aime.",
@@ -108,5 +112,6 @@
   "society_tips.tip.villager_veronica": ":veronica: Veronica possède une petite mais coûteuse collection de pièces de mode d'archives.",
   "society_tips.tip.wandering_trader_one": "Le marchand ambulant vend des livres qui donnent de l'expérience dans les compétences.",
   "society_tips.tip.wandering_trader_two": "Le marchand ambulant vend de manière fiable certains meubles rares.",
-  "society_tips.tip.wise_oak": "Si tu trouves un chêne qui prétend être sage, prends un moment pour l'écouter."
+  "society_tips.tip.wise_oak": "Si tu trouves un chêne qui prétend être sage, prends un moment pour l'écouter.",
+  "society_tips.tip.wool": "Pas envie de tuer des vaches pour du cuir ? Tu peux fabriquer une armure en laine à la table de couture."
 }
