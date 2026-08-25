@@ -1,11 +1,11 @@
 {
  "_a_propos": "Traçabilité des décisions de traduction FR — Society: Sunlit Valley",
  "_statistiques": {
-  "arbitrages": 613,
-  "corrections_relecture": 1439,
+  "arbitrages": 619,
+  "corrections_relecture": 1440,
   "cles_sans_anglais": 483,
   "reconciliations": 682,
-  "termes_glossaire": 1698
+  "termes_glossaire": 1703
  },
  "cles": {
   "__support_betterarcheology": [
@@ -22142,6 +22142,68 @@
     "raison": "L'anglais a CHANGE DE SENS en 4.1.4 : il parlait d'inviter d'autres villageois contre des materiaux, il parle desormais de previsualiser les batiments chez le Charpentier. Retraduction complete, pas un simple ajustement.",
     "fichier": "kubejs/assets/ftbquestlocalizer/lang/fr_fr.json"
    }
+  ],
+  "block.cluttered.darkwood_chair_geometric": [
+   {
+    "type": "relecture",
+    "fr": "Fauteuil a motifs en bois sombre",
+    "raison": "« Fauteuil geometrique » fait 103 px la ou la boutique replie a 102 : un pixel de trop, et le nom passait a trois lignes en debordant sur l'objet suivant. « a motifs » remplace « geometrique » sur les quatre meubles de la gamme. « en bois sombre » est conserve : c'est un terme du glossaire, issu de la traduction officielle du mod (Darkwood). Le choix inverse — garder « geometrique » et abandonner le bois — aurait sacrifie le terme documente au profit d'un mot de style qui ne l'est pas.",
+    "fichier": "kubejs/assets/cluttered/lang/fr_fr.json"
+   },
+   {
+    "type": "arbitrage_affichage",
+    "decision": "<meuble> geometrique sombre",
+    "raison": "« geometrique » etait tombe a tort ; c'est « bois » qui cede. Les 8 meubles darkwood suivent le meme moule pour rester paralleles."
+   }
+  ],
+  "item.constructionwand.core_destruction": [
+   {
+    "type": "arbitrage_affichage",
+    "decision": "Noyau de destruction",
+    "raison": "« pour baguette » tombe : « Noyau de destruction pour baguette » prend 3 lignes de 102 px. core_angel s'aligne (« Noyau d'ange ») ; l'infobulle « Noyaux de baguette : » porte le contexte."
+   }
+  ],
+  "block.cluttered.lunar_observatory_globe": [
+   {
+    "type": "arbitrage_affichage",
+    "decision": "<objet> lunaire de l'observatoire",
+    "raison": "« observatoire lunaire » fait 105 px et ne peut jamais partager une ligne : la forme « de l'observatoire lunaire » impose 3 lignes quel que soit le mot de tete. En deplacant « lunaire » sur l'objet, les deux mots survivent et les 6 noms tiennent en 2 lignes."
+   }
+  ],
+  "block.cluttered.glowshroom_terrarium_blue": [
+   {
+    "type": "arbitrage_affichage",
+    "decision": "Terrarium a champi. lumineux <couleur>",
+    "raison": "« champignons » est abrege plutot que supprime : la forme pleine reclame 217 px pour 204 disponibles. « a » remplace « de » — avec « de », la coupe gloutonne place « Terrarium de » (66 px) puis bute a 104 px sur « champi. » ; « a » economise les 6 px qui manquaient. Le point abreviatif suit l'usage deja present dans le corpus (Distance min.)."
+   }
+  ],
+  "block.cluttered.checkered_fruit_wallpaper": [
+   {
+    "type": "arbitrage_terminologique",
+    "decision": "Papier peint a damier aux fruits",
+    "raison": "« Checkered » avait disparu de 3 des 5 papiers peints ; « a damier » le restitue partout et tient en 2 lignes (161 px), la ou « a carreaux » aurait pousse les deux fraises a 3 lignes."
+   }
+  ],
+  "block.supplementaries.checker_block": [
+   {
+    "type": "arbitrage_terminologique",
+    "decision": "Bloc a damier",
+    "raison": "correctif pose sur le francais embarque du mod, qui disait « Bloc de verification »"
+   }
+  ],
+  "block.cluttered.starry_wallpaper": [
+   {
+    "type": "arbitrage_terminologique",
+    "decision": "Papier peint etoiles",
+    "raison": "apposition du motif, forme commerciale francaise"
+   }
+  ],
+  "block.cluttered.dark_starry_wallpaper": [
+   {
+    "type": "arbitrage_terminologique",
+    "decision": "Papier peint nuit etoilee",
+    "raison": "« etoiles sombres » aurait dit que les etoiles sont sombres ; c'est le fond qui l'est"
+   }
   ]
  },
  "reconciliation_par_chaine_anglaise": [
@@ -37839,10 +37901,10 @@
   },
   {
    "en": "Bundles",
-   "fr": "Sacs",
+   "fr": "Lots",
    "garde_anglais": false,
-   "origine": "Minecraft vanilla (officiel Mojang)",
-   "raison": "vanilla"
+   "origine": "terminologie Stardew Valley FR",
+   "raison": "CORRIGE : l'entree precedente disait « Sacs », origine « Minecraft vanilla (officiel Mojang) ». Autorite mal appliquee — « Sac » est le nom Mojang de item.minecraft.bundle, un contenant d'inventaire, alors qu'il s'agit ici des collections d'objets a donner au Centre communautaire, heritees de Stardew Valley. Deux notions distinctes partageant un mot anglais. « Lot » etait deja l'usage majoritaire (23 contre 8), dit juste, et laisse « Sac » a l'objet vanilla, qui est reference dans le pack (addJeiItems.js, boutique du marche). « Collection » etait exclu : le mot nomme deja un groupe de chapitres du livre et sert 72 fois pour l'anglais Collection/Set. Le coreen (꾸러미) et le chinois (包裹) emploient un mot unique dans tous les chapitres."
   },
   {
    "en": "Villagers",
@@ -38480,6 +38542,83 @@
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
    "raison": "anglicisme retenu par choix utilisateur (usage courant en France)"
+  },
+  {
+   "en": "Shed",
+   "fr": "Remise",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "Batiment de rangement de ferme, convertible en cafe. « Remise » est le terme francais pour une dependance de rangement ; « cabane » designe un abri rustique ou une habitation. La boutique de construction et l'astuce en jeu disaient deja « remise », les 30 plans disaient « cabane » : un joueur lisant l'astuce ne trouvait pas l'objet. Le coreen et le chinois emploient un mot unique aux deux endroits (헛간 / 棚屋)."
+  },
+  {
+   "en": "Large Shed",
+   "fr": "Grande remise",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "Suit « Shed » -> « Remise »."
+  },
+  {
+   "en": "Bundle",
+   "fr": "Lot",
+   "garde_anglais": false,
+   "origine": "terminologie Stardew Valley FR",
+   "raison": "Singulier de Bundles. Ne pas confondre avec item.minecraft.bundle, le contenant vanilla, qui reste « Sac »."
+  },
+  {
+   "en": "Jar",
+   "fr": "Bocal",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "Recipient en verre : « bocal » est le terme juste, « pot » designe un recipient opaque et bas. Le terme n'etait pas au glossaire, d'ou trois rendus en « pot » face a neuf en « bocal ». Le plus grave etait la quete d'agriculture avancee, qui disait « pot de fermentation » alors que le bloc s'appelle « Bocal de fermentation » — le joueur ne trouvait pas l'objet. Ne pas confondre avec Barrel, rendu par « tonneau » (Fermenting Barrel -> tonneaux de fermentation, un bloc different)."
+  },
+  {
+   "en": "Cash Register",
+   "fr": "Caisse",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "EXCEPTION de longueur a l'entree « Cash Register -> Caisse enregistreuse ». Les caisses de whimsy_deco s'appellent « Curio Cash Register » : aucune forme gardant « enregistreuse » ne tient dans les 102 px de la boutique, meme en abandonnant « curiosites ». « Caisse » seul designe deja le comptoir de paiement en francais. Reservee aux noms d'objets contraints ; « caisse enregistreuse » reste la forme normale ailleurs."
+  },
+  {
+   "en": "Core",
+   "fr": "Noyau",
+   "origine": "terminologie technique",
+   "raison": "« coeur » designe un centre affectif ou vital ; ici c'est la piece interchangeable qui determine le mode de la baguette. Toute la famille constructionwand suit (9 valeurs)."
+  },
+  {
+   "en": "Darkwood",
+   "fr": "sombre",
+   "origine": "contrainte d'affichage",
+   "raison": "« en bois sombre » ne tient pas avec « geometrique » : Fauteuil geometrique = 103 px et Etagere geometrique = 104 px face aux 102 px de la boutique. « bois » tombe, « sombre » reste, et les deux familles (geometrique, sudiste) s'alignent."
+  },
+  {
+   "en": "Glowshroom",
+   "fr": "champi. lumineux",
+   "origine": "contrainte d'affichage",
+   "raison": "abregement impose par les 102 px de la boutique ; la forme pleine ne tient sur aucun decoupage"
+  },
+  {
+   "en": "Checkered",
+   "fr": "a damier",
+   "origine": "observation en jeu",
+   "raison": "le pack disait « a carreaux » sur 2 papiers peints et rien sur 3 autres. Or les 18 autres « a carreaux » du corpus traduisent Tile (portes a fenetre), pas Checkered. « a damier » etait deja le rendu de chipped:checkered_trapdoor."
+  },
+  {
+   "en": "Tile",
+   "fr": "a carreaux",
+   "origine": "observation en jeu",
+   "raison": "reserve aux 18 portes a fenetre ; ne doit plus servir a Checkered."
+  },
+  {
+   "en": "Checker",
+   "fr": "a damier",
+   "origine": "correction du francais du mod",
+   "raison": "supplementaries traduit Checker Block par « Bloc de verification » — contresens sur checker (damier / verificateur). La texture s'appelle checkerboard.png et l'allemand dit Karoblock, l'italien scacchiera, le russe шахматная. Notre pack passe par-dessus."
+  },
+  {
+   "en": "Wallpaper",
+   "fr": "Papier peint <motif>",
+   "origine": "usage commercial francais",
+   "raison": "le motif s'appose sans preposition — « papier peint fleurs », non « papier peint aux fleurs ». La famille melait « aux X » (16), « a motif X » (109), « d'X » (3) et l'apposition (31) ; 138 valeurs sont ramenees a l'apposition."
   }
  ],
  "cles_mortes_ecartees": [
