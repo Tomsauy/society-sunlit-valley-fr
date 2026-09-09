@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Emplacements :$()$(li)Biome : Cavernes luxuriantes (Caverne du Crâne)$(li)Structure : Ruches (Caverne du Crâne)$(li)Fusion de cœurs$(br2)$(l)Risques :$()$(br)Grimpe aux murs ! Provoque l'effet Intoxication quand il est contrarié."
+            "text": "$(l)Emplacements :$()$(li)Biome : Cavernes luxuriantes (Caverne du Crâne)$(li)Structure : Ruches (Caverne du Crâne)$(li)Fusion de coeurs$(br2)$(l)Risques :$()$(br)Grimpe aux murs ! Provoque l'effet Intoxication quand il est contrarié."
         },
         {
             "type": "patchouli:entity",

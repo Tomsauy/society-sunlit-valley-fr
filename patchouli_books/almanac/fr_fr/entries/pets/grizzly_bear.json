@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Cadeaux possibles :$()$(br)Sceau Beeomonican$(br2)$(l)Notes$()$(br)Ne s'obtient que par son œuf d'apparition, masqué dans la recherche JEI."
+            "text": "$(l)Cadeaux possibles :$()$(br)Sceau Beeomonican$(br2)$(l)Notes$()$(br)Ne s'obtient que par son oeuf d'apparition, masqué dans la recherche JEI."
         },
         {
             "type": "patchouli:entity",

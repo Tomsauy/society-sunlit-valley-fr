@@ -5,13 +5,13 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Œuf : Œuf pétrifié (25 % de chances)$(br2)$(l)Notes$()$(br)Les œufs demandent 5 cœurs ou plus."
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Oeuf : Oeuf pétrifié (25 % de chances)$(br2)$(l)Notes$()$(br)Les oeufs demandent 5 coeurs ou plus."
         },
         {
             "type": "patchouli:entity",
             "entity": "species:goober",
             "scale": 0.8,
-            "text": "Leurs œufs ont besoin de la chaleur du magma pour éclore."
+            "text": "Leurs oeufs ont besoin de la chaleur du magma pour éclore."
         }
     ]
 }

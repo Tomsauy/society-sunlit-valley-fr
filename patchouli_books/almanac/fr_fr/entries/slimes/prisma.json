@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Emplacements :$()$(li)Casiers à crabes : Appât de luxe pour casier à crabes$(li)Fusion de cœurs de slime$(br2)$(l)Risques :$()$(br)Possède des épines et provoque l'effet Fatigue de minage quand il est contrarié. Devient malheureux hors de l'eau !"
+            "text": "$(l)Emplacements :$()$(li)Casiers à crabes : Appât de luxe pour casier à crabes$(li)Fusion de coeurs de slime$(br2)$(l)Risques :$()$(br)Possède des épines et provoque l'effet Fatigue de minage quand il est contrarié. Devient malheureux hors de l'eau !"
         },
         {
             "type": "patchouli:entity",

@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : non vendue$(li)Cueillette : Carapace carmine, Fruit du dragon (50 % de chance) $(li)Butin : Carapace carmine$(br2)$(l)Notes$()$(br)La cueillette nécessite au moins 1 cœur."
+            "text": "$(l)Stats$()$(li)Prix : non vendue$(li)Cueillette : Carapace carmine, Fruit du dragon (50 % de chance) $(li)Butin : Carapace carmine$(br2)$(l)Notes$()$(br)La cueillette nécessite au moins 1 coeur."
         },
         {
             "type": "patchouli:entity",

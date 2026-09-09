@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : :coin: 512$(li)Lait : Lait$(li)Délai de traite : 1 jour$(li)Butin : Bœuf cru, Cuir"
+            "text": "$(l)Stats$()$(li)Prix : :coin: 512$(li)Lait : Lait$(li)Délai de traite : 1 jour$(li)Butin : Boeuf cru, Cuir"
         },
         {
             "type": "patchouli:entity",

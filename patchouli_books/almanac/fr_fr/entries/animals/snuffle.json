@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Tonte : Duvet de Nasiller, Duvet givré, Laine fine (50 % de chances), Poils gelés (20 % de chances) $(li)Butin : Larme gelée$(br2)$(l)Notes$()$(br)La laine fine ne s'obtient qu'à partir de 5 cœurs d'affection. Les poils gelés en demandent 7 ou plus. Leur fourrure repousse lentement avec le temps, et se couvre de givre dans la neige."
+            "text": "$(l)Stats$()$(li)Tonte : Duvet de Nasiller, Duvet givré, Laine fine (50 % de chances), Poils gelés (20 % de chances) $(li)Butin : Larme gelée$(br2)$(l)Notes$()$(br)La laine fine ne s'obtient qu'à partir de 5 coeurs d'affection. Les poils gelés en demandent 7 ou plus. Leur fourrure repousse lentement avec le temps, et se couvre de givre dans la neige."
         },
         {
             "type": "patchouli:entity",

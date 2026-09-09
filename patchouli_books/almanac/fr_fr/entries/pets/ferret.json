@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Cadeaux possibles :$()$(br)Œuf d'apparition d'araignée sauteuse$(br)$(l)Objet d'apprivoisement :$()$(br)Lapin cru$(br2)$(l)Notes$()$(br)On le trouve dans les plaines et les forêts."
+            "text": "$(l)Cadeaux possibles :$()$(br)Oeuf d'apparition d'araignée sauteuse$(br)$(l)Objet d'apprivoisement :$()$(br)Lapin cru$(br2)$(l)Notes$()$(br)On le trouve dans les plaines et les forêts."
         },
         {
             "type": "patchouli:entity",

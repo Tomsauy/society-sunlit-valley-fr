@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Lait : Lait biscornu$(li)Délai de traite : 2 jours$(li)Tonte : Laine biscornue$(li)Butin : Laine biscornue, Bœuf cru, Cuir$(br2)$(l)Notes$()$(br)Elles apparaissent aléatoirement dans les forêts biscornues"
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Lait : Lait biscornu$(li)Délai de traite : 2 jours$(li)Tonte : Laine biscornue$(li)Butin : Laine biscornue, Boeuf cru, Cuir$(br2)$(l)Notes$()$(br)Elles apparaissent aléatoirement dans les forêts biscornues"
         },
         {
             "type": "patchouli:entity",

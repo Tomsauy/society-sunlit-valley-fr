@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : :coin: 4 096$(li)Cueillette : Laine fine (50 % de chances), Patte de lapin (16 % de chances)$(li)Butin : Lapin cru, Peau de lapin$(br2)$(l)Notes$()$(br)Cueillir la laine fine demande 3 cœurs ou plus, et la patte de lapin 7 ou plus."
+            "text": "$(l)Stats$()$(li)Prix : :coin: 4 096$(li)Cueillette : Laine fine (50 % de chances), Patte de lapin (16 % de chances)$(li)Butin : Lapin cru, Peau de lapin$(br2)$(l)Notes$()$(br)Cueillir la laine fine demande 3 coeurs ou plus, et la patte de lapin 7 ou plus."
         },
         {
             "type": "patchouli:entity",

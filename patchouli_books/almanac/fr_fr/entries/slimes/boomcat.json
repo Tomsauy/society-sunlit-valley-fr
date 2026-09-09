@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Emplacements :$()$(li)Biome : Grottes du Crâne (Caverne du Crâne)$(li)Fusion de cœurs$(li)Points de fouille : Glace, Bloc de neige$(li)En tuant des Creepers (20 % de chances)$(br2)$(l)Risques :$()$(br)Quand il a faim, provoque des explosions qui ne cassent pas les blocs."
+            "text": "$(l)Emplacements :$()$(li)Biome : Grottes du Crâne (Caverne du Crâne)$(li)Fusion de coeurs$(li)Points de fouille : Glace, Bloc de neige$(li)En tuant des Creepers (20 % de chances)$(br2)$(l)Risques :$()$(br)Quand il a faim, provoque des explosions qui ne cassent pas les blocs."
         },
         {
             "type": "patchouli:entity",

@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Œuf : Œuf de dinde$(li)Butin : Dinde crue, Plume$(br2)$(l)Notes$()$(br)Une dinde affamée ne pond pas d'œufs, et une dinde malheureuse en pond beaucoup moins. Les dindes pondent plus lentement que les autres oiseaux."
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Oeuf : Oeuf de dinde$(li)Butin : Dinde crue, Plume$(br2)$(l)Notes$()$(br)Une dinde affamée ne pond pas d'oeufs, et une dinde malheureuse en pond beaucoup moins. Les dindes pondent plus lentement que les autres oiseaux."
         },
         {
             "type": "patchouli:entity",

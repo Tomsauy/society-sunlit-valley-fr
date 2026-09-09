@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Œuf : Pomme dorée$(li)Butin : Poulet cru, Plume$(br2)$(l)Notes$()$(br)Affamé ou malheureux (moins de 2 cœurs d'affection), un Chapple ne pond pas de pommes"
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Oeuf : Pomme dorée$(li)Butin : Poulet cru, Plume$(br2)$(l)Notes$()$(br)Affamé ou malheureux (moins de 2 coeurs d'affection), un Chapple ne pond pas de pommes"
         },
         {
             "type": "patchouli:entity",

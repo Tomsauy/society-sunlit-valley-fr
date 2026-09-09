@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Emplacements :$()$(li)Fusion de cœurs$(br2)$(l)Risques :$()$(br)Attaque les joueurs, possède Force III, vole et provoque l'effet Intoxication quand il est contrarié. A une chance de ressusciter quand il est tué par des attaques à dégâts élevés. Extrêmement dangereux."
+            "text": "$(l)Emplacements :$()$(li)Fusion de coeurs$(br2)$(l)Risques :$()$(br)Attaque les joueurs, possède Force III, vole et provoque l'effet Intoxication quand il est contrarié. A une chance de ressusciter quand il est tué par des attaques à dégâts élevés. Extrêmement dangereux."
         },
         {
             "type": "patchouli:entity",

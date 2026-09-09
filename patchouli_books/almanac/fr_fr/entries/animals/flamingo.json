@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Œuf : Œuf de flamant rose$(li)Butin : Plume$(br2)$(l)Notes$()$(br)Les œufs nécessitent au moins 4 cœurs. Ne peut pas se reproduire."
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Oeuf : Oeuf de flamant rose$(li)Butin : Plume$(br2)$(l)Notes$()$(br)Les oeufs nécessitent au moins 4 coeurs. Ne peut pas se reproduire."
         },
         {
             "type": "patchouli:entity",

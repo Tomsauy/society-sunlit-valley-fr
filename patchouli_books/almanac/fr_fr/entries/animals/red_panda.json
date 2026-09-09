@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Cueillette : Rubis (20 % de chances), Rubis immaculé (10 % de chances)$(br2)$(l)Notes$()$(br)La cueillette demande 3 cœurs ou plus. S'apprivoise avec des baies sucrées. Les pandas roux ont des soucis de fertilité, et les potions miracles ont de fortes chances d'échouer..."
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Cueillette : Rubis (20 % de chances), Rubis immaculé (10 % de chances)$(br2)$(l)Notes$()$(br)La cueillette demande 3 coeurs ou plus. S'apprivoise avec des baies sucrées. Les pandas roux ont des soucis de fertilité, et les potions miracles ont de fortes chances d'échouer..."
         },
         {
             "type": "patchouli:entity",

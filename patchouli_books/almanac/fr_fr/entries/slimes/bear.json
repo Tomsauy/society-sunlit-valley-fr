@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Emplacements :$()$(li)Fusion de cœurs$(br2)$(l)Risques :$()$(br)T'adore et te rend tout collant de miel"
+            "text": "$(l)Emplacements :$()$(li)Fusion de coeurs$(br2)$(l)Risques :$()$(br)T'adore et te rend tout collant de miel"
         },
         {
             "type": "patchouli:entity",

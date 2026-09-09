@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Emplacements :$()$(li)Fusion de cœurs$(br2)$(l)Risques :$()$(br)Garde l'objet qu'on lui donne jusqu'à sa mort ou sa division."
+            "text": "$(l)Emplacements :$()$(li)Fusion de coeurs$(br2)$(l)Risques :$()$(br)Garde l'objet qu'on lui donne jusqu'à sa mort ou sa division."
         },
         {
             "type": "patchouli:entity",

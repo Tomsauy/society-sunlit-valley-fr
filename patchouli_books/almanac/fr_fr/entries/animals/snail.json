@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Cueillette : Fraises, Coquille d'escargot$(li)Butin : Mucus d'escargot$(br2)$(l)Notes$()$(br)La cueillette demande 3 cœurs ou plus."
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Cueillette : Fraises, Coquille d'escargot$(li)Butin : Mucus d'escargot$(br2)$(l)Notes$()$(br)La cueillette demande 3 coeurs ou plus."
         },
         {
             "type": "patchouli:entity",

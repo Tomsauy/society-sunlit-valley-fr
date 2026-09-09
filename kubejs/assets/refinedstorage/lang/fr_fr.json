@@ -17,7 +17,7 @@
   "commands.refinedstorage.network.get.error.not_found": "Réseau introuvable.",
   "commands.refinedstorage.network.list.autocrafting_tasks": "%s tâches",
   "commands.refinedstorage.network.list.energy_usage": "Utilisation d'énergie : %s",
-  "commands.refinedstorage.network.list.nodes": "%s nœuds",
+  "commands.refinedstorage.network.list.nodes": "%s noeuds",
   "commands.refinedstorage.network.list.pos": "Réseau en X : %d, Y : %d, Z : %d",
   "commands.refinedstorage.network.list.tick_times": "Temps de tick moyen : %s ms. TPS moyen : %s",
   "gui.refinedstorage.alternatives": "Alternatives",

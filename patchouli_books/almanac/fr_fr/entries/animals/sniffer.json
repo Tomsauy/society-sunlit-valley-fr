@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Œuf : Œuf de renifleur$(li)Cueillette : Fragments d'artéfact$(br2)$(l)Notes$()$(br)La cueillette demande 5 cœurs ou plus."
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Oeuf : Oeuf de renifleur$(li)Cueillette : Fragments d'artéfact$(br2)$(l)Notes$()$(br)La cueillette demande 5 coeurs ou plus."
         },
         {
             "type": "patchouli:entity",

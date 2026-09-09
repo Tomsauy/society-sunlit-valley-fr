@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : :coin: 8 192$(li)Cueillette : Truffe (20 % de chances)$(li)Butin : Côtelette de porc crue$(br2)$(l)Notes$()$(br)La cueillette demande 4 cœurs d'affection ou plus."
+            "text": "$(l)Stats$()$(li)Prix : :coin: 8 192$(li)Cueillette : Truffe (20 % de chances)$(li)Butin : Côtelette de porc crue$(br2)$(l)Notes$()$(br)La cueillette demande 4 coeurs d'affection ou plus."
         },
         {
             "type": "patchouli:entity",

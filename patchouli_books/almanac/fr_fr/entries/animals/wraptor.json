@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Œuf : Œuf de wraptor $(br2)$(l)Notes$()$(br)Les œufs demandent au moins 2 cœurs. On le trouve dans les forêts biscornues. Il disparaîtra s'il ne porte pas d'étiquette de nom !"
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Oeuf : Oeuf de wraptor $(br2)$(l)Notes$()$(br)Les oeufs demandent au moins 2 coeurs. On le trouve dans les forêts biscornues. Il disparaîtra s'il ne porte pas d'étiquette de nom !"
         },
         {
             "type": "patchouli:entity",

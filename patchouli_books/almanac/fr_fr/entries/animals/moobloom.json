@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Lait : Lait$(li)Délai de traite : 1 jour$(li)Cueillette : Totem de croissance (5 % de chances)$(li)Butin : Bœuf cru, Cuir$(br2)$(l)Notes$()$(br)La cueillette demande 10 cœurs d'affection."
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Lait : Lait$(li)Délai de traite : 1 jour$(li)Cueillette : Totem de croissance (5 % de chances)$(li)Butin : Boeuf cru, Cuir$(br2)$(l)Notes$()$(br)La cueillette demande 10 coeurs d'affection."
         },
         {
             "type": "patchouli:entity",

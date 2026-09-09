@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : :coin: 1 024$(li)Lait : Lait de brebis$(li)Délai de traite : 2 jours$(li)Tonte : Laine, Laine fine (50 % de chances) $(li)Butin : Mouton cru, Laine$(br2)$(l)Notes$()$(br)La laine fine ne s'obtient qu'à partir de 5 cœurs d'affection"
+            "text": "$(l)Stats$()$(li)Prix : :coin: 1 024$(li)Lait : Lait de brebis$(li)Délai de traite : 2 jours$(li)Tonte : Laine, Laine fine (50 % de chances) $(li)Butin : Mouton cru, Laine$(br2)$(l)Notes$()$(br)La laine fine ne s'obtient qu'à partir de 5 coeurs d'affection"
         },
         {
             "type": "patchouli:entity",
