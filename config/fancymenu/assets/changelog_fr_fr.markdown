@@ -1,15 +1,23 @@
 ^^^
 Un café bien à soi
 ## Cozy Cafe
-### v4.1.4
+### v4.1.5
+### Joyeux 2e anniversaire, Sunlit Valley !!
 ^^^
 --- 
 
-- Ajout d'un pack de ressources retexturant les pièces (merci Jamiscus !)
-- Correction des blocs à qualité tirée au hasard, qui ne se ramassaient pas
-- Correction des particules de nourriture de qualité, qui ne s'arrêtaient jamais
-- Correction du plantage lié aux copycats
-- Correction de l'achat groupé avec Maj, qui achetait jusqu'à remplir l'inventaire et ruinait les fermiers de toute la vallée
+- Ajout des points de vente et des sous-comptes, venus de la mise à jour de Create: Numismatics
+- Ajout de l'abrègement des nombres dans les classements des pièces
+- Retrait de l'achat des jetons de surplus, l'équipe de Numismatics ayant corrigé le débordement ! Les jetons restent utilisables
+- Retrait de l'intégration de Waterframes, pour qu'on puisse le retirer du pack sans risque s'il ne fonctionne pas sur ta machine
+- Ajout du rendu des skins fins pour les clients du Cozy Cafe
+- Les plats du Cozy Cafe s'affichent en 3D dans les assiettes quand l'aliment existe aussi sous forme de bloc
+- Correction des erreurs de texture sur les arbalètes et les tableaux
+- Correction de messages de journal qui s'affichaient
+- Correction de certaines pousses dépourvues de tags
+- Correction de bugs du classement des pièces
+- Correction des comptes en banque qui basculaient à -2 milliards au-delà de 2 milliards
+- Correction des menus du Cozy Cafe composés uniquement de desserts, qui avaient des assiettes sales
 
 ## 4.0.0
 - Ajout de Cozy Cafe, un mod créé pour le pack, qui ajoute un mini-jeu de gestion de café dans l'esprit de Diner Dash et Plate Up !
@@ -145,3 +153,10 @@ Un café bien à soi
 - Correction de l'achigan à petite bouche, impossible à pêcher la nuit en automne
 - Correction des peluches Sylvestre, qui agissaient au mauvais endroit
 - Correction d'EMI qui ne permettait plus la recherche par tag de bloc, en revenant à une version antérieure
+
+## 4.1.4
+- Ajout d'un pack de ressources retexturant les pièces (merci Jamiscus !)
+- Correction des blocs à qualité tirée au hasard, qui ne se ramassaient pas
+- Correction des particules de nourriture de qualité, qui ne s'arrêtaient jamais
+- Correction du plantage lié aux copycats
+- Correction de l'achat groupé avec Maj, qui achetait jusqu'à remplir l'inventaire et ruinait les fermiers de toute la vallée

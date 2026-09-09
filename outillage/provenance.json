@@ -1,7 +1,7 @@
 {
  "_a_propos": "Traçabilité des décisions de traduction FR — Society: Sunlit Valley",
  "_statistiques": {
-  "arbitrages": 619,
+  "arbitrages": 627,
   "corrections_relecture": 1440,
   "cles_sans_anglais": 483,
   "reconciliations": 682,
@@ -22225,6 +22225,20 @@
     "decision": "intouches",
     "raison": "arbitrage de l'utilisateur, 29/08/2026 : les noms inventes par les mods (Sparkstone, Alphacene, Shrooma…) ne recoivent aucun accent. Locometal fait exception, tranche a part."
    }
+  ],
+  "__migration_emixx_remi": [
+   {
+    "type": "migration",
+    "decision": "assets/emixx -> assets/remi",
+    "raison": "Reliable EMI passe de emixx-forge-1.5.3 a remi-forge-4.6.8 et change d'identifiant (modId = \"remi\", verifie dans mods.toml). Nos 86 cles etaient mortes ; 82 recuperees en renommant emixx en remi partout dans les identifiants, y compris au milieu (gui.emixx.random_color -> gui.remi.random_color). 4 cles disparues du mod, 114 nouvelles."
+   }
+  ],
+  "item.society.villager": [
+   {
+    "type": "variable_perdue",
+    "decision": "Villageois %s",
+    "raison": "l'anglais dit « %s Villager », le %s recevant le metier. Notre « Villageois » le perdait, donc tous les villageois s'affichaient pareil — meme defaut que item.society.invitation, corrige en aout. Trouve par le validateur, pas par la mise a jour."
+   }
   ]
  },
  "reconciliation_par_chaine_anglaise": [
@@ -38645,6 +38659,54 @@
    "fr": "Locométal",
    "origine": "arbitrage de l'utilisateur, 29/08/2026",
    "raison": "mot-valise de Create: Steam 'n Rails (locomotive + metal), 1 208 cles du mod. L'allemand adapte (Lokometall), le polonais aussi (lokometal), l'espagnol garde, le russe et le chinois traduisent (« fer de locomotive »). Les deux moities du mot-valise etant francaises, on francise l'accent. Le pack ecrivait deja les deux formes — 933 sans accent, 266 avec ; les 742 noms d'objets et 190 textes de prose sont desormais alignes sur « Locométal », alias EMI sans accent a l'appui."
+  },
+  {
+   "en": "Bank Account",
+   "fr": "compte en banque",
+   "origine": "harmonisation 4.1.5",
+   "raison": "le pack disait « compte en banque » 9 fois et « compte bancaire » 2 ; Create: Numismatics dit « compte bancaire » 3 fois dans son francais embarque. Une seule forme desormais, la majoritaire : les 3 cles du mod sont recouvertes et nos 2 ecarts corriges."
+  },
+  {
+   "en": "Salepoint",
+   "fr": "Point de vente",
+   "origine": "4.1.5, Create: Numismatics",
+   "raison": "bloc neuf du mod ; « point de vente » est le terme commercial francais et evite la confusion avec « Boutique », deja pris par Vendor dans le francais du mod."
+  },
+  {
+   "en": "Sub Account",
+   "fr": "sous-compte",
+   "origine": "4.1.5, Create: Numismatics",
+   "raison": "forme courante en francais bancaire"
+  },
+  {
+   "en": "Authorized Card",
+   "fr": "Carte autorisee",
+   "origine": "4.1.5, Create: Numismatics",
+   "raison": "suit la famille du mod (Carte bancaire, Carte d'identite) ; sans accents comme toutes nos surcharges de noms d'objets, la ou le mod garde les siens"
+  },
+  {
+   "en": "Trust List",
+   "fr": "Liste de confiance",
+   "origine": "francais embarque du mod",
+   "raison": "repris tel quel pour ne pas diverger de l'interface du mod"
+  },
+  {
+   "en": "Whispering",
+   "fr": "murmurante",
+   "origine": "4.1.5, Macaw's Doors via Every Compat",
+   "raison": "nom de style decoratif sans equivalent etabli ; suit le registre des autres styles du mod, ou « Airy » a ete rendu par « ajouree »"
+  },
+  {
+   "en": "Kitchen Cabinet",
+   "fr": "Placard de cuisine",
+   "origine": "4.1.5, Macaw's Furniture",
+   "raison": "« Meuble de cuisine » est deja pris par le Kitchen Cabinetry de refurbished_furniture ; le placard s'en distingue"
+  },
+  {
+   "en": "Sidebar",
+   "fr": "barre laterale",
+   "origine": "Reliable EMI",
+   "raison": "forme deja employee par notre traduction d'EMI++ ; « onglet » entrerait en collision avec les onglets du mode Creatif, omnipresents dans la meme fenetre"
   }
  ],
  "cles_mortes_ecartees": [

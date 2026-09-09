@@ -5,7 +5,7 @@
   "gui.society_trading.back_button": "Retour",
   "gui.society_trading.balance": "● %f",
   "gui.society_trading.hover_price_one": "Prix : %s ●",
-  "gui.society_trading.hover_price_two": "Depuis le compte bancaire",
+  "gui.society_trading.hover_price_two": "Depuis le compte en banque",
   "gui.society_trading.price": "%s ● ",
   "gui.society_trading.search_trades": "Rechercher",
   "gui.society_trading.shop_selector.title": "Achats",
