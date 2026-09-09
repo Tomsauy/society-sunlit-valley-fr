@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Œuf : Œuf de manchot$(li)Butin : Plume$(br2)$(l)Notes$()$(br)Les œufs demandent 2 cœurs ou plus. On le trouve dans les biomes d'océan gelé et de pics de glace."
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Oeuf : Oeuf de manchot$(li)Butin : Plume$(br2)$(l)Notes$()$(br)Les oeufs demandent 2 coeurs ou plus. On le trouve dans les biomes d'océan gelé et de pics de glace."
         },
         {
             "type": "patchouli:entity",

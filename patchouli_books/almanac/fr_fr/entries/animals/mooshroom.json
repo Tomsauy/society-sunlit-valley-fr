@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Lait : Lait$(li)Délai de traite : 1 jour$(li)Cueillette : Truffe (20 % de chances), sièges champignons (2 % de chances)$(li)Butin : Bœuf cru, Cuir$(br2)$(l)Notes$()$(br)La cueillette de truffes demande 4 cœurs d'affection ou plus. Les sièges champignons en demandent 8 ou plus."
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Lait : Lait$(li)Délai de traite : 1 jour$(li)Cueillette : Truffe (20 % de chances), sièges champignons (2 % de chances)$(li)Butin : Boeuf cru, Cuir$(br2)$(l)Notes$()$(br)La cueillette de truffes demande 4 coeurs d'affection ou plus. Les sièges champignons en demandent 8 ou plus."
         },
         {
             "type": "patchouli:entity",

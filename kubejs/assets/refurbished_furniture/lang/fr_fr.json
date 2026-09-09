@@ -517,7 +517,7 @@
   "gui.refurbished_furniture.invalid_mailbox": "Boîte aux lettres désactivée : elle n'est pas dans une dimension autorisée",
   "gui.refurbished_furniture.jei_campfire_info": "Hérité de la cuisson au feu de camp",
   "gui.refurbished_furniture.link_already_connected": "Déjà connecté",
-  "gui.refurbished_furniture.link_invalid_node": "Nœud invalide",
+  "gui.refurbished_furniture.link_invalid_node": "Noeud invalide",
   "gui.refurbished_furniture.link_outside_area": "La liaison sort de la zone alimentable",
   "gui.refurbished_furniture.link_too_long": "Trop loin",
   "gui.refurbished_furniture.link_too_many": "Trop de liaisons",
@@ -651,5 +651,5 @@
   "subtitle.refurbished_furniture.wrench_connected_link": "Liaison connectée",
   "subtitle.refurbished_furniture.wrench_hover_link": "Liaison survolée",
   "subtitle.refurbished_furniture.wrench_remove_link": "Liaison retirée",
-  "subtitle.refurbished_furniture.wrench_selected_node": "Nœud mis en surbrillance"
+  "subtitle.refurbished_furniture.wrench_selected_node": "Noeud mis en surbrillance"
 }

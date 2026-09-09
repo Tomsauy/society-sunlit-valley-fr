@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Cueillette : Sève (30 % de chances), Cuisse de grenouille (10 % de chances), Gadget Ribbit (5 % de chances), Grelampes (25 % de chances)$(br2)$(l)Notes$()$(br)La cueillette nécessite au moins 1 cœur. Se trouve dans les biomes de marais. Peut être apprivoisée avec des yeux d'araignée"
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Cueillette : Sève (30 % de chances), Cuisse de grenouille (10 % de chances), Gadget Ribbit (5 % de chances), Grelampes (25 % de chances)$(br2)$(l)Notes$()$(br)La cueillette nécessite au moins 1 coeur. Se trouve dans les biomes de marais. Peut être apprivoisée avec des yeux d'araignée"
         },
         {
             "type": "patchouli:entity",

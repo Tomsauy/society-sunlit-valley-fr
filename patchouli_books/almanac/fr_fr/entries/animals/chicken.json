@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : :coin: 256$(li)Œuf : Œuf$(li)Butin : Poulet cru, Plume$(br2)$(l)Notes$()$(br)Les Poules affamées ne pondent pas d'œufs, et les malheureuses en pondent beaucoup moins."
+            "text": "$(l)Stats$()$(li)Prix : :coin: 256$(li)Oeuf : Oeuf$(li)Butin : Poulet cru, Plume$(br2)$(l)Notes$()$(br)Les Poules affamées ne pondent pas d'oeufs, et les malheureuses en pondent beaucoup moins."
         },
         {
             "type": "patchouli:entity",

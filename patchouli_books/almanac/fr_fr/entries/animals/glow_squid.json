@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Lait : Poche d'encre$(li)Délai de traite : 1 jour$(li)Cueillette : Tentacules de poulpe luisant (20 % de chances), Encre légendaire (10 % de chances) $(li)Butin : Poche d'encre luisante$(br2)$(l)Notes$()$(br)La cueillette rapporte du butin à partir de 5 cœurs d'affection. Doit être nommé avec une étiquette, sinon il disparaîtra"
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Lait : Poche d'encre$(li)Délai de traite : 1 jour$(li)Cueillette : Tentacules de poulpe luisant (20 % de chances), Encre légendaire (10 % de chances) $(li)Butin : Poche d'encre luisante$(br2)$(l)Notes$()$(br)La cueillette rapporte du butin à partir de 5 coeurs d'affection. Doit être nommé avec une étiquette, sinon il disparaîtra"
         },
         {
             "type": "patchouli:entity",

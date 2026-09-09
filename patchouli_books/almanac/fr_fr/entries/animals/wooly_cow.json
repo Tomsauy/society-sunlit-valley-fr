@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Lait : Lait$(li)Délai de traite : 1 jour$(li)Tonte : Laine umbra ou Laine des Highlands$(li)Butin : Laine umbra ou Laine des Highlands, Bœuf cru, Cuir$(br2)$(l)Notes$()$(br)Les deux variantes se trouvent dans les biomes de prairie et de forêt de chênes noirs."
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Lait : Lait$(li)Délai de traite : 1 jour$(li)Tonte : Laine umbra ou Laine des Highlands$(li)Butin : Laine umbra ou Laine des Highlands, Boeuf cru, Cuir$(br2)$(l)Notes$()$(br)Les deux variantes se trouvent dans les biomes de prairie et de forêt de chênes noirs."
         },
         {
             "type": "patchouli:entity",

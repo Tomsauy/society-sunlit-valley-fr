@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Emplacements :$()$(li)Structure : Générateurs de slimes des Landes de l'Ombre (Caverne du Crâne)$(li)Fusion de cœurs$(br2)$(l)Risques :$()$(br)Provoque un effet d'Impact de foudre quand il est contrarié. Explose violemment quand il est furieux et se révèle très glissant. Humeur extrêmement changeante."
+            "text": "$(l)Emplacements :$()$(li)Structure : Générateurs de slimes des Landes de l'Ombre (Caverne du Crâne)$(li)Fusion de coeurs$(br2)$(l)Risques :$()$(br)Provoque un effet d'Impact de foudre quand il est contrarié. Explose violemment quand il est furieux et se révèle très glissant. Humeur extrêmement changeante."
         },
         {
             "type": "patchouli:entity",

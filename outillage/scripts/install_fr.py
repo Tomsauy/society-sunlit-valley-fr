@@ -8,7 +8,11 @@ L'instance cible est le dossier contenant kubejs/, patchouli_books/, resourcepac
 
 Méthode par défaut — copie directe (recommandée) :
   kubejs/assets/<mod>/lang/fr_fr.json  → chargés automatiquement par KubeJS, rien à activer
+  kubejs/assets/emi/aliases/society_fr.json → alias de recherche EMI sans accents, pour
+                                       retrouver « Ragoût de morue » en tapant « ragout »
   patchouli_books/<livre>/fr_fr/       → livres-guides
+  config/fancymenu/assets/changelog_fr_fr.markdown → journal du menu titre, choisi
+                                       par le layout selon la langue du jeu
   Cette méthode REMPLACE les anciennes traductions FR communautaires du pack.
 
 Option --resourcepack : installe à la place le zip dans resourcepacks/ (à activer dans le jeu).
@@ -55,6 +59,8 @@ def main() -> None:
     lang_files = sorted((SRC_REPO / "kubejs" / "assets").glob("*/lang/fr_fr.json"))
     books = [(b.name, b / "fr_fr", dest / "patchouli_books" / b.name / "fr_fr")
              for b in sorted((SRC_REPO / "patchouli_books").iterdir()) if (b / "fr_fr").is_dir()]
+    changelog = Path("config/fancymenu/assets/changelog_fr_fr.markdown")
+    alias = Path("kubejs/assets/emi/aliases/society_fr.json")
 
     print(f"\nInstallation vers : {dest}")
     if use_rp:
@@ -64,6 +70,10 @@ def main() -> None:
         print(f"  1. {len(lang_files)} fichiers de langue → kubejs/assets/<mod>/lang/fr_fr.json  [chargés automatiquement]")
     for name, src, _ in books:
         print(f"  2. livre « {name} » → patchouli_books/{name}/fr_fr/  ({len(list(src.rglob('*.json')))} fichiers)")
+    print(f"  3. {changelog.name} → {changelog.parent}/  [journal du menu titre]")
+    if not use_rp:
+        n = len(json.loads((SRC_REPO / alias).read_text(encoding="utf-8"))["aliases"])
+        print(f"  4. {alias.name} → {alias.parent}/  [{n} alias de recherche EMI]")
     if dry:
         print("\n(--dry-run : rien n'a été écrit)")
         return
@@ -83,6 +93,17 @@ def main() -> None:
             if dst.exists() and not dst.with_suffix(".json.bak-fr").exists():
                 shutil.copy2(dst, dst.with_suffix(".json.bak-fr"))
             shutil.copy2(f, dst)
+
+    if not use_rp:
+        dst_alias = dest / alias
+        dst_alias.parent.mkdir(parents=True, exist_ok=True)
+        if dst_alias.exists() and not dst_alias.with_suffix(".json.bak-fr").exists():
+            shutil.copy2(dst_alias, dst_alias.with_suffix(".json.bak-fr"))
+        shutil.copy2(SRC_REPO / alias, dst_alias)
+
+    dst_changelog = dest / changelog
+    dst_changelog.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(SRC_REPO / changelog, dst_changelog)
 
     for name, src, dst in books:
         if dst.exists():

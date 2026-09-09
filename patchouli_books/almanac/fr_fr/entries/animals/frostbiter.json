@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Lait : Lait$(li)Délai de traite : 1 jour$(li)Cueillette : Branche gelée, Fragments d'artéfact$(br2)$(l)Notes$()$(br)La cueillette nécessite au moins 5 cœurs. Peut être apprivoisé avec des baies de houx."
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Lait : Lait$(li)Délai de traite : 1 jour$(li)Cueillette : Branche gelée, Fragments d'artéfact$(br2)$(l)Notes$()$(br)La cueillette nécessite au moins 5 coeurs. Peut être apprivoisé avec des baies de houx."
         },
         {
             "type": "patchouli:entity",

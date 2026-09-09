@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Emplacements :$()$(li)Fusion de cœurs$(br2)$(l)Risques :$()$(br)Provoque un effet de Rapidité quand il est contrarié. Humeur extrêmement changeante."
+            "text": "$(l)Emplacements :$()$(li)Fusion de coeurs$(br2)$(l)Risques :$()$(br)Provoque un effet de Rapidité quand il est contrarié. Humeur extrêmement changeante."
         },
         {
             "type": "patchouli:entity",

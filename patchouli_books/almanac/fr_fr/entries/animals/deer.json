@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Cueillette : Baies séchées (25 % de chances)$(li)Butin : Venaison, Cuir$(br2)$(l)Notes$()$(br)La cueillette nécessite au moins 3 cœurs. Se trouve dans les biomes de forêt."
+            "text": "$(l)Stats$()$(li)Prix : non vendu$(li)Cueillette : Baies séchées (25 % de chances)$(li)Butin : Venaison, Cuir$(br2)$(l)Notes$()$(br)La cueillette nécessite au moins 3 coeurs. Se trouve dans les biomes de forêt."
         },
         {
             "type": "patchouli:entity",
