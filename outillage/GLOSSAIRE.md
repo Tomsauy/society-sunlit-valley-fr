@@ -1,6 +1,7 @@
 # Glossaire FR — Society: Sunlit Valley
 
-1685 entrées. Détail des termes gardés en anglais : voir KEEP-ENGLISH.md
+1 678 entrées — 44 + 319 + 481 + 65 + 769, le compte de chaque section ci-dessous.
+Détail des termes gardés en anglais : voir KEEP-ENGLISH.md
 
 ## Termes gardés en anglais
 

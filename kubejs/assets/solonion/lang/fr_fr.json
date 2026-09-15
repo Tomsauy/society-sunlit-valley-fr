@@ -39,9 +39,9 @@
   "item.solonion.container.lunchbox": "Boîte à repas",
   "item.solonion.container.open": "%s + %s pour ouvrir",
   "item.solonion.food_book": "Livre de nourriture",
-  "item.solonion.golden_lunchbox": "Boite a repas doree",
-  "item.solonion.lunchbag": "Sac a repas",
-  "item.solonion.lunchbox": "Boite a repas",
+  "item.solonion.golden_lunchbox": "Boîte à repas dorée",
+  "item.solonion.lunchbag": "Sac à repas",
+  "item.solonion.lunchbox": "Boîte à repas",
   "key.solonion.category": "Spice of Life Onion",
   "key.solonion.open_food_book": "Ouvrir le livre de nourriture"
 }

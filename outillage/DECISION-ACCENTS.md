@@ -20,7 +20,7 @@ champ `text` est une clé de langue. `EmiSearch$CompiledQuery` ajoute `AliasQuer
 aucun test de configuration puis l'unit à `NameQuery` par un `LogicalOrQuery` : les alias
 comptent dans la recherche par défaut, sans préfixe à taper. Vérifié en jeu.
 
-Les 11 144 noms ont donc été réaccentués. 3 214 mots jugés par dix agents voyant les
+Les 11 144 noms ont donc été réaccentués. 3 209 mots jugés par dix agents voyant les
 occurrences réelles et sept langues témoins, arbitrés par un onzième ; 637 mots accentués,
 16 à double sens (`séché`/`sèche`, `sale`/`salé`, `mur`/`mûr`).
 
@@ -49,3 +49,40 @@ noms de mods. Le chantier est archivé — branche `chantier-accents` (dépôt r
 
 **Si la question revient :** le correctif propre est en amont, un appel à `Normalizer` dans
 le `NameGridFilter` de Refined Storage. Il réglerait toutes les langues à accents d'un coup.
+
+## Reprise du 14/09/2026 — le mod Accent Fold ferme la question
+
+Plutôt que d'attendre un correctif de chaque mod, le projet a écrit le sien. Le mod
+[Accent Fold](https://github.com/Tomsauy/accent-fold) normalise la comparaison à la source, sur les **dix-sept
+classes** où
+une barre de recherche compare un nom, par mixin sur `String.toLowerCase()`. Il couvre
+**dix écrans** : vanilla (inventaire créatif), JEI, EMI, Refined Storage, Quark, Create,
+Sophisticated, FTB Library, Patchouli et Botania. **Huit ont été éprouvés en jeu.**
+Botania ne l'a pas été, faute de réseau corporea disponible pour le test ; la recherche
+des livres Patchouli non plus, ajoutée en dernier (`a67e587e`) et absente de la recette
+de vérification du mod, qui n'en listait que neuf. Le code de Botania s'exécute côté
+serveur, mais le mod reste installé côté client seul : en solo, le serveur intégré
+partage la même machine virtuelle, et le mixin s'applique comme les autres.
+
+Refined Storage, le point qui avait fait échouer la tentative du 29/08, est désormais
+couvert au même titre que tous les autres : `NameGridFilter` et `TooltipGridFilter`
+comparent un nom mis en minuscules et sans diacritiques des deux côtés — le même geste
+qu'EMI, JEI et vanilla.
+
+**Les noms d'objets ont été réaccentués une seconde fois** : annulation de l'annulation
+du 09/09 (`git revert b1026129a` dans le clone du pack), puis reprise des dix-sept
+corrections de fond faites depuis sous la politique sans accents. Le vocabulaire du
+chantier — 3 209 mots, dont les seize à double sens — revient sur `main` depuis la
+branche `chantier-accents`, trace du raisonnement même si le pipeline n'est pas rejoué.
+
+**Les 2 939 alias EMI sont retirés**, et `build_emi_aliases.py` avec eux. Ils ne
+couvraient que les noms venus du français embarqué des mods, et seulement pour EMI —
+jamais pour Refined Storage, faute d'équivalent côté du mod. Avec Accent Fold, ils sont
+une redondance sans utilité : la recherche EMI passe désormais par la même normalisation
+que les neuf autres écrans.
+
+**Décision : les noms d'objets restent accentués**, cette fois sans condition suspendue
+à un mod tiers absent — le mod existe, est installé, et couvre tout ce que la politique
+sans accents devait contourner. Voir la conception du mod dans son dépôt,
+https://github.com/Tomsauy/accent-fold/blob/main/docs/conception.md, et
+`docs/specs/2026-09-14-reaccentuation-des-noms-design.md` pour la reprise.

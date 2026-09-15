@@ -51,36 +51,33 @@ un objet du jeu :
 
 ---
 
-## 3. Politique accents (décision figée — voir DECISION-ACCENTS.md)
+## 3. Accents — français accentué partout, sans exception de clé
 
-Décision issue de l'inspection d'`emi-1.1.24+1.20.1+forge.jar` : la recherche EMI ne
-normalise pas les diacritiques (aucun usage de `java/text/Normalizer`, `NFKD`, `NFD`) —
-taper « ble » ne matche pas « Blé ». Politique hybride validée par l'utilisateur au
-brainstorming :
+Toutes les valeurs sont en français correctement accentué, y compris les clés `item.*`,
+`block.*` et `entity.*` : aucun préfixe n'échappe plus aux accents. La recherche en jeu
+reste fiable sur un nom accentué tapé sans accent grâce au mod Accent Fold
+(https://github.com/Tomsauy/accent-fold), qui normalise dix-sept classes de recherche
+dans neuf écrans.
 
-- `accent_free_prefixes = ["item.", "block.", "entity."]`
-- Les valeurs des clés `item.*`, `block.*`, `entity.*` sont écrites **SANS accents**
-  (recherche fiable en jeu).
-- Tout le reste (quêtes, tooltips, descriptions, interface, livres Patchouli) est en
-  **français correctement accentué**.
+Voir `fr-workspace/DECISION-ACCENTS.md` pour l'historique de la décision, qui a changé
+plusieurs fois.
 
 Exemples :
 
 | Clé | Valeur | Pourquoi |
 |---|---|---|
-| `item.croptopia.ble` | `Ble` | préfixe `item.` → sans accents |
-| `block.farmersdelight.serre` | `Serre chauffee` | préfixe `block.` → sans accents |
-| `entity.minecraft.bee` | `Abeille` (pas d'accent requis ici de toute façon) | préfixe `entity.` → sans accents |
-| Quête FTB | « Récolte du blé pour préparer ta première miche. » | hors préfixes → accents complets |
-| Tooltip descriptif | « Cet arroseur automatique irrigue les cultures adjacentes. » | hors préfixes → accents complets |
+| `item.croptopia.ble` | `Blé` | français accentué, comme toute clé |
+| `block.farmersdelight.serre` | `Serre chauffée` | français accentué, comme toute clé |
+| `entity.minecraft.bee` | `Abeille` (pas d'accent requis ici de toute façon) | français accentué, comme toute clé |
+| Quête FTB | « Récolte du blé pour préparer ta première miche. » | français accentué |
+| Tooltip descriptif | « Cet arroseur automatique irrigue les cultures adjacentes. » | français accentué |
 
 ---
 
 ## 4. Typographie
 
-- **Accents sur les majuscules** : É, À, È, Ç sont obligatoires (hors clés `item.*`,
-  `block.*`, `entity.*` où les accents sont supprimés partout).
-  - ✅ « Épée en fer » (tooltip), « À la ferme ! » — ❌ « Epee », « A la ferme ! » (hors préfixes concernés)
+- **Accents sur les majuscules** : É, À, È, Ç sont obligatoires, sans exception de clé.
+  - ✅ « Épée en fer » (tooltip), « À la ferme ! » — ❌ « Epee », « A la ferme ! »
 - **Apostrophe droite `'`** (compatible police Minecraft), jamais l'apostrophe typographique `’`.
   - ✅ « L'arrosoir d'Émilie » — ❌ « L’arrosoir d’Émilie »
 - **Espace simple avant `!` et `?`** — pas d'espace insécable (elle s'affiche mal ou casse

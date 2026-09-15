@@ -19,8 +19,8 @@
   "citadel.gui.patreon_rewards_option": "Personnalisation Patreon de Citadel...",
   "citadel.gui.reset": "Réinitialiser",
   "item.citadel.citadel_book": "Livre Citadel",
-  "item.citadel.debug": "Debogueur Citadel",
+  "item.citadel.debug": "Débogueur Citadel",
   "item.citadel.effect_item": "Effet de potion",
-  "item.citadel.fancy_item": "Objet detaille",
-  "item.citadel.icon_item": "Objet icone"
+  "item.citadel.fancy_item": "Objet détaillé",
+  "item.citadel.icon_item": "Objet icône"
 }

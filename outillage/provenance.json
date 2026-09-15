@@ -22239,6 +22239,31 @@
     "decision": "Villageois %s",
     "raison": "l'anglais dit « %s Villager », le %s recevant le metier. Notre « Villageois » le perdait, donc tous les villageois s'affichaient pareil — meme defaut que item.society.invitation, corrige en aout. Trouve par le validateur, pas par la mise a jour."
    }
+  ],
+  "__chantier_accents": [
+   {
+    "type": "chantier",
+    "decision": "noms d'objets accentues",
+    "raison": "la politique sans accents tombe : les alias EMI, verifies en jeu, rendent un nom accentue trouvable sans accents. 3 214 mots juges par dix agents sur leurs occurrences reelles et sept langues temoins, arbitres par un onzieme ; 637 mots recoivent un accent, 16 ont deux sens distincts (seche/seché, sale/salé, mur/mûr, piege/piégé…). Application deterministe depuis ce vocabulaire fige, le sens choisi par comparaison a l'anglais du nom traite. Controle final : aucun nom altere autrement que par ses diacritiques, aucun mot ecrit de deux facons hors des seize sens multiples."
+   }
+  ],
+  "tooltip.moonlight.media.partner_server": [
+   {
+    "type": "convention_interface",
+    "decision": "tournure_impersonnelle",
+    "en": "Need a server? Get one with %s",
+    "fr": "Besoin d'un serveur ? %s en propose.",
+    "motif": "encart de partenaire ; l'anglais interpelle le lecteur, la convention d'interface (STYLE.md §1) exclut tutoiement et vouvoiement. %s recoit le nom de l'hebergeur."
+   }
+  ],
+  "gui.numismatics.bank_terminal.sub_accounts.help.line.6": [
+   {
+    "type": "anglais_vide",
+    "decision": "francais_vide",
+    "en": "",
+    "fr": "",
+    "motif": "ligne d'aeration au bas de l'encart d'aide ; anglais vide, donc francais vide (code should_be_empty du validateur). Sans la cle, l'index la comptait comme une lacune de traduction."
+   }
   ]
  },
  "reconciliation_par_chaine_anglaise": [

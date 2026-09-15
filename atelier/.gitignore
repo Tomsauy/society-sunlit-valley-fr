@@ -1,2 +1,5 @@
 node_modules/
 dist/
+
+# Cache d optimisation des dependances de Vite, regenere a chaque demarrage
+.vite/

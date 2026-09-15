@@ -1,5 +1,5 @@
 {
-  "block.treechop.chopped_log": "Buche coupee",
+  "block.treechop.chopped_log": "Bûche coupée",
   "config.jade.plugin_treechop.plugin": "HT's TreeChop",
   "config.jade.plugin_treechop.show_num_chops_remaining": "Nombre de coups",
   "config.jade.plugin_treechop.show_tree_block_counts": "Nombre de blocs",

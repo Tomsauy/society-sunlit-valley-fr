@@ -40,7 +40,7 @@ def main() -> None:
             all_errors[batch_path] = [("no_output", b["out"])]
             continue
         tr = json.loads(out_p.read_text())["translations"]
-        errs = [e for e in validate(b["en"], tr, pfx)
+        errs = [e for e in validate(b["en"], tr)
                 if not (e[0] == "untranslated" and b["en"][e[1]] in keep)]
         if errs:
             all_errors[batch_path] = errs
