@@ -4543,15 +4543,10 @@
   ],
   "block.farm_and_charm.strawberry": [
    {
-    "type": "sans_source_anglaise",
-    "fr": "Fraisier",
-    "nom_affiche_en_jeu": "Strawberry",
-    "certitude": "sur",
-    "raison": "Bloc de culture : le plant ; évite la collision avec le fruit",
-    "temoins": {
-     "ko_kr": "딸기",
-     "zh_cn": "草莓"
-    }
+    "type": "cle_inventee_retiree",
+    "fr": null,
+    "en": null,
+    "raison": "Cle inexistante : le mod declare block.farm_and_charm.strawberry_crop. Elle avait ete traitee comme un objet sans source anglaise (piege n°2 de CLAUDE.md) et son nom derive de l'identifiant, alors que le jar la declare sous un autre nom, anglais compris. Sans effet en jeu : le « Framboise » du jar passait au travers. Retiree le 15/09/2026."
    }
   ],
   "block.farmersdelight.rope": [
@@ -12483,15 +12478,10 @@
   ],
   "item.farm_and_charm.strawberry_seed": [
    {
-    "type": "sans_source_anglaise",
-    "fr": "Graines de fraise",
-    "nom_affiche_en_jeu": "Strawberry Seed",
-    "certitude": "sur",
-    "raison": "Schéma vanilla « Graines de X » ; pack : « Sac de fraises »",
-    "temoins": {
-     "ko_kr": "딸기 씨앗",
-     "zh_cn": "草莓种子"
-    }
+    "type": "cle_inventee_retiree",
+    "fr": null,
+    "en": null,
+    "raison": "Cle inexistante : le mod declare item.farm_and_charm.strawberry_seeds. Elle avait ete traitee comme un objet sans source anglaise (piege n°2 de CLAUDE.md) et son nom derive de l'identifiant, alors que le jar la declare sous un autre nom, anglais compris. Sans effet en jeu : le « Framboise » du jar passait au travers. Retiree le 15/09/2026."
    }
   ],
   "item.farmersdelight.melon_juice": [
@@ -22263,6 +22253,70 @@
     "en": "",
     "fr": "",
     "motif": "ligne d'aeration au bas de l'encart d'aide ; anglais vide, donc francais vide (code should_be_empty du validateur). Sans la cle, l'index la comptait comme une lacune de traduction."
+   }
+  ],
+  "item.farm_and_charm.strawberry": [
+   {
+    "type": "correction_du_francais_du_jar",
+    "fr": "Fraise",
+    "en": null,
+    "raison": "Le mod letsdo-farm_and_charm embarque son propre francais, qui traduit strawberry par « framboise » sur 7 cles. Le fichier du pack prime et retablit « fraise ». Verifie dans le jar : la table de butin de strawberry_crop lache farm_and_charm:strawberry, c'est bien une fraise."
+   }
+  ],
+  "item.farm_and_charm.strawberry_seeds": [
+   {
+    "type": "correction_du_francais_du_jar",
+    "fr": "Graines de fraise",
+    "en": null,
+    "raison": "Le mod letsdo-farm_and_charm embarque son propre francais, qui traduit strawberry par « framboise » sur 7 cles. Le fichier du pack prime et retablit « fraise ». Verifie dans le jar : la table de butin de strawberry_crop lache farm_and_charm:strawberry, c'est bien une fraise. Schema vanilla « Graines de X »."
+   }
+  ],
+  "block.farm_and_charm.strawberry_crop": [
+   {
+    "type": "correction_du_francais_du_jar",
+    "fr": "Fraisier",
+    "en": null,
+    "raison": "Le mod letsdo-farm_and_charm embarque son propre francais, qui traduit strawberry par « framboise » sur 7 cles. Le fichier du pack prime et retablit « fraise ». Verifie dans le jar : la table de butin de strawberry_crop lache farm_and_charm:strawberry, c'est bien une fraise. Le plant, distinct du fruit."
+   }
+  ],
+  "block.farm_and_charm.wild_strawberries": [
+   {
+    "type": "correction_du_francais_du_jar",
+    "fr": "Fraises sauvages",
+    "en": null,
+    "raison": "Le mod letsdo-farm_and_charm embarque son propre francais, qui traduit strawberry par « framboise » sur 7 cles. Le fichier du pack prime et retablit « fraise ». Verifie dans le jar : la table de butin de strawberry_crop lache farm_and_charm:strawberry, c'est bien une fraise."
+   }
+  ],
+  "block.farm_and_charm.strawberry_tea": [
+   {
+    "type": "correction_du_francais_du_jar",
+    "fr": "Thé à la fraise",
+    "en": null,
+    "raison": "Le mod letsdo-farm_and_charm embarque son propre francais, qui traduit strawberry par « framboise » sur 7 cles. Le fichier du pack prime et retablit « fraise ». Verifie dans le jar : la table de butin de strawberry_crop lache farm_and_charm:strawberry, c'est bien une fraise."
+   }
+  ],
+  "item.farm_and_charm.strawberry_tea_cup": [
+   {
+    "type": "correction_du_francais_du_jar",
+    "fr": "Tasse de thé à la fraise",
+    "en": null,
+    "raison": "Le mod letsdo-farm_and_charm embarque son propre francais, qui traduit strawberry par « framboise » sur 7 cles. Le fichier du pack prime et retablit « fraise ». Verifie dans le jar : la table de butin de strawberry_crop lache farm_and_charm:strawberry, c'est bien une fraise."
+   }
+  ],
+  "block.farm_and_charm.grandmothers_strawberry_cake_block": [
+   {
+    "type": "correction_du_francais_du_jar",
+    "fr": "Gâteau aux fraises de grand-mère",
+    "en": null,
+    "raison": "Le mod letsdo-farm_and_charm embarque son propre francais, qui traduit strawberry par « framboise » sur 7 cles. Le fichier du pack prime et retablit « fraise ». Verifie dans le jar : la table de butin de strawberry_crop lache farm_and_charm:strawberry, c'est bien une fraise."
+   }
+  ],
+  "item.farm_and_charm.oatmeal_with_strawberries": [
+   {
+    "type": "correction_du_francais_du_jar",
+    "fr": "Porridge aux fraises",
+    "en": "Oatmeal with Strawberries",
+    "raison": "Le jar disait « Gruau aux Fraises » : le sens est juste, mais « gruau » est du francais du Quebec et la capitalisation interne contrevient a STYLE §2. « Porridge » suit item.vintagedelight.oatmeal."
    }
   ]
  },
