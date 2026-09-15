@@ -1,7 +1,7 @@
 {
   "block.create_factory_logistics.factory_fluid_gauge": "Jauge de fluide d'usine",
   "block.create_factory_logistics.jar_packager": "Embouteilleur",
-  "block.create_factory_logistics.network_link": "Lien reseau",
+  "block.create_factory_logistics.network_link": "Lien réseau",
   "create.item_attributes.is_fluid": "est %1$s",
   "create.item_attributes.is_fluid.inverted": "n'est pas %1$s",
   "create.item_attributes.is_fluid_no_nbt": "est %1$s (sans NBT)",
@@ -21,8 +21,8 @@
   "create_factory_logistics.ponder.mixer_upkeep.text_3": "Quand la commande arrive, l'interrupteur lit le nouvel état et réagit",
   "entity.create_factory_logistics.composite_package": "Colis composite",
   "entity.create_factory_logistics.jar": "Pot",
-  "item.create_factory_logistics.fluid_mechanism": "Mecanisme fluidique",
-  "item.create_factory_logistics.incomplete_fluid_mechanism": "Mecanisme fluidique incomplet",
+  "item.create_factory_logistics.fluid_mechanism": "Mécanisme fluidique",
+  "item.create_factory_logistics.incomplete_fluid_mechanism": "Mécanisme fluidique incomplet",
   "item.create_factory_logistics.jar": "Pot en cuivre",
   "itemGroup.create_factory_logistics.base": "Create Factory Logistics",
   "itemGroup.create_factory_logistics.create_factory_logistics_tab": "Create: Factory Logistics"

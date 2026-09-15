@@ -3,8 +3,6 @@
 
 Contenu du paquet, tel qu'il se décompresse sur le dossier de l'instance :
   kubejs/assets/<mod>/lang/fr_fr.json      chargés automatiquement par KubeJS
-  kubejs/assets/emi/aliases/society_fr.json  alias de recherche EMI sans accents :
-                                          taper « ragout » trouve « Ragoût de morue »
   patchouli_books/<livre>/fr_fr/           livres-guides (livre externe : aucun
                                            pack de ressources ne peut les fournir)
   config/fancymenu/assets/changelog_fr_fr.markdown
@@ -107,9 +105,13 @@ serveur tourne sur la même version du modpack.
 IMPORTANT
 - Traduction faite pour la version {version} du modpack. Sur une autre version,
   les textes ajoutés depuis resteront en anglais.
-- Les noms d'objets sont volontairement SANS ACCENTS : la recherche d'EMI ne
-  gère pas les accents, taper « ble » doit pouvoir trouver « Ble ». Tout le
-  reste (quêtes, dialogues, descriptions, livres) est accentué normalement.
+- Tout est accentué, y compris les noms d'objets et de blocs. La recherche en
+  jeu fonctionne comme avant, mais à la lettre : il faut taper « Blé » pour
+  trouver « Blé ».
+- Le mod Accent Fold, facultatif, lève cette contrainte — « ble » retrouve
+  alors « Blé », dans les neuf écrans de recherche du pack. Il se télécharge à
+  part, sur https://github.com/Tomsauy/accent-fold ; le jar va dans le dossier
+  « mods » de l'instance, comme n'importe quel mod.
 - Si vous repérez un texte encore en anglais, signalez-le : certains objets
   créés par les scripts du pack n'ont aucune source anglaise et ne se
   détectent qu'en jouant.
@@ -185,9 +187,8 @@ def main() -> None:
     books = sorted(p for b in (REPO / "patchouli_books").iterdir()
                    if (b / "fr_fr").is_dir() for p in (b / "fr_fr").rglob("*") if p.is_file())
     changelog = REPO / "config" / "fancymenu" / "assets" / "changelog_fr_fr.markdown"
-    alias = REPO / "kubejs" / "assets" / "emi" / "aliases" / "society_fr.json"
     rp = REPO / "resourcepacks" / "Society_FR.zip"
-    for f in (changelog, alias, rp):
+    for f in (changelog, rp):
         if not f.exists():
             raise SystemExit(f"ERREUR : {f} manquant — lancer build_fr_resourcepack.py ?")
 
@@ -198,7 +199,6 @@ def main() -> None:
         for f in books:
             z.write(f, str(f.relative_to(REPO)))
         z.write(changelog, str(changelog.relative_to(REPO)))
-        z.write(alias, str(alias.relative_to(REPO)))
         z.write(rp, "optionnel/Society_FR.zip")
         z.writestr("Installer-Windows.bat",
                    BAT.format(version=version).replace("\n", "\r\n"))

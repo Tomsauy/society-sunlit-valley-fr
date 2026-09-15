@@ -20,7 +20,7 @@ def main() -> None:
             flagged.append({"batch": bp, "key": None, "en": None, "code": "no_output"})
             continue
         tr = json.loads(out.read_text())["translations"]
-        for code, key in validate(b["en"], tr, ("item.", "block.", "entity.")):
+        for code, key in validate(b["en"], tr):
             if code == "untranslated" and b["en"][key] in keep:
                 continue
             flagged.append({"batch": bp, "key": key, "en": b["en"].get(key), "code": code})

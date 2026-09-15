@@ -49,9 +49,19 @@ test("refuse un placeholder perdu", () => {
   expect(pb[0]).toMatch(/placeholder/i);
 });
 
-test("refuse un accent sur un nom d'objet cherchable", () => {
-  const pb = validerValeur({ en: "Wheat", fr: "Blé", cle: "item.mod.wheat" });
-  expect(pb[0]).toMatch(/accent/i);
+// --- La politique d'accents, abrogée (DECISION-ACCENTS.md, quatrième épisode) ---
+//
+// Ces quatre cas figeaient la règle inverse : ils refusaient un accent sur un nom
+// cherchable, et l'Atelier répondait 422 à qui corrigeait « Blé ». Le mod Accent Fold
+// replie les diacritiques dans les dix-sept cibles de recherche, Refined Storage compris ;
+// plus aucun nom n'a à s'écrire sans accents. Ils vérifient désormais l'acceptation.
+test("accepte un accent sur un nom d'objet cherchable", () => {
+  expect(validerValeur({ en: "Wheat", fr: "Blé", cle: "item.mod.wheat" })).toEqual([]);
+});
+
+test("accepte un accent sur les trois préfixes que la règle visait (item., block., entity.)", () => {
+  for (const cle of ["item.mod.wheat", "block.mod.hay", "entity.mod.cow"])
+    expect(validerValeur({ en: "Wheat", fr: "Blé", cle })).toEqual([]);
 });
 
 test("accepte un accent sur une description (clé à 4 segments)", () => {
@@ -64,24 +74,16 @@ test("accepte une valeur correcte", () => {
     .toEqual([]);
 });
 
+// L'ancienne règle ne visait que les libellés « courts » — au plus six mots anglais, sans
+// ponctuation finale — et ne comptait que les clés à trois segments. Aucune de ces formes
+// ne doit plus rien déclencher : l'acceptation ne dépend ni de la longueur de l'anglais,
+// ni du nombre de segments de la clé.
+test("accepte un accent quelle que soit la forme de l'anglais (libellé court ou phrase)", () => {
+  expect(validerValeur({ en: "Wheat", fr: "Un bon vieux blé.", cle: "item.mod.wheat" })).toEqual([]);
+  expect(validerValeur({ en: "This is a wheat-like grain.", fr: "Blé", cle: "item.mod.wheat" })).toEqual([]);
+});
+
 // --- Divergences avec fr-workspace/scripts/validate_translation.py (correction A) ---
-
-test("is_name se calcule sur l'anglais, pas sur le français (1/2) : anglais court, français devenu une phrase reste soumis à la contrainte", () => {
-  // En français, "Un bon vieux blé." est une phrase (>6 mots ou ponctuation finale n'entre
-  // même pas en jeu ici : elle finit par un point) : un validateur qui jugerait sur le
-  // français laisserait passer l'accent. Python (qui fait foi) juge sur l'anglais "Wheat",
-  // court : la contrainte s'applique toujours.
-  const pb = validerValeur({ en: "Wheat", fr: "Un bon vieux blé.", cle: "item.mod.wheat" });
-  expect(pb.some((p) => /accent/i.test(p))).toBe(true);
-});
-
-test("is_name se calcule sur l'anglais, pas sur le français (2/2) : anglais déjà une phrase, français court et accentué, aucune contrainte", () => {
-  // Ici l'anglais est une phrase (se termine par un point) : is_name est faux côté Python
-  // même si la traduction, elle, est un unique mot accentué. Un validateur qui jugerait sur
-  // le français aurait refusé "Blé" à tort.
-  const pb = validerValeur({ en: "This is a wheat-like grain.", fr: "Blé", cle: "item.mod.wheat" });
-  expect(pb.some((p) => /accent/i.test(p))).toBe(false);
-});
 
 test("règle untranslated : une traduction identique à l'anglais est une erreur", () => {
   const pb = validerValeur({ en: "Wooden Plank", fr: "Wooden Plank", cle: "block.mod.plank" });
@@ -109,19 +111,16 @@ test("origine « aucune » : une valeur française vide reste refusée", () => {
   expect(pb.length).toBeGreaterThan(0);
 });
 
-// Divergence relevée en revue, absente des 24 cas confrontés au départ : Python compte
-// les mots avec v.split() (sans argument), qui ignore nativement les espaces de bord ;
-// en.split(/\s+/) sur une chaîne non trimée ajoute un élément vide par espace de tête/fin,
-// ce qui peut faire dépasser 6 et basculer estNom à faux à tort — laissant passer un
-// accent que Python aurait refusé. Dormant sur le corpus actuel (aucune des 314 valeurs
-// anglaises à espaces de bord n'est une clé item./block./entity. à 3 segments), mais
-// exactement la classe d'erreur que « un test par divergence » visait à fermer.
-test("un espace de tête dans l'anglais ne doit pas faire passer un nom à 6 mots pour une phrase (libelleCourt)", () => {
-  const pb = validerValeur({ en: " One Two Three Four Five Six", fr: "Blé", cle: "item.mod.wheat4" });
-  expect(pb.some((p) => /accent/i.test(p))).toBe(true);
+// Ces deux cas fermaient une divergence de comptage de mots avec Python — un espace de
+// bord dans l'anglais faisait basculer `libelleCourt`, donc la contrainte d'accents, à
+// tort. Le comptage a disparu avec la règle ; ce qui reste à garantir est qu'aucune forme
+// d'anglais, espaces de bord compris, ne ressuscite un refus sur un nom accentué.
+test("un espace de tête dans l'anglais ne déclenche plus rien sur un nom accentué", () => {
+  expect(validerValeur({ en: " One Two Three Four Five Six", fr: "Blé", cle: "item.mod.wheat4" }))
+    .toEqual([]);
 });
 
-test("un espace de fin dans l'anglais ne doit pas faire passer un nom à 6 mots pour une phrase (libelleCourt)", () => {
-  const pb = validerValeur({ en: "One Two Three Four Five Six ", fr: "Blé", cle: "item.mod.wheat5" });
-  expect(pb.some((p) => /accent/i.test(p))).toBe(true);
+test("un espace de fin dans l'anglais ne déclenche plus rien sur un nom accentué", () => {
+  expect(validerValeur({ en: "One Two Three Four Five Six ", fr: "Blé", cle: "item.mod.wheat5" }))
+    .toEqual([]);
 });

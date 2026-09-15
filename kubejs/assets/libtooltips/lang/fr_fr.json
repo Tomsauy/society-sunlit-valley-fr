@@ -3,6 +3,7 @@
   "key.libtooltips.expand": "Développer l'info-bulle",
   "libtooltips.configuration.default_color": "Couleur de la description",
   "libtooltips.configuration.default_color.tooltip": "Couleur à utiliser comme base pour l'info-bulle. La valeur est la couleur sous forme d'entier (utiliser un sélecteur de couleur en ligne)",
+  "libtooltips.configuration.enable_tooltips": "Activer les info-bulles",
   "libtooltips.configuration.line_after": "Ligne vide après",
   "libtooltips.configuration.line_after.tooltip": "Ajoute une ligne vide APRÈS la description",
   "libtooltips.configuration.line_before": "Ligne vide avant",

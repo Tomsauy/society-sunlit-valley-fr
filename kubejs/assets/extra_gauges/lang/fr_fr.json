@@ -1,6 +1,6 @@
 {
   "block.extra_gauges.display_collector": "Collecteur d'affichage",
-  "block.extra_gauges.integer_selector": "Selecteur d'entiers",
+  "block.extra_gauges.integer_selector": "Sélecteur d'entiers",
   "comparator_gauge.mode.different": "L'entrée diffère de la constante",
   "comparator_gauge.mode.equals": "L'entrée est égale à la constante",
   "comparator_gauge.mode.greater": "L'entrée est supérieure à la constante",

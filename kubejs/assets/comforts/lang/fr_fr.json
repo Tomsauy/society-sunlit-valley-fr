@@ -1,6 +1,6 @@
 {
   "block.comforts.hammock.no_sleep.2": "Vous ne pouvez faire la sieste que durant le jour, la nuit ou pendant les orages",
-  "block.comforts.no_sleep": "Ceci est decoratif, vous ne pouvez pas dormir ici",
+  "block.comforts.no_sleep": "Ceci est décoratif, vous ne pouvez pas dormir ici",
   "comforts.skipping_day": "Sommeil jusqu'au soir",
   "gui.comforts.config.autoUse.description": "Si activé, les joueurs tentent automatiquement d'utiliser les sacs de couchage lorsqu'ils sont placés.",
   "gui.comforts.config.autoUse.name": "Utiliser automatiquement les sacs de couchage",

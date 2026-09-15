@@ -1,5 +1,5 @@
 {
-  "block.trofers.trophy": "Trophee",
+  "block.trofers.trophy": "Trophée",
   "message.trofers.reward_cooldown": "Récompense suivante disponible dans %s",
   "text.autoconfig.trofers.option.general.enableTrophyEffects": "Activer les effets des trophées",
   "text.autoconfig.trofers.option.general.enableTrophyEffects.@Tooltip": "Détermine si les trophées peuvent appliquer des effets de potion lors d'un clic droit",

@@ -1,0 +1,24 @@
+{
+  "corrections": [
+    { "mot": "betepine", "avait": "bêtepine", "doit_etre": "bêtépine",
+      "raison": "composé « bête + épine » à demi accentué : « bête » reçoit son accent, « épine » non, alors que le mot est accentué partout ailleurs (epine → « épine », epines → « épines », epineux → « épineux »). Botania, dont vient la fleur, écrit « Bêtépine » dans son propre fr_fr.json (extracted/Botania-1.20.1-454-FORGE/botania/fr_fr.json, avec le commentaire « Bête + Épine »)" },
+    { "mot": "bellepine", "avait": "bellepine", "doit_etre": "bellépine",
+      "raison": "jumelle de « betepine » — même mod, même fleur, même composé en -épine (Bellethorne / Dreadthorne). Laisser l'une nue pendant que l'autre porte un accent fait diverger deux mots de la même famille. Botania écrit « Bellépine », comme les autres coinages Botania déjà accentués dans les lots : gatorchidée, oeilchidée, trésorthensia, spectranthème" },
+    { "mot": "arapaima", "avait": "arapaima", "doit_etre": "arapaïma",
+      "raison": "nom commun de poisson : toute la famille est accentuée dans les dix lots (lépisosté, méné, sébaste, régalec, maskinongé, hespérie, phalène, piéride) et Aquaculture, le mod qui fournit ce poisson, écrit « Arapaïma » et « Seau d'arapaïmas » dans son fr_fr.json" },
+    { "mot": "terrapene", "avait": "terrapene", "doit_etre": "terrapène",
+      "raison": "même famille et même mod que « arapaima » : Aquaculture écrit « Tortue terrapène » et « Œuf de Tortue Terrapène ». Deux noms d'animaux du même fichier source traités à l'inverse des autres" },
+    { "mot": "metasequoia", "avait": "metasequoia", "doit_etre": "métaséquoia",
+      "raison": "même essence, même famille de blocs (portes dramaticdoors) que « sequoia » → « séquoia » (lot 09). L'un des deux bois de séquoia serait accentué et l'autre non" },
+    { "mot": "aerinite", "avait": "aerinite", "doit_etre": "aérinite",
+      "raison": "deux familles convergent : le préfixe aér- est accentué partout (aérien, aérodynamique, aérogel) et les minéraux frères du même espace de noms item.society.* le sont aussi quand le français l'exige (célestine, hématite, dolérite, stéatite). Seul « aerinite » reste nu" },
+    { "mot": "ether", "avait": "éther", "doit_etre": "ether",
+      "raison": "« Ether » est un bois inventé par Biomes You'll Go (block.dramaticdoors.short_bwg_ether_door), pas le nom commun français. Ses frères de la même famille de portes restent nus (helix, aerfin, aeronos) et Steam Rails, qui pose des rails sur ce bois, écrit « Voie en ether » sans accent dans un fichier par ailleurs accentué (« Voie en ether étroite »)" },
+    { "mot": "creserve", "avait": "creserve", "doit_etre": "créserve",
+      "raison": "le jeton est le code couleur « §c » collé au mot « Reserve » (« §cReserve AK »). Le même whisky s'écrit « réserve » dans le lot 09 (« Reserve AK vieillie », « Reserve AK double maturation »). Laisser celui-ci nu écrirait « Reserve AK » de deux façons dans le même jeu. Des cinq autres jetons collés à un code couleur (acatalogue, ecatalogue, rfeuille, rpoudre, rrevue), c'est le seul dont le mot demande un accent" }
+  ],
+  "violations": [
+    { "mot": "ether", "probleme": "nom inventé par un mod (bois « Ether » de Biomes You'll Go) transformé en nom commun français accentué « éther » — le seul accent des dix lots que la traduction française de référence du même bois contredit" }
+  ],
+  "lots_incomplets": []
+}

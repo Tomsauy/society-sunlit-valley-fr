@@ -1,5 +1,5 @@
 {
-  "block.create_mechanical_extruder.mechanical_extruder": "Extrudeuse mecanique",
+  "block.create_mechanical_extruder.mechanical_extruder": "Extrudeuse mécanique",
   "create_mechanical_extruder.goggles.bonks": "%1$s coups",
   "create_mechanical_extruder.goggles.recipe_requirement.biome": "Biome incorrect",
   "create_mechanical_extruder.goggles.recipe_requirement.ingredients": "Ingrédients manquants",

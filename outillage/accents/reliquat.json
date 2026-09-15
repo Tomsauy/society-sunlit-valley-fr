@@ -1,0 +1,42 @@
+[
+ {
+  "cle": "block.refinedstorage.portable_grid",
+  "fr": "Grille portable",
+  "mot": "grille",
+  "anglais": "portable grid",
+  "candidats": [
+   "grille (grate/toaster)",
+   "grillé (roasted)"
+  ]
+ },
+ {
+  "cle": "block.society.charging_rod",
+  "fr": "Paratonnerre de charge",
+  "mot": "charge",
+  "anglais": "charging rod",
+  "candidats": [
+   "charge (charge)",
+   "chargé (cluttered)"
+  ]
+ },
+ {
+  "cle": "item.society.chai_blend",
+  "fr": "Melange de chai",
+  "mot": "melange",
+  "anglais": "chai blend",
+  "candidats": [
+   "mélange (mix)",
+   "mélangé (mixed)"
+  ]
+ },
+ {
+  "cle": "item.society.mexican_street_corn",
+  "fr": "Mais grille a la mexicaine",
+  "mot": "grille",
+  "anglais": "mexican street corn",
+  "candidats": [
+   "grille (grate/toaster)",
+   "grillé (roasted)"
+  ]
+ }
+]

@@ -7,12 +7,20 @@ const idx = buildKeyIndex();
 // Ancrage de non-régression : quatre lacunes réelles et connues (espagnol, coréen et
 // portugais les ont, le français non), toutes dans le namespace "society". Si ce nombre
 // bouge, c'est que le filtre — ou les données sources — a changé de comportement.
+//
+// La cinquième n'est pas une lacune : `item.society.overflow_token.description.warn` est
+// une clé morte, retirée de l'anglais à la montée en 4.1.5 puis du français une fois
+// qu'un revert l'y eut ramenée. L'espagnol et le portugais, qui ne sont plus tenus à
+// jour, la portent encore — l'espagnol marque d'ailleurs sa valeur « [EN] ». Le filtre
+// fait donc exactement son travail : il montre ce qu'une langue a et qu'une autre n'a
+// pas, sans savoir laquelle des deux a raison.
 test("avec espagnol, sans français, portée pack : les lacunes réelles", () => {
   const r = search(idx, { avec: ["es_es"], sans: ["fr_fr"], portee: "pack", limite: 500 });
-  expect(r.total).toBe(4);
+  expect(r.total).toBe(5);
   expect(r.resultats.every(e => e.ns === "society")).toBe(true);
   expect(r.resultats.map(e => e.cle).sort()).toEqual([
     "block.society.diamond_sprinkler",
+    "item.society.overflow_token.description.warn",
     "jei.society.category.furniture_catalog",
     "society.furniture_catalog.give_me_coin",
     "tooltip.society.furniture_catalog",

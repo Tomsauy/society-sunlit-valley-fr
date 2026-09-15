@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
-"""Validation mécanique d'une traduction : clés, placeholders, accents, non-traduit."""
+"""Validation mécanique d'une traduction : clés, placeholders, non-traduit.
+
+Le contrôle d'accents a disparu : la politique s'est inversée, tout le français est
+accentué, noms d'objets compris. La recherche en jeu tient désormais du mod Accent
+Fold, pas d'un alias — ce script ne le vérifie pas.
+"""
 import json, re, sys
 
 TOKEN = re.compile(r"%(?:\d+\$)?[sdfeu]|%%|§.|\$\([^)]*\)|\\n|\{\d+\}")
-ACCENTS = re.compile("[àâäéèêëîïôöùûüÿçÀÂÄÉÈÊËÎÏÔÖÙÛÜŸÇœŒæÆ]")
 WORD = re.compile(r"[A-Za-z]{4,}")
 
 def tokens(s: str) -> list:
     return sorted(TOKEN.findall(s))
 
-def validate(en: dict, fr: dict, accent_free_prefixes: tuple = ()) -> list:
+def validate(en: dict, fr: dict) -> list:
     errors = []
     for k, v in en.items():
         if k not in fr:
@@ -26,12 +30,6 @@ def validate(en: dict, fr: dict, accent_free_prefixes: tuple = ()) -> list:
             continue
         if tokens(v) != tokens(t):
             errors.append(("tokens", k))
-        # la politique accents ne vise que les NOMS (cherchables dans EMI) : clé à 3 segments
-        # dont la valeur est un libellé court, pas une phrase de tooltip
-        is_name = k.count(".") == 2 and len(v.split()) <= 6 and not v.rstrip().endswith((".", "!", "?"))
-        if (accent_free_prefixes and k.startswith(tuple(accent_free_prefixes))
-                and is_name and ACCENTS.search(t)):
-            errors.append(("accents", k))
         if t == v and len(WORD.findall(v)) >= 1 and len(v) > 3:
             errors.append(("untranslated", k))
     errors.extend(("extra", k) for k in fr if k not in en)
@@ -39,12 +37,9 @@ def validate(en: dict, fr: dict, accent_free_prefixes: tuple = ()) -> list:
 
 if __name__ == "__main__":
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    pfx = ()
-    if "--accent-free" in sys.argv:
-        pfx = tuple(sys.argv[sys.argv.index("--accent-free") + 1].split(","))
     en = json.load(open(args[0]))
     fr = json.load(open(args[1]))
-    errs = validate(en, fr, pfx)
+    errs = validate(en, fr)
     for code, key in errs:
         print(f"{code}\t{key}")
     print(f"{len(errs)} erreur(s)", file=sys.stderr)
