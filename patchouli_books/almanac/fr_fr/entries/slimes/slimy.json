@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Emplacements :$()$(li)Structure : Générateurs de slimes$(li)Points de fouille : Surface$(br2)$(l)Risques :$()$(br)Une fois transformé en Largo, il sera contrarié s'il ne mange pas de ses deux régimes (l'un après l'autre)."
+            "text": "$(l)Emplacements :$()$(li)Structure : Générateurs de slimes$(li)Zones de fouille : Surface$(br2)$(l)Risques :$()$(br)Une fois transformé en Largo, il sera contrarié s'il ne mange pas de ses deux régimes (l'un après l'autre)."
         },
         {
             "type": "patchouli:entity",

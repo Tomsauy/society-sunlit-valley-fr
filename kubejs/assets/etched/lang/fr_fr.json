@@ -1,4 +1,6 @@
 {
+  "block.etched.album_jukebox": "Jukebox à albums",
+  "block.etched.etching_table": "Table de gravure",
   "block.etched.radio": "Radio",
   "container.etched.etching_table.url": "URL de la musique",
   "container.etched.radio": "Radio",
@@ -9,7 +11,9 @@
   "item.etched.boombox.pause": "%s + %s pour mettre en pause",
   "item.etched.boombox.paused": "En pause",
   "item.etched.boombox.records": "Disques :",
+  "item.etched.complex_music_label": "Label musical complexe",
   "item.etched.jukebox_minecart": "Wagonnet à jukebox",
+  "item.etched.music_label": "Label musical",
   "item.etched.portal_radio": "Radio du portail",
   "screen.etched.etching_table.error.cannot_create": "Impossible de créer le disque",
   "screen.etched.etching_table.error.cannot_create.missing_disc": "Disque vide manquant",

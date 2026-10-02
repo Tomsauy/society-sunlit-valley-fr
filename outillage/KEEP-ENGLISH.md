@@ -1,6 +1,6 @@
 # Termes gardés en anglais — justification et emplacements
 
-44 termes réels + 7 placeholders purement techniques.
+45 termes réels + 7 placeholders purement techniques.
 
 ## Termes réels
 
@@ -44,6 +44,7 @@
 | **SHIFT** | touche clavier; le coréen garde l'anglais | jei, perfectplushieapi, perfectplushies, refurbished_furniture | `jei.key.shift`, `tooltip.perfectplushies.shift`, `tooltip.perfectplushies.shift` | 4 |
 | **Sneep Snorp** | nom de poisson fantaisiste; le coréen translittère | fish_finder, society_tips, unusualfishmod | `society_tips.tip.sneep_snorp_one`, `entity.unusualfishmod.sneep_snorp`, `item.unusualfishmod.raw_sneep_snorp` | 4 |
 | **Sunflowers** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.sunflowers.title`, `painting.trials.sunflowers.title` | 2 |
+| **Ticker** | nom d'élément de FancyMenu (exécute des actions à intervalle) ; la traduction du mod le garde tel quel dans ses descriptions (« Si le ticker doit s'exécuter… ») ; lot 5-01 | fancymenu | `fancymenu.customization.items.ticker` | 1 |
 | **Tides** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.tides.title`, `painting.trials.tides.title` | 2 |
 | **Unpacked** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.unpacked.title`, `painting.trials.unpacked.title` | 2 |
 | **Vanilla** | terme iconique du modding, KO translittère | entity_texture_features, ok_zoomer | `config.entity_texture_features.player_skin_editor.cape.none`, `config.ok_zoomer.features.cinematic_camera.vanilla` | 2 |

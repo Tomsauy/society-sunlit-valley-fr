@@ -130,7 +130,7 @@
   "particlerain.tintType": "Type de teinte",
   "particlerain.title": "Configuration de Particle Rain",
   "particlerain.useHeightmapTemp": "Utiliser la température de la carte des hauteurs",
-  "particlerain.useHeightmapTemp.description": "Empêche la neige de tomber là où il devrait pleuvoir, dans les biomes où la météo varie selon l'altitude, comme les collines balayées par les vents.",
+  "particlerain.useHeightmapTemp.description": "Empêche la neige de tomber là où il devrait pleuvoir, dans les biomes où la météo varie selon l'altitude, comme les collines venteuses.",
   "particlerain.usePresetParticle": "Utiliser une particule prédéfinie",
   "particlerain.useResourcepackResolution": "Utiliser la résolution du pack de ressources",
   "particlerain.useResourcepackResolution.description": "Utilise la résolution de la particule de fumée du feu de camp.",

@@ -1,0 +1,10 @@
+{
+ "kubejs/client_scripts/tooltips/addTooltips.js": {
+  "base": "a03c5d198cbdda0e967f531316b9fdf0ec9b2ce7",
+  "motif": "une ligne par composant (ajouterLignes) : sans ce découpage, un carré à chaque saut de ligne des infobulles"
+ },
+ "kubejs/client_scripts/tooltips/addAdvancedTooltips.js": {
+  "base": "27f497bbf64581d7d2a7fdb3700598682fb3ffbc",
+  "motif": "même correctif, infobulles avancées"
+ }
+}

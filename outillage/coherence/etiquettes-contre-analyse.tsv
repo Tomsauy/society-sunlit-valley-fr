@@ -1,0 +1,739 @@
+ligne	cle	controle	objet	motif
+1	item.society.dried_shimmering_mushrooms	accents		« sèches » → « séchés »
+2	item.society.esperite	accents		« Esperite » → « Espérite »
+3	item.society.geminite	accents		« Geminite » → « Géminite »
+4	item.society.jagoite	accents		« Jagoite » → « Jagoïte »
+5	item.society.nekoite	accents		« Nekoite » → « Nékoïte »
+6	item.society.pristine_esperite	accents		« Esperite » → « Espérite »
+7	item.society.pristine_geminite	accents		« Geminite » → « Géminite »
+8	item.society.pristine_jagoite	accents		« Jagoite » → « Jagoïte »
+9	item.society.pristine_nekoite	accents		« Nekoite » → « Nékoïte »
+10	cake.veggiesdelight.carrot_cake	sans objet		Every Compat ne lit jamais la clé cake.<mod>.<gâteau> : CakeRegistry$CakeType.getTranslationKey() rend la constante « cake » et Every Compat n'a aucune chaîne « cake » (bytecode d'Amendments et d'Every Compat) ; aucun bloc n'affiche ce nom, rien à trouver.
+11	leaves_type.atmospheric.aspen	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+12	leaves_type.atmospheric.currant	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+13	leaves_type.atmospheric.dry_laurel	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+14	leaves_type.atmospheric.flowering_morado	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+15	leaves_type.atmospheric.green_aspen	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+16	leaves_type.atmospheric.grimwood	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+17	leaves_type.atmospheric.kousa	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+18	leaves_type.atmospheric.laurel	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+19	leaves_type.atmospheric.morado	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+20	leaves_type.atmospheric.rosewood	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+21	leaves_type.atmospheric.yucca	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+22	leaves_type.autumnity.maple	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+23	leaves_type.autumnity.orange_maple	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+24	leaves_type.autumnity.red_maple	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+25	leaves_type.autumnity.yellow_maple	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+26	leaves_type.beachparty.palm	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+27	leaves_type.cluttered.flowering_fluorescent_maple	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+28	leaves_type.cluttered.poplar	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+29	leaves_type.cluttered.sycamore	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+30	leaves_type.cluttered.willow	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+31	leaves_type.meadow.pine	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+32	leaves_type.minecraft.pale_oak	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+33	leaves_type.rainbowoaks.rainbow	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+34	leaves_type.vinery.apple	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+35	leaves_type.vinery.dark_cherry	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+36	leaves_type.vinery.grapevine	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+37	leaves_type.windswept.chestnut	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+38	leaves_type.windswept.flowering_acacia	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+39	leaves_type.windswept.holly	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+40	leaves_type.windswept.pine	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+41	wood_type.atmospheric.aspen	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+42	wood_type.atmospheric.grimwood	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+43	wood_type.atmospheric.kousa	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+44	wood_type.atmospheric.laurel	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+45	wood_type.atmospheric.morado	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+46	wood_type.atmospheric.rosewood	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+47	wood_type.atmospheric.yucca	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+48	wood_type.autumnity.maple	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+49	wood_type.beachparty.palm	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+50	wood_type.betterarcheology.rotten	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+51	wood_type.botania.dreamwood	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+52	wood_type.botania.livingwood	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+53	wood_type.cluttered.poplar	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+54	wood_type.cluttered.sycamore	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+55	wood_type.cluttered.willow	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+56	wood_type.meadow.pine	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+57	wood_type.minecraft.pale_oak	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+58	wood_type.quark.azalea	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+59	wood_type.vinery.dark_cherry	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+60	wood_type.windswept.chestnut	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+61	wood_type.windswept.holly	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+62	wood_type.windswept.pine	everycomp		essence activée sans nom français : ses blocs s'afficheraient avec l'anglais
+63	item.society.aero_mono_bait	familles		famille appat
+64	item.society.aero_mono_roe	familles		famille oeufs
+65	item.society.aged_aero_mono_roe	familles		famille oeufs_vieillis
+66	item.society.aged_arrau_turtle_roe	familles		famille oeufs_vieillis
+67	item.society.aged_bayad_roe	familles		famille oeufs_vieillis
+68	item.society.aged_blackfish_roe	familles		famille oeufs_vieillis
+69	item.society.aged_boulti_roe	familles		famille oeufs_vieillis
+70	item.society.aged_box_turtle_roe	familles		famille oeufs_vieillis
+71	item.society.aged_brown_trout_roe	familles		famille oeufs_vieillis
+72	item.society.aged_duality_damselfish_roe	familles		famille oeufs_vieillis
+73	item.society.aged_eyelash_roe	familles		famille oeufs_vieillis
+74	item.society.aged_fortress_grouper_roe	familles		famille oeufs_vieillis
+75	item.society.aged_gar_roe	familles		famille oeufs_vieillis
+76	item.society.aged_minnow_roe	familles		famille oeufs_vieillis
+77	item.society.aged_muskellunge_roe	familles		famille oeufs_vieillis
+78	item.society.aged_obsidianfish_roe	familles		famille oeufs_vieillis
+79	item.society.aged_pollock_roe	familles		famille oeufs_vieillis
+80	item.society.aged_sailor_barb_roe	familles		famille oeufs_vieillis
+81	item.society.aged_searing_cod_roe	familles		famille oeufs_vieillis
+82	item.society.aged_starshell_turtle_roe	familles		famille oeufs_vieillis
+83	item.society.arrau_turtle_bait	familles		famille appat
+84	item.society.arrau_turtle_roe	familles		famille oeufs
+85	item.society.bayad_bait	familles		famille appat
+86	item.society.bayad_roe	familles		famille oeufs
+87	item.society.blackfish_bait	familles		famille appat
+88	item.society.blackfish_roe	familles		famille oeufs
+89	item.society.boulti_bait	familles		famille appat
+90	item.society.boulti_roe	familles		famille oeufs
+91	item.society.box_turtle_bait	familles		famille appat
+92	item.society.box_turtle_roe	familles		famille oeufs
+93	item.society.brown_trout_bait	familles		famille appat
+94	item.society.brown_trout_roe	familles		famille oeufs
+95	item.society.duality_damselfish_bait	familles		famille appat
+96	item.society.duality_damselfish_roe	familles		famille oeufs
+97	item.society.eyelash_bait	familles		famille appat
+98	item.society.eyelash_roe	familles		famille oeufs
+99	item.society.fortress_grouper_bait	familles		famille appat
+100	item.society.fortress_grouper_roe	familles		famille oeufs
+101	item.society.pollock_bait	familles		famille appat
+102	item.society.pollock_roe	familles		famille oeufs
+103	item.society.sailor_barb_bait	familles		famille appat
+104	item.society.sailor_barb_roe	familles		famille oeufs
+105	item.society.smoked_bayad	familles		famille fume
+106	item.society.smoked_boulti	familles		famille fume
+107	item.society.smoked_duality_damselfish	familles		famille fume
+108	item.society.smoked_eyelash	familles		famille fume
+109	item.society.smoked_fortress_grouper	familles		famille fume
+110	item.society.smoked_sailor_barb	familles		famille fume
+111	block.meadow.pine_stairs	orthographe:languagetool	AGREEMENT_POSTPONED_ADJ	LanguageTool AGREEMENT_POSTPONED_ADJ : « alpins » — Vérifiez la concordance de « alpins » avec les noms précédents.
+112	item.society.enriched_bone_meal.tree_fruit_season	gabarits		« en » ou « au » devant une saison : « en été » mais « au printemps »
+113	tooltip.society.gatcha_machine	gabarits		« un » devant un %s qui reçoit un nom d'objet : son genre et son initiale varient
+114	block.crabbersdelight.crab_trap	arbitrage		« Piège à crabes » (nom affiché du bloc) ou « Casier à crabes » (appâts, quêtes, astuces) ?
+115	block.dramaticdoors.tall_ash_door	terminologie		« ash » se traduit « frêne »
+116	crabbersdelight.jei.crab_trap_loot	arbitrage		« Piège à crabes » (nom affiché du bloc) ou « Casier à crabes » (appâts, quêtes, astuces) ?
+117	ftbquests.chapter.crops.quest449B0ECBBD4E743D.subtitle	references		cite « Prize Machine », dont le nom affiché est « Machine à récompenses »
+118	ftbquests.chapter.crops.quest751852642BED95D0.subtitle	references		cite « Prize Machine », dont le nom affiché est « Machine à récompenses »
+119	ftbquests.chapter.ii__building_up_the_farm.quest187FBE0E4FB5B7AD.description1	references		cite « Worm Farm », dont le nom affiché est « Lombricomposteur »
+120	ftbquests.chapter.ii__building_up_the_farm.quest1E2D2FF9428F96DA.description2	references		cite « Sewing Needle », nom commun de 7 objets (« Aiguille de couture en os »…) : « Aiguille de couture »
+121	ftbquests.chapter.ii__building_up_the_farm.quest7C30FC21953CF7D3.description2	references		cite « Plating Station », dont le nom affiché est « Poste de dressage »
+122	ftbquests.chapter.iii__advanced_farming.quest6F8709C925DE7237.description2	references		cite « Catching Net », dont le nom affiché est « Filet à papillons »
+123	ftbquests.chapter.tools.quest86A3F527E1A973E.task.9153904729612208527.title	references		cite « Wand Core », nom commun de 2 objets (« Noyau d'ange »…) : « Noyau »
+124	ftbquests.chapter.tools.quest86A3F527E1A973E.title	references		cite « Wand Core », nom commun de 2 objets (« Noyau d'ange »…) : « Noyau »
+125	ftbquests.chapter.transportation.quest42A10CEE57513522.description2	references		cite « Charting Map », dont le nom affiché est « Carte d'arpentage »
+126	item.society.pristine_baryte	familles		famille immacule
+127	society.trofers.vault	references		cite « Vault », dont le nom affiché est « Coffre-fort »
+128	society_skills.mastery.mining_mastery.description	references		cite « Statue of The Moon Gnome », dont le nom affiché est « Statue du gnome de la lune »
+129	society_tips.tip.villager_haruna	references		cite « Aquamagical Dust », dont le nom affiché est « Poudre aquamagique »
+130	tooltip.society.skull_cavern_teleporter.description	references		cite « Vault », dont le nom affiché est « Coffre-fort »
+131	tooltip.society.skull_cavern_teleporter.obtain	references		cite « Vault », dont le nom affiché est « Coffre-fort »
+132	block.railways.black_hinged_locometal_door	accents		« charnieres » → « charnières »
+133	block.railways.black_locometal_end_ladder	accents		« extremite » → « extrémité »
+134	block.railways.black_locometal_vent	accents		« aeration » → « aération »
+135	block.railways.blue_hinged_locometal_door	accents		« charnieres » → « charnières »
+136	block.railways.blue_locometal_end_ladder	accents		« extremite » → « extrémité »
+137	block.railways.blue_locometal_vent	accents		« aeration » → « aération »
+138	block.railways.brown_hinged_locometal_door	accents		« charnieres » → « charnières »
+139	block.railways.brown_locometal_end_ladder	accents		« extremite » → « extrémité »
+140	block.railways.brown_locometal_vent	accents		« aeration » → « aération »
+141	block.railways.chartreuse_brass_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+142	block.railways.chartreuse_copper_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+143	block.railways.chartreuse_flat_riveted_locometal	accents		« rivete » → « riveté »
+144	block.railways.chartreuse_flat_slashed_locometal	accents		« coupe » → « coupé »
+145	block.railways.chartreuse_hinged_locometal_door	accents		« charnieres » → « charnières »
+146	block.railways.chartreuse_iron_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+147	block.railways.chartreuse_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+148	block.railways.chartreuse_locometal_end_ladder	accents		« extremite » → « extrémité »
+149	block.railways.chartreuse_locometal_vent	accents		« aeration » → « aération »
+150	block.railways.chartreuse_riveted_locometal	accents		« rivete » → « riveté »
+151	block.railways.chartreuse_slashed_locometal	accents		« coupe » → « coupé »
+152	block.railways.cyan_hinged_locometal_door	accents		« charnieres » → « charnières »
+153	block.railways.cyan_locometal_end_ladder	accents		« extremite » → « extrémité »
+154	block.railways.cyan_locometal_vent	accents		« aeration » → « aération »
+155	block.railways.diorite_brass_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+156	block.railways.diorite_copper_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+157	block.railways.diorite_flat_riveted_locometal	accents		« rivete » → « riveté »
+158	block.railways.diorite_flat_slashed_locometal	accents		« coupe » → « coupé »
+159	block.railways.diorite_hinged_locometal_door	accents		« charnieres » → « charnières »
+160	block.railways.diorite_iron_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+161	block.railways.diorite_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+162	block.railways.diorite_locometal_end_ladder	accents		« extremite » → « extrémité »
+163	block.railways.diorite_locometal_vent	accents		« aeration » → « aération »
+164	block.railways.diorite_riveted_locometal	accents		« rivete » → « riveté »
+165	block.railways.diorite_slashed_locometal	accents		« coupe » → « coupé »
+166	block.railways.dripstone_brass_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+167	block.railways.dripstone_copper_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+168	block.railways.dripstone_flat_riveted_locometal	accents		« rivete » → « riveté »
+169	block.railways.dripstone_flat_slashed_locometal	accents		« coupe » → « coupé »
+170	block.railways.dripstone_hinged_locometal_door	accents		« charnieres » → « charnières »
+171	block.railways.dripstone_iron_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+172	block.railways.dripstone_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+173	block.railways.dripstone_locometal_end_ladder	accents		« extremite » → « extrémité »
+174	block.railways.dripstone_locometal_vent	accents		« aeration » → « aération »
+175	block.railways.dripstone_riveted_locometal	accents		« rivete » → « riveté »
+176	block.railways.dripstone_slashed_locometal	accents		« coupe » → « coupé »
+177	block.railways.granite_brass_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+178	block.railways.granite_copper_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+179	block.railways.granite_flat_riveted_locometal	accents		« rivete » → « riveté »
+180	block.railways.granite_flat_slashed_locometal	accents		« coupe » → « coupé »
+181	block.railways.granite_hinged_locometal_door	accents		« charnieres » → « charnières »
+182	block.railways.granite_iron_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+183	block.railways.granite_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+184	block.railways.granite_locometal_end_ladder	accents		« extremite » → « extrémité »
+185	block.railways.granite_locometal_vent	accents		« aeration » → « aération »
+186	block.railways.granite_riveted_locometal	accents		« rivete » → « riveté »
+187	block.railways.granite_slashed_locometal	accents		« coupe » → « coupé »
+188	block.railways.gray_hinged_locometal_door	accents		« charnieres » → « charnières »
+189	block.railways.gray_locometal_end_ladder	accents		« extremite » → « extrémité »
+190	block.railways.gray_locometal_vent	accents		« aeration » → « aération »
+191	block.railways.green_hinged_locometal_door	accents		« charnieres » → « charnières »
+192	block.railways.green_locometal_end_ladder	accents		« extremite » → « extrémité »
+193	block.railways.green_locometal_vent	accents		« aeration » → « aération »
+194	block.railways.hinged_locometal_door	accents		« charnieres » → « charnières »
+195	block.railways.light_blue_hinged_locometal_door	accents		« charnieres » → « charnières »
+196	block.railways.light_blue_locometal_end_ladder	accents		« extremite » → « extrémité »
+197	block.railways.light_blue_locometal_vent	accents		« aeration » → « aération »
+198	block.railways.light_gray_hinged_locometal_door	accents		« charnieres » → « charnières »
+199	block.railways.light_gray_locometal_end_ladder	accents		« extremite » → « extrémité »
+200	block.railways.light_gray_locometal_vent	accents		« aeration » → « aération »
+201	block.railways.lime_hinged_locometal_door	accents		« charnieres » → « charnières »
+202	block.railways.lime_locometal_end_ladder	accents		« extremite » → « extrémité »
+203	block.railways.lime_locometal_vent	accents		« aeration » → « aération »
+204	block.railways.limestone_brass_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+205	block.railways.limestone_copper_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+206	block.railways.limestone_flat_riveted_locometal	accents		« rivete » → « riveté »
+207	block.railways.limestone_flat_slashed_locometal	accents		« coupe » → « coupé »
+208	block.railways.limestone_hinged_locometal_door	accents		« charnieres » → « charnières »
+209	block.railways.limestone_iron_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+210	block.railways.limestone_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+211	block.railways.limestone_locometal_end_ladder	accents		« extremite » → « extrémité »
+212	block.railways.limestone_locometal_vent	accents		« aeration » → « aération »
+213	block.railways.limestone_riveted_locometal	accents		« rivete » → « riveté »
+214	block.railways.limestone_slashed_locometal	accents		« coupe » → « coupé »
+215	block.railways.locometal_end_ladder	accents		« extremite » → « extrémité »
+216	block.railways.locometal_vent	accents		« aeration » → « aération »
+217	block.railways.magenta_hinged_locometal_door	accents		« charnieres » → « charnières »
+218	block.railways.magenta_locometal_end_ladder	accents		« extremite » → « extrémité »
+219	block.railways.magenta_locometal_vent	accents		« aeration » → « aération »
+220	block.railways.maroon_brass_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+221	block.railways.maroon_copper_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+222	block.railways.maroon_flat_riveted_locometal	accents		« rivete » → « riveté »
+223	block.railways.maroon_flat_slashed_locometal	accents		« coupe » → « coupé »
+224	block.railways.maroon_hinged_locometal_door	accents		« charnieres » → « charnières »
+225	block.railways.maroon_iron_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+226	block.railways.maroon_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+227	block.railways.maroon_locometal_end_ladder	accents		« extremite » → « extrémité »
+228	block.railways.maroon_locometal_vent	accents		« aeration » → « aération »
+229	block.railways.maroon_riveted_locometal	accents		« rivete » → « riveté »
+230	block.railways.maroon_slashed_locometal	accents		« coupe » → « coupé »
+231	block.railways.ochrum_brass_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+232	block.railways.ochrum_copper_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+233	block.railways.ochrum_flat_riveted_locometal	accents		« rivete » → « riveté »
+234	block.railways.ochrum_flat_slashed_locometal	accents		« coupe » → « coupé »
+235	block.railways.ochrum_hinged_locometal_door	accents		« charnieres » → « charnières »
+236	block.railways.ochrum_iron_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+237	block.railways.ochrum_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+238	block.railways.ochrum_locometal_end_ladder	accents		« extremite » → « extrémité »
+239	block.railways.ochrum_locometal_vent	accents		« aeration » → « aération »
+240	block.railways.ochrum_riveted_locometal	accents		« rivete » → « riveté »
+241	block.railways.ochrum_slashed_locometal	accents		« coupe » → « coupé »
+242	block.railways.olive_green_brass_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+243	block.railways.olive_green_copper_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+244	block.railways.olive_green_flat_riveted_locometal	accents		« rivete » → « riveté »
+245	block.railways.olive_green_flat_slashed_locometal	accents		« coupe » → « coupé »
+246	block.railways.olive_green_hinged_locometal_door	accents		« charnieres » → « charnières »
+247	block.railways.olive_green_iron_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+248	block.railways.olive_green_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+249	block.railways.olive_green_locometal_end_ladder	accents		« extremite » → « extrémité »
+250	block.railways.olive_green_locometal_vent	accents		« aeration » → « aération »
+251	block.railways.olive_green_riveted_locometal	accents		« rivete » → « riveté »
+252	block.railways.olive_green_slashed_locometal	accents		« coupe » → « coupé »
+253	block.railways.orange_hinged_locometal_door	accents		« charnieres » → « charnières »
+254	block.railways.orange_locometal_end_ladder	accents		« extremite » → « extrémité »
+255	block.railways.orange_locometal_vent	accents		« aeration » → « aération »
+256	block.railways.pine_green_brass_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+257	block.railways.pine_green_copper_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+258	block.railways.pine_green_flat_riveted_locometal	accents		« rivete » → « riveté »
+259	block.railways.pine_green_flat_slashed_locometal	accents		« coupe » → « coupé »
+260	block.railways.pine_green_hinged_locometal_door	accents		« charnieres » → « charnières »
+261	block.railways.pine_green_iron_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+262	block.railways.pine_green_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+263	block.railways.pine_green_locometal_end_ladder	accents		« extremite » → « extrémité »
+264	block.railways.pine_green_locometal_vent	accents		« aeration » → « aération »
+265	block.railways.pine_green_riveted_locometal	accents		« rivete » → « riveté »
+266	block.railways.pine_green_slashed_locometal	accents		« coupe » → « coupé »
+267	block.railways.pink_hinged_locometal_door	accents		« charnieres » → « charnières »
+268	block.railways.pink_locometal_end_ladder	accents		« extremite » → « extrémité »
+269	block.railways.pink_locometal_vent	accents		« aeration » → « aération »
+270	block.railways.purple_hinged_locometal_door	accents		« charnieres » → « charnières »
+271	block.railways.purple_locometal_end_ladder	accents		« extremite » → « extrémité »
+272	block.railways.purple_locometal_vent	accents		« aeration » → « aération »
+273	block.railways.red_hinged_locometal_door	accents		« charnieres » → « charnières »
+274	block.railways.red_locometal_end_ladder	accents		« extremite » → « extrémité »
+275	block.railways.red_locometal_vent	accents		« aeration » → « aération »
+276	block.railways.royal_blue_brass_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+277	block.railways.royal_blue_copper_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+278	block.railways.royal_blue_flat_riveted_locometal	accents		« rivete » → « riveté »
+279	block.railways.royal_blue_flat_slashed_locometal	accents		« coupe » → « coupé »
+280	block.railways.royal_blue_hinged_locometal_door	accents		« charnieres » → « charnières »
+281	block.railways.royal_blue_iron_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+282	block.railways.royal_blue_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+283	block.railways.royal_blue_locometal_end_ladder	accents		« extremite » → « extrémité »
+284	block.railways.royal_blue_locometal_vent	accents		« aeration » → « aération »
+285	block.railways.royal_blue_riveted_locometal	accents		« rivete » → « riveté »
+286	block.railways.royal_blue_slashed_locometal	accents		« coupe » → « coupé »
+287	block.railways.scorchia_brass_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+288	block.railways.scorchia_copper_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+289	block.railways.scorchia_flat_riveted_locometal	accents		« rivete » → « riveté »
+290	block.railways.scorchia_flat_slashed_locometal	accents		« coupe » → « coupé »
+291	block.railways.scorchia_hinged_locometal_door	accents		« charnieres » → « charnières »
+292	block.railways.scorchia_iron_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+293	block.railways.scorchia_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+294	block.railways.scorchia_locometal_end_ladder	accents		« extremite » → « extrémité »
+295	block.railways.scorchia_locometal_vent	accents		« aeration » → « aération »
+296	block.railways.scorchia_riveted_locometal	accents		« rivete » → « riveté »
+297	block.railways.scorchia_slashed_locometal	accents		« coupe » → « coupé »
+298	block.railways.sea_green_brass_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+299	block.railways.sea_green_copper_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+300	block.railways.sea_green_flat_riveted_locometal	accents		« rivete » → « riveté »
+301	block.railways.sea_green_flat_slashed_locometal	accents		« coupe » → « coupé »
+302	block.railways.sea_green_hinged_locometal_door	accents		« charnieres » → « charnières »
+303	block.railways.sea_green_iron_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+304	block.railways.sea_green_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+305	block.railways.sea_green_locometal_end_ladder	accents		« extremite » → « extrémité »
+306	block.railways.sea_green_locometal_vent	accents		« aeration » → « aération »
+307	block.railways.sea_green_riveted_locometal	accents		« rivete » → « riveté »
+308	block.railways.sea_green_slashed_locometal	accents		« coupe » → « coupé »
+309	block.railways.tuff_brass_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+310	block.railways.tuff_copper_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+311	block.railways.tuff_flat_riveted_locometal	accents		« rivete » → « riveté »
+312	block.railways.tuff_flat_slashed_locometal	accents		« coupe » → « coupé »
+313	block.railways.tuff_hinged_locometal_door	accents		« charnieres » → « charnières »
+314	block.railways.tuff_iron_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+315	block.railways.tuff_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+316	block.railways.tuff_locometal_end_ladder	accents		« extremite » → « extrémité »
+317	block.railways.tuff_locometal_vent	accents		« aeration » → « aération »
+318	block.railways.tuff_riveted_locometal	accents		« rivete » → « riveté »
+319	block.railways.tuff_slashed_locometal	accents		« coupe » → « coupé »
+320	block.railways.turquoise_brass_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+321	block.railways.turquoise_copper_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+322	block.railways.turquoise_flat_riveted_locometal	accents		« rivete » → « riveté »
+323	block.railways.turquoise_flat_slashed_locometal	accents		« coupe » → « coupé »
+324	block.railways.turquoise_hinged_locometal_door	accents		« charnieres » → « charnières »
+325	block.railways.turquoise_iron_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+326	block.railways.turquoise_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+327	block.railways.turquoise_locometal_end_ladder	accents		« extremite » → « extrémité »
+328	block.railways.turquoise_locometal_vent	accents		« aeration » → « aération »
+329	block.railways.turquoise_riveted_locometal	accents		« rivete » → « riveté »
+330	block.railways.turquoise_slashed_locometal	accents		« coupe » → « coupé »
+331	block.railways.vermilion_brass_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+332	block.railways.vermilion_copper_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+333	block.railways.vermilion_flat_riveted_locometal	accents		« rivete » → « riveté »
+334	block.railways.vermilion_flat_slashed_locometal	accents		« coupe » → « coupé »
+335	block.railways.vermilion_hinged_locometal_door	accents		« charnieres » → « charnières »
+336	block.railways.vermilion_iron_wrapped_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+337	block.railways.vermilion_locometal_boiler	accents		« Chaudiere » → « Chaudière »
+338	block.railways.vermilion_locometal_end_ladder	accents		« extremite » → « extrémité »
+339	block.railways.vermilion_locometal_vent	accents		« aeration » → « aération »
+340	block.railways.vermilion_riveted_locometal	accents		« rivete » → « riveté »
+341	block.railways.vermilion_slashed_locometal	accents		« coupe » → « coupé »
+342	block.railways.white_hinged_locometal_door	accents		« charnieres » → « charnières »
+343	block.railways.white_locometal_end_ladder	accents		« extremite » → « extrémité »
+344	block.railways.white_locometal_vent	accents		« aeration » → « aération »
+345	block.railways.yellow_hinged_locometal_door	accents		« charnieres » → « charnières »
+346	block.railways.yellow_locometal_end_ladder	accents		« extremite » → « extrémité »
+347	block.railways.yellow_locometal_vent	accents		« aeration » → « aération »
+348	item.society.dragontooth_axe.no_skill_broken	conventions		« Votre » : ici, le pack tutoie
+349	item.society.magnifying_glass.description.view_block	conventions		« Maintenez » : ici, le pack tutoie
+350	society_tips.tip.sniffle_snaffle	sans objet		le français actuel est juste ; rien à trouver
+351	block.longwings.berry_butterfly_driplure	familles		famille appat_suintant_longwings
+352	block.cluttered.rose_end_table_black	semantique		Faux sens : « rose » se lit comme la couleur (« table rose noire ») alors que la table est noire, ornée d'une rose ; seuls la recette et la texture le disent.
+353	ftbquests.chapter.slimes.quest2777643C0B7C85A7.subtitle	references		cite « Crab Trap », dont le nom affiché est « Piège à crabes »
+354	ftbquests.chapter.slimes.quest360D17160386D3C4.subtitle	references		cite « Crab Trap », dont le nom affiché est « Piège à crabes »
+355	ftbquests.chapter.transportation.quest693FFA0C3FD1A078.task.273325910094846983.title	arbitrage		« Sharestone » (nom affiché de Waystones) ou « pierre de partage » (tous les textes du pack) ? Question sharestone (lot 3b-04), exception provisoire.
+356	item.society.dried_toadstool	familles		famille seche
+357	almanac/entries/animals/cochineal.json#/pages/0/text	references		cite « Carmine Husk », dont le nom affiché est « Coque de carmin »
+358	almanac/entries/animals/frog.json#/pages/0/text	references	item.society.ribbit_gadget	cite « Ribbit Gadget », dont le nom affiché est « Gadget coassant »
+359	almanac/entries/animals/goose.json#/pages/0/text	references		cite « Seagrass », dont le nom affiché est « Herbe aquatique »
+360	almanac/entries/animals/mammutilation.json#/pages/0/text	references		cite « Ichor Bottle », dont le nom affiché est « Bouteille d'ichor »
+361	almanac/entries/animals/minisheep.json#/pages/0/text	references	item.society.sheep_milk	cite « Sheep Milk », dont le nom affiché est « Lait de brebis »
+362	almanac/entries/animals/moobloom.json#/pages/0/text	references		cite « Totem of Glowth », dont le nom affiché est « Totem de luissance »
+363	almanac/entries/animals/penguin.json#/pages/0/text	references		cite « Ice Spikes », dont le nom affiché est « Stalagmites de glace »
+364	almanac/entries/animals/snail.json#/pages/0/text	references		cite « Snail Goo », dont le nom affiché est « Bave d'escargot »
+365	almanac/entries/animals/snow_pig.json#/pages/0/text	references		cite « Frozen Porkchop », dont le nom affiché est « Porc gelé »
+366	almanac/entries/animals/snuffle.json#/pages/0/text	references	block.species.frozen_hair	cite « Frozen Hair », dont le nom affiché est « Fourrure gelée »
+367	almanac/entries/animals/wooly_cow.json#/pages/0/text	references	block.meadow.umbra_wool	cite « Umbra Wool », dont le nom affiché est « Laine d'ombre »
+368	almanac/entries/crops/cranberry.json#/name	references		cite « Cranberry », dont le nom affiché est « Cranberry »
+369	almanac/entries/crops/pitcher_plant.json#/name	references		cite « Pitcher Plant », dont le nom affiché est « Planturne »
+370	almanac/entries/pets/allay.json#/pages/1/text	references		cite « Magnet Upgrade », dont le nom affiché est « Amélioration magnétique »
+371	almanac/entries/pets/axolotl.json#/pages/1/text	references		cite « Lush Caves », dont le nom affiché est « Cavernes luxuriantes »
+372	almanac/entries/pets/cat.json#/pages/0/text	references		cite « Neko Ears », dont le nom affiché est « Oreilles de chat »
+373	almanac/entries/pets/ferret.json#/pages/0/text	references		cite « Jumping Spider Spawn Crate », dont le nom affiché est « Caisse d'apparition d'araignée sauteuse »
+374	almanac/entries/pets/grizzly_bear.json#/pages/0/text	semantique		L'anglais du livre écorche le nom du cadeau (« Beeomonican Seal » pour « Beemonican Seal ») et parle d'« oeuf d'apparition » sans nommer l'objet, que le pack a renommé en caisse : aucune donnée ne relie ces mots aux objets.
+375	almanac/entries/pets/hamster.json#/pages/0/text	references		cite « Tiny Gnome », dont le nom affiché est « Petit gnome »
+376	almanac/entries/pets/owl.json#/pages/0/text	references		cite « Owl Clock », dont le nom affiché est « Horloge hibou »
+377	almanac/entries/slimes/juicy.json#/pages/0/text	references		cite « Intoxication », dont le nom affiché est « Ivresse »
+378	almanac/entries/slimes/minty.json#/pages/0/text	references		cite « Intoxication », dont le nom affiché est « Ivresse »
+379	almanac/entries/slimes/sparkcat.json#/pages/0/text	references	effect.brewery.lightning_strike	cite « Lightning Strike », dont le nom affiché est « Coup de foudre »
+380	almanac/entries/trees/atmospheric/grimwood.json#/name	arbitrage		Réponse du 01/10 à la question grimwood-sombrepin (lot R-04) : la fiche nomme l'arbre « Sombrepin », pas le bloc « Bois de sombrepin » ; une exception à objet le déclare.
+381	almanac/entries/trees/letsdo/darkcherry.json#/name	references		la fiche d'arbre ne nomme pas l'arbre de sa pousse « Pousse de cerisier noir »
+382	almanac/entries/trees/letsdo/pine.json#/name	references		la fiche d'arbre ne nomme pas l'arbre de sa pousse « Pousse alpine »
+383	fish_finder/entries/fish/duality_damselfish.json#/name	references		la fiche présente « Duality Damselfish », dont le nom affiché est « Poisson-demoiselle de dualité »
+384	fish_finder/entries/fish/eyeball_fish.json#/pages/0/text	references		cite « Crimson Forest », dont le nom affiché est « Forêt carmin »
+385	fish_finder/entries/fish/sailor_barb.json#/name	references		cite « Sailor Barb », dont le nom affiché est « Barbus matelot »
+386	block.botania.gaia_head	accents		« Gaia » → « Gaïa »
+387	console.McVersion	codes		perdus : ${mc_version}
+388	block.trials.tuff_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+389	block.twigs.bamboo_thatch_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+390	block.twigs.black_silt_shingle_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+391	block.twigs.bloodstone_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+392	block.twigs.blue_silt_shingle_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+393	block.twigs.brown_silt_shingle_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+394	block.twigs.calcite_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+395	block.twigs.cobblestone_brick_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+396	block.twigs.cyan_silt_shingle_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+397	block.twigs.gravel_brick_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+398	block.twigs.gray_silt_shingle_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+399	block.twigs.green_silt_shingle_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+400	block.twigs.light_blue_silt_shingle_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+401	block.twigs.light_gray_silt_shingle_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+402	block.twigs.lime_silt_shingle_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+403	block.twigs.magenta_silt_shingle_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+404	block.twigs.mossy_brick_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+405	block.twigs.mossy_cobblestone_brick_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+406	block.twigs.orange_silt_shingle_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+407	block.twigs.pink_silt_shingle_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+408	block.twigs.polished_calcite_brick_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+409	block.twigs.purple_silt_shingle_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+410	block.twigs.red_silt_shingle_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+411	block.twigs.rhyolite_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+412	block.twigs.schist_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+413	block.twigs.silt_brick_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+414	block.twigs.silt_shingle_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+415	block.twigs.smooth_basalt_brick_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+416	block.twigs.smooth_stone_brick_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+417	block.twigs.tuff_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+418	block.twigs.weeping_polished_blackstone_brick_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+419	block.twigs.white_silt_shingle_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+420	block.twigs.yellow_silt_shingle_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+421	block.windswept.shale_stairs	conventions		« Escalier en X », au singulier (STYLE §7)
+422	advancement.farm_and_charm.roast_everything	orthographe		« Rotissoire » → « rôtissoire »
+423	advancement.vinery.get_wine.desc	orthographe		« ingredients » → « ingrédients »
+424	advancement.vinery.wild_crops.desc	orthographe	récuperer	« récuperer » → « récupérer »
+425	advancements.refinedstorage.viewing_fluids.description	orthographe		« intéragir » → « interagir »
+426	advancements.refinedstorage.viewing_items.description	orthographe		« intéragir » → « interagir »
+427	block.atmospheric.flowering_morado_hedge	orthographe		« morado fleurie » → « morado fleuri »
+428	block.atmospheric.flowering_morado_leaf_carpet	orthographe		« morado fleurie » → « morado fleuri »
+429	block.atmospheric.flowering_morado_leaf_pile	orthographe		« morado fleurie » → « morado fleuri »
+430	block.atmospheric.flowering_morado_leaves	orthographe		« morado fleurie » → « morado fleuri »
+431	block.atmospheric.potted_rosewood_sapling	orthographe		« pallisandre » → « palissandre »
+432	block.atmospheric.rosewood	orthographe		« pallisandre » → « palissandre »
+433	block.atmospheric.rosewood_beehive	orthographe		« pallisandre » → « palissandre »
+434	block.atmospheric.rosewood_boards	orthographe		« pallisandre » → « palissandre »
+435	block.atmospheric.rosewood_bookshelf	orthographe		« pallisandre » → « palissandre »
+436	block.atmospheric.rosewood_button	orthographe		« pallisandre » → « palissandre »
+437	block.atmospheric.rosewood_chest	orthographe		« pallisandre » → « palissandre »
+438	block.atmospheric.rosewood_door	orthographe		« pallisandre » → « palissandre »
+439	block.atmospheric.rosewood_fence	orthographe		« pallisandre » → « palissandre »
+440	block.atmospheric.rosewood_fence_gate	orthographe		« pallisandre » → « palissandre »
+441	block.atmospheric.rosewood_hedge	orthographe		« pallisandre » → « palissandre »
+442	block.atmospheric.rosewood_ladder	orthographe		« pallisandre » → « palissandre »
+443	block.atmospheric.rosewood_leaf_carpet	orthographe		« pallisandre » → « palissandre »
+444	block.atmospheric.rosewood_leaf_pile	orthographe		« pallisandre » → « palissandre »
+445	block.atmospheric.rosewood_leaves	orthographe		« pallisandre » → « palissandre »
+446	block.atmospheric.rosewood_log	orthographe		« pallisandre » → « palissandre »
+447	block.atmospheric.rosewood_planks	orthographe		« pallisandre » → « palissandre »
+448	block.atmospheric.rosewood_post	orthographe		« pallisandre » → « palissandre »
+449	block.atmospheric.rosewood_pressure_plate	orthographe		« pallisandre » → « palissandre »
+450	block.atmospheric.rosewood_sapling	orthographe		« pallisandre » → « palissandre »
+451	block.atmospheric.rosewood_sign	orthographe		« pallisandre » → « palissandre »
+452	block.atmospheric.rosewood_slab	orthographe		« pallisandre » → « palissandre »
+453	block.atmospheric.rosewood_stairs	orthographe		« pallisandre » → « palissandre »
+454	block.atmospheric.rosewood_trapdoor	orthographe		« pallisandre » → « palissandre »
+455	block.atmospheric.rosewood_trapped_chest	orthographe		« pallisandre » → « palissandre »
+456	block.atmospheric.rosewood_vertical_slab	orthographe		« pallisandre » → « palissandre »
+457	block.atmospheric.rosewood_wall_sign	orthographe		« pallisandre » → « palissandre »
+458	block.atmospheric.stripped_rosewood	orthographe		« pallisandre » → « palissandre »
+459	block.atmospheric.stripped_rosewood_log	orthographe		« pallisandre » → « palissandre »
+460	block.atmospheric.stripped_rosewood_post	orthographe		« pallisandre » → « palissandre »
+461	block.atmospheric.vertical_rosewood_planks	orthographe		« pallisandre » → « palissandre »
+462	block.autumnity.foul_berry_basket	anglais_residuel		mots anglais recopiés : basket, berrie, foul
+463	block.autumnity.orange_maple_leaves	orthographe		« érable oranges » → « érable orange »
+464	block.betterarcheology.chicken_fossil	casse		majuscule interne : « Poulet »
+465	block.betterarcheology.chicken_fossil_body	casse		majuscule interne : « Fossile », « Poulet »
+466	block.betterarcheology.cracked_mud_brick_slab	casse		majuscule interne : « Brique », « Boue », « Craquelée »
+467	block.betterarcheology.cracked_mud_brick_stairs	casse		majuscule interne : « Brique », « Boue », « Craquelée »
+468	block.betterarcheology.cracked_mud_bricks	casse		majuscule interne : « Boue », « Craquelées »
+469	block.betterarcheology.creeper_fossil	sans objet		Le français de Mojang écrit Creeper avec majuscule dans tous ses noms (« Face de Creeper », « Poudre de Blaze ») : « Fossile de Creeper » le suit, la minuscule proposée le contredirait ; rien à trouver.
+470	block.betterarcheology.creeper_fossil_body	casse		majuscule interne : « Fossile »
+471	block.betterarcheology.fossiliferous_dirt	casse		majuscule interne : « Fossilifère »
+472	block.betterarcheology.guardian_fossil	casse		majuscule interne : « Gardien »
+473	block.betterarcheology.guardian_fossil_body	casse		majuscule interne : « Fossile », « Gardien »
+474	block.betterarcheology.infested_mud_bricks	casse		majuscule interne : « Boue », « Infestée »
+475	block.betterarcheology.loot_vase	casse		majuscule interne : « Antique »
+476	block.betterarcheology.loot_vase_creeper	casse		majuscule interne : « Antique »
+477	block.betterarcheology.loot_vase_green	casse		majuscule interne : « Antique »
+478	block.betterarcheology.radiance_totem	casse		majuscule interne : « Rayonnement »
+479	block.betterarcheology.radiance_totem_message_0	casse		majuscule interne : « Tout »
+480	block.betterarcheology.radiance_totem_message_1	casse		majuscule interne : « Monstres »
+481	block.betterarcheology.radiance_totem_message_2	casse		majuscule interne : « Animaux »
+482	block.betterarcheology.radiance_totem_message_3	casse		majuscule interne : « Joueurs »
+483	block.betterarcheology.rotten_door	casse		majuscule interne : « Pourrie »
+484	block.betterarcheology.rotten_fence	casse		majuscule interne : « Pourrie »
+485	block.betterarcheology.rotten_fence_gate	casse		majuscule interne : « Clôture », « Pourrie »
+486	block.betterarcheology.rotten_log	casse		majuscule interne : « Pourrie »
+487	block.betterarcheology.rotten_planks	casse		majuscule interne : « Pourries »
+488	block.betterarcheology.rotten_pressure_plate	casse		majuscule interne : « Pression », « Pourrie »
+489	block.betterarcheology.rotten_slab	casse		majuscule interne : « Pourrie »
+490	block.betterarcheology.rotten_stairs	casse		majuscule interne : « Pourri »
+491	block.betterarcheology.rotten_trapdoor	casse		majuscule interne : « Pourrie »
+492	block.betterarcheology.sheep_fossil	casse		majuscule interne : « Mouton »
+493	block.betterarcheology.sheep_fossil_body	casse		majuscule interne : « Fossile », « Mouton »
+494	block.betterarcheology.suspicious_dirt	casse		majuscule interne : « Suspecte »
+495	block.betterarcheology.suspicious_red_sand	casse		majuscule interne : « Rouge », « Suspect »
+496	block.betterarcheology.vase	casse		majuscule interne : « Antique »
+497	block.betterarcheology.vase_creeper	casse		majuscule interne : « Antique »
+498	block.betterarcheology.vase_green	casse		majuscule interne : « Antique »
+499	block.betterarcheology.villager_fossil	casse		majuscule interne : « Villageois »
+500	block.betterarcheology.villager_fossil_body	casse		majuscule interne : « Fossile », « Villageois »
+501	block.betterarcheology.wolf_fossil	casse		majuscule interne : « Loup »
+502	block.betterarcheology.wolf_fossil_body	casse		majuscule interne : « Fossile », « Loup »
+503	block.decorative_blocks.hellbark_seat	orthographe		« Siége » → « siège »
+504	block.decorative_blocks.jacaranda_seat	orthographe		« Siége » → « siège »
+505	block.decorative_blocks.magic_seat	orthographe		« Siége » → « siège »
+506	block.decorative_blocks.mahogany_seat	orthographe		« Siége » → « siège »
+507	block.decorative_blocks.palm_seat	orthographe		« Siége » → « siège »
+508	block.decorative_blocks.redwood_seat	orthographe		« Siége » → « siège »
+509	block.decorative_blocks.umbran_seat	orthographe		« Siége » → « siège »
+510	block.decorative_blocks.willow_seat	orthographe		« Siége » → « siège »
+511	block.farm_and_charm.stuffed_chicken_block	orthographe		« Farçi » → « farci »
+512	block.farm_and_charm.stuffed_rabbit_block	orthographe		« Farçi » → « farci »
+513	block.railways.headstock.tooltip	orthographe		« TÉTE » → « tête »
+514	block.railways.headstock_wood.tooltip	orthographe		« TÉTE » → « tête »
+515	block.refinedstorage.detector	orthographe		« Detecteur » → « détecteur »
+516	block.vinery.red_grape_bag	orthographe		« raisins rouge » → « raisins rouges »
+517	block.waystones.black_sharestone	anglais_residuel		mots anglais recopiés : sharestone
+518	block.waystones.blue_sharestone	anglais_residuel		mots anglais recopiés : sharestone
+519	block.waystones.brown_sharestone	anglais_residuel		mots anglais recopiés : sharestone
+520	block.waystones.cyan_sharestone	anglais_residuel		mots anglais recopiés : sharestone
+521	block.waystones.gray_sharestone	anglais_residuel		mots anglais recopiés : sharestone
+522	block.waystones.green_sharestone	anglais_residuel		mots anglais recopiés : sharestone
+523	block.waystones.light_blue_sharestone	anglais_residuel		mots anglais recopiés : sharestone
+524	block.waystones.light_gray_sharestone	anglais_residuel		mots anglais recopiés : sharestone
+525	block.waystones.lime_sharestone	anglais_residuel		mots anglais recopiés : sharestone
+526	block.waystones.magenta_sharestone	anglais_residuel		mots anglais recopiés : sharestone
+527	block.waystones.orange_sharestone	anglais_residuel		mots anglais recopiés : sharestone
+528	block.waystones.pink_sharestone	anglais_residuel		mots anglais recopiés : sharestone
+529	block.waystones.purple_sharestone	anglais_residuel		mots anglais recopiés : sharestone
+530	block.waystones.red_sharestone	anglais_residuel		mots anglais recopiés : sharestone
+531	block.waystones.sharestone	anglais_residuel		mots anglais recopiés : sharestone
+532	block.waystones.white_sharestone	anglais_residuel		mots anglais recopiés : sharestone
+533	block.waystones.yellow_sharestone	anglais_residuel		mots anglais recopiés : sharestone
+534	botania.challenge.animalFarm.desc	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+535	botania.page.blackHoleTalisman1	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+536	botania.page.corporeaIndex6	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+537	botania.page.corporeaInterceptor1	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+538	botania.page.craftCrate4	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+539	botania.page.dreadthorne0	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+540	botania.page.elfGear2	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+541	botania.page.endoflame0	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+542	botania.page.flowers8	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+543	botania.page.gatherDrum0	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+544	botania.page.glassPick0	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+545	botania.page.hyacidus0	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+546	botania.page.incense2	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+547	botania.page.itemFinder0	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+548	botania.page.judgementCloaks1	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+549	botania.page.lokiRing2	orthographe		« alors tout les autres » → « alors tous les autres »
+550	botania.page.manaGear0	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+551	botania.page.openBucket0	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+552	botania.page.welcome5	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+553	config.emi.tooltip.binds.craft_all	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+554	config.emi.tooltip.binds.craft_all_to_inventory	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+555	effect.apothic_attributes.sundering.description	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+556	effect.cofh_core.magic_resistance.description	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+557	effect.cofh_core.panacea.description	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+558	effect.neapolitan.agility.description	orthographe:languagetool	AGREEMENT_TOUT_LE	LanguageTool AGREEMENT_TOUT_LE : « tout » — « Tout » et le groupe nominal ne semblent pas bien accordés.
+559	gui.refinedstorage.detector	orthographe		« Detecteur » → « détecteur »
+560	gui.sophisticatedbackpacks.upgrades.advanced_tool_swapper	orthographe		« Echange » → « échange »
+561	gui.sophisticatedbackpacks.upgrades.buttons.only_swap_for_tools	orthographe		« Echange » → « échange »
+562	gui.sophisticatedbackpacks.upgrades.buttons.only_swap_for_tools.detail	orthographe		« Echange » → « échange »
+563	gui.sophisticatedbackpacks.upgrades.buttons.swap_tools	orthographe		« Echange » → « échange »
+564	gui.sophisticatedbackpacks.upgrades.buttons.swap_tools.detail	orthographe		« Echange » → « échange »
+565	gui.sophisticatedbackpacks.upgrades.buttons.swap_weapon	orthographe		« Echange » → « échange »
+566	gui.sophisticatedbackpacks.upgrades.buttons.swap_weapon.detail	orthographe		« Echange » → « échange »
+567	item.atmospheric.large_rosewood_boat	orthographe		« pallisandre » → « palissandre »
+568	item.atmospheric.rosewood_boat	orthographe		« pallisandre » → « palissandre »
+569	item.atmospheric.rosewood_chest_boat	orthographe		« pallisandre » → « palissandre »
+570	item.atmospheric.rosewood_furnace_boat	orthographe		« pallisandre » → « palissandre »
+571	item.autumnity.foul_berries	anglais_residuel		mots anglais recopiés : berrie, foul
+572	item.betterarcheology.bomb	casse		majuscule interne : « Rouillée »
+573	item.betterarcheology.diamond_brush	casse		majuscule interne : « Diamant »
+574	item.betterarcheology.identified_artifact	casse		majuscule interne : « Identifié »
+575	item.betterarcheology.iron_brush	casse		majuscule interne : « Fer »
+576	item.betterarcheology.torrent_totem	casse		majuscule interne : « Torrents »
+577	item.betterarcheology.unidentified_artifact	casse		majuscule interne : « Identifié »
+578	item.farm_and_charm.oat	orthographe		« Avoive » → « avoine »
+579	item.sophisticatedbackpacks.advanced_tool_swapper_upgrade.tooltip	orthographe		« Echange » → « échange »
+580	item.sophisticatedbackpacks.tool_swapper_upgrade.tooltip	orthographe		« Echange » → « échange »
+581	item.vinery.cherry.tooltip	orthographe		« Ingredients » → « ingrédients »
+582	item.vinery.grape.tooltip	orthographe		« Ingredients » → « ingrédients »
+583	item.vinery.red_savanna_grapejuice	orthographe	savanne	« savanne » → « savane »
+584	item.vinery.red_taiga_grapejuice	orthographe		« raisins rouge » → « raisins rouges »
+585	item.vinery.savanna_grape_seeds_red	orthographe		« savanne » → « savane »
+586	item.vinery.savanna_grape_seeds_white	orthographe		« savanne » → « savane »
+587	item.vinery.savanna_grapes_red	orthographe	savanne	« savanne » → « savane »
+588	item.vinery.savanna_grapes_white	orthographe		« savanne » → « savane »
+589	item.vinery.taiga_grape_seeds_red	orthographe		« raisins rouge » → « raisins rouges »
+590	item.vinery.taiga_grapes_red	orthographe		« Raisins rouge » → « raisins rouges »
+591	item.vinery.white_savanna_grapejuice	orthographe		« savanne » → « savane »
+592	key.sophisticatedbackpacks.tool_swap	orthographe		« Echange » → « échange »
+593	block.dramaticdoors.short_vinery_cherry_door	references		cite « Dark Cherry Door », dont le nom affiché est « Porte en cerisier noir »
+594	block.dramaticdoors.tall_vinery_cherry_door	references		cite « Dark Cherry Door », dont le nom affiché est « Porte en cerisier noir »
+595	crabbersdelight.advancement.craft_crab_trap.desc	arbitrage		« Piège à crabes » (nom affiché du bloc) ou « Casier à crabes » (appâts, quêtes, astuces) ?
+596	crabbersdelight.block.crab_trap.insufficient_surrounding_water	arbitrage		« Piège à crabes » (nom affiché du bloc) ou « Casier à crabes » (appâts, quêtes, astuces) ?
+597	crabbersdelight.block.crab_trap.not_waterlogged	arbitrage		« Piège à crabes » (nom affiché du bloc) ou « Casier à crabes » (appâts, quêtes, astuces) ?
+598	dialog.npc.fisher.chatter_friendship5.5.line_0	references		cite « Deepfish », dont le nom affiché est « Poisson abyssal »
+599	ftbquests.chapter.iv__prismatic_farming.quest224AC273D2E3D1D7.description1	references		cite « Selene » en écrivant « Séléné » : le nom affiché « Selene » écrit « Selene »
+600	item.bakery.chocolate_donut	references		cite « Donut », dont le nom affiché est « Beignet »
+601	item.society.artifact_trove	arbitrage		« artefact » ou « artéfact » ? Le pack écrit les deux (spec §15, choix typographiques ouverts) ; « Trésor d'artefacts » s'écarte de 11 « artéfact ».
+602	item.society.bubble_totem.description	references		cite « Fishing Spot », dont le nom affiché est « Zone de pêche »
+603	item.society.treasure_totem.description	references		cite « Dig Spot », dont le nom affiché est « Zone de fouille »
+604	society_tips.tip.golden_egg_one	references		cite « Golden Egg », dont le nom affiché est « Oeuf d'or »
+605	tooltip.society.item_type.prize_machine_reward	references		cite « Prize Machine », dont le nom affiché est « Machine à récompenses »
+606	block.railways.dripstone_brass_wrapped_locometal	terminologie		« dripstone » se traduit « spéléothème »
+607	block.railways.dripstone_brass_wrapped_locometal_boiler	terminologie		« dripstone » se traduit « spéléothème »
+608	block.railways.dripstone_copper_wrapped_locometal	terminologie		« dripstone » se traduit « spéléothème »
+609	block.railways.dripstone_copper_wrapped_locometal_boiler	terminologie		« dripstone » se traduit « spéléothème »
+610	block.railways.dripstone_copper_wrapped_locometal_smokebox	terminologie	dripstone	« dripstone » se traduit « spéléothème »
+611	block.railways.dripstone_flat_riveted_locometal	terminologie		« dripstone » se traduit « spéléothème »
+612	block.railways.dripstone_flat_slashed_locometal	terminologie		« dripstone » se traduit « spéléothème »
+613	block.railways.dripstone_folding_locometal_door	terminologie		« dripstone » se traduit « spéléothème »
+614	block.railways.dripstone_four_pane_locometal_window	terminologie		« dripstone » se traduit « spéléothème »
+615	block.railways.dripstone_hazard_stripes_chevron_on_black	terminologie		« dripstone » se traduit « spéléothème »
+616	block.railways.dripstone_hazard_stripes_chevron_on_white	terminologie		« dripstone » se traduit « spéléothème »
+617	block.railways.dripstone_hazard_stripes_diagonal_on_black	terminologie		« dripstone » se traduit « spéléothème »
+618	block.railways.dripstone_hazard_stripes_diagonal_on_white	terminologie		« dripstone » se traduit « spéléothème »
+619	block.railways.dripstone_hinged_locometal_door	terminologie		« dripstone » se traduit « spéléothème »
+620	block.railways.dripstone_iron_wrapped_locometal	terminologie		« dripstone » se traduit « spéléothème »
+621	block.railways.dripstone_iron_wrapped_locometal_boiler	terminologie		« dripstone » se traduit « spéléothème »
+622	block.railways.dripstone_iron_wrapped_locometal_smokebox	terminologie	dripstone	« dripstone » se traduit « spéléothème »
+623	block.railways.dripstone_locometal_boiler	terminologie		« dripstone » se traduit « spéléothème »
+624	block.railways.dripstone_locometal_end_ladder	terminologie		« dripstone » se traduit « spéléothème »
+625	block.railways.dripstone_locometal_flywheel	terminologie		« dripstone » se traduit « spéléothème »
+626	block.railways.dripstone_locometal_pillar	terminologie		« dripstone » se traduit « spéléothème »
+627	block.railways.dripstone_locometal_rung_ladder	terminologie		« dripstone » se traduit « spéléothème »
+628	block.railways.dripstone_locometal_smokebox	terminologie	dripstone	« dripstone » se traduit « spéléothème »
+629	block.railways.dripstone_locometal_trapdoor	terminologie		« dripstone » se traduit « spéléothème »
+630	block.railways.dripstone_locometal_vent	terminologie		« dripstone » se traduit « spéléothème »
+631	block.railways.dripstone_plated_locometal	terminologie		« dripstone » se traduit « spéléothème »
+632	block.railways.dripstone_riveted_locometal	terminologie		« dripstone » se traduit « spéléothème »
+633	block.railways.dripstone_round_pane_locometal_window	terminologie		« dripstone » se traduit « spéléothème »
+634	block.railways.dripstone_single_pane_locometal_window	terminologie		« dripstone » se traduit « spéléothème »
+635	block.railways.dripstone_slashed_locometal	terminologie		« dripstone » se traduit « spéléothème »
+636	block.railways.dripstone_sliding_locometal_door	terminologie		« dripstone » se traduit « spéléothème »
+637	block.railways.dripstone_two_pane_locometal_window	terminologie		« dripstone » se traduit « spéléothème »
+638	block.railways.dripstone_wrapped_locometal_smokebox	terminologie	dripstone	« dripstone » se traduit « spéléothème »
+639	aquaculture.obsidian_note_hook.tooltip.desc	conventions		apostrophe courbe : l'apostrophe droite
+640	block.society.ancient_cask.no_skill	conventions		guillemets français dans un texte d'interface : guillemets droits
+641	block.society.ancient_goddess_statue.no_skill	conventions		guillemets français dans un texte d'interface : guillemets droits
+642	dialog.npc.shepherd.gift_neutral.6.line_0	sans objet		le français actuel est juste ; rien à trouver
+643	item.society.canvas	sans objet		le français actuel est juste ; rien à trouver
+644	ftbquests.chapter.fish_tank.quest469CEB4C8B3C0EA9.subtitle	casse		majuscule interne : « Hameçon »
+645	ftbquests.chapter.getting_started.quest382DC5EBB8C7C19E.description1	sans objet		décision du 29/09/2026 (STYLE §2) : un nom d'objet mis en valeur par un code couleur garde sa majuscule
+646	ftbquests.chapter.ii__building_up_the_farm.quest55D658B5939D9DEB.description1	sans objet		décision du 29/09/2026 (STYLE §2) : un nom d'objet mis en valeur par un code couleur garde sa majuscule
+647	ftbquests.chapter.ii__building_up_the_farm.quest6ADD884F3FFE5D42.description4	casse		nom d'objet capitalisé en corps de phrase : « Calendrier »
+648	ftbquests.chapter.tools.quest54B6F31A66A23AD4.description2	sans objet		décision du 29/09/2026 (STYLE §2) : un nom d'objet mis en valeur par un code couleur garde sa majuscule
+649	ftbquests.chapter.tools.quest7D5EB5853F9A357.description2	casse		nom d'objet capitalisé en corps de phrase : « Copier », « Coller »
+650	society_skills.books.the_spark_also_rises.description	terminologie		« mining mastery » s'écrit « Maîtrise du minage », avec sa majuscule
+651	society_skills.farming.sticky_crops.description	sans objet		décision du 29/09/2026 (STYLE §2) : un nom d'objet mis en valeur par un code couleur garde sa majuscule
+652	block.cluttered.red_mushroom_hanging_sign	familles		famille pancarte_suspendue_cluttered
+653	block.cluttered.red_mushroom_log	familles		famille tige_champignon_cluttered
+654	block.nethervinery.warped_wine_rack_mid	familles		famille rangement_a_vins_nether_mid
+655	block.pamhc2trees.pamacorn	arbitrage		« Fruit de chêne » nomme l'arbre selon STYLE §7 (bloc « Fruit de <arbre> »), pas le fruit « Gland » : une exception à objet le déclare (lot 3b-05).
+656	block.railways.ochrum_hazard_stripes_chevron_on_white	conventions		« Chevron X sur blanc » : singulier de l'anglais, « sur blanc » de la famille
+657	block.railways.orange_iron_wrapped_locometal_smokebox	terminologie		« smoke ?box(?:es)? » se traduit « boîte à fumée »
+658	block.railways.royal_blue_hazard_stripes_diagonal_on_black	conventions		« Bandes de danger X sur noir », comme leur famille
+659	block.railways.tuff_brass_wrapped_locometal	familles		famille locometal_tuff_enveloppe
+660	block.society.artisan_hopper.filter	references		cite « Filter Upgrade », dont le nom affiché est « Amélioration de filtrage »
+661	block.society.auto_grabber.description.fuel	casse		nom d'objet capitalisé en corps de phrase : « Sparkstone »
+662	block.society.fish_pond_basket.description.fuel	casse		nom d'objet capitalisé en corps de phrase : « Sparkstone »
+663	block.twigs.polished_bloodstone_brick_slab	conventions		« Dalle de X » (STYLE §7)
+664	block.twigs.polished_rhyolite_slab	conventions		« Dalle de X » (STYLE §7)
+665	command.puffish_skills.experience.set.success.multiple	semantique		Tournure : « %s expérience » (« 150 expérience définie ») n'est pas du français ; le %s reçoit un nombre, que les données des gabarits ne typent pas.
+666	config.DebugTotalBlock	terminologie		« blueprints? » se traduit « schéma »
+667	config.maxConveyorCheatDistanceLimit	terminologie		« schematics? » se traduit « schéma »
+668	console.CheatOutput	terminologie		« schematics? » se traduit « schéma »
+669	dialog.npc.librarian.chatter_friendship2.4.line_0	semantique		Genre d'un personnage : « cet Ace » met au masculin un personnage que l'anglais désigne par « they ».
+670	dialog.npc.trader.chatter_friendship3.5.line_0	casse		nom d'objet capitalisé en corps de phrase : « Gnomes »
+671	dialog.npc.trader.chatter_friendship3.5.line_1	semantique		Faux sens : « la valeur de l'argent » se lit comme la monnaie ; Carlos parle du métal (un lingot d'argent contre deux poussières de fée).
+672	dialog.npc.trader.chatter_friendship4.4.line_0	semantique		Majuscule calquée sur l'anglais d'un nom commun de mets (« Hákarl ») : aucun lexique du vérificateur ne sait que ce mot, absent du jeu, est un nom commun.
+673	dialog.npc.trader.chatter_friendship4.6.line_0	casse		terme générique d'un toponyme capitalisé en corps de phrase : « Grottes »
+674	dialog.npc.trader.chatter_friendship5.0.line_0	semantique		Nuance : la litote « a bit of a culture shock » devient une emphase (« un vrai choc culturel »).
+675	ftbquests.chapter.armor_weapons__tools.quest66510F15A69EBAED.task.6613672723784257201.title	references		vise « Coeur d'impact », « Petit noyau », qui ne partagent aucun mot pour « core »
+676	ftbquests.chapter.botania.quest27437A0F629AF989.task.7235494118548518043.title	anglais_residuel		étiquette brute affichée : #botania:generating_special_flowers
+677	ftbquests.chapter.getting_started.quest23C02B36014CC450.description3	sans objet		décision du 29/09/2026 (STYLE §2) : métiers, boutiques et Slime gardent la majuscule
+678	ftbquests.chapter.ii__building_up_the_farm.quest1E2D2FF9428F96DA.description3	sans objet		décision du 29/09/2026 (STYLE §2) : un nom d'objet mis en valeur par un code couleur garde sa majuscule
+679	ftbquests.chapter.ii__building_up_the_farm.quest1F12BF72B966E0CC.description1	sans objet		décision du 29/09/2026 (STYLE §2) : un nom d'objet mis en valeur par un code couleur garde sa majuscule
+680	ftbquests.chapter.ii__building_up_the_farm.quest1F12BF72B966E0CC.description2	sans objet		décision du 29/09/2026 (STYLE §2) : un nom d'objet mis en valeur par un code couleur garde sa majuscule
+681	ftbquests.chapter.ii__building_up_the_farm.quest429FEBEC239B975F.task.502420210648759640.title	sans objet		décision du 29/09/2026 (STYLE §2) : métiers, boutiques et Slime gardent la majuscule
+682	ftbquests.chapter.ii__building_up_the_farm.quest42C8E1F0D9A5B2BD.description1	sans objet		décision du 29/09/2026 (STYLE §2) : métiers, boutiques et Slime gardent la majuscule
+683	ftbquests.chapter.ii__building_up_the_farm.quest6EEBD017839FF628.task.3352667313029928048.title	sans objet		décision du 29/09/2026 (STYLE §2) : métiers, boutiques et Slime gardent la majuscule
+684	ftbquests.chapter.ii__building_up_the_farm.quest723A5C8DB06D8C36.description2	sans objet		décision du 29/09/2026 (STYLE §2) : un nom d'objet mis en valeur par un code couleur garde sa majuscule
+685	ftbquests.chapter.ii__building_up_the_farm.quest7FFED918C5367350.description1	sans objet		décision du 29/09/2026 (STYLE §2) : un nom d'objet mis en valeur par un code couleur garde sa majuscule
+686	ftbquests.chapter.ii__building_up_the_farm.quest7FFED918C5367350.description3	casse		nom d'objet capitalisé en corps de phrase : « Casse », « Forgeron »
+687	ftbquests.chapter.iii__advanced_farming.quest17C8B0197B8636E7.description1	sans objet		décision du 29/09/2026 (STYLE §2) : un nom d'objet mis en valeur par un code couleur garde sa majuscule
+688	ftbquests.chapter.iii__advanced_farming.quest17C8B0197B8636E7.description2	sans objet		décision du 29/09/2026 (STYLE §2) : un nom d'objet mis en valeur par un code couleur garde sa majuscule
+689	ftbquests.chapter.iii__advanced_farming.quest54E81642A0E67042.title	sans objet		décision du 29/09/2026 (STYLE §2) : métiers, boutiques et Slime gardent la majuscule
+690	ftbquests.chapter.iii__advanced_farming.quest632578AFE8A0D12D.title	sans objet		décision du 29/09/2026 (STYLE §2) : métiers, boutiques et Slime gardent la majuscule
+691	ftbquests.chapter.iv__prismatic_farming.quest63F8C52D082BBCB3.description1	sans objet		décision du 29/09/2026 (STYLE §2) : un nom d'objet mis en valeur par un code couleur garde sa majuscule
+692	ftbquests.chapter.ivi__mechanical_farming.quest174A6EE7CF7900F0.description1	sans objet		décision du 29/09/2026 (STYLE §2) : un nom d'objet mis en valeur par un code couleur garde sa majuscule
+693	ftbquests.chapter.slimes.quest1254F6F99ABB36D5.subtitle	sans objet		décision du 29/09/2026 (STYLE §2) : métiers, boutiques et Slime gardent la majuscule
+694	ftbquests.chapter.slimes.quest2E7D98DEB5012260.task.4890210822605613867.title	sans objet		décision du 29/09/2026 (STYLE §2) : métiers, boutiques et Slime gardent la majuscule
+695	ftbquests.chapter.slimes.quest321F14C492AF6793.subtitle	sans objet		décision du 29/09/2026 (STYLE §2) : métiers, boutiques et Slime gardent la majuscule
+696	ftbquests.chapter.slimes.quest365B720FB6A9BCF3.subtitle	sans objet		décision du 29/09/2026 (STYLE §2) : métiers, boutiques et Slime gardent la majuscule
+697	ftbquests.chapter.slimes.quest376A606EF1F9E850.subtitle	sans objet		décision du 29/09/2026 (STYLE §2) : métiers, boutiques et Slime gardent la majuscule
+698	ftbquests.chapter.slimes.quest3A108FB6BA7E60D6.subtitle	sans objet		décision du 29/09/2026 (STYLE §2) : métiers, boutiques et Slime gardent la majuscule
+699	ftbquests.chapter.slimes.quest610689180666C83A.subtitle	sans objet		décision du 29/09/2026 (STYLE §2) : métiers, boutiques et Slime gardent la majuscule
+700	gui.sophisticatedcore.upgrades.void	terminologie		« void » se traduit « destruction »
+701	gui.sophisticatedcore.upgrades.void.tooltip	terminologie		« void » se traduit « destruction »
+702	item.justhammers.small_core	arbitrage		« Small Core » : « Petit noyau » (arbitrage du glossaire, GLOSSAIRE.md) ou « Petit coeur » (la famille Just Hammers : Coeur d'impact, Coeur renforcé, Coeur de destruction) ?
+703	item.society.aged_tribull_cheese_wheel	familles		famille fromage_farmlife_affine
+704	item.society.atlantic_herring_roe	familles		famille oeufs
+705	item.society.double_aged_tribull_cheese_wheel	familles		famille fromage_farmlife_double_affine
+706	item.society.dried_blue_roundhead	familles		famille seche
+707	item.society.phenomenology_of_treasure	casse		titre d'œuvre : « phénoménologie » prend la majuscule après l'article (« La Qualité de la terre »)
+708	jei.society.category.cask_aging	arbitrage		« Cask » : « fût » ou « tonneau » ? La machine s'appelle « Tonneau de vieillissement », la catégorie JEI « Vieillissement en fût ».
+709	almanac/categories/slimes.json#/description	casse		nom d'objet capitalisé en corps de phrase : « Slimes », « Coeur », « Presse »
+710	almanac/entries/animals/chapple.json#/pages/0/text	casse		nom d'objet capitalisé en corps de phrase : « Pomme », « Poulet », « Plume », « Chapples », « Pommes »
+711	almanac/entries/animals/chicken.json#/pages/0/text	casse		nom d'objet capitalisé en corps de phrase : « Oeuf », « Poulet », « Plume », « Poules »
+712	almanac/entries/animals/cruncher.json#/pages/0/text	semantique		L'anglais du livre nomme un objet qui n'existe pas (« Raw Bismuth Ore ») : l'objet cueilli (etcetera:raw_bismuth, « Bismuth brut ») ne se lit que dans les données de cueillette.
+713	almanac/entries/animals/mooshroom.json#/pages/0/text	semantique		L'anglais du livre est générique (« mushroom seats ») : les tabourets champignons de Tanuki Decor qu'il désigne ne se lisent que dans les données de cueillette.
+714	almanac/entries/animals/wooly_cow.json#/pages/2/name	terminologie		« umbra » se traduit « ombre »
+715	almanac/entries/crops/cotton.json#/pages/0/text	references	entity.legendarycreatures.forest_mojo	cite « Forest Mojo », dont le nom affiché est « Mojo de la forêt »
+716	almanac/entries/crops/tubabacco.json#/name	terminologie		« tubabacco » se traduit « tubabac »
+717	almanac/entries/pets/red_wolf.json#/pages/0/text	references	block.wildernature.wolf_trapper_wall_banner	cite « Wolf-Trapper Banner », dont le nom affiché est « Bannière du trappeur de loups »
+718	almanac/entries/slimes/ender.json#/pages/1/name	references		« Ender Slime » s'affiche « Slime %s » rempli du titre de la fiche
+719	almanac/entries/tree_crops/cherry.json#/pages/0/text	terminologie		« dark ?cherry » se traduit « cerisier noir »
+720	almanac/entries/tree_crops/passionfruit.json#/pages/0/text	terminologie		« passion ?fruit trees? » se traduit « passiflore »
+721	almanac/entries/trees/letsdo/darkcherry.json#/pages/0/text	homonymes		l'intitulé « Sapling Price » se traduit « Prix de la pousse » dans 7 fiches, « Prix des pousses » ici
+722	almanac/entries/trees/pams/passionfruit.json#/name	references		la fiche d'arbre ne nomme pas l'arbre de sa pousse « Pousse de passiflore »
+723	fish_finder/entries/fish/amber_goby.json#/name	references		cite « Amber Goby » en écrivant « ambré » : le nom affiché « Gobie ambre » écrit « ambre »
+724	fish_finder/entries/fish/carp.json#/pages/0/text	orthographe		« N'importe le » → « peu importe le »
+725	fish_finder/entries/fish/lava_pufferfish.json#/pages/1/text	casse		nom d'objet capitalisé en corps de phrase : « Presse »
+726	fish_finder/entries/fish/rainbow_trout.json#/pages/1/text	casse		nom d'objet capitalisé en corps de phrase : « Tesson »
+727	portable_blueprints.worn_blueprint.cherry_home	terminologie		« cherry » se traduit « cerisier »
+728	shop.society_trading.bs_shed.description	arbitrage		« Artisan Machine » : « machine d'artisan » (libellé affiché en infobulle, tooltip.society.artisan_machine) ou « machine artisanale » (glossaire) ?
+729	shop.society_trading.trader.description	arbitrage		« Artisan Machine » : « machine d'artisan » (libellé affiché en infobulle, tooltip.society.artisan_machine) ou « machine artisanale » (glossaire) ?
+730	society.pig_race.multiplay.result	semantique		Construction du verbe : « en pariant %s » se lit comme une mise ; le %s reçoit le nom du cochon, qu'aucune donnée des gabarits ne type.
+731	society_tips.tip.auto_trader	casse		nom d'objet capitalisé en corps de phrase : « Auto »
+732	society_tips.tip.book_fair	casse		nom propre sans sa majuscule : « foire aux livres » → « Foire aux livres »
+733	stackgroup.remi.decorated_pot_sherds	references		cite « Pottery Sherd », nom commun de 31 objets (« Tesson de poterie Faux »…) : « Tesson de poterie »
+734	tag.item.c.ingots.netherite	references		cite « Iridium Ingot », dont le nom affiché est « Lingot d'iridium »
+735	tag.item.c.ores.netherite_scrap	references		cite « Iridium Scrap », dont le nom affiché est « Fragments d'iridium »
+736	tooltip.society.general_mastery.description	semantique		Grammaire : l'infinitif passé « après avoir atteint » n'a pas le sujet de la principale (l'arbre).
+737	tooltip.society.petal_apothecary.description	semantique		Grammaire : l'infinitif « après avoir terminé » n'a pas le sujet de la principale (la ferme), et la tournure brouille la condition.
+738	tooltip.society.wine_rack_incompatible	semantique		« Wine Racks » désigne ici les rangements à vins de Vinery, où les vins de Society ne se posent pas ; le seul objet nommé « Wine Rack » est le « Casier à vin » de Cluttered, et la famille de Vinery est hétérogène (« Rangement à vins », « Étagère à vin »).

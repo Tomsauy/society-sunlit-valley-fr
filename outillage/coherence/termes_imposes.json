@@ -1,0 +1,333 @@
+[
+ {
+  "anglais": "crimson",
+  "francais": "carmin",
+  "interdits": [
+   "cramoisi",
+   "pourpre"
+  ],
+  "motif": "STYLE §7 : terme vanilla, invariable"
+ },
+ {
+  "anglais": "dripstone",
+  "francais": "spéléothème",
+  "interdits": [
+   "roche goutteuse"
+  ],
+  "motif": "vanilla : Pointed Dripstone = Spéléothème"
+ },
+ {
+  "anglais": "ash",
+  "francais": "frêne",
+  "cles": "^(?:block|item)\\.[a-z0-9_]+\\.(?:[a-z0-9_]+_)?ash_(?:log|wood|planks|stairs|slab|fence|fence_gate|door|trapdoor|button|pressure_plate|sign|hanging_sign|leaves|sapling|boat|chest_boat|[a-z0-9_]*(?:cabinet|cupboard|table|chair|bench|shelf|drawer))",
+  "interdits": [
+   "cendre"
+  ],
+  "motif": "essence Ash : le frêne ; « cendre » traduit l'objet Ash"
+ },
+ {
+  "anglais": "dark ?cherry",
+  "francais": "cerisier noir",
+  "motif": "essence de Vinery ; l'almanach l'écrit aussi en un mot (« Darkcherry Tree »)"
+ },
+ {
+  "anglais": "shale",
+  "francais": "shale",
+  "interdits": [
+   "schiste"
+  ],
+  "motif": "STYLE §7 : nom officiel de Windswept"
+ },
+ {
+  "anglais": "cranberry|cranberries",
+  "francais": [
+   "cranberry",
+   "cranberries"
+  ],
+  "interdits": [
+   "canneberge"
+  ],
+  "motif": "STYLE §7"
+ },
+ {
+  "anglais": "crops?",
+  "francais": "culture",
+  "portee": "textes",
+  "cles": "^(?!fancymenu\\.)",
+  "interdits": [
+   "récolte"
+  ],
+  "motif": "STYLE §6 ; sauf dans fancymenu, où « crop » veut dire rogner (Crop Text)"
+ },
+ {
+  "anglais": "watering cans?",
+  "francais": "arrosoir",
+  "interdits": [
+   "canette d'arrosage",
+   "bidon"
+  ],
+  "motif": "STYLE §6"
+ },
+ {
+  "anglais": "seeds?",
+  "francais": "graine",
+  "portee": "noms",
+  "interdits": [
+   "semence"
+  ],
+  "motif": "STYLE §6, dans les noms d'objets ; dans les textes, « seed » est aussi verbe ou jeu de mots (Seed the Beast, I seed what you did there), et aucun n'emploie « semence »"
+ },
+ {
+  "anglais": "baits?",
+  "francais": "appât",
+  "interdits": [
+   "amorce"
+  ],
+  "motif": "STYLE §6"
+ },
+ {
+  "anglais": "roe",
+  "francais": "oeufs",
+  "interdits": [
+   "rogue",
+   "caviar"
+  ],
+  "motif": "STYLE §6"
+ },
+ {
+  "anglais": "coops?",
+  "francais": "poulailler",
+  "interdits": [
+   "coopérative"
+  ],
+  "motif": "STYLE §6"
+ },
+ {
+  "anglais": "barns?",
+  "francais": "grange",
+  "interdits": [
+   "étable"
+  ],
+  "motif": "STYLE §6"
+ },
+ {
+  "anglais": "greenhouses?",
+  "francais": "serre",
+  "interdits": [
+   "maison verte"
+  ],
+  "motif": "STYLE §6"
+ },
+ {
+  "anglais": "sprinklers?",
+  "francais": "arroseur",
+  "interdits": [
+   "gicleur",
+   "sprinkleur"
+  ],
+  "motif": "STYLE §6"
+ },
+ {
+  "anglais": "forag(?:e|es|ed|ing)",
+  "francais": [
+   "cueillette",
+   "cueillir",
+   "cueille",
+   "cueillent",
+   "cueilli",
+   "cueillie"
+  ],
+  "interdits": [
+   "fourrage",
+   "forage"
+  ],
+  "motif": "STYLE §6 ; le verbe se rend par « cueillir » (« Cueille des bûches ») ; « forages » et « foraged » compris"
+ },
+ {
+  "anglais": "schematics?",
+  "francais": "schéma",
+  "portee": "textes",
+  "interdits": [
+   "plan"
+  ],
+  "motif": "Create : Schematic = Schéma, objet cité en minuscules dans les textes"
+ },
+ {
+  "anglais": "farming mastery",
+  "francais": "Maîtrise de l'agriculture",
+  "motif": "STYLE §7 : les cinq Maîtrises"
+ },
+ {
+  "anglais": "husbandry mastery",
+  "francais": "Maîtrise de l'élevage",
+  "motif": "STYLE §7 : les cinq Maîtrises"
+ },
+ {
+  "anglais": "mining mastery",
+  "francais": "Maîtrise du minage",
+  "motif": "STYLE §7 : les cinq Maîtrises"
+ },
+ {
+  "anglais": "fishing mastery",
+  "francais": "Maîtrise de la pêche",
+  "motif": "STYLE §7 : les cinq Maîtrises"
+ },
+ {
+  "anglais": "adventuring mastery",
+  "francais": "Maîtrise de l'aventure",
+  "motif": "STYLE §7 : les cinq Maîtrises"
+ },
+ {
+  "anglais": "umbra",
+  "francais": "ombre",
+  "motif": "Le pack rend Umbra par « ombre » : Laine d'ombre (meadow:umbra_wool), Vache d'ombre, Landes de l'Ombre"
+ },
+ {
+  "anglais": "passion ?fruit trees?",
+  "francais": "passiflore",
+  "motif": "STYLE §7 : l'arbre du fruit de la passion est la passiflore (« Pousse de passiflore »)"
+ },
+ {
+  "anglais": "tubabacco",
+  "francais": "tubabac",
+  "motif": "La culture de Society se nomme « tubabac » (Feuille de tubabac, Graine de tubabac), décision tracée dans provenance.json (block.society.tubabacco_leaf)"
+ },
+ {
+  "anglais": "smoke ?box(?:es)?",
+  "francais": "boîte à fumée",
+  "interdits": [
+   "boîte de fumée"
+  ],
+  "motif": "Terme ferroviaire de la locomotive à vapeur, celui des tags de Railways (« Boîtes à fumée en locométal ») ; « boîte de fumée » est un calque"
+ },
+ {
+  "anglais": "blueprints?",
+  "francais": "schéma",
+  "portee": "textes",
+  "cles": "^(?:config|console|check)\\.(?!jade\\.)",
+  "interdits": [
+   "plan"
+  ],
+  "motif": "CSC (Create: Schematic Checker) appelle « blueprint » le schéma de Create, affiché « Schéma » ; ailleurs, un blueprint est un plan (Portable Blueprints)"
+ },
+ {
+  "anglais": "void",
+  "francais": "destruction",
+  "cles": "^gui\\.sophisticatedcore\\.upgrades\\.(?:advanced_)?void(?:\\.tooltip)?$",
+  "motif": "Sophisticated nomme l'amélioration Void « Amélioration de destruction » ; ses onglets la reprennent (« Destruction av. », « Paramètres de destruction avancée »)"
+ },
+ {
+  "anglais": "cherry",
+  "francais": "cerisier",
+  "cles": "^portable_blueprints\\.worn_blueprint\\.cherry_",
+  "motif": "Les plans « Cherry » de Portable Blueprints sont bâtis en bois de cerisier (minecraft:cherry_planks, cherry_fence) ; le pack réserve « cerise » au fruit et nomme le bois « cerisier » (STYLE §7) : « Maison de ferme en cerisier », pas « Maison de ferme cerise »"
+ },
+ {
+  "anglais": "crab traps?",
+  "francais": [
+   "casier à crabes",
+   "casiers à crabes"
+  ],
+  "interdits": [
+   "piège à crabes",
+   "pièges à crabes"
+  ],
+  "motif": "fiche du 30/09, question crabes : le terme de la pêche, déjà dans 24 textes sur 29"
+ },
+ {
+  "anglais": "bobbers?",
+  "francais": [
+   "flotteur",
+   "flotteurs"
+  ],
+  "interdits": [
+   "bouchon",
+   "bouchons"
+  ],
+  "motif": "fiche du 30/09, question flotteur : le mot de Mojang et de Stardew Fishing"
+ },
+ {
+  "anglais": "artisan machines?",
+  "francais": [
+   "machine d'artisan",
+   "machines d'artisan"
+  ],
+  "interdits": [
+   "machine artisanale",
+   "machines artisanales"
+  ],
+  "motif": "fiche du 30/09, question machine-artisan : l'étiquette affichée sur chaque machine"
+ },
+ {
+  "anglais": "stack upgrades?",
+  "francais": [
+   "amélioration de pile",
+   "améliorations de pile"
+  ],
+  "interdits": [
+   "amélioration de stack",
+   "améliorations de stack"
+  ],
+  "motif": "fiche du 30/09, question amelioration-pile : Mojang ne dit jamais « stack »"
+ },
+ {
+  "anglais": "(?:aging|ancient) casks?",
+  "francais": [
+   "tonneau",
+   "tonneaux"
+  ],
+  "interdits": [
+   "fût",
+   "fûts"
+  ],
+  "motif": "fiche du 30/09, question fut-tonneau : nom affiché des machines et de Mojang"
+ },
+ {
+  "anglais": "dyes?",
+  "francais": [
+   "teinture",
+   "teintures"
+  ],
+  "interdits": [
+   "colorant",
+   "colorants"
+  ],
+  "portee": "noms",
+  "motif": "fiche du 30/09, question teinture : le nom que Mojang affiche sur chaque teinture"
+ },
+ {
+  "anglais": "atlantic cod",
+  "francais": "morue de l'Atlantique",
+  "motif": "fiche du 30/09, question morue-atlantique : deux poissons différents ne portent pas le même nom"
+ },
+ {
+  "anglais": "cores?",
+  "francais": [
+   "noyau",
+   "noyaux"
+  ],
+  "cles": "^(?:item\\.constructionwand\\.|ftbquests\\.chapter\\.tools\\.quest86A3F527E1A973E\\.)",
+  "motif": "fiche du 30/09, question coeur-noyau : les pièces de la baguette de construction"
+ },
+ {
+  "anglais": "cores?",
+  "francais": [
+   "coeur",
+   "coeurs"
+  ],
+  "cles": "^(?:item\\.justhammers\\.|ftbquests\\.chapter\\.armor_weapons__tools\\.quest66510F15A69EBAED\\.)",
+  "motif": "fiche du 30/09, question coeur-noyau : les coeurs de Just Hammers"
+ },
+ {
+  "anglais": "hot ?bars?",
+  "francais": [
+   "barre d'action",
+   "barres d'action"
+  ],
+  "portee": "textes",
+  "interdits": [
+   "barre d'accès rapide"
+  ],
+  "motif": "Mojang : « Case 1 de la barre d'action » ; glossaire Hotbar (relecture du lot 5-01)"
+ }
+]

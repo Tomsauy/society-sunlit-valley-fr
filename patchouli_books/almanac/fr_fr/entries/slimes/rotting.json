@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Emplacements :$()$(li)Biome : Grottes gelées (Caverne du Crâne)$(li)Structure : Générateurs de slimes$(li)Points de fouille : Surface$(li)Boîtes à ballons : rouges$(br2)$(l)Risques :$()$(br)Provoque l'effet Faim quand il est contrarié. Invoque des Zombies de slime quand il attaque des villageois."
+            "text": "$(l)Emplacements :$()$(li)Biome : Grottes gelées (Caverne du Crâne)$(li)Structure : Générateurs de slimes$(li)Zones de fouille : Surface$(li)Boîtes à ballons : rouges$(br2)$(l)Risques :$()$(br)Provoque l'effet Faim quand il est contrarié. Invoque des zombies de slime quand il attaque des villageois."
         },
         {
             "type": "patchouli:entity",

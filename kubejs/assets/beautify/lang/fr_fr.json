@@ -72,7 +72,7 @@
   "hanging_pot.description2": "Clic droit avec des plantes pour les mettre en pot.",
   "hanging_pot.description3": "Clic droit avec de la poudre d'os pour faire pousser la plante davantage. Tailler avec des cisailles pour la raccourcir et récupérer la plante.",
   "hanging_pot.list1": "Plantes que l'on peut mettre en pot :",
-  "hanging_pot.list2": "Toutes les fleurs normales + rosiers, lilas, pivoines, tournesols, lianes, lianes pleureuses, lianes tordues, lichen luisant, baies lumineuses, baies sucrées, herbe, fougère",
+  "hanging_pot.list2": "Toutes les fleurs normales + rosiers, lilas, pivoines, tournesols, lianes, lianes pleureuses, lianes tortueuses, lichen lumineux, baies lumineuses, baies sucrées, herbe, fougère",
   "itemGroup.beautify": "Beautify",
   "light_bulb.description1": "Peut être placé suspendu ou posé au sol, comme les lanternes.",
   "light_bulb.description2": "Clic droit pour allumer/éteindre.",
@@ -91,5 +91,5 @@
   "trellis.description1": "Peut être placé sur des murets, comme un muret, ou au plafond. Escaladable.",
   "trellis.description2": "Clic droit avec des plantes pour les insérer.",
   "trellis.list1": "Plantes que l'on peut y planter :",
-  "trellis.list2": "Rosiers, tournesols, pivoines, lilas, lianes, lianes pleureuses, lianes tordues, lichen luisant"
+  "trellis.list2": "Rosiers, tournesols, pivoines, lilas, lianes, lianes pleureuses, lianes tortueuses, lichen lumineux"
 }

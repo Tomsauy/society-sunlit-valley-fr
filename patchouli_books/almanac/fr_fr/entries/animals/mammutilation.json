@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Lait : Fiole d'ichor$(li)Délai de traite : 2 jours$(li)Butin : Aucun$(br2)$(l)Notes$()$(br)Il faut les reconstituer comme sur l'image de droite, puis attendre qu'ils soient frappés par la foudre. Leurs restes se trouvent figés dans la glace, sous l'eau..."
+            "text": "$(l)Stats$()$(li)Lait : Bouteille d'ichor$(li)Délai de traite : 2 jours$(li)Butin : Aucun$(br2)$(l)Notes$()$(br)Il faut les reconstituer comme sur l'image de droite, puis attendre qu'ils soient frappés par la foudre. Leurs restes se trouvent figés dans la glace, sous l'eau..."
         },
         {
             "type": "patchouli:multiblock",

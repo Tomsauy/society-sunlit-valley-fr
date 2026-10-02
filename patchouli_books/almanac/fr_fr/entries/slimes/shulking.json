@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Emplacements :$()$(li)Structure : Générateurs de slimes des Landes de l'Ombre (Caverne du Crâne)$(br2)$(l)Risques :$()$(br)Provoque un effet de Lévitation quand il est contrarié et se téléporte vers la nourriture à proximité."
+            "text": "$(l)Emplacements :$()$(li)Structure : Générateurs de slimes des Terres désolées de l'Ombre (Caverne du Crâne)$(br2)$(l)Risques :$()$(br)Provoque un effet de lévitation quand il est contrarié et se téléporte vers la nourriture à proximité."
         },
         {
             "type": "patchouli:entity",

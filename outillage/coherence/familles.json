@@ -1,0 +1,1704 @@
+{
+ "familles": [
+  {
+   "nom": "oeufs_vieillis",
+   "motif": "item.society.aged_{id}_roe",
+   "source": [
+    "item.society.{id}_roe"
+   ],
+   "gabarit": "{Source} vieillis",
+   "anglais": "Aged {source} Roe"
+  },
+  {
+   "nom": "oeufs",
+   "motif": "item.society.{id}_roe",
+   "source": [
+    "entity.aquaculture.{id}",
+    "item.aquaculture.{id}",
+    "entity.unusualfishmod.{id}",
+    "entity.netherdepthsupgrade.{id}",
+    "item.netherdepthsupgrade.{id}",
+    "entity.minecraft.{id}",
+    "entity.crabbersdelight.{id}",
+    "item.crabbersdelight.{id}",
+    "entity.quark.{id}",
+    "item.society.{id}"
+   ],
+   "gabarit": "Oeufs de {source}",
+   "anglais": "{source} Roe",
+   "cles_source": {
+    "circus_fish": "entity.unusualfishmod.circus",
+    "copperflame_anthias": "entity.unusualfishmod.copperflame",
+    "frosty_fin": "entity.unusualfishmod.snowflaketail",
+    "hatchetfish": "entity.unusualfishmod.hatchet_fish",
+    "koi_fish": "entity.crittersandcompanions.koi_fish"
+   },
+   "noms_source": {
+    "atlantic_cod": {
+     "nom": "morue de l'Atlantique",
+     "genre": "f",
+     "nombre": "s"
+    }
+   }
+  },
+  {
+   "nom": "appat",
+   "motif": "item.society.{id}_bait",
+   "source": [
+    "entity.aquaculture.{id}",
+    "item.aquaculture.{id}",
+    "entity.unusualfishmod.{id}",
+    "entity.netherdepthsupgrade.{id}",
+    "item.netherdepthsupgrade.{id}",
+    "entity.minecraft.{id}",
+    "entity.crabbersdelight.{id}",
+    "item.crabbersdelight.{id}",
+    "entity.quark.{id}",
+    "item.society.{id}"
+   ],
+   "gabarit": "Appât pour {source}",
+   "anglais": "{source} Bait",
+   "cles_source": {
+    "circus_fish": "entity.unusualfishmod.circus",
+    "copperflame_anthias": "entity.unusualfishmod.copperflame",
+    "frosty_fin": "entity.unusualfishmod.snowflaketail",
+    "hatchetfish": "entity.unusualfishmod.hatchet_fish",
+    "koi_fish": "entity.crittersandcompanions.koi_fish"
+   },
+   "noms_source": {
+    "atlantic_cod": {
+     "nom": "morue de l'Atlantique",
+     "genre": "f",
+     "nombre": "s"
+    }
+   }
+  },
+  {
+   "nom": "fume",
+   "motif": "item.society.smoked_{id}",
+   "source": [
+    "entity.aquaculture.{id}",
+    "item.aquaculture.{id}",
+    "entity.unusualfishmod.{id}",
+    "entity.netherdepthsupgrade.{id}",
+    "item.netherdepthsupgrade.{id}",
+    "entity.minecraft.{id}",
+    "entity.crabbersdelight.{id}",
+    "item.crabbersdelight.{id}",
+    "entity.quark.{id}",
+    "item.society.{id}"
+   ],
+   "gabarit": "{Source} fumé{e}{s}",
+   "anglais": "Smoked {source}",
+   "cles_source": {
+    "circus_fish": "entity.unusualfishmod.circus",
+    "copperflame_anthias": "entity.unusualfishmod.copperflame",
+    "frosty_fin": "entity.unusualfishmod.snowflaketail",
+    "hatchetfish": "entity.unusualfishmod.hatchet_fish",
+    "koi_fish": "entity.crittersandcompanions.koi_fish"
+   },
+   "noms_source": {
+    "atlantic_cod": {
+     "nom": "morue de l'Atlantique",
+     "genre": "f",
+     "nombre": "s"
+    }
+   }
+  },
+  {
+   "nom": "fromage_double_affine",
+   "motif": "item.society.double_aged_{id}_cheese_block",
+   "source": [
+    "block.society.{id}_cheese_block",
+    "block.meadow.{id}_cheese_block",
+    "item.society.{id}_cheese_block"
+   ],
+   "gabarit": "{Source} doublement affiné{e}{s}",
+   "anglais": "Double Aged {source} Cheese Block"
+  },
+  {
+   "nom": "fromage_affine",
+   "motif": "item.society.aged_{id}_cheese_block",
+   "source": [
+    "block.society.{id}_cheese_block",
+    "block.meadow.{id}_cheese_block",
+    "item.society.{id}_cheese_block"
+   ],
+   "gabarit": "{Source} affiné{e}{s}",
+   "anglais": "Aged {source} Cheese Block"
+  },
+  {
+   "nom": "fromage_farmlife_double_affine",
+   "motif": "item.society.double_aged_{id}_cheese_wheel",
+   "source": [
+    "block.farmlife.{id}_cheese_wheel"
+   ],
+   "gabarit": "{Source} doublement affiné{e}{s}",
+   "anglais": "Double Aged {source} Cheese Wheel"
+  },
+  {
+   "nom": "fromage_farmlife_affine",
+   "motif": "item.society.aged_{id}_cheese_wheel",
+   "source": [
+    "block.farmlife.{id}_cheese_wheel"
+   ],
+   "gabarit": "{Source} affiné{e}{s}",
+   "anglais": "Aged {source} Cheese Wheel"
+  },
+  {
+   "nom": "double_vieilli",
+   "motif": "item.society.double_aged_{id}",
+   "source": [
+    "block.vinery.{id}",
+    "block.society.{id}",
+    "block.brewery.{id}",
+    "block.meadow.{id}",
+    "block.nethervinery.{id}",
+    "item.society.{id}",
+    "item.farmersdelight.{id}",
+    "item.vintagedelight.{id}",
+    "item.brewery.{id}"
+   ],
+   "gabarit": "{Source} doublement vieilli{e}{s}",
+   "anglais": "Double Aged {source}",
+   "noms_source": {
+    "bottle_mojang_noir": {
+     "nom": "Mojang Noir",
+     "genre": "m",
+     "nombre": "s",
+     "propre": true
+    },
+    "creepers_crush": {
+     "nom": "Creepers Crush",
+     "genre": "m",
+     "nombre": "s",
+     "propre": true
+    },
+    "villagers_fright": {
+     "nom": "Villagers Fright",
+     "genre": "m",
+     "nombre": "s",
+     "propre": true
+    }
+   }
+  },
+  {
+   "nom": "vieilli",
+   "motif": "item.society.aged_{id}",
+   "source": [
+    "block.vinery.{id}",
+    "block.society.{id}",
+    "block.brewery.{id}",
+    "block.meadow.{id}",
+    "block.nethervinery.{id}",
+    "item.society.{id}",
+    "item.farmersdelight.{id}",
+    "item.vintagedelight.{id}",
+    "item.brewery.{id}"
+   ],
+   "gabarit": "{Source} vieilli{e}{s}",
+   "anglais": "Aged {source}",
+   "noms_source": {
+    "bottle_mojang_noir": {
+     "nom": "Mojang Noir",
+     "genre": "m",
+     "nombre": "s",
+     "propre": true
+    },
+    "creepers_crush": {
+     "nom": "Creepers Crush",
+     "genre": "m",
+     "nombre": "s",
+     "propre": true
+    },
+    "villagers_fright": {
+     "nom": "Villagers Fright",
+     "genre": "m",
+     "nombre": "s",
+     "propre": true
+    }
+   }
+  },
+  {
+   "nom": "seche",
+   "motif": "item.society.dried_{id}",
+   "source": [
+    "item.society.{id}",
+    "item.minecraft.{id}",
+    "block.minecraft.{id}",
+    "item.atmospheric.{id}",
+    "item.vinery.{id}",
+    "block.cluttered.{id}",
+    "block.species.{id}",
+    "block.verdantvibes.{id}"
+   ],
+   "gabarit": "{Source} séché{e}{s}",
+   "anglais": "Dried {source}",
+   "cles_source": {
+    "banana": "item.pamhc2trees.bananaitem",
+    "dragonfruit": "item.pamhc2trees.dragonfruititem",
+    "foul_berries": "item.autumnity.foul_berries",
+    "gearo_berry": "item.vintagedelight.gearo_berry",
+    "glow_shroom": "block.quark.glow_shroom",
+    "lemon": "item.pamhc2trees.lemonitem",
+    "lychee": "item.pamhc2trees.lycheeitem",
+    "mango": "item.pamhc2trees.mangoitem",
+    "orange": "block.atmospheric.orange",
+    "pawpaw": "item.pamhc2trees.pawpawitem",
+    "peach": "item.pamhc2trees.peachitem",
+    "plum": "item.pamhc2trees.plumitem",
+    "starfruit": "item.pamhc2trees.starfruititem",
+    "strawberry": "item.farm_and_charm.strawberry",
+    "toadstool": "block.ribbits.toadstool",
+    "wild_berries": "item.windswept.wild_berries"
+   },
+   "noms_source": {
+    "shimmering_mushrooms": {
+     "nom": "champignons scintillants",
+     "genre": "m",
+     "nombre": "p"
+    },
+    "foul_berries": {
+     "nom": "baies fétides",
+     "genre": "f",
+     "nombre": "p"
+    }
+   }
+  },
+  {
+   "nom": "immacule",
+   "motif": "item.society.pristine_{id}",
+   "source": [
+    "item.society.{id}",
+    "item.minecraft.{id}",
+    "block.society.{id}"
+   ],
+   "gabarit": "{Source} immaculé{e}{s}",
+   "anglais": "Pristine {source}"
+  },
+  {
+   "nom": "conserve",
+   "motif": "item.society.{id}_preserves",
+   "source": [
+    "item.society.{id}",
+    "item.minecraft.{id}",
+    "item.veggiesdelight.{id}",
+    "item.vinery.{id}",
+    "item.farm_and_charm.{id}",
+    "item.atmospheric.{id}",
+    "block.minecraft.{id}",
+    "item.farmersdelight.{id}"
+   ],
+   "gabarit": "Conserve de {sources}",
+   "anglais": "{source} Preserves",
+   "cles_source": {
+    "banana": "item.pamhc2trees.bananaitem",
+    "bell_pepper": "item.veggiesdelight.bellpepper",
+    "dragonfruit": "item.pamhc2trees.dragonfruititem",
+    "foul_berries": "item.autumnity.foul_berries",
+    "ginger": "item.snowyspirit.ginger",
+    "lemon": "item.pamhc2trees.lemonitem",
+    "lychee": "item.pamhc2trees.lycheeitem",
+    "mango": "item.pamhc2trees.mangoitem",
+    "orange": "block.atmospheric.orange",
+    "pawpaw": "item.pamhc2trees.pawpawitem",
+    "peach": "item.pamhc2trees.peachitem",
+    "plum": "item.pamhc2trees.plumitem",
+    "starfruit": "item.pamhc2trees.starfruititem",
+    "wild_berries": "item.windswept.wild_berries",
+    "yucca": "item.atmospheric.yucca_fruit"
+   },
+   "noms_source": {
+    "aloe": {
+     "nom": "aloe vera",
+     "pluriel": "aloe vera"
+    }
+   }
+  },
+  {
+   "nom": "pickles",
+   "motif": "item.society.pickled_{id}",
+   "source": [
+    "item.veggiesdelight.{id}",
+    "item.minecraft.{id}",
+    "item.society.{id}",
+    "block.veggiesdelight.{id}",
+    "block.snowyspirit.{id}",
+    "item.farm_and_charm.{id}",
+    "item.farmersdelight.{id}"
+   ],
+   "gabarit": "Pickles de {source}",
+   "anglais": "Pickled {source}"
+  },
+  {
+   "nom": "grosse_mayonnaise",
+   "motif": "item.society.large_{id}_mayonnaise",
+   "source": [
+    "entity.minecraft.{id}",
+    "entity.species.{id}",
+    "entity.untitledduckmod.{id}",
+    "entity.wildernature.{id}",
+    "entity.farmlife.{id}",
+    "entity.society.{id}"
+   ],
+   "gabarit": "Grosse mayonnaise de {source}",
+   "anglais": "Large {source} Mayonnaise"
+  },
+  {
+   "nom": "mayonnaise",
+   "motif": "item.society.{id}_mayonnaise",
+   "source": [
+    "entity.minecraft.{id}",
+    "entity.species.{id}",
+    "entity.untitledduckmod.{id}",
+    "entity.wildernature.{id}",
+    "entity.farmlife.{id}",
+    "entity.society.{id}"
+   ],
+   "gabarit": "Mayonnaise de {source}",
+   "anglais": "{source} Mayonnaise",
+   "noms_source": {
+    "dragon": {
+     "nom": "dragon",
+     "genre": "m",
+     "nombre": "s"
+    }
+   }
+  },
+  {
+   "nom": "appat_suintant_longwings",
+   "motif": "block.longwings.{id}_butterfly_driplure",
+   "source": [],
+   "gabarit": "Appât suintant pour papillons {source}",
+   "anglais": "{source} Butterfly Drip-Lure",
+   "noms_source": {
+    "apple": {
+     "nom": "à la pomme"
+    },
+    "berry": {
+     "nom": "aux baies"
+    },
+    "melon": {
+     "nom": "à la pastèque"
+    }
+   }
+  },
+  {
+   "nom": "pancarte_suspendue_cluttered",
+   "motif": "block.cluttered.{id}_hanging_sign",
+   "source": [],
+   "gabarit": "Pancarte suspendue en {source}",
+   "anglais": "{source} Hanging Sign",
+   "noms_source": {
+    "blue_mushroom": {
+     "nom": "champignon bleu"
+    },
+    "red_mushroom": {
+     "nom": "champignon rouge"
+    },
+    "crabapple": {
+     "nom": "pommier sauvage"
+    },
+    "flowering_crabapple": {
+     "nom": "pommier sauvage fleuri"
+    },
+    "poplar": {
+     "nom": "peuplier"
+    },
+    "flowering_poplar": {
+     "nom": "peuplier fleuri"
+    },
+    "willow": {
+     "nom": "saule mystique"
+    },
+    "flowering_willow": {
+     "nom": "saule mystique fleuri"
+    },
+    "sycamore": {
+     "nom": "sycomore"
+    },
+    "fluorescent_maple": {
+     "nom": "érable fluorescent"
+    }
+   }
+  },
+  {
+   "nom": "pancarte_cluttered",
+   "motif": "block.cluttered.{id}_sign",
+   "source": [],
+   "gabarit": "Pancarte en {source}",
+   "anglais": "{source} Sign",
+   "noms_source": {
+    "blue_mushroom": {
+     "nom": "champignon bleu"
+    },
+    "red_mushroom": {
+     "nom": "champignon rouge"
+    },
+    "crabapple": {
+     "nom": "pommier sauvage"
+    },
+    "flowering_crabapple": {
+     "nom": "pommier sauvage fleuri"
+    },
+    "poplar": {
+     "nom": "peuplier"
+    },
+    "flowering_poplar": {
+     "nom": "peuplier fleuri"
+    },
+    "willow": {
+     "nom": "saule mystique"
+    },
+    "flowering_willow": {
+     "nom": "saule mystique fleuri"
+    },
+    "sycamore": {
+     "nom": "sycomore"
+    },
+    "fluorescent_maple": {
+     "nom": "érable fluorescent"
+    }
+   }
+  },
+  {
+   "nom": "tige_champignon_cluttered",
+   "motif": "block.cluttered.{id}_mushroom_log",
+   "source": [],
+   "gabarit": "Tige de champignon {source}",
+   "anglais": "{source} Mushroom Stem",
+   "noms_source": {
+    "blue": {
+     "nom": "bleu"
+    },
+    "red": {
+     "nom": "rouge"
+    }
+   }
+  },
+  {
+   "nom": "rangement_a_vins_nether_mid",
+   "motif": "block.nethervinery.{id}_wine_rack_mid",
+   "source": [],
+   "gabarit": "Rangement à vins {source}",
+   "anglais": "{source} Wine Bottle Storage",
+   "noms_source": {
+    "crimson": {
+     "nom": "carmin"
+    },
+    "warped": {
+     "nom": "biscornu"
+    }
+   }
+  },
+  {
+   "nom": "rangement_a_vins_nether_big",
+   "motif": "block.nethervinery.{id}_wine_rack_big",
+   "source": [],
+   "gabarit": "Grand rangement à vins {source}",
+   "anglais": "{source} Wine Bottle Storage",
+   "noms_source": {
+    "crimson": {
+     "nom": "carmin"
+    },
+    "warped": {
+     "nom": "biscornu"
+    }
+   }
+  },
+  {
+   "nom": "rangement_a_vins_nether_small",
+   "motif": "block.nethervinery.{id}_wine_rack_small",
+   "source": [],
+   "gabarit": "Petit rangement à vins {source}",
+   "anglais": "{source} Wine Bottle Storage",
+   "noms_source": {
+    "crimson": {
+     "nom": "carmin"
+    },
+    "warped": {
+     "nom": "biscornu"
+    }
+   }
+  },
+  {
+   "nom": "locometal_diorite_enveloppe",
+   "motif": "block.railways.diorite_{id}_wrapped_locometal",
+   "source": [],
+   "gabarit": "Locométal de diorite enveloppé de {source}",
+   "anglais": "Diorite {source} Wrapped Locometal",
+   "noms_source": {
+    "brass": {
+     "nom": "laiton"
+    },
+    "copper": {
+     "nom": "cuivre"
+    },
+    "iron": {
+     "nom": "fer"
+    }
+   }
+  },
+  {
+   "nom": "locometal_granite_enveloppe",
+   "motif": "block.railways.granite_{id}_wrapped_locometal",
+   "source": [],
+   "gabarit": "Locométal de granite enveloppé de {source}",
+   "anglais": "Granite {source} Wrapped Locometal",
+   "noms_source": {
+    "brass": {
+     "nom": "laiton"
+    },
+    "copper": {
+     "nom": "cuivre"
+    },
+    "iron": {
+     "nom": "fer"
+    }
+   }
+  },
+  {
+   "nom": "locometal_limestone_enveloppe",
+   "motif": "block.railways.limestone_{id}_wrapped_locometal",
+   "source": [],
+   "gabarit": "Locométal de calcaire enveloppé de {source}",
+   "anglais": "Limestone {source} Wrapped Locometal",
+   "noms_source": {
+    "brass": {
+     "nom": "laiton"
+    },
+    "copper": {
+     "nom": "cuivre"
+    },
+    "iron": {
+     "nom": "fer"
+    }
+   }
+  },
+  {
+   "nom": "locometal_ochrum_enveloppe",
+   "motif": "block.railways.ochrum_{id}_wrapped_locometal",
+   "source": [],
+   "gabarit": "Locométal de ochrum enveloppé de {source}",
+   "anglais": "Ochrum {source} Wrapped Locometal",
+   "noms_source": {
+    "brass": {
+     "nom": "laiton"
+    },
+    "copper": {
+     "nom": "cuivre"
+    },
+    "iron": {
+     "nom": "fer"
+    }
+   }
+  },
+  {
+   "nom": "locometal_scorchia_enveloppe",
+   "motif": "block.railways.scorchia_{id}_wrapped_locometal",
+   "source": [],
+   "gabarit": "Locométal de scorchia enveloppé de {source}",
+   "anglais": "Scorchia {source} Wrapped Locometal",
+   "noms_source": {
+    "brass": {
+     "nom": "laiton"
+    },
+    "copper": {
+     "nom": "cuivre"
+    },
+    "iron": {
+     "nom": "fer"
+    }
+   }
+  },
+  {
+   "nom": "locometal_tuff_enveloppe",
+   "motif": "block.railways.tuff_{id}_wrapped_locometal",
+   "source": [],
+   "gabarit": "Locométal de tuf enveloppé de {source}",
+   "anglais": "Tuff {source} Wrapped Locometal",
+   "noms_source": {
+    "brass": {
+     "nom": "laiton"
+    },
+    "copper": {
+     "nom": "cuivre"
+    },
+    "iron": {
+     "nom": "fer"
+    }
+   }
+  }
+ ],
+ "accords": {
+  "block.atmospheric.orange": {
+   "genre": "f",
+   "nombre": "s",
+   "pluriel": "oranges"
+  },
+  "block.brewery.beer_barley": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "block.brewery.beer_haley": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "block.brewery.beer_hops": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "block.brewery.beer_nettle": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "block.brewery.beer_oat": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "block.brewery.beer_wheat": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "block.brewery.whiskey_carrasconlabel": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.brewery.whiskey_cristelwalker": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.brewery.whiskey_highland_hearth": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.brewery.whiskey_jamesons_malt": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.brewery.whiskey_jojannik": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "block.brewery.whiskey_lilitusinglemalt": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.cluttered.blue_roundhead": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.cluttered.fly_agaric": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "block.farmlife.tribull_cheese_wheel": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "block.meadow.amethyst_cheese_block": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "block.meadow.buffalo_cheese_block": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "block.meadow.goat_cheese_block": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "block.meadow.grain_cheese_block": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "block.meadow.sheep_cheese_block": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "block.meadow.warped_cheese_block": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "block.minecraft.brown_mushroom": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.minecraft.crimson_fungus": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.minecraft.melon": {
+   "pluriel": "pastèques"
+  },
+  "block.minecraft.pumpkin": {
+   "pluriel": "citrouilles"
+  },
+  "block.minecraft.red_mushroom": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.minecraft.warped_fungus": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.nethervinery.blazewine_pinot": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.nethervinery.ghastly_grenache": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.nethervinery.improved_lava_fizz": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.nethervinery.improved_nether_fizz": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.nethervinery.lava_fizz": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.nethervinery.nether_fizz": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.nethervinery.netherite_nectar": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.quark.glow_shroom": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.ribbits.toadstool": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "block.society.ancient_cider": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.society.ancient_vespertine": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "block.society.beer_attunecore": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "block.society.beer_london": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "block.society.dewy_star": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "block.society.earth_crystal": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.society.espresso": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.society.fire_quartz": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.society.forks_of_blue": {
+   "genre": "f",
+   "nombre": "p"
+  },
+  "block.society.good_catawba": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.society.laputa_franc": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.society.mana_king": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.society.nutty_basil": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.society.sparkling_le_roy": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.society.star_coquito": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.society.starcardi": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.society.violet_moon": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "block.species.alphacene_mushroom": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.verdantvibes.bracket_mushroom": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.aegis_wine": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.apple_cider": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.apple_wine": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.bolvar_wine": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.chenet_wine": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.cherry_wine": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.chorus_wine": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.clark_wine": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.cristel_wine": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.eiswein": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.glowing_wine": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.jellie_wine": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.jo_special_mixture": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.kelp_cider": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.lilitu_wine": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.magnetic_wine": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.mead": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.mellohi_wine": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.noir_wine": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.red_wine": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.solaris_wine": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.stal_wine": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "block.vinery.strad_wine": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.arapaima": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.arrau_turtle": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "entity.aquaculture.atlantic_halibut": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.atlantic_herring": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.bayad": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "entity.aquaculture.blackfish": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.bluegill": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.boulti": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.box_turtle": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "entity.aquaculture.brown_shrooma": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.brown_trout": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "entity.aquaculture.capitaine": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.carp": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "entity.aquaculture.catfish": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.gar": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.jellyfish": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "entity.aquaculture.minnow": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.muskellunge": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.pacific_halibut": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.perch": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "entity.aquaculture.pink_salmon": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.piranha": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.pollock": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.rainbow_trout": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "entity.aquaculture.red_grouper": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.red_shrooma": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.smallmouth_bass": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.starshell_turtle": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "entity.aquaculture.synodontis": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.tambaqui": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.aquaculture.tuna": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.crabbersdelight.crab": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.crittersandcompanions.koi_fish": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "entity.farmlife.galliraptor": {
+   "genre": "m",
+   "nombre": "s",
+   "propre": true
+  },
+  "entity.minecraft.cod": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "entity.minecraft.pufferfish": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.minecraft.salmon": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.minecraft.tropical_fish": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.netherdepthsupgrade.blazefish": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.netherdepthsupgrade.bonefish": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.netherdepthsupgrade.eyeball_fish": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.netherdepthsupgrade.glowdine": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "entity.netherdepthsupgrade.lava_pufferfish": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.netherdepthsupgrade.magmacubefish": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.netherdepthsupgrade.obsidianfish": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.netherdepthsupgrade.searing_cod": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "entity.netherdepthsupgrade.soulsucker": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.netherdepthsupgrade.wither_bonefish": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.species.birt": {
+   "genre": "m",
+   "nombre": "s",
+   "propre": true
+  },
+  "entity.species.cruncher": {
+   "genre": "m",
+   "nombre": "s",
+   "propre": true
+  },
+  "entity.species.springling": {
+   "genre": "m",
+   "nombre": "s",
+   "propre": true
+  },
+  "entity.species.wraptor": {
+   "genre": "m",
+   "nombre": "s",
+   "propre": true
+  },
+  "entity.unusualfishmod.aero_mono": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.unusualfishmod.amber_goby": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.unusualfishmod.bark_angelfish": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.unusualfishmod.beaked_herring": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.unusualfishmod.blind_sailfin": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.unusualfishmod.circus": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.unusualfishmod.copperflame": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.unusualfishmod.demon_herring": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.unusualfishmod.drooping_gourami": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.unusualfishmod.duality_damselfish": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.unusualfishmod.eyelash": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.unusualfishmod.forkfish": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.unusualfishmod.hatchet_fish": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.unusualfishmod.picklefish": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.unusualfishmod.sailor_barb": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.unusualfishmod.sneep_snorp": {
+   "genre": "m",
+   "nombre": "s",
+   "propre": true
+  },
+  "entity.unusualfishmod.snowflaketail": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "entity.unusualfishmod.spindlefish": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "entity.unusualfishmod.triple_twirl_pleco": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.aquaculture.goldfish": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.aquaculture.leech": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.atmospheric.aloe_leaves": {
+   "pluriel": "feuilles d'aloe vera"
+  },
+  "item.atmospheric.currant": {
+   "genre": "f",
+   "nombre": "s",
+   "pluriel": "groseilles"
+  },
+  "item.atmospheric.passion_fruit": {
+   "genre": "m",
+   "nombre": "s",
+   "pluriel": "fruits de la passion"
+  },
+  "item.atmospheric.yucca_fruit": {
+   "genre": "m",
+   "nombre": "s",
+   "pluriel": "fruits du yucca"
+  },
+  "item.autumnity.foul_berries": {
+   "genre": "f",
+   "nombre": "p",
+   "pluriel": "baies fétides"
+  },
+  "item.brewery.dark_brew": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.crabbersdelight.clam": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.crabbersdelight.clawster": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.crabbersdelight.shrimp": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.farm_and_charm.corn": {
+   "pluriel": "maïs"
+  },
+  "item.farm_and_charm.onion": {
+   "pluriel": "oignons"
+  },
+  "item.farm_and_charm.strawberry": {
+   "genre": "f",
+   "nombre": "s",
+   "pluriel": "fraises"
+  },
+  "item.farm_and_charm.tomato": {
+   "pluriel": "tomates"
+  },
+  "item.minecraft.amethyst_shard": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.minecraft.apple": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.minecraft.beetroot": {
+   "pluriel": "betteraves"
+  },
+  "item.minecraft.carrot": {
+   "pluriel": "carottes"
+  },
+  "item.minecraft.chorus_fruit": {
+   "genre": "m",
+   "nombre": "s",
+   "pluriel": "chorus"
+  },
+  "item.minecraft.diamond": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.minecraft.emerald": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.minecraft.glow_berries": {
+   "genre": "f",
+   "nombre": "p"
+  },
+  "item.minecraft.lapis_lazuli": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.minecraft.melon_slice": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.minecraft.potato": {
+   "pluriel": "pommes de terre"
+  },
+  "item.minecraft.prismarine_crystals": {
+   "genre": "m",
+   "nombre": "p"
+  },
+  "item.minecraft.quartz": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.minecraft.sweet_berries": {
+   "genre": "f",
+   "nombre": "p"
+  },
+  "item.netherdepthsupgrade.fortress_grouper": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.pamhc2trees.bananaitem": {
+   "genre": "f",
+   "nombre": "s",
+   "pluriel": "bananes"
+  },
+  "item.pamhc2trees.dragonfruititem": {
+   "genre": "m",
+   "nombre": "s",
+   "pluriel": "fruits du dragon"
+  },
+  "item.pamhc2trees.lemonitem": {
+   "genre": "m",
+   "nombre": "s",
+   "pluriel": "citrons"
+  },
+  "item.pamhc2trees.lycheeitem": {
+   "genre": "m",
+   "nombre": "s",
+   "pluriel": "litchis"
+  },
+  "item.pamhc2trees.mangoitem": {
+   "genre": "f",
+   "nombre": "s",
+   "pluriel": "mangues"
+  },
+  "item.pamhc2trees.pawpawitem": {
+   "genre": "f",
+   "nombre": "s",
+   "pluriel": "asimines"
+  },
+  "item.pamhc2trees.peachitem": {
+   "genre": "f",
+   "nombre": "s",
+   "pluriel": "pêches"
+  },
+  "item.pamhc2trees.plumitem": {
+   "genre": "f",
+   "nombre": "s",
+   "pluriel": "prunes"
+  },
+  "item.pamhc2trees.starfruititem": {
+   "genre": "f",
+   "nombre": "s",
+   "pluriel": "caramboles"
+  },
+  "item.snowyspirit.ginger": {
+   "pluriel": "gingembre"
+  },
+  "item.society.aerinite": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.allanite": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.amethyst_chunk": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.society.ancient_fruit": {
+   "genre": "m",
+   "nombre": "s",
+   "pluriel": "fruits anciens"
+  },
+  "item.society.aquamarine": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.baryte": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.basalt_shard": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.society.bixbyite": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.blueberry": {
+   "genre": "f",
+   "nombre": "s",
+   "pluriel": "myrtilles"
+  },
+  "item.society.boysenberry": {
+   "genre": "f",
+   "nombre": "s",
+   "pluriel": "baies de Boysen"
+  },
+  "item.society.calcite_gem": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.celestine": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.cranberry": {
+   "genre": "f",
+   "nombre": "s",
+   "pluriel": "cranberries"
+  },
+  "item.society.crystalberry": {
+   "genre": "f",
+   "nombre": "s",
+   "pluriel": "baies de cristal"
+  },
+  "item.society.dolomite": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.eggplant": {
+   "pluriel": "aubergines"
+  },
+  "item.society.energy_drink": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.esperite": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.fairy_stone": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.fire_opal": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.fluorapatite": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.frozen_tear": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.geminite": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.ghost_crystal": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.society.granite_slate": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.helvite": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.hematite": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.jade": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.society.jagoite": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.jamborite": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.jasper": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.society.kyanite": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.lemon_stone": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.limestone_pebble": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.society.lunarite": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.malachite": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.mana_fruit": {
+   "genre": "m",
+   "nombre": "s",
+   "pluriel": "fruits de mana"
+  },
+  "item.society.marble": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.society.mossberry": {
+   "genre": "f",
+   "nombre": "s",
+   "pluriel": "baies de mousse"
+  },
+  "item.society.mudstone": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.nekoite": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.neptuna": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.society.neptunite": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.ocean_stone": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.opal": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.orpiment": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.society.petrified_slime": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.society.pure_obsidian": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.pyrite": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.ruby": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.society.salmonberry": {
+   "genre": "f",
+   "nombre": "s",
+   "pluriel": "baies de saumon"
+  },
+  "item.society.sandstone_slate": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.slate": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.soapstone": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.sparkpod": {
+   "genre": "m",
+   "nombre": "s",
+   "pluriel": "sparkpods"
+  },
+  "item.society.spinel": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.society.star_shards": {
+   "genre": "m",
+   "nombre": "p"
+  },
+  "item.society.thunder_egg": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.society.tigerseye": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.society.topaz": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.society.tubabacco_leaf": {
+   "genre": "f",
+   "nombre": "s"
+  },
+  "item.veggiesdelight.bellpepper": {
+   "pluriel": "poivrons"
+  },
+  "item.veggiesdelight.broccoli": {
+   "pluriel": "brocolis"
+  },
+  "item.veggiesdelight.cauliflower": {
+   "pluriel": "choux-fleurs"
+  },
+  "item.veggiesdelight.garlic": {
+   "pluriel": "ail"
+  },
+  "item.veggiesdelight.sweet_potato": {
+   "pluriel": "patates douces"
+  },
+  "item.veggiesdelight.turnip": {
+   "pluriel": "navets"
+  },
+  "item.veggiesdelight.zucchini": {
+   "pluriel": "courgettes"
+  },
+  "item.vinery.cherry": {
+   "genre": "f",
+   "nombre": "s",
+   "pluriel": "cerises"
+  },
+  "item.vinery.red_grape": {
+   "pluriel": "raisins rouges"
+  },
+  "item.vinery.white_grape": {
+   "pluriel": "raisins blancs"
+  },
+  "item.vintagedelight.century_egg": {
+   "genre": "m",
+   "nombre": "s"
+  },
+  "item.vintagedelight.gearo_berry": {
+   "genre": "f",
+   "nombre": "p"
+  },
+  "item.windswept.wild_berries": {
+   "genre": "f",
+   "nombre": "p",
+   "pluriel": "baies sauvages"
+  }
+ }
+}

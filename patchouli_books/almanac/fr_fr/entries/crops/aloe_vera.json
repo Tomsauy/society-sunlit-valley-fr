@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li):coin: 16$(li)🔥 §6Été§r$(li)Rendement : 1-2$(li)Stades de pousse : 5-8$(br2)$(l)Notes$()$(br)Se trouve dans le biome des Dunes florissantes.$(br)Récoltable dès le stade 5.$(br)Donne des fleurs jaunes aux stades supérieurs."
+            "text": "$(l)Stats$()$(li):coin: 16$(li)🔥 §6Été§r$(li)Rendement : 1-2$(li)Stades de pousse : 5-8$(br2)$(l)Notes$()$(br)Se trouve dans le biome des dunes florissantes.$(br)Récoltable dès le stade 5.$(br)Donne des fleurs jaunes aux stades supérieurs."
         },
         {
             "type": "patchouli:multiblock",

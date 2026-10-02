@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Emplacements :$()$(li)Biomes : biomes du Nether hors de la Vallée des âmes$(br2)$(l)Risques :$()$(br)Pleure périodiquement, inondant les alentours d'eau."
+            "text": "$(l)Emplacements :$()$(li)Biomes : biomes du Nether hors de la vallée des âmes$(br2)$(l)Risques :$()$(br)Pleure périodiquement, inondant les alentours d'eau."
         },
         {
             "type": "patchouli:entity",

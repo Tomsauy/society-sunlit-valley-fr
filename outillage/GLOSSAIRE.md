@@ -1,6 +1,6 @@
 # Glossaire FR — Society: Sunlit Valley
 
-1 678 entrées — 44 + 319 + 481 + 65 + 769, le compte de chaque section ci-dessous.
+1 702 entrées — 45 + 318 + 481 + 66 + 769 + 23, le compte de chaque section ci-dessous.
 Détail des termes gardés en anglais : voir KEEP-ENGLISH.md
 
 ## Termes gardés en anglais
@@ -42,6 +42,7 @@ Détail des termes gardés en anglais : voir KEEP-ENGLISH.md
 - **Sarah Boeving**
 - **Sneep Snorp**
 - **Sunflowers**
+- **Ticker**
 - **Tides**
 - **Unpacked**
 - **Vanilla**
@@ -50,7 +51,7 @@ Détail des termes gardés en anglais : voir KEEP-ENGLISH.md
 - **Yapettoshen**
 - **five**
 
-## Vanilla Minecraft (traduction officielle Mojang) — 319 entrées
+## Vanilla Minecraft (traduction officielle Mojang) — 318 entrées
 
 | EN | FR | Justification |
 |---|---|---|
@@ -280,7 +281,7 @@ Détail des termes gardés en anglais : voir KEEP-ENGLISH.md
 | Hopper | Entonnoir | vanilla, jar concordant |
 | Arrow | Flèche | vanilla, jar concordant |
 | Bat Spawn Egg | Oeuf d'apparition de chauve-souris | vanilla |
-| Hotbar | Barre | vanilla |
+| Hotbar | Barre d'action | vanilla : « Case 1 de la barre d'action », « Barres d'action sauvegardées » ; « Barre » seul est l'indicateur d'attaque (options.attack.hotbar) ; lot 5-01 |
 | Movement | Mouvements | vanilla (catégorie de touches) |
 | Configure | Configurer | vanilla, jars concordants |
 | Accessibility | Accessibilité | vanilla |
@@ -354,7 +355,6 @@ Détail des termes gardés en anglais : voir KEEP-ENGLISH.md
 | Diamond Equipment | Équipement en diamant | vanilla (confirmé par jar oreganized) |
 | Type: %s | Type : %s | vanilla (espace avant les deux-points) |
 | Coal Ore | Minerai de charbon | vanilla |
-| Bundles | Sacs | vanilla |
 | Slime | Slime | vanilla (identique en FR) |
 | Cow | Vache | vanilla |
 | Frog | Grenouille | vanilla |
@@ -438,7 +438,7 @@ Détail des termes gardés en anglais : voir KEEP-ENGLISH.md
 | Warped Lattice | Treillis enveloppé | jar (vinery) repris ; vanilla dirait plutôt biscornu |
 | Cabinet | Armoire | jar (farmersdelight et bakery concordants) |
 | Drawer | Tiroir | jar (bakery) |
-| Partystarter | Lanceur de party | jar (vinery) repris tel quel |
+| Partystarter | Boute-en-train | fiche du 30/09 : partystarter |
 | Cut | Couper | jar (fancymenu et ftblibrary concordants) |
 | Rotate | Rotation | jars divergents (botania/create) ; nom plus naturel pour bouton |
 | Baking | Pâtisserie | jar (farm_and_charm) ; vérifier le contexte four/argile de clayworks |
@@ -449,7 +449,7 @@ Détail des termes gardés en anglais : voir KEEP-ENGLISH.md
 | Wheat Dough | Pâte de blé | jar (farmersdelight) |
 | Wheat Flour | Farine de blé | jar (create) |
 | Sap | Sève | jar (supplementaries) |
-| Apple Cider | Cidre de pommes | jars divergents ; Farmer's Delight retenu pour cohérence en jeu |
+| Apple Cider | Cidre | fiche du 30/09 : homonyme-apple-cider |
 | X Position | Position X | jar (fancymenu) |
 | Y Position | Position Y | jar (fancymenu) |
 | Server | Serveur | jar (fancymenu) |
@@ -801,7 +801,7 @@ Détail des termes gardés en anglais : voir KEEP-ENGLISH.md
 | Ginger | Gingembre | jars concordants (snowyspirit, amendments) |
 | Lavender | Lavande | jar (herbalbrews) |
 | Polished Shale | Shale poli | jar (quark) |
-| Polished Shale Slab | Dalle en shale poli | jar (quark) |
+| Polished Shale Slab | Dalle de shale poli | dalle de pierre en « de » (STYLE §7) |
 | Polished Shale Stairs | Escalier en shale poli | jar (quark) |
 | Shale Slab | Dalle de shale | jar (quark) |
 | Shale Stairs | Escalier de shale | jar (quark) |
@@ -831,7 +831,7 @@ Détail des termes gardés en anglais : voir KEEP-ENGLISH.md
 | Palm Tree | Palmier | jar simplehats |
 | Arapaima | Arapaïma | jar aquaculture |
 | Arrau Turtle | Tortue tartaruga | jar aquaculture |
-| Atlantic Cod | Morue | jar aquaculture |
+| Atlantic Cod | Morue de l'Atlantique | fiche du 30/09, question morue-atlantique : distincte de la « Morue » de Mojang |
 | Atlantic Halibut | Flétan de l'Atlantique | jar aquaculture |
 | Atlantic Herring | Hareng | jar aquaculture |
 | Bayad | Carangue | jar aquaculture |
@@ -860,10 +860,11 @@ Détail des termes gardés en anglais : voir KEEP-ENGLISH.md
 | Starshell Turtle | Tortue à carapace étoilée | jar aquaculture |
 | Tuna | Thon | jar aquaculture |
 
-## Stardew Valley (wiki officiel FR) — 65 entrées
+## Stardew Valley (wiki officiel FR) — 66 entrées
 
 | EN | FR | Justification |
 |---|---|---|
+| Bundles | Lots | lots du Centre communautaire (Stardew Valley FR, décision tracée au glossaire de provenance.json) ; le contenant vanilla item.minecraft.bundle reste « Sac » |
 | Skull Cavern | Caverne du Crâne | terminologie officielle Stardew Valley FR |
 | Fishing | Pêche | jar bountiful; compétence type Stardew |
 | Complete the Vault | Terminer le Coffre-fort | Vault = Coffre-fort (Stardew Valley FR) |
@@ -879,7 +880,7 @@ Détail des termes gardés en anglais : voir KEEP-ENGLISH.md
 | Fertilizer | Engrais | terminologie officielle Stardew Valley FR (choix utilisateur) |
 | Quality | Qualité | terminologie Stardew Valley |
 | Increases luck. | Augmente la chance. | Chance : terminologie Stardew |
-| Progresses nearby Artisan Machines once a day at 7am | Fait progresser les machines artisanales à proximité une fois par jour, à 7 h du matin | cohérent avec Produits artisanaux (Stardew) |
+| Progresses nearby Artisan Machines once a day at 7am | Fait progresser les machines d'artisan à proximité une fois par jour, à 7 h du matin | fiche du 30/09 : machine-artisan |
 | Farming | Agriculture | jar Bountiful, conforme à Stardew |
 | Energy | Énergie | jar pipez, accent rétabli ; cohérent Stardew |
 | Prismatic Coin | Pièce prismatique | prismatique, cohérent avec Tesson prismatique (Stardew) |
@@ -898,7 +899,7 @@ Détail des termes gardés en anglais : voir KEEP-ENGLISH.md
 | You need to have Mining Mastery unlocked to use this... | Vous devez avoir débloqué la maîtrise de minage pour utiliser ceci... | Mastery = Maîtrise (Stardew 1.6) |
 | Geodes, loot crates, and Slot Machines drop one more item. | Les géodes, les caisses de butin et les machines à sous donnent un objet de plus. | géode : terme Stardew |
 | Fish Ponds will ask for half the items. | Les étangs à poissons demandent moitié moins d'objets. | terminologie Stardew : Étang à poissons |
-| Use on an Artisan Machine to progress it by 1 day | À utiliser sur une machine artisanale pour la faire avancer d'un jour | traduction directe, esprit Stardew (poudre de fée) |
+| Use on an Artisan Machine to progress it by 1 day | À utiliser sur une machine d'artisan pour la faire avancer d'un jour | fiche du 30/09 : machine-artisan |
 | Does not carry over Milk Quality | Ne conserve pas la qualité du lait | qualité : terme Stardew |
 | Use on a %s to double chance of non-Roe items | À utiliser sur %s pour doubler les chances d'objets autres que des œufs de poisson | roe = œufs de poisson (Stardew) |
 | Teleports you down a level in the Skull Cavern | Vous téléporte un niveau plus bas dans la Caverne du Crâne | terminologie Stardew : Caverne du Crâne |
@@ -977,27 +978,27 @@ Détail des termes gardés en anglais : voir KEEP-ENGLISH.md
 | Count: %s | Nombre : %s | quantité affichée; typographie française |
 | Cochineal | Cochenille | insecte réel; traduction directe |
 | Acceleration | Accélération | traduction directe naturelle |
-| Black Dyes | Colorants noirs | pluriel du vanilla « Colorant noir » |
-| Blue Dyes | Colorants bleus | pluriel du nom vanilla |
-| Brown Dyes | Colorants marron | pluriel du nom vanilla |
-| Cyan Dyes | Colorants cyan | pluriel du nom vanilla |
+| Black Dyes | Teintures noires | fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture noire » |
+| Blue Dyes | Teintures bleues | fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture bleue » |
+| Brown Dyes | Teintures marron | fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture marron » |
+| Cyan Dyes | Teintures cyan | fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture cyan » |
 | Diamonds | Diamants | pluriel du nom vanilla |
-| Dyes | Colorants | pluriel du nom vanilla |
+| Dyes | Teintures | fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture » |
 | Emeralds | Émeraudes | pluriel du nom vanilla |
-| Gray Dyes | Colorants gris | pluriel du nom vanilla |
-| Green Dyes | Colorants verts | pluriel du nom vanilla |
-| Light Blue Dyes | Colorants bleu clair | pluriel du nom vanilla |
-| Light Gray Dyes | Colorants gris clair | pluriel du nom vanilla |
-| Lime Dyes | Colorants vert clair | pluriel du vanilla « Colorant vert clair » |
-| Magenta Dyes | Colorants magenta | pluriel du nom vanilla |
+| Gray Dyes | Teintures grises | fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture grise » |
+| Green Dyes | Teintures vertes | fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture verte » |
+| Light Blue Dyes | Teintures bleu clair | fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture bleu clair » |
+| Light Gray Dyes | Teintures gris clair | fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture gris clair » |
+| Lime Dyes | Teintures vert clair | fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture vert clair » |
+| Magenta Dyes | Teintures magenta | fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture magenta » |
 | Nuggets | Pépites | pluriel du terme vanilla |
-| Orange Dyes | Colorants orange | pluriel du nom vanilla |
+| Orange Dyes | Teintures orange | fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture orange » |
 | Ores | Minerais | pluriel du terme vanilla |
-| Pink Dyes | Colorants roses | pluriel du nom vanilla |
-| Purple Dyes | Colorants violets | pluriel du nom vanilla |
-| Red Dyes | Colorants rouges | pluriel du nom vanilla |
-| White Dyes | Colorants blancs | pluriel du nom vanilla |
-| Yellow Dyes | Colorants jaunes | pluriel du nom vanilla |
+| Pink Dyes | Teintures roses | fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture rose » |
+| Purple Dyes | Teintures violettes | fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture violette » |
+| Red Dyes | Teintures rouges | fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture rouge » |
+| White Dyes | Teintures blanches | fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture blanche » |
+| Yellow Dyes | Teintures jaunes | fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture jaune » |
 | Chair | Chaise | traduction directe naturelle |
 | Coconut | Noix de coco | traduction directe naturelle |
 | Opening Cabinet | Ouverture d'un placard | sous-titre sonore, style vanilla |
@@ -1403,7 +1404,7 @@ Détail des termes gardés en anglais : voir KEEP-ENGLISH.md
 | Red Base | Base rouge | vanilla = bannière héraldique, hors contexte carillon ; traduction contextuelle |
 | White Base | Base blanche | vanilla = bannière héraldique, hors contexte carillon ; traduction contextuelle |
 | Yellow Base | Base jaune | vanilla = bannière héraldique, hors contexte carillon ; traduction contextuelle |
-| Construction Core | Cœur de construction | jar refinedstorage, ligature œ rétablie |
+| Construction Core | Coeur de construction | jar Refined Storage ; « oe », jamais la ligature (fiche du 30/09, question coeur-noyau) |
 | Drink | Boisson | jar « Boire » = verbe hors contexte ; catégorie de boissons (ko : nom) |
 | Melon Juice | Jus de pastèque | jars divergents ; pastèque = melon Minecraft, casse normalisée |
 | Create Railways Navigator | Navigateur ferroviaire | jar du mod lui-même, casse normalisée |
@@ -1418,7 +1419,7 @@ Détail des termes gardés en anglais : voir KEEP-ENGLISH.md
 | Tomato Seeds | Graines de tomate | jars divergents ; singulier cohérent vanilla, casse normalisée |
 | Match | Correspondance | vanilla = tableau L'Allumette, hors contexte ; ici correspondance d'objets |
 | Team name is too short! (must be >=3 characters) | Le nom de l'équipe est trop court ! (doit être >=3 caractères) | jar FTB Teams, « à » parasite corrigé |
-| Boat in a Jar | Bateau en pot | jar Supplementaries, accent fautif corrigé |
+| Boat in a Jar | Bateau en bouteille | fiche du 30/09 : homonyme-boat-in-a-jar |
 | Overlay | Superposition | jar Create = verbe, hors contexte ; ici affichage superposé |
 | Safe | Sûr | jar = coffre-fort, hors contexte ; ici adjectif (ko : « sûr ») |
 | Lime | Citron vert | vanilla = couleur, hors contexte ; ici le fruit |
@@ -1531,7 +1532,7 @@ Détail des termes gardés en anglais : voir KEEP-ENGLISH.md
 | Chai Tea | Thé chai | traduction usuelle en français |
 | Hazelnut Ella | Noisetella | jeu de mots type Nutella, le KO calque aussi |
 | Chocolate Donut | Donut au chocolat | traduction naturelle |
-| Small Core | Petit noyau | traduction naturelle (justhammers) |
+| Small Core | Petit coeur | fiche du 30/09, question coeur-noyau : les pièces de Just Hammers disent « coeur » (« Coeur d'impact », « Coeur renforcé ») |
 | Gadget Core | Noyau de gadget | traduction naturelle (buildinggadgets2) |
 | Neptunium Coin | Pièce de neptunium | traduction naturelle |
 | Ancient Coin | Pièce ancienne | traduction naturelle |
@@ -1643,8 +1644,8 @@ Qu'avez-vous à perdre ? | traduction, retour à la ligne conservé |
 | Filled with sticky bittersweet | Rempli d'une douceur amère et collante | rayon de miel au thé vert, traduction naturelle |
 | Brine and Punishment +100%% | Saumure et Châtiment +100%% | parodie de Crime et Châtiment, %% conservés |
 | Bluegill Meridian sets value to 666 | Méridien de crapet fixe la valeur à 666 | parodie de Méridien de sang ; bluegill = crapet (aquaculture) |
-| Artifacts and Relics are worth 200%% more | Les artéfacts et les reliques valent 200%% de plus | traduction directe, %% conservés |
-| Phenomenology of Treasure +200%% | Phénoménologie du trésor +200%% | parodie de Phénoménologie de l'esprit (Hegel) |
+| Artifacts and Relics are worth 200%% more | Les artéfacts et les reliques valent 200 %% de plus | traduction directe, %% conservés |
+| Phenomenology of Treasure +200%% | Phénoménologie du trésor +200 %% | parodie de Phénoménologie de l'esprit (Hegel) |
 | Boosted by The Quality of the Earth | Amélioré par La Qualité de la terre | titre de livre du mod traduit |
 | Mining any ore drops Sparkstone. | Miner n'importe quel minerai fait tomber de la Sparkstone. | phrase traduite ; Sparkstone conservé (ko translittéré) |
 | The Metamorphosize +%s from size | La Métamorphosation +%s selon la taille | parodie de La Métamorphose (Kafka), %s conservé |
@@ -1705,3 +1706,34 @@ Qu'avez-vous à perdre ? | traduction, retour à la ligne conservé |
 | Place in Caterpillar Box to hatch into a Butterfly or Moth! | À placer dans une boîte à chenilles pour obtenir un papillon ou un papillon de nuit ! | traduction directe |
 | Parents: %s & %s | Parents : %s & %s | typographie française, %s conservés |
 | Max size: %s | Taille max : %s | typographie française, %s conservé |
+
+## Décisions de la fiche du 30/09/2026
+
+| Anglais | Français | Décision |
+|---|---|---|
+| Crab Trap | Casier à crabes | fiche du 30/09 : crabes |
+| Bobber | Flotteur | fiche du 30/09 : flotteur |
+| Artisan Machine | Machine d'artisan | fiche du 30/09 : machine-artisan |
+| Stack Upgrade | Amélioration de pile | fiche du 30/09 : amelioration-pile |
+| Aging Cask | Tonneau de vieillissement | fiche du 30/09 : fut-tonneau |
+| Ancient Cask | Tonneau ancien | fiche du 30/09 : fut-tonneau |
+| Dark Cherry | Cerisier noir | fiche du 30/09, question cerisier-noir : essence de Vinery (« Planches de cerisier noir ») |
+| Core | Noyau | fiche du 30/09, question coeur-noyau : « Noyau » pour la baguette de construction (pièce interchangeable qui détermine le mode) ; Just Hammers et Refined Storage disent « coeur » |
+| Dripstone | Spéléothème | fiche du 30/09, question dripstone : nom de Mojang (« Bloc de spéléothème »), de Create et de Quark ; Railways suit |
+| Trumpet (Quark) | Trompette | réponse du 01/10 à la question trompette-quark : le bois Trumpet de Quark (« Planches de trompette », « Pousse de trompette givrée ») ; « cerisier » reste le bois de Mojang |
+| Boat with Furnace | Bateau en … motorisé | réponse du 01/10 à la question bateau-motorise : comme le « Wagonnet motorisé » de Mojang ; le fourneau n'est pas nommé |
+| Brush (Better Archeology) | Pinceau | réponse du 01/10 à la question pinceau-better-archeology : versions du pinceau de Mojang (« Pinceau en fer ») |
+| Waystone | Pierre de voyage | réponse du 01/10 à la question sharestone : tout le mod Waystones en français ; variantes « moussue », « en grès », « en roche noire », « en ardoise des abîmes », « en pierre de l'End » (la matière prend « en ») |
+| Sharestone | Pierre de partage | réponse du 01/10 à la question sharestone : couleur accordée au féminin après le nom (« Pierre de partage blanche »), comme tous les textes du pack |
+| Portstone | Pierre de départ | réponse du 01/10 à la question sharestone : on part de cette pierre, on ne peut pas y arriver (« Can not be teleported to. ») |
+| Thumbstick | Joystick | lot 5-01 : Controllable, manette (« Joystick gauche », « Zone morte des joysticks ») ; mot entré dans l'usage français |
+| Bumper | Bouton supérieur | lot 5-01 : Controllable, bouton d'épaule de la manette (« Bouton supérieur gauche ») ; « gâchette » reste le Trigger |
+| Trigger (manette) | Gâchette | lot 5-01 : Controllable, déjà « Zone morte des gâchettes » dans le pack (« Gâchette droite ») |
+| Binding (touches) | Assignation | lot 5-01 : Controllable ; Mojang « Assignation des touches » (« Modifier les assignations ») |
+| Radial Menu | Menu radial | lot 5-01 : Controllable (« Ouvrir le menu radial ») |
+| Mapping (manette) | Correspondance | lot 5-01 : Controllable, déjà « Mettre à jour les correspondances » dans le pack (« Correspondance manquante ! ») |
+| Dithering | Tramage | lot 5-01 : Zetter (« Tramage ») ; Immersive Paintings suit (« dither ») |
+| Sepia | Sépia | lot 5-01 : mot français (Quark, filtre « Sépia ») ; « Globe sépia » de Supplementaries |
+| Smokestack (burner) | Cheminée à brûleur à … | décision de l'utilisateur, 02/10 (lot R-16) : un seul modèle pour Woodburner/Coalburner/Oilburner Smokestack, « Cheminée à brûleur à bois / à charbon / à pétrole [en <corps> à chapeau de <chapeau>] » ; remplace « à brûleur de bois » et « de brûleur à … » |
+| Silk Moth / Japanese Silk Moth | Papillon du ver à soie / Papillon du ver à soie japonais | décision de l'utilisateur, 02/10 (lot R-17) : noms parlants (option 2) pour les deux bombyx de Longwings, objets et titres du guide ; remplace « Bombyx de la soie » et « Bombyx de la soie du Japon » |
+| Kelp (Crimson/Warped Kelp, Kelp Shake…) | Algue (Algue carmin, Algue biscornue, Milkshake aux algues…) | décision de l'utilisateur, 02/10 (lot R-18) : Kelp = Algue, comme Mojang (« Tige d'algue », « Algue séchée », « Bloc d'algues séchées ») ; les algues carmin et biscornues de Nether Depths Upgrade, leurs blocs, tapis et makis, et le milkshake de Crabber's Delight suivent ; remplace « varech », désormais forme interdite |

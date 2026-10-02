@@ -121,7 +121,7 @@
   "config.loot_journal.option.trackItemPickups.desc": "Affiche les ramassages d'objets des joueurs à proximité.",
   "config.loot_journal.option.trackXpPickups": "Suivre les ramassages d'XP",
   "config.loot_journal.option.trackXpPickups.desc": "Affiche les ramassages d'expérience des joueurs à proximité.",
-  "config.loot_journal.option.tracking.label": "Le suivi permet de voir quand d'autres joueurs obtiennent des objets. Il ne fonctionne toutefois que pour les joueurs proches et actuellement chargés. Il est possible d'échapper au suivi en devenant §finvisible§7 ou en portant une §fcitrouille taillée§7.",
+  "config.loot_journal.option.tracking.label": "Le suivi permet de voir quand d'autres joueurs obtiennent des objets. Il ne fonctionne toutefois que pour les joueurs proches et actuellement chargés. Il est possible d'échapper au suivi en devenant §finvisible§7 ou en portant une §fcitrouille sculptée§7.",
   "config.loot_journal.theme.name_color": "Couleur du nom",
   "config.loot_journal.theme.name_color.desc": "Couleur du texte de nom du ramassage.",
   "config.loot_journal.theme.panel_color": "Couleur du panneau",

@@ -1,4 +1,6 @@
 {
+  "advancements.classicpipes.obtain_pipe.description": "Procurez-vous un tuyau",
+  "advancements.classicpipes.obtain_pipe.title": "L'appel des tuyaux",
   "block.classicpipes.copper_pipe": "Tuyau en cuivre",
   "tag.item.c.chests.wooden": "Coffres en bois"
 }

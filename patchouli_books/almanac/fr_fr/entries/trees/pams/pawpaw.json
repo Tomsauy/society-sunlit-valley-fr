@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)🍂 §4Automne§r $(li)Taille : 1x1$(li)Produit : $(l:tree_crops/pawpaw)8x Asimines$(/l)$(br2)$(l)Notes$()$(li)Pousses gagnées à la machine à lots."
+            "text": "$(l)Stats$()$(li)🍂 §4Automne§r $(li)Taille : 1x1$(li)Produit : $(l:tree_crops/pawpaw)8x Asimines$(/l)$(br2)$(l)Notes$()$(li)Pousses gagnées à la machine à récompenses."
         },
         {
             "type": "patchouli:multiblock",

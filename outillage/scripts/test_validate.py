@@ -29,4 +29,13 @@ check("accents autorisés sur un nom", validate({"item.mod.x": "Wheat"}, {"item.
 check("accents autorisés sur une phrase",
       validate({"item.mod.downgrade": "Caps slots at 64 items"},
                {"item.mod.downgrade": "Limite les emplacements à un maximum de 64 objets"}) == [])
+# motif élargi le 28/09/2026 et partagé avec le vérificateur
+check("printf décimal", tokens("%.1f s") == ["%.1f"])
+check("couleur FTB", tokens("&6Or&r") == ["&6", "&r"])
+check("balise lt", tokens("<ltcolor=red>x</ltcolor>") == ["</ltcolor>", "<ltcolor=red>"])
+check("nom du joueur", tokens("Salut @i !") == ["@i"])
+check("gabarit de construction", tokens("${mc_version} forge") == ["${mc_version}"])
+check("jetons FTB", tokens("{@pagebreak}{image:a:b.png width:1}") == ["{@pagebreak}", "{image:a:b.png width:1}"])
+check("saut de ligne réel", tokens("a\nb") == ["\n"])
+check("pourcentage de texte", tokens("25% de chance") == [])
 print("Tous les tests passent.")

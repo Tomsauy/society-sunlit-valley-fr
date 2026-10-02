@@ -1,12 +1,22 @@
 {
   "entity.immersive_paintings.painting": "Tableau",
+  "immersive_paintings.dither": "%s %% de tramage",
   "immersive_paintings.error.image_load_failed": "Impossible de charger l'image, consulte le journal !",
+  "immersive_paintings.filter.all": "Tous",
   "immersive_paintings.hidden": "Masqué",
+  "immersive_paintings.load": "Charger l'image",
   "immersive_paintings.material.crimson": "Carmin",
   "immersive_paintings.material.dark_oak": "Chêne noir",
+  "immersive_paintings.material.emerald": "Émeraude",
+  "immersive_paintings.material.end_stone": "Pierre de l'End",
+  "immersive_paintings.material.glowstone": "Pierre lumineuse",
   "immersive_paintings.material.lapis": "Lapis-lazuli",
   "immersive_paintings.material.stone": "Roche",
+  "immersive_paintings.pixelart": "Pixel art",
   "immersive_paintings.save": "Sauvegarder",
   "immersive_paintings.search": "Rechercher",
+  "immersive_paintings.x_offset": "%s %% de décalage X",
+  "immersive_paintings.y_offset": "%s %% de décalage Y",
+  "immersive_paintings.zoom": "%s %% de zoom",
   "item.immersive_paintings.painting": "Tableau"
 }

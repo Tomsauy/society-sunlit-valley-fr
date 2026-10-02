@@ -16,6 +16,8 @@ Contenu du paquet, tel qu'il se décompresse sur le dossier de l'instance :
 import json, zipfile
 from pathlib import Path
 
+import verifier
+
 ROOT = Path(__file__).resolve().parents[2]
 REPO = ROOT / "society-sunlit-valley"
 DEST = ROOT / "dist" / "Society_FR_installation.zip"
@@ -182,6 +184,8 @@ est un signalement amont, ou la correction profite a toutes les langues.
 """
 
 def main() -> None:
+    if not verifier.garde_fou():
+        raise SystemExit(1)
     version = json.loads((REPO / "pakku.json").read_text())["version"]
     langs = sorted((REPO / "kubejs" / "assets").glob("*/lang/fr_fr.json"))
     books = sorted(p for b in (REPO / "patchouli_books").iterdir()

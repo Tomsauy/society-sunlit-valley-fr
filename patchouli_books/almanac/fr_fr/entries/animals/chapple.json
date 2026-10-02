@@ -5,13 +5,13 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)Prix : non vendue$(li)Oeuf : Pomme$(li)Butin : Poulet cru, Plume$(br2)$(l)Notes$()$(br)Affamées ou malheureuses (moins de 2 coeurs d'affection), les Chapples ne pondent pas de Pommes"
+            "text": "$(l)Stats$()$(li)Prix : non vendue$(li)Oeuf : Pomme$(li)Butin : Poulet cru, Plume$(br2)$(l)Notes$()$(br)Affamées ou malheureuses (moins de 2 coeurs d'affection), les Chapples ne pondent pas de pommes"
         },
         {
             "type": "patchouli:entity",
             "entity": "etcetera:chapple",
             "scale": 0.8,
-            "text": "Une étrange mutation née d'un Eggple trouvé dans un coffre à butin."
+            "text": "Une étrange mutation née d'un eggple trouvé dans un coffre de butin."
         }
     ]
 }

@@ -1,5 +1,7 @@
 {
   "gamediscs.pong_game": "Pong",
   "gamediscs.rabbit": "Lapin",
-  "item.gamediscs.game_disc_rabbit": "Disque de jeu"
+  "item.gamediscs.control_pad": "Manette",
+  "item.gamediscs.game_disc_rabbit": "Disque de jeu",
+  "item.gamediscs.redstone_circuit": "Circuit de redstone"
 }

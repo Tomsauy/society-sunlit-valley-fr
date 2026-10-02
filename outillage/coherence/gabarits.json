@@ -1,0 +1,83 @@
+{
+ "colorwheel.alert.incompatible_pack.ask_fallback_mode": [
+  [
+   "autre"
+  ]
+ ],
+ "constructionwand.description.wand": [
+  [
+   "nom_objet"
+  ],
+  [
+   "autre"
+  ],
+  [
+   "autre"
+  ],
+  [
+   "autre"
+  ],
+  [
+   "autre"
+  ],
+  [
+   "autre"
+  ]
+ ],
+ "death.attack.quark.pickarang.item": [
+  [
+   "nom_objet"
+  ],
+  [
+   "nom_objet"
+  ],
+  [
+   "nom_objet"
+  ]
+ ],
+ "gui.refurbished_furniture.connect_to_power": [
+  [
+   "autre"
+  ],
+  [
+   "nom_objet"
+  ]
+ ],
+ "gui.refurbished_furniture.requires_power": [
+  [
+   "autre"
+  ]
+ ],
+ "gui.sophisticatedcore.error.add.needs_occupied_inventory_slots": [
+  [
+   "autre"
+  ],
+  [
+   "nom_objet"
+  ]
+ ],
+ "stardew_fishing.bobber_broke": [
+  [
+   "nom_objet"
+  ]
+ ],
+ "text.cloth-config.testing.1": [
+  [
+   "autre"
+  ],
+  [
+   "autre"
+  ],
+  [
+   "autre"
+  ]
+ ],
+ "tooltip.stardew_fishing.legendary_data": [
+  [
+   "autre"
+  ],
+  [
+   "autre"
+  ]
+ ]
+}

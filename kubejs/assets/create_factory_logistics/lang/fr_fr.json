@@ -16,7 +16,7 @@
   "create_factory_logistics.gui.network_link.mode.stored": "En stock",
   "create_factory_logistics.gui.redstone_requester.fluid_slot_mode": "Maintenir Alt pour placer le fluide contenu",
   "create_factory_logistics.ponder.mixer_upkeep.header": "Entretien du mixeur avec des liens réseau",
-  "create_factory_logistics.ponder.mixer_upkeep.text_1": "Les liens réseau peuvent être reliés à un dispositif de lecture d'inventaire comme l'interrupteur à seuil",
+  "create_factory_logistics.ponder.mixer_upkeep.text_1": "Les liens réseau peuvent être reliés à un dispositif de lecture d'inventaire comme le détecteur de seuil",
   "create_factory_logistics.ponder.mixer_upkeep.text_2": "Ainsi, le brûleur à Blaze n'est alimenté que lorsque c'est nécessaire",
   "create_factory_logistics.ponder.mixer_upkeep.text_3": "Quand la commande arrive, l'interrupteur lit le nouvel état et réagit",
   "entity.create_factory_logistics.composite_package": "Colis composite",

@@ -1,0 +1,194 @@
+[
+ {
+  "anglais": "dried",
+  "justes": [
+   "séché",
+   "séchée",
+   "séchés",
+   "séchées"
+  ],
+  "motif": "participe de sécher ; « sèche » est l'adjectif dry"
+ },
+ {
+  "anglais": "dry",
+  "justes": [
+   "sec",
+   "sèche",
+   "secs",
+   "sèches"
+  ],
+  "motif": "adjectif ; « séché » traduit dried"
+ },
+ {
+  "anglais": "stripped",
+  "justes": [
+   "écorcé",
+   "écorcée",
+   "écorcés",
+   "écorcées"
+  ],
+  "motif": "bois écorcé ; « écorce » traduit bark"
+ },
+ {
+  "anglais": "bark",
+  "justes": [
+   "écorce",
+   "écorces"
+  ],
+  "motif": "l'écorce ; « écorcé » traduit stripped"
+ },
+ {
+  "anglais": "sliced",
+  "justes": [
+   "tranché",
+   "tranchée",
+   "tranchés",
+   "tranchées"
+  ],
+  "motif": "participe ; « tranche » traduit slice"
+ },
+ {
+  "anglais": "slices?",
+  "justes": [
+   "tranche",
+   "tranches"
+  ],
+  "motif": "la tranche ; « tranché » traduit sliced"
+ },
+ {
+  "anglais": "salted|salty",
+  "justes": [
+   "salé",
+   "salée",
+   "salés",
+   "salées"
+  ],
+  "motif": "« sale » traduit dirty"
+ },
+ {
+  "anglais": "dirty",
+  "justes": [
+   "sale",
+   "sales"
+  ],
+  "motif": "« salé » traduit salted"
+ },
+ {
+  "anglais": "trapped",
+  "justes": [
+   "piégé",
+   "piégée",
+   "piégés",
+   "piégées"
+  ],
+  "motif": "« piège » traduit trap"
+ },
+ {
+  "anglais": "traps?",
+  "justes": [
+   "piège",
+   "pièges"
+  ],
+  "motif": "« piégé » traduit trapped"
+ },
+ {
+  "anglais": "glazed",
+  "justes": [
+   "glacé",
+   "glacée",
+   "glacés",
+   "glacées"
+  ],
+  "motif": "« glace » traduit ice"
+ },
+ {
+  "anglais": "roasted|grilled|toasted",
+  "justes": [
+   "grillé",
+   "grillée",
+   "grillés",
+   "grillées"
+  ],
+  "motif": "« grille » traduit grate"
+ },
+ {
+  "anglais": "minced",
+  "justes": [
+   "haché",
+   "hachée",
+   "hachés",
+   "hachées"
+  ],
+  "motif": "« hache » traduit axe"
+ },
+ {
+  "anglais": "mixed",
+  "justes": [
+   "mélangé",
+   "mélangée",
+   "mélangés",
+   "mélangées"
+  ],
+  "motif": "« mélange » traduit mix"
+ },
+ {
+  "anglais": "hoary|frosted",
+  "justes": [
+   "givré",
+   "givrée",
+   "givrés",
+   "givrées"
+  ],
+  "motif": "« givre » traduit frost"
+ },
+ {
+  "anglais": "ashen",
+  "justes": [
+   "cendré",
+   "cendrée",
+   "cendrés",
+   "cendrées"
+  ],
+  "motif": "« cendre » traduit ash"
+ },
+ {
+  "anglais": "wrapped",
+  "justes": [
+   "enveloppé",
+   "enveloppée",
+   "enveloppés",
+   "enveloppées"
+  ],
+  "motif": "« enveloppe » traduit envelope"
+ },
+ {
+  "anglais": "sweet|sweetened",
+  "justes": [
+   "sucré",
+   "sucrée",
+   "sucrés",
+   "sucrées"
+  ],
+  "motif": "« sucre » traduit sugar"
+ },
+ {
+  "anglais": "mature|ripe",
+  "justes": [
+   "mûr",
+   "mûre",
+   "mûrs",
+   "mûres"
+  ],
+  "motif": "« mur » traduit wall"
+ },
+ {
+  "anglais": "slashed",
+  "justes": [
+   "coupé",
+   "coupée",
+   "coupés",
+   "coupées"
+  ],
+  "motif": "Railways : « coupe » est un résidu du chantier des accents"
+ }
+]

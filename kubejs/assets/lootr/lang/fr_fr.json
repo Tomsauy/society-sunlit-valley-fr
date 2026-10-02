@@ -1,0 +1,12 @@
+{
+  "block.lootr.lootr_barrel": "Tonneau de butin",
+  "block.lootr.lootr_chest": "Coffre de butin",
+  "block.lootr.lootr_inventory": "Coffre de butin",
+  "block.lootr.lootr_shulker": "Shulker de butin",
+  "block.lootr.lootr_trapped_chest": "Coffre de butin",
+  "block.lootr.trophy": "Trophée du centenaire",
+  "entity.lootr.lootr_minecart": "Wagonnet de stockage",
+  "item.lootr.crown": "Couronne du maître pillard",
+  "lootr.advancements.10loot.title": "À la douzaine",
+  "lootr.advancements.25loot.title": "Coude à coude"
+}

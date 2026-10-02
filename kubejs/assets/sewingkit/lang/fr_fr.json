@@ -1,8 +1,8 @@
 {
   "block.sewingkit.sewing_station": "Table de couture",
   "block.sewingkit.storing_sewing_station": "Table de couture avec tiroirs",
-  "container.sewingkit.sewing_station": "Poste de couture",
-  "container.sewingkit.storing_sewing_station": "Poste de couture à tiroirs",
+  "container.sewingkit.sewing_station": "Table de couture",
+  "container.sewingkit.storing_sewing_station": "Table de couture à tiroirs",
   "entity.minecraft.villager.sewingkit.tailor": "Tailleur",
   "item.sewingkit.bone_sewing_needle": "Aiguille de couture en os",
   "item.sewingkit.common_pattern": "Patron commun",
