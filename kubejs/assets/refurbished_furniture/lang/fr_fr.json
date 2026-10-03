@@ -500,7 +500,7 @@
   "filterCategory.refurbished_furniture.storage": "Stockage",
   "filterCategory.refurbished_furniture.storage.desc": "Tous les meubles et décorations avec rangement",
   "gui.refurbished_furniture.booting": "Démarrage...",
-  "gui.refurbished_furniture.connect_to_power": "Le bloc doit être alimenté par un %s. La connexion se fait à l'aide d'un %s.",
+  "gui.refurbished_furniture.connect_to_power": "Le bloc doit être alimenté par un %s. La connexion se fait à l'aide d'une %s.",
   "gui.refurbished_furniture.default_mailbox_name": "Boîte aux lettres",
   "gui.refurbished_furniture.delivery_service.mailbox_queue_full": "La boîte aux lettres sélectionnée a atteint sa limite de courrier en attente",
   "gui.refurbished_furniture.delivery_service.package_sent": "Colis envoyé !",

@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li):coin: 40$(li)Toute l'année$(li)Eau : Douce$(li)Météo : Pluie au printemps, N'importe le reste de l'année$(li)Moment : Jour sauf en hiver"
+            "text": "$(l)Stats$()$(li):coin: 40$(li)Toute l'année$(li)Eau : Douce$(li)Météo : Pluie au printemps, peu importe le reste de l'année$(li)Moment : Jour sauf en hiver"
         },
         {
             "type": "patchouli:entity",

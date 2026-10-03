@@ -3,10 +3,14 @@
 import json, zipfile
 from pathlib import Path
 
+import verifier
+
 ROOT = Path(__file__).resolve().parents[2]
 REPO = ROOT / "society-sunlit-valley"
 
 def main() -> None:
+    if not verifier.garde_fou():
+        raise SystemExit(1)
     dest = REPO / "resourcepacks" / "Society_FR.zip"
     files = sorted((REPO / "kubejs" / "assets").glob("*/lang/fr_fr.json"))
     with zipfile.ZipFile(dest, "w", zipfile.ZIP_DEFLATED) as z:

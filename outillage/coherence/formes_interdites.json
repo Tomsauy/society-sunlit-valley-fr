@@ -1,0 +1,277 @@
+[
+ {
+  "forme": "pallisandre",
+  "juste": "palissandre",
+  "source": "contre-analyse 28/09"
+ },
+ {
+  "forme": "Siége",
+  "juste": "siège",
+  "source": "contre-analyse 28/09"
+ },
+ {
+  "forme": "Echange",
+  "juste": "échange",
+  "source": "contre-analyse 28/09"
+ },
+ {
+  "forme": "Farçi",
+  "juste": "farci",
+  "source": "contre-analyse 28/09"
+ },
+ {
+  "forme": "savanne",
+  "juste": "savane",
+  "source": "contre-analyse 28/09"
+ },
+ {
+  "forme": "intéragir",
+  "juste": "interagir",
+  "source": "contre-analyse 28/09"
+ },
+ {
+  "forme": "TÉTE",
+  "juste": "tête",
+  "source": "contre-analyse 28/09"
+ },
+ {
+  "forme": "Detecteur",
+  "juste": "détecteur",
+  "source": "contre-analyse 28/09"
+ },
+ {
+  "forme": "Ingredients",
+  "juste": "ingrédients",
+  "source": "contre-analyse 28/09"
+ },
+ {
+  "forme": "Rotissoire",
+  "juste": "rôtissoire",
+  "source": "contre-analyse 28/09"
+ },
+ {
+  "forme": "Avoive",
+  "juste": "avoine",
+  "source": "contre-analyse 28/09"
+ },
+ {
+  "forme": "raisins rouge",
+  "juste": "raisins rouges",
+  "source": "contre-analyse 28/09"
+ },
+ {
+  "forme": "morado fleurie",
+  "juste": "morado fleuri",
+  "source": "contre-analyse 28/09"
+ },
+ {
+  "forme": "érable oranges",
+  "juste": "érable orange",
+  "source": "contre-analyse 28/09"
+ },
+ {
+  "forme": "récuperer",
+  "juste": "récupérer",
+  "source": "contre-analyse 28/09"
+ },
+ {
+  "forme": "sa graines",
+  "juste": "sa graine",
+  "source": "contre-analyse 28/09"
+ },
+ {
+  "forme": "alors tout les autres",
+  "juste": "alors tous les autres",
+  "source": "contre-analyse 28/09 ; resserrée le 29/09 (« malgré tout les autres » est juste)"
+ },
+ {
+  "forme": "N'importe le",
+  "juste": "peu importe le",
+  "casse": true,
+  "source": "contre-analyse 28/09 ; resserrée le 29/09 (« le village n'importe le sel » est juste)"
+ },
+ {
+  "forme": "cable",
+  "juste": "câble",
+  "source": "jar Refined Storage (« Cable », « Aucun cable demandé », « utiliser un cable ») ; aucune occurrence française n'est de l'anglais gardé à dessein, 29/09"
+ },
+ {
+  "forme": "bewereager",
+  "juste": "Bewereager",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "birt",
+  "juste": "Birt",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "chapple",
+  "juste": "Chapple",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "cliff hanger",
+  "juste": "Cliff Hanger",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "cruncher",
+  "juste": "Cruncher",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "frostbiter",
+  "juste": "Frostbiter",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "galliraptor",
+  "juste": "Galliraptor",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "goober",
+  "juste": "Goober",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "leaf hanger",
+  "juste": "Leaf Hanger",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "mammutilation",
+  "juste": "Mammutilation",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "moobloom",
+  "juste": "Moobloom",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "quake",
+  "juste": "Quake",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "ribbit",
+  "juste": "Ribbit",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "springling",
+  "juste": "Springling",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "squoddle",
+  "juste": "Squoddle",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "stackatick",
+  "juste": "Stackatick",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "stoneling",
+  "juste": "Stoneling",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "treeper",
+  "juste": "Treeper",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "tri-bull",
+  "juste": "Tri-bull",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "tribble",
+  "juste": "Tribble",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "trite",
+  "juste": "Trite",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "trob",
+  "juste": "Trob",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "trooper",
+  "juste": "Trooper",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "wicked",
+  "juste": "Wicked",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "wraptor",
+  "juste": "Wraptor",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "zap",
+  "juste": "Zap",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "birts",
+  "juste": "Birts",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "goobers",
+  "juste": "Goobers",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "ribbits",
+  "juste": "Ribbits",
+  "casse": true,
+  "source": "fiche du 30/09 : creatures-anglaises"
+ },
+ {
+  "forme": "varech",
+  "juste": "algue",
+  "source": "décision de l'utilisateur, 02/10 (lot R-18) : Kelp = Algue, comme Mojang"
+ }
+]

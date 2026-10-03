@@ -1,0 +1,25 @@
+name: Vérificateur de la traduction
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  verifier:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+      - name: Instantané de la version visée
+        run: |
+          V=$(cat outillage/version-du-pack.txt)
+          test -f "outillage/instantane/$V.json.gz" || { echo "::error::pas d'instantané pour la version $V : le régénérer avec verifier.py --ecrire-instantane"; exit 1; }
+          echo "INSTANTANE=outillage/instantane/$V.json.gz" >> "$GITHUB_ENV"
+      - name: Tests de l'outillage (sans LanguageTool)
+        run: python3 -m unittest discover -s outillage/scripts/coherence -t outillage/scripts
+      - name: Vérificateur
+        run: python3 outillage/scripts/verifier.py --instantane "$INSTANTANE"

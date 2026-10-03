@@ -1,4 +1,5 @@
 {
+  "block.sereneseasons.season_sensor": "Capteur de saisons",
   "desc.sereneseasons.day_counter": "Jour %s/%s",
   "desc.sereneseasons.early_autumn": "Début de l'automne",
   "desc.sereneseasons.early_dry": "Début de la saison sèche",
@@ -19,5 +20,6 @@
   "desc.sereneseasons.mid_wet": "Milieu de la saison humide",
   "desc.sereneseasons.mid_winter": "Milieu de l'hiver",
   "desc.sereneseasons.tropical_day_counter": " (%s/%s)",
-  "gamerule.doSeasonCycle": "Faire avancer le cycle des saisons"
+  "gamerule.doSeasonCycle": "Faire avancer le cycle des saisons",
+  "item.sereneseasons.ss_icon": "Icône SS"
 }

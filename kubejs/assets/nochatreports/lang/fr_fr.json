@@ -1,5 +1,5 @@
 {
-  "algorithm.nochatreports.aes_cfb8_base64": "§lAES/CFB8+Base64R§r\nAlgorithme de chiffrement symétrique standard. Utilise des clés de 128 bits ; la sortie est encodée dans une version spéciale de Base64 afin de permettre son transfert via le tchat de Minecraft. Inconvénient : les messages voient leur longueur augmenter d'environ 30% et le serveur peut les tronquer s'ils dépassent la limite de taille.",
+  "algorithm.nochatreports.aes_cfb8_base64": "§lAES/CFB8+Base64R§r\nAlgorithme de chiffrement symétrique standard. Utilise des clés de 128 bits ; la sortie est encodée dans une version spéciale de Base64 afin de permettre son transfert via le tchat de Minecraft. Inconvénient : les messages voient leur longueur augmenter d'environ 30 % et le serveur peut les tronquer s'ils dépassent la limite de taille.",
   "algorithm.nochatreports.aes_cfb8_base64.name": "AES/CFB8+Base64R",
   "algorithm.nochatreports.aes_ecb_base64": "§lAES/ECB+Base64R§r\nNettement moins sûr que le mode CFB, mais économise quelques octets en n'exigeant pas de vecteur d'initialisation. Cela reste mieux que César.",
   "algorithm.nochatreports.aes_ecb_base64.name": "AES/ECB+Base64R",

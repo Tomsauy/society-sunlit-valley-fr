@@ -38,7 +38,7 @@
   "toast.puffish_skills.missing_config.description": "Aucun arbre de compétences fourni, il faut en ajouter un.",
   "tooltip.puffish_skills.current_level": "Niveau actuel : %s",
   "tooltip.puffish_skills.earned_points": "Points gagnés : %s",
-  "tooltip.puffish_skills.experience_progress": "Expérience : %s/%s (%s%%)",
+  "tooltip.puffish_skills.experience_progress": "Expérience : %s/%s (%s %%)",
   "tooltip.puffish_skills.spent_points": "Points dépensés : %s",
   "tooltip.puffish_skills.to_next_level": "Jusqu'au niveau suivant : %s"
 }

@@ -86,3 +86,7 @@ que les neuf autres écrans.
 sans accents devait contourner. Voir la conception du mod dans son dépôt,
 https://github.com/Tomsauy/accent-fold/blob/main/docs/conception.md, et
 `docs/specs/2026-09-14-reaccentuation-des-noms-design.md` pour la reprise.
+
+## Vocabulaire figé, révision du 30/09/2026
+
+30/09/2026 : « koï » et « artéfact(s) » remplacent « koi » et « artefact(s) » dans le vocabulaire figé (fiche de décisions de l'étape 2).

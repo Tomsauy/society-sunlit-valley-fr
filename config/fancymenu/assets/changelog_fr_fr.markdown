@@ -27,7 +27,7 @@ Un café bien à soi
 - Ajout de l'ensemble de bâtiments Ferme fleurie, par SianaTheSavage
 - Ajout de l'ensemble de bâtiments Ferme Sakura, par EeveeBeby
 - Ajout des mécaniques d'élevage et de génétique des papillons de jour et de nuit
-- Ajout des œufs de chenille et de la boîte à chenilles
+- Ajout des oeufs de chenille et de la boîte à chenilles
 - Ajout de longwings : le papillon Leafwing tropical et le papillon Comète
 - Ajout de valeurs de vente pour les papillons de jour et de nuit, calculées selon leur rareté et leur taille
 - Ajout du livre de compétence : La Métamorphosation
@@ -44,7 +44,7 @@ Un café bien à soi
 - Ajout d'un support Jade plus complet pour la croissance des cultures (merci Hexagreen !)
 - Ajout d'une recette de remplissage pour la cacahuète grillée au miel (merci Emma !)
 - Ajout de la possibilité de se lier d'amitié avec le mystique Chêne sage
-- Ajout d'une recette de fabrication pour l'œuf d'apparition de tatou
+- Ajout d'une recette de fabrication pour l'oeuf d'apparition de tatou
 - Ajout de la mise à jour Chaos Cubed via Vanilla Backport
 - Ajout du retour des villages vanille, ainsi que d'un nouveau type
 - Ajout des boissons énergisantes blanche, rose et au mana (non vieillissables, le vieillissement de la boisson énergisante normale étant appelé à disparaître)
@@ -76,12 +76,12 @@ Un café bien à soi
 - Correction de la zone d'action erronée de l'arroseur de mana
 - Correction de l'horloge de mana qui ne fonctionnait pas
 - Correction de la dent de déchiqueteur qui ne fonctionnait pas
-- Correction de la baguette en diamant qui ne fonctionnait pas avec le cœur de destruction
+- Correction de la baguette en diamant qui ne fonctionnait pas avec le coeur de destruction
 - Correction de Élevage horaire qui n'apparaissait pas chez le libraire / à la Foire aux livres
 - Correction de l'amélioration Opale noire du cristalarium, qui ne fonctionnait pas sur les récoltes manuelles
 - Correction de la viande de pélican qui n'avait pas les bons tags
 - Correction du trait Sommelière qui ne tenait pas compte du nombre de résultats d'une recette (par exemple les éclats d'artéfact)
-- Correction des blocs de varech du bas, qui n'étaient pas des blocs d'eau valides pour un étang à poissons
+- Correction des blocs d'algues du bas, qui n'étaient pas des blocs d'eau valides pour un étang à poissons
 - Correction du lien de redstone, qui utilisait un châssis en laiton au lieu d'un châssis en andésite
 - Correction des ensembles de bâtiments, dont le nombre d'abreuvoirs était incohérent
 - Correction des blocs de tesson prismatique et de sparkstone, qui n'avaient pas de tag « minable »
@@ -120,7 +120,7 @@ Un café bien à soi
 - Correction des problèmes de schémas Create
 - Correction du Chêne sage qui possédait une invitation
 - Correction de l'écloserie d'étang à poissons qui ne fonctionnait pas avec la loupe
-- Correction des zones inexactes de la hutte ribbit et du tambour de la corne d'abondance vues à la loupe
+- Correction des zones inexactes de la hutte Ribbit et du tambour de la corne d'abondance vues à la loupe
 - Correction des tomates qui ne grimpaient pas aux cordes
 - Correction des cafés servant uniquement des boissons, qui provoquaient un flânage sans fin
 - Correction de l'aspirateur de slimes qui supprimait les largos en main secondaire

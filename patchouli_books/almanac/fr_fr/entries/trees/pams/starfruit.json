@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)🌐 §5Toute l'année§r$(li)Prix : :coin: 81 920$(li)Taille : 1x1$(li)Produit : $(l:tree_crops/starfruit)8x Caramboles$(/l)$(br2)$(l)Notes$()$(li)Pousses vendues au Marché après la première année.$(li)Coûtent en plus 4x Tessons prismatiques."
+            "text": "$(l)Stats$()$(li)🌐 §5Toute l'année§r$(li)Prix : :coin: 81 920$(li)Taille : 1x1$(li)Produit : $(l:tree_crops/starfruit)8x Caramboles$(/l)$(br2)$(l)Notes$()$(li)Pousses vendues au Marché après la première année.$(li)Coûtent en plus 4x tessons prismatiques."
         },
         {
             "type": "patchouli:multiblock",

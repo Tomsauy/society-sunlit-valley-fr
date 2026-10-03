@@ -43,11 +43,51 @@ propres.
 - ✅ « Graines de chou-fleur » — ❌ « Graines De Chou-Fleur »
 - ✅ « Arrosoir en cuivre » — ❌ « Arrosoir En Cuivre »
 
-Dans le corps d'une phrase, les noms communs restent en minuscules même s'ils désignent
-un objet du jeu :
+**Métiers, boutiques et Slime** (décision du 29/09/2026). Les métiers des villageois
+(« Pêcheur », « Berger », « Forgeron »…), les noms des boutiques (« Marché », « Marchand »)
+et les Slimes se traitent comme des noms de personnes : ils gardent leur majuscule partout,
+dans un nom, un titre ou une phrase.
 
+- ✅ « Villageois Pêcheur invité », « Maison de villageois - Berger »
+- ✅ « Coeur de Slime fabricable », « Achète des graines au Marché »
+
+Dans un nom d'objet, un métier placé après « de », « du », « des » ou « d' » est un nom
+commun : ✅ « Chapeau de sorcière », « Pain du fermier » — ❌ « Chapeau de Sorcière ». Slime
+garde sa majuscule : « Seau de Slime ».
+
+Un nom de créature gardé en anglais prend la majuscule, comme chez Mojang, qui l'écrit ainsi pour chacun des
+18 noms anglais de ses oeufs d'apparition (« Oeuf d'apparition d'Enderman », « Mayonnaise de Wraptor ») ; un nom
+devenu un mot français reste en minuscules (axolotl, panda, zombie). Les six salles du Centre communautaire sont
+des noms de lieu : Garde-manger, Salle d'artisanat, Aquarium, Chaufferie, Coffre-fort, Ferme abandonnée. En corps
+de phrase, « sparkstone » s'écrit en minuscules, sauf mise en valeur. Fiche du 30/09/2026.
+Les noms de Mojang ne sont pas surchargés pour
+autant : « Bloc de slime » et « Boule de slime » restent tels qu'il les écrit.
+
+Dans le corps d'une phrase, un nom d'objet **mis en valeur** par un code couleur garde sa
+majuscule ; sans mise en valeur, il reste en minuscules (décision du 29/09/2026) :
+
+- ✅ « Tu as trouvé une &6Géode&r ! Prends-la en main secondaire. »
 - ✅ « Utilise ta houe dorée pour labourer la terre, puis remplis ton arrosoir. »
 - ❌ « Utilise ta Houe Dorée pour labourer la terre, puis remplis ton Arrosoir. »
+
+**Noms d'effets, d'enchantements, de sorts et de capacités** (réponse du 01/10/2026, question
+noms-d-effets). Cité comme tel dans une phrase, un tel nom garde la majuscule de son premier
+mot, comme chez Mojang (« en utilisant Toucher de soie ») : c'est un nom de règle du jeu, et la
+minuscule rendrait ambigus ceux qui sont aussi des mots courants (fortune, force, poison).
+Employé comme nom commun, l'effet passe en minuscule.
+
+- ✅ « Confère l'effet Poison III », « Chances accrues avec Fortune », « Niveau du sort Boule de feu »
+- ✅ « Provoque un effet de lévitation quand il est contrarié » — ❌ « un effet de Lévitation »
+
+**Valeurs des fiches** (réponse du 01/10/2026, question valeurs-de-fiches). Les fiches de
+l'almanach, du guide des poissons et du compendium de Wilder Nature ne sont pas des phrases :
+la valeur après l'étiquette est un nom affiché seul, comme dans une infobulle, et garde sa
+majuscule. Les valeurs qui ne sont pas des noms restent en minuscules. Il en va de même des
+infobulles « Étiquette : valeur » (« Machines compatibles : … ») et des préfixes de mod
+(« Chipped : … »).
+
+- ✅ « Butin : Boeuf cru, Cuir », « Biome : Vallée des âmes », « Apparaît dans : Forêt, Forêt sombre »
+- ✅ « Cueillette : fruits communs aléatoires »
 
 ---
 
@@ -87,6 +127,10 @@ Exemples :
   (boutons, tooltips, messages système). Les guillemets français restent acceptables dans
   les longs textes narratifs (quêtes, livres) si la place le permet.
   - ✅ Tooltip : `Renommer en "Ferme du Soleil"` — ❌ Tooltip : `Renommer en « Ferme du Soleil »`
+- **Pourcentages** : « 25 % » avec une espace simple, comme Mojang ; jamais d'espace insécable,
+  que Minecraft affiche mal ; fiche du 30/09/2026 (`regles.json` : `"pourcentages": "espace"`).
+  Le code `%%` suit la même règle : `25 %%`, `%1$s %%`.
+  - ✅ « 25 % de chances », `+10 %% de vitesse` — ❌ « 25% de chances », `+10%% de vitesse`
 
 ---
 
@@ -103,7 +147,7 @@ strictement à l'identique dans la traduction :
 | `$(...)` | macros Patchouli | `« $(item)Arrosoir$() »` |
 | `{0}` | placeholders style Java/FTB | `« Récompense : {0} pièces »` |
 | `\n` | saut de ligne littéral dans les JSON lang | `« Ligne 1\nLigne 2 »` |
-| `%%` | pourcent littéral échappé | `« +10%% de vitesse »` |
+| `%%` | pourcent littéral échappé | `« +10 %% de vitesse »` |
 | `🌐` | emoji/symboles présents dans la source | conserver tel quel |
 
 Règle d'or : le nombre et la nature des placeholders dans la traduction doivent être
@@ -162,7 +206,7 @@ ACCORD : « carmin » est un nom de couleur employé comme adjectif, donc INVARI
 ### Shale → « shale », jamais « schiste »
 
 Le mod Windswept nomme cette pierre « shale » dans sa propre traduction française
-officielle (« Shale poli », « Dalle en shale taillé »). Traduire par « schiste » la
+officielle (« Shale poli », « Dalle de shale poli »). Traduire par « schiste » la
 seule entrée `block.windswept.shale` créerait une exception au sein de sa famille.
 
 ### Conventions de nommage des blocs dérivés (Mojang)
@@ -172,7 +216,9 @@ seule entrée `block.windswept.shale` créerait une exception au sein de sa fami
 - `*_wall` → « **Muret** de X » (`Brick Wall` → « Muret de briques »), jamais « Mur ».
   Exception : les clés `sconce_*_wall` désignent des appliques murales, pas des murets →
   « Applique ».
-- `*_slab` → « Dalle de X ».
+- `*_slab` → « **Dalle en X** » pour une dalle de bois, comme Mojang (« Dalle en chêne ») ;
+  « Dalle carmin », « Dalle biscornue » pour les bois du Nether ; « **Dalle de X** » pour la
+  pierre (« Dalle de roche »). Fiche du 30/09/2026.
 
 Ces trois familles ne se réconcilient PAS automatiquement : la comparaison de cohérence
 ne rapproche que des chaînes anglaises identiques, or « Chalcedony Stairs » et

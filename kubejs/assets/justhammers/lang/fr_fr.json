@@ -30,6 +30,6 @@
   "item.justhammers.stone_reinforced_hammer": "Marteau renforcé en roche",
   "item.justhammers.stone_reinforced_impact_hammer": "Marteau d'impact renforcé en roche",
   "itemGroup.justhammers.justhammers_tab": "Just Hammers",
-  "justhammers.tooltip.durability_warning": "Durabilité du marteau proche de 0% !",
+  "justhammers.tooltip.durability_warning": "Durabilité du marteau proche de 0 % !",
   "justhammers.tooltip.size": "Mine une zone de %sx%sx%s"
 }

@@ -1,4 +1,9 @@
 {
+  "block.snowrealmagic.fence": "Barrière enneigée",
+  "block.snowrealmagic.fence_gate": "Portillon enneigé",
+  "block.snowrealmagic.slab": "Dalle enneigée",
+  "block.snowrealmagic.stairs": "Escalier enneigé",
+  "block.snowrealmagic.wall": "Mur enneigé",
   "commands.gamerule.snowrealmagic.hint": "Snow! Real Magic! est installé, cette règle de jeu est ignorée. Utiliser la configuration à la place.",
   "modmenu.descriptionTranslation.snowrealmagic": "Ajustements de la couche de neige vanilla",
   "snowrealmagic.config.accumulation.accumulatesDuringSnowfall.desc": "La neige s'accumule quand il pleut",

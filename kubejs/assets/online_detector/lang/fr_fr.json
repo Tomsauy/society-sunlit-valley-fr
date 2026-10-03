@@ -2,6 +2,8 @@
   "_comment": "Blocs",
   "_comment1": "Interface",
   "_comment2": "Configuration",
+  "block.online_detector.advanced_online_detector": "Détecteur en ligne avancé",
+  "block.online_detector.online_detector": "Détecteur en ligne",
   "text.autoconfig.online_detector.category.client": "Client",
   "text.autoconfig.online_detector.category.common": "Commun",
   "text.autoconfig.online_detector.option.ODClientConfig.shouldShowPortalParticles": "Afficher les particules de portail",

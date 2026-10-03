@@ -4,7 +4,7 @@
   "block.extractinator.slush": "Gadoue",
   "emi.category.extractinator.extractinator": "Extractinateur",
   "itemGroup.extractinator.main": "Extractinateur",
-  "text.extractinator.drop_chance": "Chance de butin : %s%%",
+  "text.extractinator.drop_chance": "Chance de butin : %s %%",
   "text.resourcefulconfig.extractinator.option.extractTicks": "Ticks d'extraction",
   "text.resourcefulconfig.extractinator.option.extractTicks.tooltip": "Temps nécessaire à l'extractinateur pour extraire un seul bloc",
   "text.resourcefulconfig.extractinator.option.extractinatorDurability": "Durabilité de l'extractinateur",

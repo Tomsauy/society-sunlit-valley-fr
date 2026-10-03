@@ -1,4 +1,12 @@
 {
+  "block.autumnity.foul_berry_basket": "Panier de baies fétides",
+  "block.autumnity.maple_hanging_sign": "Pancarte suspendue en érable",
+  "block.autumnity.maple_wall_hanging_sign": "Pancarte murale suspendue en érable",
+  "block.autumnity.orange_maple_leaves": "Feuilles d'érable orange",
+  "block.autumnity.turkey_egg_crate": "Caisse d'oeufs de dinde",
+  "item.autumnity.foul_berries": "Baies fétides",
+  "item.autumnity.maple_furnace_boat": "Bateau en érable motorisé",
   "item.autumnity.snail_spawn_egg": "Caisse d'apparition d'escargot",
+  "item.autumnity.turkey_egg": "Oeuf de dinde",
   "item.autumnity.turkey_spawn_egg": "Caisse d'apparition de dinde"
 }

@@ -1043,9 +1043,15 @@
    "sens": "art"
   }
  ],
+ "artefact": [
+  {
+   "forme": "artéfact",
+   "sens": "artifact"
+  }
+ ],
  "artefacts": [
   {
-   "forme": "artefacts",
+   "forme": "artéfacts",
    "sens": "artifacts"
   }
  ],
@@ -6705,7 +6711,7 @@
  ],
  "esperite": [
   {
-   "forme": "esperite",
+   "forme": "espérite",
    "sens": "esperite"
   }
  ],
@@ -8031,7 +8037,7 @@
  ],
  "gaia": [
   {
-   "forme": "gaia",
+   "forme": "gaïa",
    "sens": "gaia"
   }
  ],
@@ -8229,7 +8235,7 @@
  ],
  "geminite": [
   {
-   "forme": "geminite",
+   "forme": "géminite",
    "sens": "geminite"
   }
  ],
@@ -9733,7 +9739,7 @@
  ],
  "jagoite": [
   {
-   "forme": "jagoite",
+   "forme": "jagoïte",
    "sens": "jagoite"
   }
  ],
@@ -10045,7 +10051,7 @@
  ],
  "koi": [
   {
-   "forme": "koi",
+   "forme": "koï",
    "sens": "koi"
   }
  ],
@@ -12315,7 +12321,7 @@
  ],
  "nekoite": [
   {
-   "forme": "nekoite",
+   "forme": "nékoïte",
    "sens": "nekoite"
   }
  ],
@@ -19315,6 +19321,72 @@
   {
    "forme": "revue",
    "sens": "review"
+  }
+ ],
+ "chaudiere": [
+  {
+   "forme": "chaudière",
+   "sens": "boiler"
+  }
+ ],
+ "chaudieres": [
+  {
+   "forme": "chaudières",
+   "sens": "boilers"
+  }
+ ],
+ "charniere": [
+  {
+   "forme": "charnière",
+   "sens": "hinge"
+  }
+ ],
+ "charnieres": [
+  {
+   "forme": "charnières",
+   "sens": "hinges"
+  }
+ ],
+ "extremite": [
+  {
+   "forme": "extrémité",
+   "sens": "end"
+  }
+ ],
+ "extremites": [
+  {
+   "forme": "extrémités",
+   "sens": "ends"
+  }
+ ],
+ "aeration": [
+  {
+   "forme": "aération",
+   "sens": "vent"
+  }
+ ],
+ "rivete": [
+  {
+   "forme": "riveté",
+   "sens": "riveted"
+  }
+ ],
+ "rivetee": [
+  {
+   "forme": "rivetée",
+   "sens": "riveted"
+  }
+ ],
+ "rivetes": [
+  {
+   "forme": "rivetés",
+   "sens": "riveted"
+  }
+ ],
+ "rivetees": [
+  {
+   "forme": "rivetées",
+   "sens": "riveted"
   }
  ]
 }

@@ -25,9 +25,9 @@
   "item.geckolib.mutant_zombie_spawn_egg": "Oeuf d'apparition de zombie mutant",
   "item.geckolib.parasite_spawn_egg": "Oeuf d'apparition de parasite",
   "item.geckolib.race_car_spawn_egg": "Oeuf d'apparition de voiture de course",
-  "item.geckolib.wolf_armor_boots": "Bottes d'armure de loup",
-  "item.geckolib.wolf_armor_chestplate": "Plastron d'armure de loup",
-  "item.geckolib.wolf_armor_helmet": "Casque d'armure de loup",
-  "item.geckolib.wolf_armor_leggings": "Jambières d'armure de loup",
+  "item.geckolib.wolf_armor_boots": "Bottes d'armure pour loup",
+  "item.geckolib.wolf_armor_chestplate": "Plastron d'armure pour loup",
+  "item.geckolib.wolf_armor_helmet": "Casque d'armure pour loup",
+  "item.geckolib.wolf_armor_leggings": "Jambières d'armure pour loup",
   "itemGroup.geckolib.geckolib_examples": "Exemples Geckolib"
 }

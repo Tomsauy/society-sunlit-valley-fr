@@ -1,0 +1,11 @@
+{
+  "block.create_enchantment_industry.blaze_enchanter": "Blaze enchanteur",
+  "entity.create_enchantment_industry.hyper_experience_bottle": "Fiole d'hyper expérience lancée",
+  "entity.create_enchantment_industry.hyper_experience_orb": "Orbe d'hyper expérience",
+  "fluid.create_enchantment_industry.experience": "Expérience liquide",
+  "fluid.create_enchantment_industry.hyper_experience": "Hyper expérience liquide",
+  "item.create_enchantment_industry.enchanting_guide": "Guide d'enchantement",
+  "item.create_enchantment_industry.experience_rotor": "Rotor d'expérience",
+  "item.create_enchantment_industry.hyper_experience_bottle": "Fiole d'hyper expérience",
+  "item.create_enchantment_industry.ink_bucket": "Seau d'encre"
+}

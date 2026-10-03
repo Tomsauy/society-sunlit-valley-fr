@@ -38,6 +38,24 @@ Traduction communautaire francaise du modpack Minecraft [Society: Sunlit Valley]
 Le pipeline est relancable a chaque mise a jour du modpack : il detecte les cles nouvelles
 ou modifiees et ne retraduit que le delta. Voir `docs/RAPPORT-TRADUCTION-FR.md`.
 
+## Verifier la traduction
+
+`outillage/scripts/verifier.py` relit tout le francais du pack et fait foi avant chaque
+publication. Il enchaine seize controles (couverture, codes de formatage, accents,
+terminologie, casse, familles de noms, largeur d'affichage, decisions tracees dans
+`provenance.json`...). Ses donnees sont dans `outillage/coherence/` (voir son `LISEZMOI.md`) :
+un ecart volontaire s'y inscrit comme exception motivee, et la dette connue
+(`dette.json`) ne peut que decroitre — un nouvel ecart non motive bloque.
+
+```sh
+python3 outillage/scripts/verifier.py --instantane outillage/instantane/$(cat outillage/version-du-pack.txt).json.gz
+```
+
+L'instantane de la version visee (`outillage/instantane/`) remplace les jars et les scripts
+du pack : la commande tourne sur ce depot seul. Chaque Pull Request la passe en integration
+continue (`.github/workflows/verifier.yml`), avec les tests de l'outillage ; la verification
+echoue si le verdict n'est pas `OK`.
+
 ## Contribuer
 
 Les contributions sont les bienvenues ! Consultez le [guide de contribution](CONTRIBUTING.md) pour savoir comment participer.

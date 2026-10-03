@@ -1,0 +1,7 @@
+[
+ {
+  "cle": "gui.society_trading.shop_selector.title",
+  "limite": 46,
+  "motif": "SelectorScreen.renderLabels() centre le titre sur x = 23 : au-delà de 46 px il sort du cadre (commit 9f3f5b438 du pack)"
+ }
+]

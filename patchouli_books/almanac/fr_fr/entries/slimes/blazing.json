@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Emplacements :$()$(li)Biome : Grottes de roche noire (Caverne du Crâne)$(li)Structure : Forteresse du Nether, coffres de bastion, générateurs de slimes du Nether$(li)Points de fouille : blocs du Nether$(br2)$(l)Risques :$()$(br)Allume des feux quand il a faim et augmente les dégâts de feu quand il est en colère."
+            "text": "$(l)Emplacements :$()$(li)Biome : Grottes de roche noire (Caverne du Crâne)$(li)Structure : Forteresse du Nether, coffres de bastion, générateurs de slimes du Nether$(li)Zones de fouille : blocs du Nether$(br2)$(l)Risques :$()$(br)Allume des feux quand il a faim et augmente les dégâts de feu quand il est en colère."
         },
         {
             "type": "patchouli:entity",

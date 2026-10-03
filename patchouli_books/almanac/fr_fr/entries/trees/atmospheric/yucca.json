@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li)🌐 §5Toute l'année§r$(li)Taille : 1x1$(li)Les fleurs de yucca poussent tout en haut de l'arbre."
+            "text": "$(l)Stats$()$(li)🌐 §5Toute l'année§r$(li)Taille : 1x1$(li)Les yuccactus (fleurs de yucca) poussent tout en haut de l'arbre."
         },
         {
             "type": "patchouli:multiblock",

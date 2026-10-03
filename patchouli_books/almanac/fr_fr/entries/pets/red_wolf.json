@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Cadeaux possibles :$()$(br)Bannière de trappeur de loup, Fossile de loup$(br)$(l)Objet d'apprivoisement :$()$(br)Os$(br2)$(l)Notes$()$(br)On le trouve dans les anciennes taïgas de pins."
+            "text": "$(l)Cadeaux possibles :$()$(br)Bannière du trappeur de loups, Fossile de loup$(br)$(l)Objet d'apprivoisement :$()$(br)Os$(br2)$(l)Notes$()$(br)On le trouve dans les taïgas anciennes de pins."
         },
         {
             "type": "patchouli:entity",

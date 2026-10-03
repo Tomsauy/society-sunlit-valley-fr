@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Emplacements :$()$(li)Biome : Landes de l'Ombre (Caverne du Crâne)$(br2)$(l)Risques :$()$(br)Vole et provoque l'effet Pierre de foyer (te téléporte à ton point d'apparition) quand il est contrarié."
+            "text": "$(l)Emplacements :$()$(li)Biome : Terres désolées de l'Ombre (Caverne du Crâne)$(br2)$(l)Risques :$()$(br)Vole et provoque l'effet Pierre de foyer (te téléporte à ton point d'apparition) quand il est contrarié."
         },
         {
             "type": "patchouli:entity",

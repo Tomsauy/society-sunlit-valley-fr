@@ -5,13 +5,13 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Cadeaux possibles :$()$(br)Chapeau Oreilles de Chi"
+            "text": "$(l)Cadeaux possibles :$()$(br)Chapeau oreilles de Chi"
         },
         {
             "type": "patchouli:entity",
             "entity": "minecraft:allay",
             "scale": 0.8,
-            "text": "Sinon, essaie une Amélioration Aimant de Sophisticated Storage"
+            "text": "Sinon, essaie une amélioration magnétique de Sophisticated Storage"
         }
     ]
 }

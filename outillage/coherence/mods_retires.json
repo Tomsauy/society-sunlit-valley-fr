@@ -1,0 +1,7 @@
+{
+ "entityculling": "Entity Culling n'est plus dans le pack : absent de pakku-lock.json et de fr-workspace/extracted, ni embarqué ni requis par aucun jar du pack ; pakku.json n'en garde qu'un réglage « side: CLIENT » sans effet. kubejs/assets/entityculling ne contient qu'un ko_kr.json orphelin.",
+ "terrablender": "TerraBlender n'est plus dans le pack : absent de pakku-lock.json et de fr-workspace/extracted, ni embarqué ni requis par aucun jar du pack. kubejs/assets/terrablender ne contient qu'un ko_kr.json orphelin.",
+ "toms_storage": "Tom's Simple Storage n'est plus dans le pack : absent de pakku-lock.json et de fr-workspace/extracted, ni embarqué ni requis par aucun jar du pack (config/toms_storage-common.toml est un reste). kubejs/assets/toms_storage ne garde que des témoins orphelins (ko_kr, th_th, zh_cn).",
+ "trading_floor": "Trading Floor, l'extension de Create, n'est plus dans le pack : absent de pakku-lock.json et de fr-workspace/extracted, ni embarqué ni requis par aucun jar du pack (jeiCustomization.js en cite encore une catégorie). kubejs/assets/trading_floor ne contient qu'un ko_kr.json orphelin.",
+ "tradingpost": "Trading Post n'est plus dans le pack : absent de pakku-lock.json et de fr-workspace/extracted, ni embarqué ni requis par aucun jar du pack (config/tradingpost-server.toml et removeRecipes.js en gardent des restes). kubejs/assets/tradingpost ne contient qu'un ko_kr.json orphelin."
+}

@@ -7,7 +7,16 @@ Fold, pas d'un alias — ce script ne le vérifie pas.
 """
 import json, re, sys
 
-TOKEN = re.compile(r"%(?:\d+\$)?[sdfeu]|%%|§.|\$\([^)]*\)|\\n|\{\d+\}")
+# Codes qui doivent se retrouver à l'identique : printf (%s, %1$s, %.1f, %%), couleurs Minecraft (§a)
+# et FTB (&6), macros Patchouli (liens compris), balises <lt…>, nom du joueur (@i), gabarits de
+# construction (${…}), sauts de ligne réels ou écrits \n, jetons FTB ({0}, {@pagebreak}, {image:…}).
+# Faux positif assumé : « &x » et « @i » collés à un mot (« cause&effect ») comptent aussi comme codes,
+# car un code FTB suit souvent une lettre (« récompenses&r ») ; un tel constat se couvre par une exception motivée.
+# Partagé avec le vérificateur (coherence/controles/codes.py) : ne pas le recopier ailleurs.
+TOKEN = re.compile(
+    r"%(?:\d+\$)?(?:\.\d+)?[sdfeu]|%%|§.|&[0-9a-fk-or]|\$\([^)]*\)|</?lt\w+[^>]*>|@i\b"
+    r"|\$\{[^}]*\}|\\n|\n|\{\d+\}|\{@\w+\}|\{image:[^}]*\}"
+)
 WORD = re.compile(r"[A-Za-z]{4,}")
 
 def tokens(s: str) -> list:

@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Cadeaux possibles :$()$(br)Chapeau Oreilles de neko, Fossile d'ocelot$(br2)$(l)Apprivoisement$()$(br)Poisson"
+            "text": "$(l)Cadeaux possibles :$()$(br)Oreilles de chat, Fossile d'ocelot$(br2)$(l)Apprivoisement$()$(br)Poisson"
         },
         {
             "type": "patchouli:entity",

@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Emplacements :$()$(li)Casiers à crabes : Appât pour casier à crabes, Appât de luxe pour casier à crabes$(li)Points de pêche$(br2)$(l)Risques :$()$(br)Possède des épines et devient malheureux hors de l'eau !"
+            "text": "$(l)Emplacements :$()$(li)Casiers à crabes : Appât pour casier à crabes, Appât de luxe pour casier à crabes$(li)Zones de pêche$(br2)$(l)Risques :$()$(br)Possède des épines et devient malheureux hors de l'eau !"
         },
         {
             "type": "patchouli:entity",
