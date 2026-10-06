@@ -32,7 +32,7 @@
   "block.beautify.lamp_candelabra_green": "Candélabre vert",
   "block.beautify.lamp_candelabra_light_blue": "Candélabre bleu clair",
   "block.beautify.lamp_candelabra_light_gray": "Candélabre gris clair",
-  "block.beautify.lamp_candelabra_lime": "Candélabre citron vert",
+  "block.beautify.lamp_candelabra_lime": "Candélabre vert clair",
   "block.beautify.lamp_candelabra_magenta": "Candélabre magenta",
   "block.beautify.lamp_candelabra_orange": "Candélabre orange",
   "block.beautify.lamp_candelabra_pink": "Candélabre rose",
@@ -88,7 +88,7 @@
   "sounds.beautify.bookstack_step": "Pas sur une pile de livres",
   "tooltip.control": "Maintenir CTRL pour afficher la liste des plantes.",
   "tooltip.shift": "Maintenir MAJ pour plus d'infos",
-  "trellis.description1": "Peut être placé sur des murets, comme un muret, ou au plafond. Escaladable.",
+  "trellis.description1": "Peut être placé contre un mur ou comme un mur, et au plafond. Escaladable.",
   "trellis.description2": "Clic droit avec des plantes pour les insérer.",
   "trellis.list1": "Plantes que l'on peut y planter :",
   "trellis.list2": "Rosiers, tournesols, pivoines, lilas, lianes, lianes pleureuses, lianes tortueuses, lichen lumineux"

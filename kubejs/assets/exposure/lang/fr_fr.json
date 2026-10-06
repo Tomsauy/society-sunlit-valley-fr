@@ -1,6 +1,27 @@
 {
   "advancement.exposure.spooky_silly_skeletons.title": "Squelettes drôlement effrayants",
+  "command.exposure.export.failure.cannot_get_all_ids": "Impossible d'obtenir les ID d'exposition. Aucune exposition n'est enregistrée ou une erreur s'est produite.",
+  "command.exposure.show.latest.error.no_exposures": "Aucune exposition n'a été enregistrée durant cette session.",
+  "exposure.file_capture.error.casual.no_extension": "L'adresse n'est pas assez spécifique.",
+  "exposure.jei.info.photograph_frame": "Existe en trois tailles : 1x1, 2x2 et 3x3. Se place comme un tableau mais peut également être placé sur les sols et les plafonds. Une poche d'encre luisante le fera briller dans le noir. Utiliser une hache retirera le cadre, un bâton le replacera. Une vitre rendra le cadre invisible, des planches le feront réapparaître.",
+  "gui.exposure.album.left_click_to_edit": "§8[§7Clic gauche§8] pour modifier",
   "gui.exposure.camera_attachments.change_skin": "Changer de skin",
+  "gui.exposure.camera_attachments.lens.tooltip": "Lentille\n§7Change la longueur focale\n§8[§7Molette de la souris§8] en regardant dans le viseur pour zoomer/dézoomer\n§8[§7Clic§8] pour voir les lentilles disponibles",
+  "gui.exposure.camera_attachments.viewfinder.tooltip": "Viseur\n§8Presser ou maintenir [%s§8]%s §8en regardant dans le viseur pour afficher les contrôles de l'appareil photo",
+  "gui.exposure.composition_guide.quads": "Quadrants",
   "gui.exposure.flash_mode.auto": "Auto",
-  "item.exposure.chromatic_sheet.info": "Utiliser comme papier pour tirer les couches restantes"
+  "gui.exposure.photograph_screen.drop_as_item_tooltip": "§7[§r%s§7] : lâcher comme objet",
+  "item.exposure.camera.tooltip.details_hotswap": "§8[§7Clic droit§8] avec un objet pour installer/remplacer un accessoire",
+  "item.exposure.chromatic_sheet.info": "Utiliser comme papier pour tirer les couches restantes",
+  "item.exposure.chromatic_sheet.use_tooltip": "Utiliser pour combiner trois couches en une photographie",
+  "item.exposure.interplanar_projector.tooltip.info": "§7Renommé avec un chemin de fichier et utilisé comme filtre, permet de projeter une image depuis un autre plan",
+  "item.exposure.photograph.generation.3": "Déchirée",
+  "item.exposure.photograph.message.no_data": "Le papier est propre. On n'y trouve aucune trace d'image, même s'il en avait une à un moment donné.",
+  "item.exposure.photograph.photographer_tooltip": "Prise par : %s",
+  "item.exposure.photograph.tooltip.details.copy": "Copiée en fabriquant avec :",
+  "key.exposure.camera_controls.tooltip": "Touche §8[§7S'accroupir§8] si non définie",
+  "subtitle.exposure.photograph.break": "Photographie retirée",
+  "subtitle.exposure.photograph.place": "Photographie placée",
+  "subtitle.exposure.photograph_frame.break": "Cadre photo retiré",
+  "subtitle.exposure.photograph_frame.place": "Cadre photo placé"
 }

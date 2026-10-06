@@ -1,11 +1,12 @@
 # Termes gardés en anglais — justification et emplacements
 
-45 termes réels + 7 placeholders purement techniques.
+48 termes réels + 7 placeholders purement techniques.
 
 ## Termes réels
 
 | Terme | Pourquoi | Où (namespaces) | Exemples de clés | Occurrences |
 |---|---|---|---|---|
+| **ADD** | étiquette de mode de la jauge d'entiers d'Extra Gauges, gardée comme les portes AND/OR de la jauge logique, suivie de son explication en français (fiche du sous-projet 3 : modes-jauge-entiers, garder) | extra_gauges | `integer_gauge.mode.add` | 1 |
 | **Backyard** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.backyard.title`, `painting.trials.backyard.title` | 2 |
 | **Baroque** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.baroque.title`, `painting.trials.baroque.title` | 2 |
 | **Binome** | nom propre d'artiste, KO garde tel quel | galena_hats, windswept | `galena_hats.hat_type.binome`, `painting.windswept.cliffside.author` | 2 |
@@ -32,6 +33,7 @@
 | **Meditative** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.meditative.title`, `painting.trials.meditative.title` | 2 |
 | **Modrinth** | nom propre de plateforme | golemoverhaul, midnightlib | `config.golemoverhaul.links.modrinth`, `midnightlib.modrinth` | 2 |
 | **Moobloom** | créature iconique Minecraft Earth ; nom propre conservé | almanac, buzzier_bees | `entity.buzzier_bees.moobloom`, `name` | 2 |
+| **MULTIPLY** | étiquette de mode de la jauge d'entiers d'Extra Gauges, gardée comme les portes AND/OR de la jauge logique, suivie de son explication en français (fiche du sous-projet 3 : modes-jauge-entiers, garder) | extra_gauges | `integer_gauge.mode.multiply` | 1 |
 | **Orb** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.orb.title`, `painting.trials.orb.title` | 2 |
 | **Orby** | nom fantaisiste, coréen translittéré | almanac, splendid_slimes | `slime.splendid_slimes.orby`, `name` | 2 |
 | **Owlemons** | titre d'œuvre mot-valise, KO garde l'anglais | gallery, trials | `painting.gallery.owlemons.title`, `painting.trials.owlemons.title` | 2 |
@@ -43,6 +45,7 @@
 | **Sarah Boeving** | artiste réelle; le coréen garde l'anglais | gallery, trials | `painting.gallery.baroque.author`, `painting.gallery.humble.author`, `painting.gallery.meditative.author` | 10 |
 | **SHIFT** | touche clavier; le coréen garde l'anglais | jei, perfectplushieapi, perfectplushies, refurbished_furniture | `jei.key.shift`, `tooltip.perfectplushies.shift`, `tooltip.perfectplushies.shift` | 4 |
 | **Sneep Snorp** | nom de poisson fantaisiste; le coréen translittère | fish_finder, society_tips, unusualfishmod | `society_tips.tip.sneep_snorp_one`, `entity.unusualfishmod.sneep_snorp`, `item.unusualfishmod.raw_sneep_snorp` | 4 |
+| **SUBTRACT** | étiquette de mode de la jauge d'entiers d'Extra Gauges, gardée comme les portes AND/OR de la jauge logique, suivie de son explication en français (fiche du sous-projet 3 : modes-jauge-entiers, garder) | extra_gauges | `integer_gauge.mode.subtract` | 1 |
 | **Sunflowers** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.sunflowers.title`, `painting.trials.sunflowers.title` | 2 |
 | **Ticker** | nom d'élément de FancyMenu (exécute des actions à intervalle) ; la traduction du mod le garde tel quel dans ses descriptions (« Si le ticker doit s'exécuter… ») ; lot 5-01 | fancymenu | `fancymenu.customization.items.ticker` | 1 |
 | **Tides** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.tides.title`, `painting.trials.tides.title` | 2 |

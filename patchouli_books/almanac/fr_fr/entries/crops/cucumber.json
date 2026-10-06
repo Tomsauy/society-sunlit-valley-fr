@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Stats$()$(li):coin: 72$(li)🌼 §2Printemps§r$(li)Prix des graines : :coin: 64$(li)Rendement : 1$(li)Temps de pousse : 7 jours$(br2)$(l)Notes$()$(br)Graines vendues au Marché après la première année"
+            "text": "$(l)Stats$()$(li):coin: 72$(li)🌼 §2Printemps§r$(li)Prix des graines : :coin: 64$(li)Rendement : 1$(li)Temps de pousse : 7 jours$(br2)$(l)Notes$()$(br)Graines en vente au Marché après la première année"
         },
         {
             "type": "patchouli:multiblock",

@@ -35,7 +35,7 @@ def main(argv=None) -> int:
     p.add_argument("--question", action="append", default=[], help="les clés de cette question de la fiche (répétable)")
     p.add_argument("--cles", type=Path, help="un fichier : une clé par ligne")
     p.add_argument("--taille", type=int, default=MAX_ACTIONS, help="constats retenus au plus")
-    p.add_argument("--regle", action="append", default=[], choices=["casse_textes"],
+    p.add_argument("--regle", action="append", default=[], choices=["casse_textes", "nombres", "largeurs_mods", "terminologie_interdits"],
                    help="mesurer avec cette règle en attente activée")
     p.add_argument("--bloquants", action="store_true",
                    help="ne retenir que les constats bloquants : ceux qu'une règle retirée ou activée fait naître")

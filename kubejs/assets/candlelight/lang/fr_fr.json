@@ -181,7 +181,7 @@
   "candlelight.config.title": "Candlelight",
   "config.candlelight.subCategory.chef": "Bonus de panoplie du chef",
   "creativetab.candlelight.tab_furniture": "[Let's Do] Candlelight - Meubles",
-  "creativetab.candlelight.tab_main": "[Let's Do] Candlelight - Principal",
+  "creativetab.candlelight.tab_main": "[Let's Do] Candlelight - Général",
   "entity.minecraft.villager.candlelight.cook": "Maître cultivateur",
   "entity.minecraft.villager.cook": "Cuisinier",
   "item.candlelight.beef_tartare": "Tartare de boeuf",
@@ -241,6 +241,6 @@
   "tooltip.candlelight.suit_armor.": "Élégance sur mesure :",
   "tooltip.candlelight.thankyou_1": "Une récompense pour la fabrication de tous les plats",
   "tooltip.candlelight.thankyou_2": "Lorsqu'il est placé :",
-  "tooltip.candlelight.thankyou_3": "Merci d'avoir joué à Candlelight !",
+  "tooltip.candlelight.thankyou_3": "Merci de jouer à Candlelight !",
   "tooltip.candlelight.thankyou_4": "Confère Résistance au feu dans un rayon de 8 blocs"
 }

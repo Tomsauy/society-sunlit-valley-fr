@@ -1,5 +1,22 @@
 {
+  "ftbteams.gui.transfer_ownership": "Définir %s comme propriétaire de l'équipe",
+  "ftbteams.gui.transfer_ownership.confirm": "Êtes-vous sûr de vouloir faire de %s le propriétaire de l'équipe ?",
+  "ftbteams.message.created_server_team": "La nouvelle équipe du serveur '%s' a été créée !",
+  "ftbteams.message.deleted_server_team": "Équipe du serveur '%s' supprimée !",
+  "ftbteams.message.demoted": "%s a été rétrogradé au rang de membre !",
+  "ftbteams.message.invited": "%s a été invité",
+  "ftbteams.message.kicked": "%s a été expulsé de %s !",
+  "ftbteams.message.no_longer_allied": "Vous n'êtes plus un allié de '%s' !",
+  "ftbteams.message.now_allied": "Vous êtes maintenant un allié de '%s' !",
+  "ftbteams.message.promoted": "%s promu modérateur !",
+  "ftbteams.message.remove_ally": "Le joueur %s n'est plus un allié de votre équipe !",
+  "ftbteams.message.team_disbanded": "Équipe '%s' (%s) dissoute de force !",
+  "ftbteams.message.transfer_owner": "Propriété de l'équipe transférée à %s !",
+  "ftbteams.missing_data": "Les données de l'équipe n'ont pas été reçues du serveur !\nFTB Teams ne va pas fonctionner correctement.\nConsultez le journal du serveur pour y chercher des erreurs, et assurez-vous d'activer le mode 'En ligne' du serveur.",
   "ftbteams.name_too_short": "Le nom de l'équipe est trop court ! (doit être >=3 caractères)",
+  "ftbteams.not_officer": "%s n'est pas modérateur de %s !",
   "ftbteams.party_api_only": "Dans ce modpack, il n'est pas possible de créer une équipe directement !",
-  "ftbteams.team_already_exists": "Le nom de l'équipe est trop court ! (3 caractères minimum)"
+  "ftbteams.team_already_exists": "Le nom de l'équipe est trop court ! (3 caractères minimum)",
+  "ftbteams.team_type.party": "Équipe de groupe",
+  "key.ftbteams.open_gui": "Ouvrir l'interface des équipes"
 }

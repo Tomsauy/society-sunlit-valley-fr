@@ -1,5 +1,5 @@
 {
-  "block.pamhc2trees.acorn_sapling": "Pousse de chêne",
+  "block.pamhc2trees.acorn_sapling": "Pousse de chêne à glands",
   "block.pamhc2trees.almond_sapling": "Pousse d'amandier",
   "block.pamhc2trees.apple_sapling": "Pousse de pommier",
   "block.pamhc2trees.apricot_sapling": "Pousse d'abricotier",
@@ -29,7 +29,7 @@
   "block.pamhc2trees.nutmeg_sapling": "Pousse de muscadier",
   "block.pamhc2trees.olive_sapling": "Pousse d'olivier",
   "block.pamhc2trees.orange_sapling": "Pousse d'oranger",
-  "block.pamhc2trees.pamacorn": "Fruit de chêne",
+  "block.pamhc2trees.pamacorn": "Fruit de chêne à glands",
   "block.pamhc2trees.pamalmond": "Fruit d'amandier",
   "block.pamhc2trees.pamapple": "Fruit de pommier",
   "block.pamhc2trees.pamapricot": "Fruit d'abricotier",
@@ -156,5 +156,5 @@
   "item.pamhc2trees.tamarinditem": "Tamarin",
   "item.pamhc2trees.vanillabeanitem": "Gousse de vanille",
   "item.pamhc2trees.walnutitem": "Noix",
-  "itemGroup.pamhc2trees": "Pam's HarvestCraft 2 - Arbres fruitiers"
+  "itemGroup.pamhc2trees": "Pam's HarvestCraft 2 - Arbres"
 }

@@ -1,0 +1,782 @@
+{
+ "contraintes": [
+  {
+   "cles": [
+    "shop.society_trading.building_shop.banker",
+    "shop.society_trading.building_shop.barn",
+    "shop.society_trading.building_shop.blacksmith",
+    "shop.society_trading.building_shop.carpenter",
+    "shop.society_trading.building_shop.coop",
+    "shop.society_trading.building_shop.deluxe_barn",
+    "shop.society_trading.building_shop.fisher",
+    "shop.society_trading.building_shop.greenhouse",
+    "shop.society_trading.building_shop.home",
+    "shop.society_trading.building_shop.large_shed",
+    "shop.society_trading.building_shop.librarian",
+    "shop.society_trading.building_shop.market",
+    "shop.society_trading.building_shop.shed",
+    "shop.society_trading.building_shop.shepherd",
+    "shop.society_trading.building_shop.trader",
+    "shop.society_trading.building_shop.witch",
+    "portable_blueprints.worn_blueprint.alpine_barn.dimensions",
+    "portable_blueprints.worn_blueprint.alpine_coop.dimensions",
+    "portable_blueprints.worn_blueprint.alpine_deluxe_barn.dimensions",
+    "portable_blueprints.worn_blueprint.alpine_greenhouse.dimensions",
+    "portable_blueprints.worn_blueprint.alpine_home.dimensions",
+    "portable_blueprints.worn_blueprint.alpine_large_shed.dimensions",
+    "portable_blueprints.worn_blueprint.alpine_shed.dimensions",
+    "portable_blueprints.worn_blueprint.arid_barn.dimensions",
+    "portable_blueprints.worn_blueprint.arid_coop.dimensions",
+    "portable_blueprints.worn_blueprint.arid_deluxe_barn.dimensions",
+    "portable_blueprints.worn_blueprint.arid_greenhouse.dimensions",
+    "portable_blueprints.worn_blueprint.arid_home.dimensions",
+    "portable_blueprints.worn_blueprint.arid_large_shed.dimensions",
+    "portable_blueprints.worn_blueprint.arid_shed.dimensions",
+    "portable_blueprints.worn_blueprint.bamboo_barn.dimensions",
+    "portable_blueprints.worn_blueprint.bamboo_coop.dimensions",
+    "portable_blueprints.worn_blueprint.bamboo_deluxe_barn.dimensions",
+    "portable_blueprints.worn_blueprint.bamboo_greenhouse.dimensions",
+    "portable_blueprints.worn_blueprint.bamboo_home.dimensions",
+    "portable_blueprints.worn_blueprint.bamboo_large_shed.dimensions",
+    "portable_blueprints.worn_blueprint.bamboo_shed.dimensions",
+    "portable_blueprints.worn_blueprint.basic_banker.dimensions",
+    "portable_blueprints.worn_blueprint.basic_barn.dimensions",
+    "portable_blueprints.worn_blueprint.basic_blacksmith.dimensions",
+    "portable_blueprints.worn_blueprint.basic_carpenter.dimensions",
+    "portable_blueprints.worn_blueprint.basic_coop.dimensions",
+    "portable_blueprints.worn_blueprint.basic_deluxe_barn.dimensions",
+    "portable_blueprints.worn_blueprint.basic_fisher.dimensions",
+    "portable_blueprints.worn_blueprint.basic_greenhouse.dimensions",
+    "portable_blueprints.worn_blueprint.basic_home.dimensions",
+    "portable_blueprints.worn_blueprint.basic_large_shed.dimensions",
+    "portable_blueprints.worn_blueprint.basic_librarian.dimensions",
+    "portable_blueprints.worn_blueprint.basic_market.dimensions",
+    "portable_blueprints.worn_blueprint.basic_shed.dimensions",
+    "portable_blueprints.worn_blueprint.basic_shepherd.dimensions",
+    "portable_blueprints.worn_blueprint.basic_trader.dimensions",
+    "portable_blueprints.worn_blueprint.basic_witch.dimensions",
+    "portable_blueprints.worn_blueprint.bavarian_barn.dimensions",
+    "portable_blueprints.worn_blueprint.bavarian_coop.dimensions",
+    "portable_blueprints.worn_blueprint.bavarian_deluxe_barn.dimensions",
+    "portable_blueprints.worn_blueprint.bavarian_greenhouse.dimensions",
+    "portable_blueprints.worn_blueprint.bavarian_home.dimensions",
+    "portable_blueprints.worn_blueprint.bavarian_large_shed.dimensions",
+    "portable_blueprints.worn_blueprint.bavarian_shed.dimensions",
+    "portable_blueprints.worn_blueprint.cherry_barn.dimensions",
+    "portable_blueprints.worn_blueprint.cherry_coop.dimensions",
+    "portable_blueprints.worn_blueprint.cherry_deluxe_barn.dimensions",
+    "portable_blueprints.worn_blueprint.cherry_greenhouse.dimensions",
+    "portable_blueprints.worn_blueprint.cherry_home.dimensions",
+    "portable_blueprints.worn_blueprint.cherry_large_shed.dimensions",
+    "portable_blueprints.worn_blueprint.cherry_shed.dimensions",
+    "portable_blueprints.worn_blueprint.entrana_barn.dimensions",
+    "portable_blueprints.worn_blueprint.entrana_coop.dimensions",
+    "portable_blueprints.worn_blueprint.entrana_deluxe_barn.dimensions",
+    "portable_blueprints.worn_blueprint.entrana_greenhouse.dimensions",
+    "portable_blueprints.worn_blueprint.entrana_home.dimensions",
+    "portable_blueprints.worn_blueprint.entrana_large_shed.dimensions",
+    "portable_blueprints.worn_blueprint.entrana_shed.dimensions",
+    "portable_blueprints.worn_blueprint.floral_barn.dimensions",
+    "portable_blueprints.worn_blueprint.floral_coop.dimensions",
+    "portable_blueprints.worn_blueprint.floral_deluxe_barn.dimensions",
+    "portable_blueprints.worn_blueprint.floral_greenhouse.dimensions",
+    "portable_blueprints.worn_blueprint.floral_home.dimensions",
+    "portable_blueprints.worn_blueprint.floral_large_shed.dimensions",
+    "portable_blueprints.worn_blueprint.floral_shed.dimensions",
+    "portable_blueprints.worn_blueprint.mason_barn.dimensions",
+    "portable_blueprints.worn_blueprint.mason_coop.dimensions",
+    "portable_blueprints.worn_blueprint.mason_deluxe_barn.dimensions",
+    "portable_blueprints.worn_blueprint.mason_greenhouse.dimensions",
+    "portable_blueprints.worn_blueprint.mason_home.dimensions",
+    "portable_blueprints.worn_blueprint.mason_large_shed.dimensions",
+    "portable_blueprints.worn_blueprint.mason_shed.dimensions",
+    "portable_blueprints.worn_blueprint.pineconetown_banker.dimensions",
+    "portable_blueprints.worn_blueprint.pineconetown_blacksmith.dimensions",
+    "portable_blueprints.worn_blueprint.pineconetown_carpenter.dimensions",
+    "portable_blueprints.worn_blueprint.pineconetown_fisher.dimensions",
+    "portable_blueprints.worn_blueprint.pineconetown_librarian.dimensions",
+    "portable_blueprints.worn_blueprint.pineconetown_market.dimensions",
+    "portable_blueprints.worn_blueprint.pineconetown_shepherd.dimensions",
+    "portable_blueprints.worn_blueprint.pineconetown_trader.dimensions",
+    "portable_blueprints.worn_blueprint.pineconetown_witch.dimensions",
+    "portable_blueprints.worn_blueprint.prismarine_barn.dimensions",
+    "portable_blueprints.worn_blueprint.prismarine_coop.dimensions",
+    "portable_blueprints.worn_blueprint.prismarine_deluxe_barn.dimensions",
+    "portable_blueprints.worn_blueprint.prismarine_greenhouse.dimensions",
+    "portable_blueprints.worn_blueprint.prismarine_home.dimensions",
+    "portable_blueprints.worn_blueprint.prismarine_large_shed.dimensions",
+    "portable_blueprints.worn_blueprint.prismarine_shed.dimensions",
+    "portable_blueprints.worn_blueprint.rural_banker.dimensions",
+    "portable_blueprints.worn_blueprint.rural_barn.dimensions",
+    "portable_blueprints.worn_blueprint.rural_blacksmith.dimensions",
+    "portable_blueprints.worn_blueprint.rural_carpenter.dimensions",
+    "portable_blueprints.worn_blueprint.rural_coop.dimensions",
+    "portable_blueprints.worn_blueprint.rural_deluxe_barn.dimensions",
+    "portable_blueprints.worn_blueprint.rural_fisher.dimensions",
+    "portable_blueprints.worn_blueprint.rural_greenhouse.dimensions",
+    "portable_blueprints.worn_blueprint.rural_home.dimensions",
+    "portable_blueprints.worn_blueprint.rural_large_shed.dimensions",
+    "portable_blueprints.worn_blueprint.rural_librarian.dimensions",
+    "portable_blueprints.worn_blueprint.rural_market.dimensions",
+    "portable_blueprints.worn_blueprint.rural_shed.dimensions",
+    "portable_blueprints.worn_blueprint.rural_shepherd.dimensions",
+    "portable_blueprints.worn_blueprint.rural_trader.dimensions",
+    "portable_blueprints.worn_blueprint.rural_witch.dimensions",
+    "portable_blueprints.worn_blueprint.sakura_barn.dimensions",
+    "portable_blueprints.worn_blueprint.sakura_coop.dimensions",
+    "portable_blueprints.worn_blueprint.sakura_deluxe_barn.dimensions",
+    "portable_blueprints.worn_blueprint.sakura_greenhouse.dimensions",
+    "portable_blueprints.worn_blueprint.sakura_home.dimensions",
+    "portable_blueprints.worn_blueprint.sakura_large_shed.dimensions",
+    "portable_blueprints.worn_blueprint.sakura_shed.dimensions",
+    "portable_blueprints.worn_blueprint.siberian_barn.dimensions",
+    "portable_blueprints.worn_blueprint.siberian_coop.dimensions",
+    "portable_blueprints.worn_blueprint.siberian_deluxe_barn.dimensions",
+    "portable_blueprints.worn_blueprint.siberian_greenhouse.dimensions",
+    "portable_blueprints.worn_blueprint.siberian_home.dimensions",
+    "portable_blueprints.worn_blueprint.siberian_large_shed.dimensions",
+    "portable_blueprints.worn_blueprint.siberian_shed.dimensions",
+    "portable_blueprints.worn_blueprint.tudor_barn.dimensions",
+    "portable_blueprints.worn_blueprint.tudor_coop.dimensions",
+    "portable_blueprints.worn_blueprint.tudor_deluxe_barn.dimensions",
+    "portable_blueprints.worn_blueprint.tudor_greenhouse.dimensions",
+    "portable_blueprints.worn_blueprint.tudor_home.dimensions",
+    "portable_blueprints.worn_blueprint.tudor_large_shed.dimensions",
+    "portable_blueprints.worn_blueprint.tudor_shed.dimensions",
+    "portable_blueprints.worn_blueprint.vibrantown_barn.dimensions",
+    "portable_blueprints.worn_blueprint.vibrantown_coop.dimensions",
+    "portable_blueprints.worn_blueprint.vibrantown_deluxe_barn.dimensions",
+    "portable_blueprints.worn_blueprint.vibrantown_greenhouse.dimensions",
+    "portable_blueprints.worn_blueprint.vibrantown_home.dimensions",
+    "portable_blueprints.worn_blueprint.vibrantown_large_shed.dimensions",
+    "portable_blueprints.worn_blueprint.vibrantown_shed.dimensions"
+   ],
+   "limite": 154,
+   "comportement": "déborde",
+   "mod": "society_trading (society_trading-1.2.9.jar)",
+   "preuve": "ImageShopScreen#m_280003_ : titre f_96539_ ou ShopOffer.getImageDescription() (portable_blueprints.*.dimensions) à x=144,y=6 (sipush 144) ; imageWidth=304 (sipush 304) -> 160 jusqu'au bord, ~154 avec la marge du cadre (marge déduite, non lue dans la texture)",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-1.json"
+  },
+  {
+   "cles": [
+    "gui.society_trading.shop_selector.title"
+   ],
+   "limite": 46,
+   "comportement": "déborde",
+   "mod": "society_trading (society_trading-1.2.9.jar)",
+   "preuve": "SelectorScreen#m_280003_ : x = 5 - width/2 + 18 (centré sur x=23) ; au-delà de 46 px le texte sort à gauche du panneau (imageWidth 176). Repris par society FriendshipScreen (SHOP_LABEL) mais non dessiné",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-1.json"
+  },
+  {
+   "cles": [
+    "jei.society_trading.abandoned_farm_complete",
+    "jei.society_trading.advanced_crops_unlocked",
+    "jei.society_trading.adventuring_mastery_unlocked",
+    "jei.society_trading.boiler_room_complete",
+    "jei.society_trading.community_center_complete",
+    "jei.society_trading.entered_nether",
+    "jei.society_trading.entered_skull_cavern",
+    "jei.society_trading.farming_mastery_unlocked",
+    "jei.society_trading.fishing_mastery_unlocked",
+    "jei.society_trading.husbandry_mastery_unlocked",
+    "jei.society_trading.invited_market",
+    "jei.society_trading.mining_mastery_unlocked",
+    "jei.society_trading.only_autumn",
+    "jei.society_trading.only_spring",
+    "jei.society_trading.only_summer",
+    "jei.society_trading.only_winter",
+    "jei.society_trading.trader_clothing",
+    "jei.society_trading.vault_complete"
+   ],
+   "motif": "^jei\\.society_trading\\.(?!category|price|seasons|limit)[a-z_]+$",
+   "limite": 162,
+   "comportement": "déborde",
+   "mod": "society_trading (society_trading-1.2.9.jar)",
+   "preuve": "JEI TradesCategory#draw : unlockDescription en m_280649_ à x=2,y=46, sans repli ; fond 164x56 (sipush 164, bipush 56). NB : l'anglais 'Requires entering the Skull Cavern' (177 px) déborde déjà",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-1.json"
+  },
+  {
+   "motif": "^shop\\.society_trading\\.[a-z_]+\\.description$",
+   "lignes": 7,
+   "limite": 77,
+   "comportement": "lignes:7x77",
+   "mod": "society_trading (society_trading-1.2.9.jar)",
+   "preuve": "JEI ShopCategory#draw : Component.translatable('shop.society_trading.'+id+'.description') en GuiGraphics.drawWordWrap(x=70,y=17,largeur 77) ; fond 147x82 (sipush 147, bipush 82) -> (82-17)/9 = 7 lignes. NB : l'anglais bs_greenhouse fait déjà 8 lignes",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-1.json"
+  },
+  {
+   "cles": [
+    "jei.society.husbandry.cooldown",
+    "jei.society.working_block_entity.day",
+    "jei.society.working_block_entity.days"
+   ],
+   "lignes": 1,
+   "limite": 146,
+   "comportement": "lignes:1x146",
+   "mod": "kubejs (client_scripts, catégories JEI)",
+   "preuve": "husbandryJei.js:14-25 : drawWordWrap(cooldown(day/days), x=2, y=26, 177) sur fond milking.png 148x40 (l.8) : une ligne, 146 px avant le bord droit",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-1.json"
+  },
+  {
+   "cles": [
+    "jei.society.working_block_entity.short",
+    "jei.society.working_block_entity.day",
+    "jei.society.working_block_entity.days"
+   ],
+   "limite": 70,
+   "comportement": "déborde",
+   "mod": "kubejs (client_scripts, catégories JEI)",
+   "preuve": "blockEntityJei.js:33-43 et :108-114 : drawWordWrap(x=72, y=29, 177) sur fond 142x42 (l.20-21, 96-97) -> 70 px avant le bord droit. FR 'Moins d'un jour' = 79 px",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-1.json"
+  },
+  {
+   "cles": [
+    "jei.society.tea_drying"
+   ],
+   "limite": 120,
+   "comportement": "déborde",
+   "mod": "kubejs (client_scripts, catégories JEI)",
+   "preuve": "jeiCustomization.js:77-83 : drawWordWrap(x=2, y=36, 177) sur fond drying.png 122x48 (l.73) -> 120. FR 'Placer un bloc et attendre...' = 142 px",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-1.json"
+  },
+  {
+   "cles": [
+    "ftbquests.gui.no_tasks",
+    "ftbquests.gui.no_rewards"
+   ],
+   "limite": 132,
+   "comportement": "chevauche",
+   "mod": "ftbquests",
+   "preuve": "ViewQuestPanel#addWidgets : largeur max des widgets des colonnes bornée par Mth.clamp(…, 70, 140) (bipush 70, sipush 140), puis w = max(w, 2*borne+10) et colonnes de w/2-3 ; le DisabledButtonTextField d'une ligne prend largeur_texte+8 (setSize, bipush 8) -> au-delà de 140-8 = 132 px le texte dépasse sa colonne.",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-2.json"
+  },
+  {
+   "cles": [
+    "ftbchunks.gui.sort_minimap_info"
+   ],
+   "limite": 196,
+   "comportement": "déborde",
+   "mod": "ftbchunks",
+   "preuve": "MinimapInfoSortScreen : setWidth(200) (sipush 200) ; MinimapInfoSortScreen$CustomTopPanel#alignWidgets : titre TextField setPosAndSize(4, 0, largeur_texte, h), une ligne sans repli -> 200-4 = 196 px avant le bord. 'Paramètres des infos de la minimap' = 176 px.",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-2.json"
+  },
+  {
+   "motif": "^minimap\\.info\\.[^.]+\\.[^.]+\\.title$",
+   "limite": 151,
+   "comportement": "ellipse",
+   "mod": "ftbchunks",
+   "preuve": "MinimapInfoSortScreen$InfoEntry#alignWidgets : nom = ClientTextComponentUtils.ellipsize(font, displayName(), hideButton.x - 14 - 5) avec hideButton en (w_entrée - 18) -> w_entrée - 37 ; w_entrée = largeur du panneau principal (MinimapInfoSortEntry setPosAndSize(0, y, width, 24)) dans un écran de 200 px moins marges et barre de défilement (AbstractThreePanelScreen) -> environ 151 à 159 px. displayName = 'minimap.info.<ns>.<id>.title'.",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-2.json"
+  },
+  {
+   "cles": [
+    "emi.recipe_book_action.toggle_craftables"
+   ],
+   "motif": "^emi\\.(effect_location|help_level|button_visibility|cheat_mode|index_source|recipe_book_action)\\.",
+   "limite": 146,
+   "comportement": "défile",
+   "mod": "EMI",
+   "preuve": "dev.emi.emi.screen.widget.config.EnumWidget.<init> : EmiPort.newButton(0, 0, 150, 20, getText()) ; texte de la valeur dans un bouton vanilla de 150 px, zone de texte 150 - 2x2 = 146. Un bouton vanilla 1.20.1 fait défiler un texte trop long (renderScrollingString) au lieu de le couper : lisible mais dégradé. Dépassement actuel : emi.recipe_book_action.toggle_craftables = 164 px. Comportement de défilement non vérifié dans le jar Minecraft lui-même.",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-3.json"
+  },
+  {
+   "cles": [
+    "screen.emi.presets"
+   ],
+   "motif": "^config\\.emi\\.presets\\.",
+   "limite": 172,
+   "comportement": "défile",
+   "mod": "EMI",
+   "preuve": "dev.emi.emi.screen.ConfigScreen#init (m_7856_) : bouton screen.emi.presets de largeur min(400, l-40)/4*4 / 2 - 24 = 176 px au plus (bipush 24) -> 172 px de texte ; ConfigPresetScreen$PresetWidget : bouton de 200 px (sipush 200) pour config.emi.presets.* -> 196 px. Défilement vanilla au-delà. Mesures actuelles : 150 px (screen.emi.presets), max 173 px (config.emi.presets.defaults) sous 196.",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-3.json"
+  },
+  {
+   "motif": "^effect\\.[a-z0-9_]+\\.[a-z0-9_]+$",
+   "limite": 116,
+   "comportement": "chevauche",
+   "mod": "jeed",
+   "preuve": "net.mehvahdjukaar.jeed.plugin.emi.display.EffectInfoRecipe#addWidgets : quand la description tient sur plusieurs pages, deux boutons 12x12 sont ajoutés en haut, à x=2 et x=getWidth()-14 (bipush 14), y=2, sur la ligne du nom (y=0) -> le nom centré (gras) doit tenir dans 144 - 2x14 = 116 px pour ne pas passer sous les flèches.",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-3.json"
+  },
+  {
+   "cles": [
+    "item.itemfilters.and",
+    "item.itemfilters.or",
+    "item.itemfilters.not",
+    "item.itemfilters.xor"
+   ],
+   "limite": 160,
+   "comportement": "déborde",
+   "mod": "item-filters",
+   "preuve": "dev.latvian.mods.itemfilters.gui.InventoryFilterScreen#renderLabels (m_280003_) : title dessiné en (8, 6) sans coupe dans un écran de imageWidth 176 (sipush 176) -> 176 - 16 = 160 px. Que le titre soit le nom de l'objet filtre n'est pas vérifié dans le code d'ouverture du menu. Mesure actuelle : noms courts (Filtre AND/OR/NOT/XOR).",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-3.json"
+  },
+  {
+   "cles": [
+    "create.gui.attribute_filter.add_reference_item"
+   ],
+   "limite": 112,
+   "comportement": "déborde",
+   "mod": "create",
+   "preuve": "AttributeFilterScreen#referenceItemChanged (objet vide) : attributeSelectorLabel.text = referenceH (italique) sans setTextAndTrim ; même Label que la contrainte précédente, dont la largeur utile est 112",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-4.json"
+  },
+  {
+   "cles": [
+    "create.display_link.no_source",
+    "create.display_link.no_target"
+   ],
+   "limite": 131,
+   "comportement": "déborde",
+   "mod": "create",
+   "preuve": "DisplayLinkScreen#renderWindow : drawString(no_source, x+65, y+30) et (no_target, x+65, y+109), mêmes emplacements que les champs de 135 px commençant à x+61 ; le cadre vient de la texture, non mesurée",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-4.json"
+  },
+  {
+   "cles": [
+    "create.orientation.orthogonal",
+    "create.orientation.diagonal",
+    "create.orientation.horizontal",
+    "create.orientation.alongX",
+    "create.orientation.alongZ"
+   ],
+   "limite": 103,
+   "comportement": "déborde",
+   "mod": "create",
+   "preuve": "SymmetryWandScreen#initAlign : SelectionScrollInput(x+45, y+43, bipush 109, 18).forOptions(mirror.getAlignToolTips()).writingTo(Label(x+51, y+50)). Le contenu de getAlignToolTips (sous-classes de SymmetryMirror) n'a pas été désassemblé : clés déduites des noms",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-4.json"
+  },
+  {
+   "cles": [
+    "gui.sophisticatedstorage.upgrades.advanced_hopper"
+   ],
+   "limite": 55,
+   "comportement": "ellipse",
+   "mod": "sophisticatedstorage",
+   "preuve": "HopperUpgradeTab$Advanced : ContentsFilterControl$Advanced à x+3, StorageConfig HopperUpgradeConfig(advancedHopperUpgrade, ..., inputFilterSlotsInRow=4) -> 72 -> onglet 81 -> 55. Position exacte de SideIOControl (54 px) non relue : pourrait élargir l'onglet.",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-5.json"
+  },
+  {
+   "motif": "^block\\.refinedstorage\\.",
+   "limite": null,
+   "comportement": "coupé:19 caractères + '...'",
+   "mod": "refinedstorage",
+   "preuve": "ControllerScreen#renderForeground -> trimNameIfNeeded(!unicode, nom) : String.substring(0,19) au-delà de 19 caractères (12 en police unicode). Liste des nœuds du réseau dans l'écran du contrôleur (noms d'objets des blocs RS). Limite en caractères, pas en pixels.",
+   "confiance": "sure",
+   "raison": "limite en caractères, pas en pixels : hors du format de largeurs.json",
+   "inventaire": "inventaire-5.json"
+  },
+  {
+   "cles": [
+    "gui.refinedstorage.crafter"
+   ],
+   "limite": null,
+   "comportement": "coupé:26 caractères (titre), 25 dans le gestionnaire",
+   "mod": "refinedstorage",
+   "preuve": "CrafterScreen#renderForeground : RenderUtils.shorten(titre, 26) ; CrafterManagerScreen#renderForeground : RenderUtils.shorten(nom, 25) pour chaque crafteur (nom = celui du crafteur ou de la machine visée). Limite en caractères.",
+   "confiance": "sure",
+   "raison": "limite en caractères, pas en pixels : hors du format de largeurs.json",
+   "inventaire": "inventaire-5.json"
+  },
+  {
+   "cles": [
+    "gui.sophisticatedcore.upgrades.tag_list.tag_overflow"
+   ],
+   "limite": 68,
+   "comportement": "déborde",
+   "mod": "sophisticatedcore",
+   "preuve": "FilterLogicControlBase#renderTagNames : les noms de tags sont coupés à MAX_TAG_NAME_WIDTH = 68 (plainSubstrByWidth + '...'), mais la ligne '+ %s autres' est dessinée à x+2 sans coupe dans la même liste.",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-5.json"
+  },
+  {
+   "cles": [
+    "buildinggadgets2.buttons.save"
+   ],
+   "limite": 54,
+   "comportement": "ellipse",
+   "mod": "buildinggadgets2",
+   "preuve": "TemplateManagerGUI#init : new ExtendedButton(x, y, 60, 15, buildinggadgets2.buttons.save). ExtendedButton de Forge 1.20.1 coupe par Font.ellipsize(largeur-6) : comportement de Forge, pas relu dans un jar (forge absent de fr-workspace/jars).",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-5.json"
+  },
+  {
+   "cles": [
+    "misc.refinedstorage.priority",
+    "misc.refinedstorage.storage.stored_capacity_minimal"
+   ],
+   "limite": 162,
+   "comportement": "chevauche",
+   "mod": "refinedstorage",
+   "preuve": "SOMME : StorageScreen#onPostInit : bouton priorité de largeur 10+Font.width(priority), aligné à droite sur x+169, y=41 ; StorageScreen#renderForeground : texte stocké/capacité à (7,42). px(stored_capacity_minimal avec nombres) + 10 + px(priority) <= 162.",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-5.json"
+  },
+  {
+   "cles": [
+    "message.pipez.filter.item",
+    "message.pipez.filter.tag",
+    "message.pipez.filter.any_item",
+    "message.pipez.filter.nbt",
+    "message.pipez.filter.inverted"
+   ],
+   "limite": 162,
+   "comportement": "déborde",
+   "mod": "pipez",
+   "preuve": "FilterList#drawGuiContainerBackgroundLayer -> drawStringSmall (échelle 0.5) à x+3+22 dans une liste de 136 px (ExtractScreen : FilterList(this,32,8,136,66)), colonne de droite d'environ 30 px -> ~81 px à l'échelle 0.5, soit ~162 px en taille normale. Le nom d'objet substitué (%s) compte.",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-5.json"
+  },
+  {
+   "cles": [
+    "widget.classicpipes.default_route",
+    "widget.classicpipes.match_components",
+    "widget.classicpipes.leave_one",
+    "widget.classicpipes.active_stocking",
+    "widget.classicpipes.blocking_mode"
+   ],
+   "limite": 146,
+   "comportement": "déborde",
+   "mod": "classicpipes",
+   "preuve": "SmallerCheckbox : libellé à x+12+2+... ; cases posées à x+8 (StoragePipeScreen, RoutingPipeScreen…) dans un écran de 176 -> 176-8-14-8 = 146. Pas vérifié qu'aucun emplacement de filtre ne soit à droite des cases.",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-5.json"
+  },
+  {
+   "cles": [
+    "immersive_paintings.width",
+    "immersive_paintings.height",
+    "immersive_paintings.colors",
+    "immersive_paintings.dither",
+    "immersive_paintings.x_offset",
+    "immersive_paintings.y_offset"
+   ],
+   "limite": 96,
+   "comportement": "coupé",
+   "mod": "immersive_paintings",
+   "preuve": "ImmersivePaintingScreen (offsets 675-1242) : IntegerSliderWidget / PercentageSliderWidget(.., bipush 100, bipush 20, cle, ..). Mesurer le texte une fois %s remplace (ex. « Largeur : 16 blocs », « 100 % de décalage X »). Le rendu du curseur (ExtendedSliderWidget) n'a pas ete lu : coupe ou defilement suppose comme pour Button.",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-6.json"
+  },
+  {
+   "motif": "^immersive_paintings\\.(frame|material)\\.",
+   "limite": 96,
+   "comportement": "coupé",
+   "mod": "immersive_paintings",
+   "preuve": "ImmersivePaintingScreen (offsets 2144-2176) : DefaultButtonWidget(.., bipush 100, bipush 20, translatable(Utils.identifierToTranslation(id))) dans la boucle des cadres ; les prefixes immersive_paintings.frame.\\u0001 et immersive_paintings.material.\\u0001 sont dans le pool de constantes. Rattachement exact cle <-> bouton non lu pour material.",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-6.json"
+  },
+  {
+   "motif": "^[a-z_]+/entries/.*\\.json#/pages/[0-9]+/text$",
+   "lignes": 14,
+   "limite": 116,
+   "comportement": "lignes:14x116",
+   "mod": "Patchouli",
+   "preuve": "PageWithText#onDisplayed : new BookTextRenderer(parent, text, 0, getTextHeight()) ; PageText#getTextHeight = 22 (premiere page avec en-tete), 12 (page titree) ou -4 ; GuiBook PAGE_HEIGHT = 156, TEXT_LINE_HEIGHT = 9. Texte replie sur 116 px sans coupe en bas : au-dela de (156-22)/9 = 14 lignes (premiere page), 16 (page titree), 17 (page simple) il deborde sous la page. Spotlight : getTextHeight 40 -> 12 lignes ; multiblock/entite 115 et image 120 -> 4 lignes. Le bas exact de la zone utile (156) n'est pas prouve comme clip.",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-6.json"
+  },
+  {
+   "cles": [
+    "container.farmingforblockheads.market"
+   ],
+   "limite": 156,
+   "comportement": "déborde",
+   "mod": "farmingforblockheads",
+   "preuve": "MarketScreen#m_7286_ : titre (I18n container.farmingforblockheads.market) dessine en leftPos + bipush 10, topPos + bipush 10, sans limite ; largeur par defaut 176 (non surchargee). Limite symetrique 176 - 10 - 10 ; ce qui se trouve a droite du titre sur la meme ligne n'a pas ete releve.",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-6.json"
+  },
+  {
+   "cles": [
+    "quark.category.automation",
+    "quark.category.building",
+    "quark.category.client",
+    "quark.category.experimental",
+    "quark.category.friends",
+    "quark.category.general",
+    "quark.category.management",
+    "quark.category.mobs"
+   ],
+   "motif": "^quark\\.category\\.",
+   "limite": 116,
+   "comportement": "coupé",
+   "mod": "Quark (config)",
+   "preuve": "org.violetmoon.zeta.client.config.screen (ecran d'accueil, javap Zeta l. 3470-3568) : new CategoryButton(x, y, bipush 120, bipush 20, componentFor(section), icone) ; CategoryButton#m_88315_ appelle Button#m_88315_ (texte en defilement, 120 - 4) puis dessine une icone d'objet 16 px a gauche : le texte centre peut passer sous l'icone avant 116 px.",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-6.json"
+  },
+  {
+   "cles": [
+    "gui.supplementaries.speaker_block.volume",
+    "gui.supplementaries.speaker_block.blocks"
+   ],
+   "limite": 146,
+   "comportement": "coupé",
+   "mod": "Supplementaries",
+   "preuve": "SpeakerBlockScreen#m_7856_ : SuppClientPlatformStuff.createSlider(x, y, sipush 150, bipush 20, VOLUME_TEXT, DISTANCE_BLOCKS, ..) : texte « <volume><valeur><blocks> ». Rendu du curseur Forge non lu.",
+   "confiance": "probable",
+   "raison": "confiance probable",
+   "inventaire": "inventaire-6.json"
+  }
+ ],
+ "pistes": [
+  {
+   "mod": "society_trading (society_trading-1.2.9.jar)",
+   "ou": "ImageShopScreen, titre/dimensions à x=144",
+   "raison": "limite 154 déduite de imageWidth 304 ; la marge droite réelle dépend de image_shop.png (non lue)",
+   "inventaire": "inventaire-1.json"
+  },
+  {
+   "mod": "JEI",
+   "ou": "titres de catégories jei.society.category.* et jei.society_trading.category.*",
+   "raison": "dessinés par JEI (titre tronqué avec points de suspension à la largeur de la catégorie, ex. 142/148/174/177) ; à confirmer dans le lot JEI. FR au-delà de 140 px : enriched_bone_mealing 191, foraging 172, artisanal_cheese_pressing 158, loot_box 154, pet_gifts 152",
+   "inventaire": "inventaire-1.json"
+  },
+  {
+   "mod": "JEI",
+   "ou": "débordements horizontaux dans les catégories (contraintes 'probable' kubejs/TradesCategory/ShopCategory)",
+   "raison": "JEI 15 ne découpe pas (pas de scissor vu) le dessin d'une recette ; le texte sort du fond sans être coupé — gravité à juger en jeu",
+   "inventaire": "inventaire-1.json"
+  },
+  {
+   "mod": "society_trading (society_trading-1.2.9.jar)",
+   "ou": "noms des objets offerts sans clé dans kubejs/assets/*/lang/fr_fr.json (154, liste dans le scratchpad offres.json)",
+   "raison": "traduits ailleurs (jar du mod, resourcepack) ou vanilla : même contrainte lignes:2x102, clés à résoudre par le lot du mod d'origine",
+   "inventaire": "inventaire-1.json"
+  },
+  {
+   "mod": "society_trading (society_trading-1.2.9.jar)",
+   "ou": "shop.society_trading.{bard,farmer,leatherworker,master_cultivator,mystical_botanist}",
+   "raison": "aucune boutique de kubejs/data ne les utilise ; si réactivées en display_type default, 'Maître cultivateur' (89) et 'Botaniste mystique' (92) dépassent les 82 px du titre de ShopScreen",
+   "inventaire": "inventaire-1.json"
+  },
+  {
+   "mod": "ftbchunks",
+   "ou": "textes d'info sous la minimap (MinimapInfoComponent#drawCenteredText : biome, zone, temps, position, saison seasonhud)",
+   "raison": "texte centré sur l'axe de la minimap, sans boîte ni coupe (m_280614_ en x = -largeur/2) ; si la minimap est dans un coin (position par défaut, pas de ftbchunks-client.snbt dans le pack) un nom long peut sortir de l'écran. La limite dépend de la taille/position/échelle MINIMAP_FONT_SCALE réglées par le joueur : à mesurer en jeu, et la minimap peut être doublée par JourneyMap.",
+   "inventaire": "inventaire-2.json"
+  },
+  {
+   "mod": "certain_questing_additions",
+   "ou": "ChapterPanelChapterButtonMixin#onDraw (liste des chapitres)",
+   "raison": "le mixin redessine le titre du chapitre et y ajoute ' ◀' sans modifier getActualWidth (+20) ; possible débordement de quelques px pour le chapitre courant, indépendant de la langue mais aggravé par les titres longs. À regarder en jeu.",
+   "inventaire": "inventaire-2.json"
+  },
+  {
+   "mod": "Jade",
+   "ou": "snownee.jade.gui.config.value.CycleOptionValue : CycleButton.displayOnlyValue de 100 px",
+   "raison": "Les valeurs des options (marche/arrêt, modes) s'affichent dans un bouton de 100 px (96 px de texte) qui défile au-delà ; les clés des valeurs ne sont pas toutes des config.jade.* et n'ont pas été recensées.",
+   "inventaire": "inventaire-3.json"
+  },
+  {
+   "mod": "Jade",
+   "ou": "snownee.jade.gui.PluginsConfigScreen : OptionsNav de 120 px",
+   "raison": "Les titres de la colonne de gauche de l'écran des plugins semblent être des noms de mods (jade.modName.*, max 94 px aujourd'hui) ; la source exacte du titre n'a pas été tracée.",
+   "inventaire": "inventaire-3.json"
+  },
+  {
+   "mod": "JEI",
+   "ou": "key.jei.* dans l'écran Commandes",
+   "raison": "Les raccourcis JEI restent enregistrés même si l'interface JEI est désactivée ; leur affichage dépend de l'écran des touches (vanilla ou Controlling), hors de ce lot.",
+   "inventaire": "inventaire-3.json"
+  },
+  {
+   "mod": "EMI",
+   "ou": "titres de catégories JEI d'autres mods relayés par JEMI",
+   "raison": "La limite de 136 px (ellipse) s'applique aussi à ces titres, mais leurs clés sont propres à chaque mod (gui.<mod>.jei.category..., <mod>.jei.*.title...) et doivent être recensées mod par mod.",
+   "inventaire": "inventaire-3.json"
+  },
+  {
+   "mod": "create",
+   "ou": "titres centrés des écrans (AbstractFilterScreen, SequencedGearshiftScreen, ThresholdSwitchScreen, DisplayLinkScreen, SchematicannonScreen, StationScreen...)",
+   "raison": "drawString centré sur (largeur texture - 8)/2 sans coupe ; la largeur du bandeau de titre est dans la texture (AllGuiTextures), non mesurée",
+   "inventaire": "inventaire-4.json"
+  },
+  {
+   "mod": "create",
+   "ou": "FactoryPanelScreen#renderWindow : create.gui.factory_panel.title_as_restocker / title_as_recipe",
+   "raison": "titre centré à x+97 (largeur 'Paramètres de réapprovisionnement' sans doute > 170 px), sans coupe ; la largeur du bandeau vient de la texture",
+   "inventaire": "inventaire-4.json"
+  },
+  {
+   "mod": "create",
+   "ou": "FactoryPanelSetItemScreen#render : create.gui.factory_panel.place_item_to_monitor ; create_factory_logistics FactoryPanelSetFluidScreen : create_factory_logistics.gui.factory_fluid_panel.place_fluid_to_monitor",
+   "raison": "centré à x+94 dans une fenêtre dessinée par texture, sans coupe ; largeur du cadre non prouvée",
+   "inventaire": "inventaire-4.json"
+  },
+  {
+   "mod": "create",
+   "ou": "SchematicannonScreen#render : create.schematicannon.status.* (x+103 centré, y+53) et schematicErroredCheckLogs (y+65)",
+   "raison": "texte centré sans coupe dans la fenêtre d'état de la texture ; largeur de la fenêtre non mesurée",
+   "inventaire": "inventaire-4.json"
+  },
+  {
+   "mod": "create",
+   "ou": "StockKeeperCategoryScreen#renderScheduleEntry : create.gui.stock_ticker.empty_category_name_placeholder",
+   "raison": "dessiné à x+35 dans une ligne de 160 px ; seuls les noms d'objets sont coupés (20 caractères + '...'), le texte traduit ne l'est pas",
+   "inventaire": "inventaire-4.json"
+  },
+  {
+   "mod": "create (catnip)",
+   "ou": "ConfigScreenList$LabeledEntry#render",
+   "raison": "les libellés de config sont coupés par substrByWidth(getLabelWidth(largeur)-15) : la limite dépend de la largeur de l'écran, pas d'une constante",
+   "inventaire": "inventaire-4.json"
+  },
+  {
+   "mod": "createrailwaysnavigator",
+   "ou": "overlay de navigation (WelcomePage, RouteOverviewPage, NextConnectionsPage), StationDeparturesWidget, ScheduleBoardScreen, widgets DLLabel / DLCheckBox / SimpleDataListEntry",
+   "raison": "beaucoup de coupes (GuiUtils.ellipsisString, substrByWidth) mais sur des largeurs calculées (width() du widget, getRemainingWidth) et surtout sur des noms de gares ou de trains ; les libellés traduits comme gui.createrailwaysnavigator.route_details.departure sont dessinés sans coupe dans un overlay dont la largeur vient de la config. À examiner écran par écran",
+   "inventaire": "inventaire-4.json"
+  },
+  {
+   "mod": "extra_gauges",
+   "ou": "StringPanelScreen#renderWindow : extra_gauges.gui.string_panel.join / regex / replacement",
+   "raison": "dessinés à x+20 au-dessus d'un cadre de 160 px commençant à x+8 (limite environ 148) ; textes courts, cadre issu de la texture",
+   "inventaire": "inventaire-4.json"
+  },
+  {
+   "mod": "CreateNumismatics",
+   "ou": "VendorScreen, BankScreen, SalepointConfigScreen, DepositorScreens, SubAccountListScreen",
+   "raison": "titres centrés (drawCenteredString) sans coupe ; largeur du bandeau dans la texture ; ScrollingLabel fait défiler le texte trop long",
+   "inventaire": "inventaire-4.json"
+  },
+  {
+   "mod": "sophisticatedcore",
+   "ou": "StorageScreenBase#renderStorageTitle et SettingsScreen#renderSettingsTitle (titre du sac / coffre, 'Paramètres du sac à dos')",
+   "raison": "Coupé avec '...' par Label#getTruncatedText ; limite = getTitleMaxWidth, qui dépend de imageWidth (taille du stockage), de la présence de la barre de recherche et des boutons de tri : pas de constante unique. Clés : noms d'objets des sacs/coffres/tonneaux et gui.sophisticatedbackpacks.settings.title / gui.sophisticatedstorage.settings.title.",
+   "inventaire": "inventaire-5.json"
+  },
+  {
+   "mod": "sophisticatedcore",
+   "ou": "AlchemyUpgradeTab (alchemy, advanced_alchemy) et ItemDisplaySettingsTab (settings.item_display)",
+   "raison": "Titre coupé par le même Label, mais la largeur de l'onglet dépend de contrôles dont la position n'a pas été entièrement relue (bouton ALCHEMY_CONDITION, prévisualisation et sélecteurs de couleur). 'Alchimie av.' fait 55 px pile, 'Objet holographique' est long.",
+   "inventaire": "inventaire-5.json"
+  },
+  {
+   "mod": "sophisticatedcore",
+   "ou": "Onglets à un seul bouton : pump (base), jukebox (base), inception (gui.sophisticatedbackpacks.upgrades.inception)",
+   "raison": "Onglet de 27 ou 45 px -> titre limité à 1 ou 19 px : l'anglais est déjà entièrement coupé, le français ne change rien ; à exclure du contrôle ou à tolérer.",
+   "inventaire": "inventaire-5.json"
+  },
+  {
+   "mod": "sophisticatedstorage",
+   "ou": "Améliorations de base partagées avec Sophisticated Storage",
+   "raison": "Le pack n'a pas de sophisticatedstorage-server.toml : les slotsInRow de Storage sont les valeurs par défaut du code, supposées identiques à celles des sacs (3/4) mais non relues.",
+   "inventaire": "inventaire-5.json"
+  },
+  {
+   "mod": "refinedstorage",
+   "ou": "GridScreen#onPostInit : cases misc.refinedstorage.processing / exact / fluidmode de la grille de modèles",
+   "raison": "exact et fluidmode sont placés à processing.x + largeur + 5 ; la limite à droite (largeur de l'écran de la grille) n'a pas été relue. Marge large avec les textes actuels.",
+   "inventaire": "inventaire-5.json"
+  },
+  {
+   "mod": "buildinggadgets2",
+   "ou": "CopyGUI / PasteGUI (start, end, confirm, cancel, clear, absolutecoords…) et sliders de DestructionGUI (depth, left, right, up, down)",
+   "raison": "Boutons et curseurs créés par des aides dont la largeur passe par des variables (35/40/32 vus) ; association largeur ↔ clé non établie. IncrementalSliderWidget#renderText centre 'Profondeur : n' sans coupe.",
+   "inventaire": "inventaire-5.json"
+  },
+  {
+   "mod": "buildinggadgets2",
+   "ou": "ModeRadialMenu#render",
+   "raison": "Noms de modes dessinés autour d'un cercle : chevauchement possible, géométrie non relue.",
+   "inventaire": "inventaire-5.json"
+  },
+  {
+   "mod": "classicpipes",
+   "ou": "RequestScreen#renderLabels : widget.classicpipes.page centré à imageWidth/2, y=182",
+   "raison": "Entre les flèches de page (x/2-48-8 et x/2+48) : ~96 px disponibles, largeur exacte des flèches non relue.",
+   "inventaire": "inventaire-5.json"
+  },
+  {
+   "mod": "Quark (boutons d'inventaire) x titres de conteneurs",
+   "ou": "org.violetmoon.quark.content.management.module.InventorySortingModule$Client#lambda$provider$10 (tri du conteneur en getXSize() - 18, y = 5) et ChestSearchingModule$Client#lambda$clientSetup$2 (filtre en getXSize() - 30, y = 5), MiniInventoryButton 10x10",
+   "raison": "Dans les conteneurs de type coffre (Inventory Sorting, Easy Transfering et Chest Searching actifs dans config/quark-common.toml l. 286, 289, 1559), deux mini-boutons occupent la ligne du titre a partir de x = imageWidth - 30 : un titre de conteneur 176 px de large depasserait 176 - 30 - 8 = 138 px sous le bouton. Il reste a savoir quels ecrans Quark accepte (liste des ecrans acceptes non lue) pour en deduire les cles de titres concernees (ex. container.farmersdelight.cabinet / basket).",
+   "inventaire": "inventaire-6.json"
+  },
+  {
+   "mod": "FarmersDelight",
+   "ou": "titres container.farmersdelight.basket et container.farmersdelight.cabinet",
+   "raison": "Ecrans non trouves dans le paquet client de FarmersDelight : probablement l'ecran vanilla ContainerScreen (176 px, titre en x = 8 -> 160 px, ou 138 px avec les boutons Quark). A confirmer par le MenuType enregistre.",
+   "inventaire": "inventaire-6.json"
+  },
+  {
+   "mod": "Supplementaries (marchand rouge)",
+   "ou": "RedMerchantScreen#m_280003_ : TRADE_OFFER (gui.supplementaries.orange_trader.trade) centre en 49.0f + imageWidth/2, y = 10",
+   "raison": "Le panneau de droite n'a pas ete mesure ; « OFFRE D'ÉCHANGE » est long. Limite estimee ~ 2 x (distance du centre au bord du panneau) non prouvee.",
+   "inventaire": "inventaire-6.json"
+  },
+  {
+   "mod": "cloth-config",
+   "ou": "me.shedaniel.clothconfig2.gui.entries.BooleanListEntry#render (et SelectionListEntry, IntegerSliderEntry, TextFieldListEntry, KeyCodeEntry, DropdownBoxEntry)",
+   "raison": "Le libelle de l'option est dessine a gauche sans coupe ; le widget (sipush 150) est place en x + largeurEntree - 150 (bouton reset compris). Chevauchement si libelle > largeurEntree - 150 - reset, mais la largeur d'entree depend de l'ecran (liste dynamique) et la liste des mods du pack qui utilisent cloth-config n'a pas ete etablie.",
+   "inventaire": "inventaire-6.json"
+  },
+  {
+   "mod": "Zeta / Quark (config)",
+   "ou": "org.violetmoon.zeta.client.config.screen.SectionScreen$DefinitionEntry#m_6311_",
+   "raison": "Nom d'option tronque avec « ... » (boucle substring) au-dela de largeurEntree - 85 (bipush 85) ; la liste Zeta a getRowWidth = 220 + 50 = 270 -> ~185 px. Les noms viennent de Definition#getTranslatedDisplayName : verifier s'il existe des cles traduites (le corpus ne montre que quark.category.*), sinon sans objet.",
+   "inventaire": "inventaire-6.json"
+  },
+  {
+   "mod": "Quark (table d'enchantement matricielle)",
+   "ou": "org.violetmoon.quark.addons.oddities.client.screen.MatrixEnchantingScreen#m_7286_ : I18n(quark.gui.enchanting.min, niveau) centre (width/2) par drawBorderedText pres de leftPos + 71 / topPos + 56",
+   "raison": "EN « %d+ », FR « Min: %d » : le francais est plus long. Le texte est centre sans coupe ; la zone libre autour (emplacements, bouton + en 86/63 de 50x12) n'a pas ete mesuree.",
+   "inventaire": "inventaire-6.json"
+  },
+  {
+   "mod": "vanilla (toasts)",
+   "ou": "net.minecraft.client.gui.components.toasts.RecipeToast / SystemToast / TutorialToast",
+   "raison": "Toast de 160 px a texte non replie ; les cles affichees sont vanilla (fr_fr de Mojang, hors corpus) sauf si un mod du pack pousse un SystemToast avec une cle a lui : non recherche dans ce lot.",
+   "inventaire": "inventaire-6.json"
+  }
+ ]
+}

@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Emplacements :$()$(li)Biome : Vallée des âmes$(li)Structure : Générateurs de slimes de la Surface$(li)Zones de fouille : toutes$(li)Boîtes à ballons : rouges$(br2)$(l)Risques :$()$(br)Juste content d'être là !"
+            "text": "$(l)Emplacements :$()$(li)Biome : Vallée des âmes$(li)Structure : Générateurs de Slimes de la Surface$(li)Zones de fouille : toutes$(li)Boîtes à ballons : rouges$(br2)$(l)Risques :$()$(br)Juste content d'être là !"
         },
         {
             "type": "patchouli:entity",

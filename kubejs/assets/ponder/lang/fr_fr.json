@@ -36,8 +36,9 @@
   "catnip.ui.value_entry.range": "Plage",
   "catnip.ui.value_entry.relog_required": "Modifier cette valeur nécessitera une _reconnexion_ pour prendre pleinement effet",
   "catnip.ui.value_entry.restart_required": "Modifier cette valeur nécessitera un _redémarrage_ pour prendre pleinement effet",
-  "catnip.util.fly_speed_set.message": "Rapidité de vol de %1$s temporairement réglée sur %2$s",
+  "catnip.util.fly_speed_set.message": "Vitesse de vol de %1$s temporairement réglée sur %2$s",
   "catnip.util.unable_to_find_config.message": "Impossible de trouver la configuration spécifiée",
   "key.categories.ponder": "Réflexion",
-  "key.ponder.ponder": "Réflexion"
+  "key.ponder.ponder": "Réflexion",
+  "ponder.ui.index_description": "Cliquer sur l'une des icônes ci-dessous pour en savoir plus sur ses objets et blocs associés"
 }

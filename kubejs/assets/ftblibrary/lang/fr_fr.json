@@ -35,8 +35,12 @@
   "ftblibrary.select_image.all_images": "Toutes les images",
   "ftblibrary.select_image.rescan": "Réanalyser les images",
   "ftblibrary.select_image.scanning": "Analyse des images en cours : cela peut prendre quelques secondes...",
+  "ftblibrary.select_item.nbt": "Modifier NBT\n§7Clic gauche : éditeur rapide de chaîne\n§7Clic droit : éditeur NBT interactif",
   "ftblibrary.unsaved_changes": "Abandonner les modifications non enregistrées ?",
   "gui.remove": "Supprimer",
+  "sidebar_button.ftblibrary.toggle.day.tooltip": "Passe au jour",
+  "sidebar_button.ftblibrary.toggle.night": "Régler l'heure sur Nuit",
+  "sidebar_button.ftblibrary.toggle.night.tooltip": "Passe à la nuit",
   "sidebar_group.ftblibrary.cheat": "FTB Library — Triche",
   "sidebar_group.ftblibrary.info": "FTB Library — Info",
   "sidebar_group.ftblibrary.util": "FTB Library — Utilitaires"

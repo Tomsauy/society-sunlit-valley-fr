@@ -1,5 +1,6 @@
 {
   "block.torchmaster.megatorch": "Torche géante",
+  "block.torchmaster.megatorch.tooltip": "Empêche l'apparition naturelle de créatures hostiles dans un grand rayon autour de la torche",
   "torchmaster.torch_volume.on_hide": "Affichage de la portée Torchmaster désactivé",
   "torchmaster.torch_volume.on_show": "Affichage de la portée Torchmaster activé - Maj+Clic droit à main vide pour le désactiver"
 }

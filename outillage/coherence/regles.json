@@ -1,4 +1,7 @@
 {
  "casse_textes": true,
- "pourcentages": "espace"
+ "pourcentages": "espace",
+ "nombres": true,
+ "largeurs_mods": true,
+ "terminologie_interdits": true
 }

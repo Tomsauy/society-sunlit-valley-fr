@@ -25,7 +25,7 @@
   "drippyloadingscreen.deepcustomization.overlay.progress_bar.original_size_pos_calc.on": "Calcul de la taille et de la position Vanilla : §aActivé",
   "drippyloadingscreen.deepcustomization.overlay.progress_bar.set_color": "Couleur [HEX]",
   "drippyloadingscreen.deepcustomization.overlay.progress_bar.set_color.desc": "Définir la couleur de la barre de chargement.\nCe doit être une couleur HEX valide.\n\n§cEffacer la valeur pour réinitialiser la%n%§ccouleur par défaut.",
-  "drippyloadingscreen.edit_loading_screen.desc": "Personnaliser l'écran de chargement\n\nCe bouton est rattaché à la barre de menu de FancyMenu.\nIl peut être caché en masquant la barre de menu.",
+  "drippyloadingscreen.edit_loading_screen.desc": "Personnaliser l'écran de chargement\n\nCe bouton est rattaché à la barre de menu de FancyMenu.\nIl peut être masqué en masquant la barre de menu.",
   "drippyloadingscreen.elements.vanilla_bar": "Barre de chargement du jeu façon Vanilla [Drippy]",
   "drippyloadingscreen.elements.vanilla_bar.color": "Couleur [HEX]",
   "drippyloadingscreen.elements.vanilla_bar.desc": "Barre de progression du chargement du jeu façon Vanilla.\nElle n'affiche une progression réelle\nque dans une disposition Drippy.",

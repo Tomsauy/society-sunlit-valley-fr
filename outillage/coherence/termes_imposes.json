@@ -54,10 +54,7 @@
   "francais": "culture",
   "portee": "textes",
   "cles": "^(?!fancymenu\\.)",
-  "interdits": [
-   "récolte"
-  ],
-  "motif": "STYLE §6 ; sauf dans fancymenu, où « crop » veut dire rogner (Crop Text)"
+  "motif": "STYLE §6 ; sauf dans fancymenu, où « crop » veut dire rogner (Crop Text) ; sans interdit : « récolte » rend harvest (STYLE §6 : « récolte » (harvest)), et les textes qui citent crops l'emploient à bon droit (« à la récolte », « récolte des cultures ») ; 13 faux positifs au 06/10"
  },
  {
   "anglais": "watering cans?",
@@ -329,5 +326,834 @@
    "barre d'accès rapide"
   ],
   "motif": "Mojang : « Case 1 de la barre d'action » ; glossaire Hotbar (relecture du lot 5-01)"
+ },
+ {
+  "anglais": "train tracks?",
+  "francais": [
+   "rail",
+   "rails"
+  ],
+  "interdits": [
+   "voie de train",
+   "voies de train",
+   "voie de chemin de fer",
+   "voies de chemin de fer"
+  ],
+  "motif": "fiche du sous-projet 3 : rail-ou-voie"
+ },
+ {
+  "anglais": "\\blime\\b",
+  "cles": "^(item|block)\\.(?!create_central_kitchen|pamhc2trees)",
+  "francais": [
+   "vert clair"
+  ],
+  "interdits": [
+   "vert citron",
+   "citron vert"
+  ],
+  "motif": "fiche du sous-projet 3 : vert-clair-lime"
+ },
+ {
+  "anglais": "tags?",
+  "francais": "tag",
+  "cles": "^(?:gui\\.jei\\.category\\.tagInformation|gui\\.sophisticatedcore\\.|kiwi\\.config\\.debug\\.tags|tip\\.kiwi\\.|ali\\.property\\.|message\\.pipez\\.filter\\.|fancymenu\\.placeholders\\.player_|gui\\.structurify\\.|config\\.loot_journal\\.|via_romana\\.|text\\.autoconfig\\.fallingtrees|ftbquests\\.task\\.|string\\.naturescompass\\.|tooltipoverhaul\\.config\\.|(?:key\\.)?betteradvancedtooltips\\.|item\\.itemfilters\\.tag|config\\.(?:BanTag|explain7|tag\\.)|emi\\.category\\.|remi\\.)",
+  "interdits": [
+   "mot clé",
+   "mots clés"
+  ],
+  "motif": "lot rendus-01 : un tag Minecraft (d'objet, de bloc, de fluide, de biome, /tag) s'écrit « tag », comme Mojang (Tag d'objet inconnu, commands.tag.*) et EMI ; limité aux mods qui nomment ces tags, car « tag » désigne ailleurs d'autres objets (Name Tag = étiquette, Collar Tag = plaque, étiquettes de quêtes ftbquests.tags = mots clés)"
+ },
+ {
+  "anglais": "signs?",
+  "francais": "pancarte",
+  "portee": "noms",
+  "cles": "^(?:block|item)\\.[a-z0-9_]+\\.(?![a-z0-9_]*(?:street|table|cafe|neon_[a-z]+|caution_floor|spatial|way)_sign$)[a-z0-9_]*sign$|^tag\\.item\\.[a-z0-9_]+\\.[a-z0-9_]*signs$",
+  "interdits": [
+   "panneau"
+  ],
+  "motif": "lot rendus-01 : le bloc Sign et ses dérivés (mural, suspendu, en toile) sont des « pancartes », comme Mojang (Pancarte en chêne) et le glossaire ; hors objets distincts (enseignes, panneau de table, panneau sol glissant, panneau de signalisation, signe spatial)"
+ },
+ {
+  "anglais": "speed",
+  "francais": "vitesse",
+  "cles": "^(?:attribute\\.puffish_attributes\\.(?!sprinting_)|tooltipoverhaul\\.config\\.|stat\\.automobility\\.|catnip\\.util\\.|snowrealmagic\\.config\\.)",
+  "interdits": [
+   "rapidité"
+  ],
+  "motif": "lot rendus-01 : Mojang réserve « rapidité » à l'effet Speed et au déplacement (movement_speed) ; vitesse d'outil, de minage, de projectile, de rotation, de vol, de tick ou de véhicule = « vitesse » (attribute.name.*_speed) ; Sprinting Speed reste « rapidité de course »"
+ },
+ {
+  "anglais": "health",
+  "francais": "vie",
+  "cles": "^(?:fancymenu\\.placeholders\\.world\\.|colorfulhearts\\.|narration\\.jade\\.|quark\\.readout\\.|tooltip\\.paraglider\\.heart_container\\.|config\\.jade\\.plugin_minecraft\\.entity_health|entity_model_features\\.config\\.variable_explanation\\.|enchantment\\.dungeonsenchantments\\.)",
+  "interdits": [
+   "santé"
+  ],
+  "motif": "lot rendus-02 : les points de vie d'une entité sont des « points de vie », ou « vie » dans les composés, comme Mojang (vie maximale, Bonus de vie, Régénération de la vie) ; Mojang ne dit jamais « santé ». Limité aux mods qui affichent ces points ; ailleurs, health peut être figuré (« fatal à ta santé ») ou un nom d'effet (Instant Health = Soin instantané)"
+ },
+ {
+  "anglais": "ids?",
+  "francais": "ID",
+  "cles": "^(?:via_romana\\.midnightconfig\\.|tooltipoverhaul\\.config\\.frames\\.|remi\\.configuration\\.|fancymenu\\.helper\\.|entity_model_features\\.config\\.(?!function_explanation\\.)|config\\.entity_texture_features\\.|modernfix\\.option\\.|dialog\\.manager\\.|numismatics\\.authorization_type\\.)",
+  "interdits": [
+   "identifiant"
+  ],
+  "motif": "lot rendus-02 : un identifiant de registre, d'élément ou de mod (ID, IDs) s'écrit « ID », sigle invariable, comme Mojang (ID inconnu, ID du progrès) et le glossaire (Mod ID = ID du mod) ; « identifiant » reste pour l'anglais identifier"
+ },
+ {
+  "anglais": "edit",
+  "francais": [
+   "modifier",
+   "modifiez"
+  ],
+  "cles": "^(?:create\\.gui\\.schedule\\.|gui\\.exposure\\.album\\.|jm\\.(?!common\\.grid_edit$)|fancymenu\\.custom_guis\\.)",
+  "interdits": [
+   "éditer",
+   "éditez"
+  ],
+  "motif": "lot rendus-02 : le verbe Edit se rend « modifier », comme le glossaire (Edit = Modifier) et Mojang (selectWorld.edit = Modifier) ; les noms « éditeur » et « édition » ne sont pas visés"
+ },
+ {
+  "anglais": "mobs?",
+  "francais": "créature",
+  "cles": "^quark\\.category\\.mobs$",
+  "interdits": [
+   "monstre"
+  ],
+  "motif": "lot rendus-02 : la catégorie Mobs de Quark regroupe aussi les créatures passives ; réponse mob-ou-creature (creature-partout), comme Mojang"
+ },
+ {
+  "anglais": "flows?",
+  "francais": "flux",
+  "cles": "^create\\.ponder\\.",
+  "interdits": [
+   "flot"
+  ],
+  "motif": "lot rendus-03 : dans les ponders de Create, l'écoulement d'un fluide, d'air ou de trains (flow) est un « flux », comme la majorité du mod (flux d'air, flux des trains) ; « flot » s'y mêlait jusque dans une même scène"
+ },
+ {
+  "anglais": "dies",
+  "francais": "qui meurt",
+  "cles": "^(?!subtitles\\.(?:bogged|breeze)_death$).*(?:[Dd]eath|_dead)$",
+  "interdits": [
+   "mort"
+  ],
+  "motif": "lot rendus-03 : le sous-titre de mort d'une créature (« X dies ») s'écrit « X qui meurt », comme Mojang (« Vache qui meurt ») ; les sous-titres sans créature de Trials (« *dies* ») gardent « *meurt* »"
+ },
+ {
+  "anglais": "mini-?maps?",
+  "francais": "mini-carte",
+  "cles": "^(?!jm\\.waypoint\\.)",
+  "interdits": [
+   "minicarte",
+   "minimap"
+  ],
+  "motif": "lot rendus-03 : la mini-carte d'interface s'écrit « mini-carte », comme le glossaire (Toggle Minimap = Afficher/masquer la mini-carte, lot rq-03, jar JourneyMap) ; le nom du mod Rei's MiniMap (jm.waypoint.*) reste tel quel"
+ },
+ {
+  "anglais": "guis?",
+  "francais": "interface",
+  "cles": "^fancymenu\\.(?!commands\\.)",
+  "interdits": [
+   "GUI"
+  ],
+  "motif": "lot rendus-03 : dans FancyMenu, GUI se rend « interface » (« interface personnalisée », « échelle de l'interface »), comme le glossaire (Disable GUI = Désactiver l'interface) ; les messages d'erreur des commandes /openguiscreen et /closeguiscreen gardent « écran GUI » (décision fancymenu-2-01)"
+ },
+ {
+  "anglais": "bricks? slab",
+  "francais": [
+   "dalle de",
+   "dalle d'"
+  ],
+  "cles": "^block\\.",
+  "interdits": [
+   "dalle en"
+  ],
+  "motif": "lot rendus-03 : une dalle de pierre ou de briques s'écrit « Dalle de X », comme Mojang (Dalle de briques, Dalle de briques de résine) et STYLE §7 ; « Dalle en X » est réservé au bois"
+ },
+ {
+  "anglais": "bricks? wall",
+  "francais": [
+   "muret de",
+   "muret d'"
+  ],
+  "cles": "^block\\.",
+  "interdits": [
+   "muret en"
+  ],
+  "motif": "lot rendus-04 : un muret de pierre ou de briques s'écrit « Muret de X », comme Mojang (Muret de briques, Muret de briques de résine) et STYLE §7 ; « Muret en X » est réservé au bois"
+ },
+ {
+  "anglais": "sneak[- ]?right[- ]?click(?:s|ed|ing)?",
+  "francais": [
+   "clic droit en étant accroupi",
+   "clic droit accroupi"
+  ],
+  "cles": "^botania\\.page\\.",
+  "interdits": [
+   "shift-clic-droit"
+  ],
+  "motif": "lot rendus-04 : dans le lexique de Botania, sneak-right click se rend « clic droit en étant accroupi » (ou « clic droit accroupi »), comme le glossaire (Sneak = S'accroupir, Mojang) ; « shift-clic-droit » y coexistait pour le même geste"
+ },
+ {
+  "anglais": "leaf carpets?",
+  "francais": "tapis de feuilles",
+  "cles": "^block",
+  "interdits": [
+   "tapis en feuilles"
+  ],
+  "motif": "lot rendus-04 : un tapis de feuilles s'écrit « Tapis de feuilles de X », comme Mojang (Tapis de mousse), Atmospheric, Autumnity et le gabarit de Quark (« Tapis de feuilles en %s »)"
+ },
+ {
+  "anglais": "redstone signals?",
+  "francais": [
+   "signal de redstone",
+   "signaux de redstone"
+  ],
+  "interdits": [
+   "signal redstone"
+  ],
+  "motif": "lot rendus-04 : « signal de redstone », comme le glossaire (Ignore redstone signal = Ignore le signal de redstone, jar Refined Storage) et la majorité du pack ; le lexique de Botania disait « signal redstone »"
+ },
+ {
+  "anglais": "wardrobes?",
+  "francais": "penderie",
+  "cles": "^block",
+  "interdits": [
+   "armoire"
+  ],
+  "motif": "lot rendus-04 : Wardrobe = « penderie », comme Furnish, Macaw, Tanuki Decor et Cluttered ; « armoire » rend Cabinet (glossaire) et Armoire (Regal Armoire)"
+ },
+ {
+  "anglais": "unlock(?:s|ed|ing)?",
+  "francais": [
+   "débloquer",
+   "débloque",
+   "débloqué",
+   "débloquée",
+   "débloqués",
+   "débloquées",
+   "débloquent",
+   "débloquez"
+  ],
+  "cles": "^(?:[a-z]+\\.)?society(?:_trading|_skills)?\\.",
+  "interdits": [
+   "déverrouiller"
+  ],
+  "motif": "lot rendus-04 : dans Society, unlock au sens de la progression (boutiques, villageois, maîtrises, compétences) se rend « débloquer », comme STYLE (« Tu dois avoir débloqué… ») ; « déverrouiller » reste au sens d'un verrou (Mojang, Botania, Trash Slot)"
+ },
+ {
+  "anglais": "royal blue",
+  "francais": "bleu roi",
+  "interdits": [
+   "bleu royal"
+  ],
+  "motif": "lot rendus-04 : Royal Blue = « bleu roi », comme Railways (44 textes) et coherence/exceptions.json"
+ },
+ {
+  "anglais": "biome blend|blends? (?:\\d+x\\d+|foliage|grass|water)",
+  "francais": [
+   "fondu",
+   "fondre"
+  ],
+  "interdits": [
+   "fusion",
+   "lissage"
+  ],
+  "motif": "lot rendus-05 : le fondu des couleurs entre biomes se dit « fondu », comme Mojang (options.biomeBlendRadius = « Fondu des biomes ») ; « Fondu 3x3 », « Fondu du feuillage », « Fondre les couleurs de l'herbe »"
+ },
+ {
+  "anglais": "overlays?",
+  "francais": "superposition",
+  "cles": "^(?:fancymenu|gui\\.createrailwaysnavigator|key\\.createrailwaysnavigator)\\.",
+  "interdits": [
+   "overlay"
+  ],
+  "motif": "lot rendus-05 : overlay (affichage superposé) = « superposition », comme le glossaire (Overlay = Superposition) ; FancyMenu et Create Railways Navigator gardaient « overlay »"
+ },
+ {
+  "anglais": "layouts?",
+  "francais": "disposition",
+  "cles": "^fancymenu\\.",
+  "interdits": [
+   "mise en page"
+  ],
+  "motif": "lot rendus-05 : dans FancyMenu, layout = « disposition », comme le glossaire (Layout = Disposition, jar FancyMenu) ; « mise en page » y coexistait"
+ },
+ {
+  "anglais": "skins?",
+  "francais": "skin",
+  "cles": "^fancymenu\\.",
+  "interdits": [
+   "peau"
+  ],
+  "motif": "lot rendus-05 : l'apparence du joueur se dit « skin » (masculin), comme Mojang (Skin du joueur) et le glossaire (Changer de skin) ; l'éditeur de FancyMenu disait « peau »"
+ },
+ {
+  "anglais": "(?:while|when) (?:sneaking|crouching)",
+  "francais": [
+   "accroupi",
+   "accroupie"
+  ],
+  "interdits": [
+   "en s'accroupissant"
+  ],
+  "motif": "lot rendus-05 : while/when sneaking = « en étant accroupi » (ou « accroupi »), comme Mojang (Temps passé accroupi) et la majorité du pack ; « en s'accroupissant » reste au geste lui-même (by sneaking)"
+ },
+ {
+  "anglais": "gated",
+  "francais": "à claire-voie",
+  "cles": "^block",
+  "interdits": [
+   "à barreaux"
+  ],
+  "motif": "lot rendus-05 : la porte Gated de Chipped se dit « à claire-voie », petites et grandes portes, comme la base (block_type.chipped.gated_door) ; « à barreaux » est la porte Barred"
+ },
+ {
+  "anglais": "shack",
+  "francais": "de cabane",
+  "cles": "^block",
+  "interdits": [
+   "rustique"
+  ],
+  "motif": "lot rendus-05 : la porte Shack de Chipped se dit « de cabane », petites et grandes portes, comme la base (block_type.chipped.shack_door) ; « rustique » est la porte Rustic de Many Ideas"
+ },
+ {
+  "anglais": "trials? (?:keys?|spawners?|vaults?|chambers?)",
+  "francais": "des épreuves",
+  "interdits": [
+   "d'épreuve"
+  ],
+  "motif": "lot rendus-05 : les objets et la structure des épreuves se disent « … des épreuves », comme Mojang (Clé des épreuves, Générateur des épreuves, Carte de chambres des épreuves) ; Présage d'épreuve (Trial Omen, Mojang) n'est pas visé"
+ },
+ {
+  "anglais": "render(?:ing)? distances?",
+  "francais": "distance d'affichage",
+  "interdits": [
+   "distance de rendu"
+  ],
+  "motif": "lot rendus-05 : render distance = « distance d'affichage », comme Mojang (options.renderDistance), Sodium, Bobby et Particle Rain ; JourneyMap, Iris et WaterFrames disaient « distance de rendu »"
+ },
+ {
+  "anglais": "hostile (?:mobs?|monsters?)",
+  "francais": [
+   "créature hostile",
+   "créatures passives et hostiles"
+  ],
+  "interdits": [
+   "monstre hostile",
+   "entité hostile"
+  ],
+  "motif": "lot rendus-05 : hostile mob = « créature hostile », comme Mojang (Tuez n'importe quelle créature hostile) et la réponse mob-ou-creature (creature-partout) ; « monstres hostiles » et « entités hostiles » y coexistaient"
+ },
+ {
+  "anglais": "network links?",
+  "francais": "liaison réseau",
+  "interdits": [
+   "lien réseau"
+  ],
+  "motif": "lot rendus-05 : le Network Link de Create Factory Logistics se dit « Liaison réseau », comme les liaisons de Create (Liaison de redstone, Liaison de stock, Liaison d'affichage)"
+ },
+ {
+  "anglais": "(?:shingle|tile|cut deepslate) slab",
+  "francais": [
+   "dalle de",
+   "dalle d'"
+  ],
+  "cles": "^block\\.create\\.",
+  "interdits": [
+   "dalle en"
+  ],
+  "motif": "lot rendus-06 : les dalles de cuivre et d'ardoise des abîmes de Create se disent « Dalle de X », comme Mojang (Dalle de cuivre taillé) et STYLE (« Dalle en » réservé au bois)"
+ },
+ {
+  "anglais": "(?:room|farm|tank|pantry|vault|chapter|quest|task) completed",
+  "francais": [
+   "terminé",
+   "terminée"
+  ],
+  "cles": "^ftbquests\\.",
+  "interdits": [
+   "complété"
+  ],
+  "motif": "lot rendus-06 : une quête, une tâche ou une salle du Centre communautaire « completed » est « terminée », comme l'interface FTB Quests (Quête terminée) et le glossaire (Terminer la Chaufferie)"
+ },
+ {
+  "anglais": "cottage",
+  "francais": "de chaumière",
+  "cles": "^block",
+  "interdits": [
+   "cottage"
+  ],
+  "motif": "lot rendus-06 : le style Cottage se dit « de chaumière » (portes et trappes Macaw, meubles Cluttered), décision de provenance : « porte cottage » est un anglicisme"
+ },
+ {
+  "anglais": "additional",
+  "francais": [
+   "supplémentaire",
+   "de plus"
+  ],
+  "cles": "^create\\.ponder\\.",
+  "interdits": [
+   "additionnel"
+  ],
+  "motif": "lot rendus-06 : additional = « supplémentaire », comme 43 textes du pack, Mojang et le glossaire"
+ },
+ {
+  "anglais": "waypoint manager",
+  "francais": "gestion des balises",
+  "interdits": [
+   "gestionnaire des balises"
+  ],
+  "motif": "lot rendus-06 : Waypoint Manager = « Gestion des balises », nom de l'écran de JourneyMap et FTB Chunks (glossaire, jar JourneyMap)"
+ },
+ {
+  "anglais": "targeted",
+  "francais": [
+   "ciblé",
+   "ciblée"
+  ],
+  "cles": "^(?:block\\.numismatics\\.salepoint|create\\.track_target|create\\.display_link)",
+  "interdits": [
+   "visé"
+  ],
+  "motif": "lot rendus-06 : targeted = « ciblé(e) » dans les messages de liaison de Create et de Numismatics (Rail ciblé sélectionné, Lié à l'interface ciblée)"
+ },
+ {
+  "anglais": "dynamic lighting",
+  "francais": "éclairage dynamique",
+  "interdits": [
+   "lumière dynamique"
+  ],
+  "motif": "lot rendus-06 : dynamic lighting = « éclairage dynamique » ; « Lumières dynamiques » reste au nom de la fonction (Dynamic Lights)"
+ },
+ {
+  "anglais": "melee",
+  "francais": "corps à corps",
+  "interdits": [
+   "mêlée"
+  ],
+  "motif": "lot rendus-06 : melee = « corps à corps » (dégâts, attaques, armes), comme les attributs Puffish, Society et le glossaire"
+ },
+ {
+  "anglais": "fantasy (?:catalog|collection|set)",
+  "francais": "fantastique",
+  "interdits": [
+   "fantaisie"
+  ],
+  "motif": "lot rendus-06 : la collection Fantasy de Society se dit « fantastique » (Catalogue fantastique, collection Fantastique), comme les boîtes fantastiques et le mod source (Mobilier fantastique)"
+ },
+ {
+  "anglais": "furniture catalogs?|rare furniture",
+  "francais": "meuble",
+  "interdits": [
+   "mobilier"
+  ],
+  "motif": "lot rendus-06 : dans Society, Furniture Catalog = « catalogue de meubles » et rare furniture = « meubles rares », comme les quêtes, conseils et boutiques"
+ },
+ {
+  "anglais": "cracked(?! (?:\\w+ )?egg)",
+  "francais": [
+   "craquelé",
+   "craquelée"
+  ],
+  "interdits": [
+   "fissuré"
+  ],
+  "motif": "lot rendus-06 : cracked (bloc) = « craquelé », comme Mojang (Pierre taillée craquelée) ; les oeufs (« Oeuf fêlé », « Oeuf de Wraptor fissuré ») relèvent d'un autre sens"
+ },
+ {
+  "anglais": "wet season|(?:early|mid|late) wet",
+  "francais": "saison humide",
+  "interdits": [
+   "saison des pluies"
+  ],
+  "motif": "lot rendus-06 : Wet Season = « saison humide », pendant de « saison sèche », comme Serene Seasons et la quête de départ"
+ },
+ {
+  "anglais": "hold shift",
+  "francais": "maj",
+  "interdits": [
+   "shift"
+  ],
+  "motif": "lot rendus-06 : la touche Shift se dit « Maj », comme Mojang (Maj. gauche) et le glossaire (Shift = Maj)"
+ },
+ {
+  "anglais": "(?<!enhanced )block ?entit(?:y|ies)",
+  "francais": "entité de bloc",
+  "interdits": [
+   "bloc-entité"
+  ],
+  "motif": "lot rendus-06 : block entity = « entité de bloc », comme Mojang (commands.data.block.invalid) ; Enhanced Block Entities, nom de mod, n'est pas visé"
+ },
+ {
+  "anglais": "selects? whether",
+  "francais": "sélectionner si",
+  "cles": "^config\\.entity_texture_features\\.property_explanation\\.",
+  "interdits": [
+   "définit si"
+  ],
+  "motif": "lot rendus-06 : les explications des propriétés ETF commencent par « Sélectionner si », comme 9 des 13 textes de la série"
+ },
+ {
+  "anglais": "font scal(?:e|ing)",
+  "francais": "taille de police",
+  "interdits": [
+   "taille des caractères",
+   "taille de caractère",
+   "échelle de la police"
+  ],
+  "motif": "lot rq-03 : réponse de l'utilisateur du 06/10 (taille-de-police, « police ») : Font Scale = « Taille de police », comme Mojang (Options de police) ; remplace « taille des caractères » (lot rendus-06) et l'« Échelle de la police » de FTB Chunks"
+ },
+ {
+  "anglais": "brown",
+  "francais": "marron",
+  "cles": "^block\\.supplementaries\\.",
+  "interdits": [
+   "brun"
+  ],
+  "motif": "lot rendus-06 : la couleur de teinture brown = « marron », comme Mojang (Bannière marron) ; « brun » reste aux choses naturelles"
+ },
+ {
+  "anglais": "working area",
+  "francais": "zone d'action",
+  "cles": "^(?!create\\.|portable_blueprints)",
+  "interdits": [
+   "zone de travail",
+   "zone d'effet"
+  ],
+  "motif": "lot rendus-06 : la zone couverte par une machine Society se dit « zone d'action », comme la loupe et le glossaire ; le schematicannon de Create et le scanner de Portable Blueprints ne sont pas visés"
+ },
+ {
+  "anglais": "crafter",
+  "francais": "fabricateur",
+  "cles": "^(?:block\\.(?:quark|trials)\\.crafter$|chat\\.classicpipes\\.)",
+  "interdits": [
+   "crafteur"
+  ],
+  "motif": "lot rendus-07 : le Crafter vanilla (Quark, Trials, Classic Pipes) = « Fabricateur », comme Mojang ; le Crafteur de Refined Storage n'est pas visé"
+ },
+ {
+  "anglais": "explorer map",
+  "francais": "carte d'exploration",
+  "interdits": [
+   "carte d'explorateur"
+  ],
+  "motif": "lot rendus-07 : Explorer Map = « Carte d'exploration de/des … », comme Mojang (Carte d'exploration des jungles)"
+ },
+ {
+  "anglais": "rubber ?wood|rubber tree",
+  "francais": "hévéa",
+  "cles": "^block\\.dramaticdoors\\.",
+  "interdits": [
+   "bois de caoutchouc"
+  ],
+  "motif": "lot rendus-07 : le bois d'arbre à caoutchouc des portes Dramatic Doors = « hévéa » (Rubberwood, Rubber Tree Plank, Rubber Wood)"
+ },
+ {
+  "anglais": "schedule section",
+  "francais": "section de planning",
+  "cles": "createrailwaysnavigator\\..*description$",
+  "interdits": [
+   "section d'horaire"
+  ],
+  "motif": "lot rendus-07 : la schedule section de Create Railways Navigator est une section du planning de train de Create ; l'instruction elle-même s'affiche « Nouvelle section » (largeur) et n'est pas visée"
+ },
+ {
+  "anglais": "farmhouse",
+  "francais": "maison de ferme",
+  "motif": "lot rendus-07 : farmhouse = « Maison de ferme », nom des plans portables, de la boutique, des quêtes et du journal"
+ },
+ {
+  "anglais": "passion vine",
+  "francais": "passiflore",
+  "interdits": [
+   "grenadille"
+  ],
+  "motif": "lot rendus-07 : la liane d'Atmospheric est de la passiflore (STYLE §7, radical « passi » commun pour la recherche)"
+ },
+ {
+  "anglais": "coupler",
+  "francais": "coupleur",
+  "cles": "railways",
+  "interdits": [
+   "attelage à vis"
+  ],
+  "motif": "lot rendus-07 : les attelages de Railways nommés Coupler sont des « coupleurs » (réponse attelage-knuckle) ; Link 'n Pin, sans Coupler en anglais, reste « attelage à broche »"
+ },
+ {
+  "anglais": "stress(?! on coupl)",
+  "francais": "stress",
+  "interdits": [
+   "contrainte"
+  ],
+  "motif": "lot rendus-07 : le stress cinétique de Create se dit « stress » (capacité de stress, stressomètre) ; « Stress on Couplings » (tension des attelages) n'est pas visé"
+ },
+ {
+  "anglais": "grandfather'?s? clock",
+  "francais": "horloge comtoise",
+  "interdits": [
+   "horloge de parquet"
+  ],
+  "motif": "lot rendus-07 : Grandfather Clock = « Horloge comtoise » (Furniture, Tanuki Decor)"
+ },
+ {
+  "anglais": "(?<!-)formatting(?! replacements)",
+  "francais": "mise en forme",
+  "interdits": [
+   "formatage"
+  ],
+  "motif": "lot rendus-07 : formatting = « mise en forme » ; les adresses (text-formatting) ne sont pas visées ; ni les textes de débogage de JEI (« formatting replacements », jamais affichés)"
+ },
+ {
+  "anglais": "increases? the chances? (?:of|for)",
+  "francais": "les chances",
+  "interdits": [
+   "la chance"
+  ],
+  "motif": "lot rendus-07 : « increases the chance of » = « augmente les chances », comme Mojang (Chance de la mer) ; « la chance » se confond avec l'attribut luck"
+ },
+ {
+  "anglais": "tile windowed",
+  "francais": "à fenêtre à carreaux",
+  "interdits": [
+   "fenêtre carrelée"
+  ],
+  "motif": "lot rendus-07 : Tile Windowed Door = « Porte à fenêtre à carreaux » (Dramatic Doors, gabarit everycomp/chipped)"
+ },
+ {
+  "anglais": "wandering (?:winemaker|baker)",
+  "francais": "errant",
+  "interdits": [
+   "ambulant"
+  ],
+  "motif": "lot rendus-07 : les PNJ ambulants de Let's Do sont « errants » (Vigneron errant, glossaire ; Boulanger errant) ; le Marchand ambulant de Mojang n'est pas visé"
+ },
+ {
+  "anglais": "\\w?artisan cheese press(?:es)?",
+  "francais": "presse à fromage artisanale",
+  "interdits": [
+   "presse à fromage d'artisan"
+  ],
+  "motif": "lot rendus-07 : Artisan Cheese Press = « Presse à fromage artisanale », nom affiché de block.society.cheese_press"
+ },
+ {
+  "anglais": "feeding (?:upgrade|settings)",
+  "francais": "alimentation",
+  "cles": "sophisticated",
+  "interdits": [
+   "nourrissage"
+  ],
+  "motif": "lot rendus-07 : Feeding Upgrade de Sophisticated = « Amélioration d'alimentation », et ses paramètres « Paramètres d'alimentation »"
+ },
+ {
+  "anglais": "signs?",
+  "francais": "pancarte",
+  "cles": "^quark\\.jei\\.hint\\.",
+  "interdits": [
+   "panneau"
+  ],
+  "motif": "lot rendus-09 : dans les indices JEI de Quark, le Sign vanilla est une « pancarte » (édition des pancartes, cadre en verre posé contre une pancarte au sol), comme Mojang et le terme imposé du lot rendus-01"
+ },
+ {
+  "anglais": "bricks?",
+  "francais": [
+   "taillé",
+   "taillée"
+  ],
+  "cles": "^block\\.(?:cluttered\\.(?:deep_)?(?:chalcedony|marble)_brick|meadow\\.(?:cracked_|mossy_)?limestone_brick|twigs\\.(?:chiseled_smooth_basalt|cracked_polished_(?:bloodstone|calcite|rhyolite|schist)|polished_(?:basalt|bloodstone|calcite|rhyolite|schist)|smooth_(?:basalt|stone))_brick|windswept\\.(?:chiseled_|icy_)?polished_shale_brick|dramaticdoors\\.(?:short|tall)_limestone_brick_(?:large|small)_door)",
+  "portee": "noms",
+  "interdits": [
+   "briques"
+  ],
+  "motif": "lot rq-01 : réponse de l'utilisateur du 06/10 (briques-ou-taille, « taille-partout ») : les « X Bricks » en pierre des mods (Twigs, Windswept, Cluttered, Meadow, Dramatic Doors) se disent « X taillé(e) », comme Mojang (Pierre taillée) ; Create est traité à part"
+ },
+ {
+  "anglais": "bricks?",
+  "francais": [
+   "taillé en briques",
+   "taillée en briques"
+  ],
+  "cles": "^block\\.(?:atmospheric\\.(?:red_)?arid_sandstone_brick|quark\\.(?:red_|soul_)?sandstone_bricks|windswept\\.(?:chiseled_)?cut_lunalite_brick)",
+  "portee": "noms",
+  "interdits": [
+   "briques de"
+  ],
+  "motif": "lot rq-01 : réponse de l'utilisateur du 06/10 (briques-ou-taille, « taille-partout ») : les briques de grès (Quark, Atmospheric) et de lunalite (Windswept) se disent « X taillé(e) en briques », car « X taillé(e) » nomme déjà le Cut X (Mojang : Grès taillé)"
+ },
+ {
+  "anglais": "bricks?",
+  "francais": [
+   "coupé taillé",
+   "coupée taillée"
+  ],
+  "cles": "^block\\.create\\.cut_[a-z]+_brick",
+  "portee": "noms",
+  "interdits": [
+   "briques"
+  ],
+  "motif": "lot rq-02 : réponse de l'utilisateur du 06/10 (briques-ou-taille, « taille-partout ») : les « Cut X Bricks » de Create se disent « X coupé(e) taillé(e) » (« Andésite coupée taillée »), comme Mojang (Pierre taillée, Ardoise des abîmes taillée) ; les « Small X Bricks » gardent « Petites briques de X », hors de la question"
+ },
+ {
+  "anglais": "sold in market",
+  "francais": "en vente au Marché",
+  "cles": "^almanac/",
+  "portee": "textes",
+  "interdits": [
+   "vendues au Marché",
+   "vendus au Marché"
+  ],
+  "motif": "lot rq-03 : réponse de l'utilisateur du 06/10 (almanach-en-vente, « en-vente ») : la note des fiches de l'almanach « Seeds/Saplings sold in Market after first year » se dit « Graines/Pousses en vente au Marché… » ; « vendues » se lisait à l'envers"
+ },
+ {
+  "anglais": "picket fence",
+  "francais": [
+   "barrière à piquets",
+   "portillon à piquets"
+  ],
+  "portee": "noms",
+  "interdits": [
+   "palissade"
+  ],
+  "motif": "lot rq-03 : réponse de l'utilisateur du 06/10 (barriere-a-piquets, « barrière ») : Picket Fence (Gate) = « Barrière (Portillon) à piquets », mots de Mojang ; « Palissade » reste aux Palisade et Stockade Fence"
+ },
+ {
+  "anglais": "bottle",
+  "francais": "fiole",
+  "cles": "^(?!.*milk)(?:item\\.amendments\\.dye_bottle|item\\.atmospheric\\.aloe_gel_bottle|item\\.autumnity\\.sap_bottle|item\\.autumnity\\.syrup_bottle|item\\.buzzier_bees\\.bee_bottle|item\\.buzzier_bees\\.endermite_bottle|item\\.buzzier_bees\\.silverfish_bottle|item\\.longwings\\.apple_butterfly_brew_bottle|item\\.longwings\\.berry_butterfly_brew_bottle|item\\.longwings\\.melon_butterfly_brew_bottle|item\\.supplementaries\\.lumisene_bottle|item\\.vintagedelight\\.apple_sauce_bottle|item\\.vintagedelight\\.nut_mash_bottle|item\\.vintagedelight\\.relish_bottle|item\\.vintagedelight\\.vinegar_bottle|item\\.windswept\\.pinecone_jam_bottle|item\\.trials\\.ominous_bottle|ftbquests\\.chapter\\.iv__prismatic_farming\\.quest68915F617033BDF9\\.description3)$",
+  "interdits": [
+   "bouteille"
+  ],
+  "motif": "lot rq-03 : réponse de l'utilisateur du 06/10 (fiole-ou-bouteille, « fiole », et ominous-funeste) : les « X Bottle » des mods dont le contenant est la Fiole de Mojang (minecraft:glass_bottle, vérifié recette par recette) se disent « Fiole de X », comme « Fiole de miel » ; une vraie bouteille du pack (Bouteille de vin, Bouteille de lait, Message dans une bouteille) garde « bouteille », d'où la liste fermée ; lot rq-05a : réponse de l'utilisateur du 06/10 (lait-en-bouteille, « bouteille ») : le lait garde « Bouteille », lait de cacahuète et ichor du mammutilation compris (« on ne parle pas de fiole de lait ») ; leurs clés sortent de la liste, et toute clé « milk » est exclue"
+ },
+ {
+  "anglais": "wildcards?",
+  "francais": "caractère générique",
+  "interdits": [
+   "joker"
+  ],
+  "motif": "lot rq-03 : réponse de l'utilisateur du 06/10 (joker-ou-caractere-generique, « caractère générique ») : wildcard = « caractère générique », comme Create et JEI"
+ },
+ {
+  "anglais": "lag",
+  "francais": [
+   "ralentissement",
+   "ralentir"
+  ],
+  "cles": "^(?!horseman\\.|sodium)",
+  "interdits": [
+   "lag",
+   "latence"
+  ],
+  "motif": "lot rq-03 : réponse de l'utilisateur du 06/10 (lag-ou-ralentissement, « ralentissement ») : le jeu ou le serveur qui rame = « ralentissement » ; « latence » est le retard du réseau ; la caméra de Horseman et Sodium (retards, pas des baisses de performance) ne sont pas visés"
+ },
+ {
+  "anglais": "thank you for playing",
+  "francais": "merci de jouer",
+  "interdits": [
+   "merci d'avoir joué"
+  ],
+  "motif": "lot rq-03 : réponse de l'utilisateur du 06/10 (merci-de-jouer, « de-jouer ») : « Thank you for playing X! » = « Merci de jouer à X ! », comme Society (« Merci de jouer ! »)"
+ },
+ {
+  "anglais": "ominous",
+  "francais": "funeste",
+  "interdits": [
+   "inquiétant",
+   "inquiétante"
+  ],
+  "motif": "lot rq-03 : réponse de l'utilisateur du 06/10 (ominous-funeste, « funeste ») : Ominous = « funeste », comme Mojang (Fiole funeste, Clé des épreuves funeste, Bannière funeste)"
+ },
+ {
+  "anglais": "overgrown",
+  "francais": "envahie de végétation",
+  "cles": "^block\\.dramaticdoors\\.short_chipped_overgrown_|^block_type\\.chipped\\.overgrown_",
+  "portee": "noms",
+  "interdits": [
+   "verdoyante"
+  ],
+  "motif": "lot rq-03 : réponse de l'utilisateur du 06/10 (portes-envahies, « envahie ») : les portes, trappes et bûches Overgrown de Chipped et leurs petites portes de Dramatic Doors se disent « envahie de végétation »"
+ },
+ {
+  "anglais": "pride",
+  "francais": "fiertés",
+  "cles": "^galena_hats\\.hat_type\\.(?:arrow_)?pride$|^text\\.autoconfig\\.ribbits-fabric-1_20_1\\.option\\.general\\.prideFlag|^quark\\.gui\\.celebration\\.pm$",
+  "interdits": [
+   "pride"
+  ],
+  "motif": "lot rq-03 : réponse de l'utilisateur du 06/10 (pride-ou-fiertes, « fiertés ») : la Pride (marche et mois des fiertés) = « des fiertés », comme Quark ; l'orgueil de Botania, la fierté comme sentiment et le disque « CPH101 - Pride » ne sont pas visés"
+ },
+ {
+  "anglais": "extension",
+  "francais": "extension",
+  "cles": "^block\\.railways\\.smokestack_[a-z]+_extension$|^block\\.create\\.steam_whistle_extension$",
+  "portee": "noms",
+  "interdits": [
+   "rallonge"
+  ],
+  "motif": "lot rq-03 : réponse de l'utilisateur du 06/10 (rallonge-de-cheminee, « extension ») : Smokestack Extension = « Extension de cheminée », comme Create (Extension de sifflet à vapeur)"
+ },
+ {
+  "anglais": "cobbled",
+  "francais": "pierres de roche alpine",
+  "cles": "^block\\.meadow\\.(?:mossy_)?cobbled_limestone",
+  "portee": "noms",
+  "interdits": [
+   "concassée",
+   "concassé"
+  ],
+  "motif": "lot rq-03 : réponse de l'utilisateur du 06/10 (roche-alpine-concassee, « pierres ») : Cobbled Alpinestone = « Pierres de roche alpine », comme Mojang (Pierres, Pierres des abîmes, Pierres moussues)"
+ },
+ {
+  "anglais": "favou?rite foods?",
+  "francais": "aliment préféré",
+  "cles": "^(?:society\\.slime_ticket\\.|tooltip\\.society\\.slime_ticket$|trait\\.splendid_slimes\\.|ftbquests\\.chapter\\.iii__advanced_farming\\.)",
+  "interdits": [
+   "nourriture préférée",
+   "plat préféré"
+  ],
+  "motif": "lot rq-03 : réponse de l'utilisateur du 06/10 (slimes-aliment-prefere, « aliment ») : le favorite food d'un Slime = « aliment préféré » ; les plats préférés de Candlelight ne sont pas visés"
+ },
+ {
+  "anglais": "hid(?:e|es|den|ing)",
+  "francais": [
+   "masquer",
+   "masque",
+   "masqué",
+   "masquée"
+  ],
+  "cles": "^(?:config\\.craftingtweaks\\.client\\.hideVanillaCraftingGuide|config\\.craftingtweaks\\.client\\.hideVanillaCraftingGuide\\.tooltip|config\\.jade\\.boss_bar_overlap_extra_msg|config\\.jade\\.boss_bar_overlap_hide_boss_bar|config\\.jade\\.boss_bar_overlap_hide_tooltip|config\\.jade\\.display_item_extra_msg|config\\.jade\\.display_item_hide|config\\.jade\\.hide_from_debug|config\\.jade\\.hide_from_debug_desc|config\\.jade\\.hide_from_tab_list|config\\.jade\\.hide_from_tab_list_desc|config\\.ok_zoomer\\.tweaks\\.hide_crosshair|config\\.ok_zoomer\\.tweaks\\.hide_crosshair\\.tooltip|configurationtool\\.configmode\\.toggle_numbers|configurationtool\\.configmode\\.toggle_render|configurationtool\\.configmode\\.toggle_upgrades|drippyloadingscreen\\.edit_loading_screen\\.desc|emi\\.edit_mode\\.hide_all|emi\\.edit_mode\\.hide_one|ftbchunks\\.gui\\.chunk_info\\.text|ftbchunks\\.label\\.hide|gui\\.createrailwaysnavigator\\.common\\.collapse|gui\\.jei\\.editMode\\.description\\.hide|immersive_paintings\\.hide|immersive_paintings\\.visibility|jei\\.tooltip\\.lookupHistory\\.disable|jm\\.common\\.hide_buttons|jm\\.common\\.radar_hide_sneaking|jm\\.minimap\\.hotkeys_toggle|jm\\.options\\.multiplayer\\.radar\\.hide_self_underground|jm\\.server\\.edit\\.hide_ops|jm\\.server\\.radar_hide_spectators\\.tooltip|jm\\.waypoint\\.auto_hide_label|jm\\.waypoint\\.auto_hide_label\\.tooltip|key\\.emi\\.hide_stack|key\\.emi\\.hide_stack_by_id|key\\.ftbchunks\\.toggle_minimap|key\\.jei\\.toggleBookmarkOverlay|key\\.jei\\.toggleOverlay|key\\.journeymap\\.map_toggle_alt|key\\.journeymap\\.minimap_toggle_alt|key\\.trashslot\\.toggle|option\\.NoChatReports\\.alwaysHideReportButton|option\\.NoChatReports\\.hideInsecureMessageIndicators|option\\.NoChatReports\\.hideModifiedMessageIndicators|option\\.NoChatReports\\.hideSigningRequestMessage|option\\.NoChatReports\\.hideSystemMessageIndicators|option\\.NoChatReports\\.hideWarningToast|options\\.iris\\.gui\\.hide|puzzlesapi\\.screen\\.style\\.noBasePlate\\.description|scholar\\.configuration\\.hide_offhand_item|treechop\\.gui\\.settings\\.tooltip\\.felling_options\\.off|gui\\.jei\\.editMode\\.description\\.hide\\.wild)$",
+  "interdits": [
+   "cacher",
+   "cache",
+   "caché",
+   "cachée"
+  ],
+  "motif": "lot rq-03 : réponse de l'utilisateur du 06/10 (masquer-ou-cacher, « masquer ») : Hide dans l'interface (boutons, options, infobulles d'affichage) = « Masquer », comme Mojang (« Masquer dans le tchat ») ; « caché » au sens de dissimulé reste (Progrès caché, trésors), d'où la liste fermée des libellés d'interface"
+ },
+ {
+  "anglais": "toggle mini-?map",
+  "francais": "afficher/masquer la mini-carte",
+  "interdits": [
+   "cacher"
+  ],
+  "motif": "lot rq-03 : réponse de l'utilisateur du 06/10 (masquer-ou-cacher, « masquer ») : Toggle Minimap = « Afficher/masquer la mini-carte » (glossaire), comme « Afficher/masquer la grande carte »"
+ },
+ {
+  "anglais": "lunch ?box(?:es)?",
+  "francais": "boîte à repas",
+  "interdits": [
+   "boîte-repas"
+  ],
+  "motif": "lot rq-04a, verdict majeur de mesure-finale-3 (06/10) sur society_tips.tip.lunchboxes : nom affiché de Lunchbox (item.solonion.lunchbox) ; « boîte-repas » était l'ancien rendu du tip"
+ },
+ {
+  "anglais": "feasts?",
+  "francais": "festin",
+  "cles": "^(?!item\\.netherdepthsupgrade\\.)",
+  "interdits": [
+   "fête"
+  ],
+  "motif": "lot rq-04a, verdict mineur de mesure-finale-3 (06/10) sur advancements.farmersdelight.place_feast.title : le mod dit « festin » (tag « Festins », effet « Festin ») ; sauf Nether Depths Upgrade, où « Feast on » est un verbe (« Régale-toi ») et « a feast for the senses » un « régal »"
  }
 ]

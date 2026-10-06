@@ -22,6 +22,7 @@ from coherence.controles.accents import exemptes as exemptes_accents, formes_uni
 from coherence.controles.anglais_residuel import exemptes, lexique
 from coherence.controles.casse import metiers_et_boutiques
 from coherence.controles.decisions import valeur_decidee
+from coherence.controles.nombres import nombres_en, nombres_fr
 from coherence.corpus import charger
 from coherence.modele import Options
 from coherence.police import lignes
@@ -393,6 +394,24 @@ class TestMutations(unittest.TestCase):
                     touchees.add(cle)
             return touchees
         self.detecter("terminologie", muter)
+
+    def test_nombre_change(self):
+        """Spec 3 §5 : un nombre de l'anglais changé dans le français (« 3 » devient « 4 »), là où il n'y figure
+        qu'une fois, est relevé."""
+        def muter(corpus, config, avant, rng):
+            candidates = []
+            for cle, fr in corpus.textes_projet():
+                if cle in avant:
+                    continue
+                en, nombres = nombres_en(corpus.anglais(cle)), nombres_fr(fr)
+                entier = next((n for n in en if n.isdigit() and nombres.count(n) == 1
+                               and len(re.findall(rf"(?<!\d){n}(?!\d)", fr)) == 1), None)
+                if entier:
+                    candidates.append((cle, fr, entier))
+            for cle, fr, entier in rng.sample(candidates, min(len(candidates), ECHANTILLON)):
+                corpus.fr[cle] = re.sub(rf"(?<!\d){entier}(?!\d)", str(int(entier) + 1), fr)
+                yield cle
+        self.detecter("nombres", muter, regles={"nombres": True})
 
 
 if __name__ == "__main__":

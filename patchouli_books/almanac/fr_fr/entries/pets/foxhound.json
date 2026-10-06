@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Cadeaux possibles :$()$(br)Chapeau de feux d'artifice$(br2)$(l)Apprivoisement$()$(br)Donne-lui du charbon pendant que tu as l'effet Résistance au feu."
+            "text": "$(l)Cadeaux possibles :$()$(br)Feux d'artifice (chapeau)$(br2)$(l)Apprivoisement$()$(br)Donne-lui du charbon pendant que tu as l'effet Résistance au feu."
         },
         {
             "type": "patchouli:entity",

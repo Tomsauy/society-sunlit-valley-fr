@@ -1,10 +1,10 @@
 {
   "colorfulhearts.options.button.absorption_colors": "Absorption",
   "colorfulhearts.options.button.absorption_over_health.false": "Absorption : séparée",
-  "colorfulhearts.options.button.absorption_over_health.true": "Absorption : par-dessus la santé",
+  "colorfulhearts.options.button.absorption_over_health.true": "Absorption : par-dessus la vie",
   "colorfulhearts.options.button.cancel": "Annuler",
   "colorfulhearts.options.button.confirmsave": "Sauvegarder et quitter",
-  "colorfulhearts.options.button.health_colors": "Santé",
+  "colorfulhearts.options.button.health_colors": "Vie",
   "colorfulhearts.options.button.hearttype.frozen": "Gelé",
   "colorfulhearts.options.button.hearttype.normal": "Normal",
   "colorfulhearts.options.button.hearttype.poisoned": "Empoisonné",
@@ -15,5 +15,5 @@
   "colorfulhearts.screen.configuration.colors.category": "Couleurs",
   "colorfulhearts.screen.configuration.title": "Colorful Hearts",
   "colorfulhearts.screen.configuration.tweaks.category": "Ajustements",
-  "colorfulhearts.screen.health.title": "Couleurs de santé"
+  "colorfulhearts.screen.health.title": "Couleurs de vie"
 }

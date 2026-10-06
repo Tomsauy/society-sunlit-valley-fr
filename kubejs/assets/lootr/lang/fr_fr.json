@@ -8,5 +8,14 @@
   "entity.lootr.lootr_minecart": "Wagonnet de stockage",
   "item.lootr.crown": "Couronne du maître pillard",
   "lootr.advancements.10loot.title": "À la douzaine",
-  "lootr.advancements.25loot.title": "Coude à coude"
+  "lootr.advancements.25loot.title": "Coude à coude",
+  "lootr.advancements.root.description": "Apportez du butin instancié, par joueur, dans votre monde.",
+  "lootr.advancements.root.title": "Sa place est dans un musée",
+  "lootr.advancements.social.title": "Le butin social",
+  "lootr.message.cart_should_sneak": "En détruisant le wagonnet, vous supprimez votre butin unique et les objets ! Pour le détruire, vous devez l'attaquer en étant accroupi.",
+  "lootr.message.decay_start": "Le conteneur commence à s'effriter à votre contact ! Il se décomposera complètement dans %s secondes.",
+  "lootr.message.decayed": "Le conteneur en décomposition s'effrite à votre contact !",
+  "lootr.message.invalid_table": "Erreur de mod [%s] ! La table de butin pour ce conteneur [%s] n'a pas été trouvée et le butin n'a pas pu être généré. Merci de consulter votre `latest.log` pour trouver les erreurs de chargement.",
+  "lootr.message.refreshed": "À votre contact, le contenu du conteneur est renouvelé !",
+  "lootr.message.should_sneak2": "Comme le butin est %s, détruisez le coffre seulement si c'est vraiment nécessaire."
 }

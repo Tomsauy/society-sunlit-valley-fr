@@ -2,6 +2,8 @@
   "block.etched.album_jukebox": "Jukebox à albums",
   "block.etched.etching_table": "Table de gravure",
   "block.etched.radio": "Radio",
+  "container.etched.album_jukebox": "Jukebox à albums",
+  "container.etched.etching_table": "Table de gravure",
   "container.etched.etching_table.url": "URL de la musique",
   "container.etched.radio": "Radio",
   "container.etched.radio.url": "URL de la radio",
@@ -15,8 +17,11 @@
   "item.etched.jukebox_minecart": "Wagonnet à jukebox",
   "item.etched.music_label": "Label musical",
   "item.etched.portal_radio": "Radio du portail",
+  "record.etched.resolvingTracks": "Résolution des pistes...",
   "screen.etched.etching_table.error.cannot_create": "Impossible de créer le disque",
   "screen.etched.etching_table.error.cannot_create.missing_disc": "Disque vide manquant",
   "screen.etched.etching_table.error.cannot_create.missing_label": "Label musical manquant",
-  "sound_source.etched.radio": "Station de radio"
+  "screen.etched.etching_table.error.invalid_url": "URL invalide",
+  "sound_source.etched.radio": "Station de radio",
+  "sound_source.etched.requesting": "Requête auprès de %s..."
 }

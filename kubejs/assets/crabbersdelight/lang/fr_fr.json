@@ -17,7 +17,7 @@
   "crabbersdelight.advancement.a_shrimp_fried_this_rice": "Une crevette a frit ce riz ?!",
   "crabbersdelight.advancement.a_shrimp_fried_this_rice.desc": "Tu es sérieusement en train de me dire qu'une CREVETTE a frit ce riz ?! Impossible",
   "crabbersdelight.advancement.cook_crustaceans": "Station de cuisson des crustacés",
-  "crabbersdelight.advancement.cook_crustaceans.desc": "Cuis crabes, crevettes et clawsters en les faisant bouillir dans une marmite",
+  "crabbersdelight.advancement.cook_crustaceans.desc": "Cuis des crabes, des crevettes et des clawsters en les faisant bouillir dans une marmite",
   "crabbersdelight.advancement.craft_crab_trap": "C'est un piège !",
   "crabbersdelight.advancement.craft_crab_trap.desc": "Utilise de la corde, des dalles et des bâtons pour fabriquer ton premier casier à crabes",
   "crabbersdelight.advancement.frog_killer": "Ça a un goût de poulet",
@@ -85,9 +85,9 @@
   "item.crabbersdelight.stuffed_nautilus_shell": "Nautile farci",
   "item.crabbersdelight.surf_and_turf": "Terre et mer",
   "item.crabbersdelight.tropical_fish_slice": "Tranche de poisson tropical crue",
-  "item.minecraft.lingering_potion.effect.inky_potion": "Potion persistante d'encre",
+  "item.minecraft.lingering_potion.effect.inky_potion": "Potion d'encre persistante",
   "item.minecraft.potion.effect.inky_potion": "Potion d'encre",
-  "item.minecraft.splash_potion.effect.inky_potion": "Potion jetable d'encre",
+  "item.minecraft.splash_potion.effect.inky_potion": "Potion d'encre jetable",
   "item.minecraft.tipped_arrow.effect.inky_potion": "Flèche d'encre",
   "itemGroup.crabbersdelight": "Crabber's Delight"
 }

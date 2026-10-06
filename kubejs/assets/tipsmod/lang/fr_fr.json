@@ -1,5 +1,20 @@
 {
   "gui.tips.list.config": "Configuration",
+  "gui.tips.list.entry.tip_id": "ID du conseil : %s",
   "gui.tips.list.search": "Rechercher",
-  "tipsmod.tip.endermites": "Il y a une petite chance qu'un Endermite apparaisse lorsqu'une perle de l'Ender atterrit."
+  "tipsmod.tip.arthropods": "Les araignées, les poissons d'argent, les abeilles et les Endermites subissent tous des dégâts de Fléau des arthropodes.",
+  "tipsmod.tip.blaze_fuel": "Les bâtons de Blaze sont un bon combustible pour les fourneaux.",
+  "tipsmod.tip.dog_health": "Plus la queue d'un chien est courte, moins il lui reste de points de vie.",
+  "tipsmod.tip.dog_rotten_flesh": "Vous pouvez guérir vos chiens en les nourrissant de chair putréfiée.",
+  "tipsmod.tip.dripstone_lava": "Un spéléothème pointu situé sous de la lave fera lentement couler des particules de lave. Vous pouvez vous en servir pour remplir un chaudron.",
+  "tipsmod.tip.endermites": "Il y a une petite chance qu'un Endermite apparaisse lorsqu'une perle de l'Ender atterrit.",
+  "tipsmod.tip.fortress_triangulation": "Vous pouvez trianguler l'emplacement des forts en lançant un oeil de l'Ender à deux endroits différents et en repérant où les deux trajectoires se croisent.",
+  "tipsmod.tip.mushroom_biome_spawns": "Les créatures hostiles ne peuvent pas apparaître dans les champs de champignons.",
+  "tipsmod.tip.piglin_repellent": "Les Piglins ont peur des blocs de feu des âmes, y compris de la torche des âmes et de la lanterne des âmes.",
+  "tipsmod.tip.sponge_bucket": "Les éponges mouillées peuvent être séchées en les cuisant dans un fourneau. S'il y a un seau vide dans l'emplacement du combustible, le seau récupérera l'eau !",
+  "tipsmod.tip.string_wool": "Les ficelles peuvent être assemblées en 2x2 pour faire de la laine.",
+  "tipsmod.tip.undead_damage": "Les monstres morts-vivants comme les squelettes subissent des dégâts avec les potions de soin et sont soignés par les potions de dégâts.",
+  "tipsmod.tip.villager_sweat": "Les villageois transpirent lorsque l'on essaie de commercer avec eux pendant un raid.",
+  "tipsmod.tip.water_grass": "L'eau permet de briser rapidement les touffes d'herbe et d'obtenir des graines.",
+  "tipsmod.tip.wooden_tool_fuel": "Les vieux outils en bois peuvent être utilisés comme combustible dans le fourneau."
 }

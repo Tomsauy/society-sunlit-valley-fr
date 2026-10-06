@@ -1,5 +1,5 @@
 {
-  "sodium.console.broken_nvidia_driver": "Les pilotes graphiques NVIDIA ne sont pas à jour !\n  * Cela provoquera de graves problèmes de performances et des plantages avec Embeddium installé.\n  * Mettre à jour les pilotes graphiques vers la dernière version (version 536.23 ou plus récente.)",
+  "sodium.console.broken_nvidia_driver": "Les pilotes graphiques NVIDIA ne sont pas à jour !\n  * Cela provoquera de graves problèmes de performances et des plantages avec Embeddium installé.\n  * Mettre à jour les pilotes graphiques vers la dernière version (version 536.23 ou plus récente).",
   "sodium.console.core_shaders_error": "Les packs de ressources suivants sont incompatibles avec Embeddium :",
   "sodium.console.core_shaders_info": "Consulter le journal du jeu pour des informations détaillées.",
   "sodium.console.core_shaders_warn": "Les packs de ressources suivants peuvent être incompatibles avec Embeddium :",

@@ -10,8 +10,8 @@
   "gui.comforts.config.dayWakeTimeOffset.name": "Décalage du réveil nuit vers jour",
   "gui.comforts.config.hammockUse.description": "Moment de la journée où les hamacs peuvent être utilisés.",
   "gui.comforts.config.hammockUse.name": "Moment de la journée pour utiliser les hamacs",
-  "gui.comforts.config.hammocksStopPhantoms.description": "Si activé, tenter de faire la sieste dans un hamac empêche les phantoms d'apparaître.",
-  "gui.comforts.config.hammocksStopPhantoms.name": "Les hamacs empêchent les phantoms",
+  "gui.comforts.config.hammocksStopPhantoms.description": "Si activé, tenter de faire la sieste dans un hamac empêche les Phantoms d'apparaître.",
+  "gui.comforts.config.hammocksStopPhantoms.name": "Les hamacs empêchent les Phantoms",
   "gui.comforts.config.nightWakeTimeOffset.description": "Durée, en ticks, à ajouter ou à retirer à la nouvelle heure après avoir dormi durant une journée.",
   "gui.comforts.config.nightWakeTimeOffset.name": "Décalage du réveil jour vers nuit",
   "gui.comforts.config.restMultiplier.description": "Si restrictSleeping est vrai, cette valeur détermine la durée d'attente (plus le nombre est grand, plus le sommeil revient vite).",
@@ -26,9 +26,9 @@
   "gui.comforts.config.sleepingBagEffects.name": "Effets du sac de couchage",
   "gui.comforts.config.sleepingBagUse.description": "Moment de la journée où les sacs de couchage peuvent être utilisés.",
   "gui.comforts.config.sleepingBagUse.name": "Moment de la journée pour utiliser les sacs de couchage",
-  "gui.comforts.config.sleepingBagsStopPhantoms.description": "Si activé, tenter de dormir dans un sac de couchage empêche les phantoms d'apparaître.",
-  "gui.comforts.config.sleepingBagsStopPhantoms.name": "Les sacs de couchage empêchent les phantoms",
+  "gui.comforts.config.sleepingBagsStopPhantoms.description": "Si activé, tenter de dormir dans un sac de couchage empêche les Phantoms d'apparaître.",
+  "gui.comforts.config.sleepingBagsStopPhantoms.name": "Les sacs de couchage empêchent les Phantoms",
   "item.comforts.hammock.placement.tooltip": "Nécessite %s pour être placé.",
   "item.comforts.rope_and_nail.placement.tooltip": "Sert à accrocher les hamacs.",
-  "item.comforts.sleeping_bag.auto_use.tooltip": "Tente automatiquement de dormir.\nPour le placer, l'utiliser en s'accroupissant."
+  "item.comforts.sleeping_bag.auto_use.tooltip": "Tente automatiquement de dormir.\nPour le placer, l'utiliser en étant accroupi."
 }
