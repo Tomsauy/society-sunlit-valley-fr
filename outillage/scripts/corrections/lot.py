@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 
 TYPES = ("correction", "exception", "retrait", "mot_generique", "trace", "renvoi")
-NATURES = ("decisions", "mecanique", "references", "casse", "langue", "retouches")
+NATURES = ("decisions", "mecanique", "references", "casse", "langue", "retouches", "chasse")
 MAX_ACTIONS = 150  # spec 2 §4 : un sous-lot compte au plus 150 actions
 
 
@@ -54,6 +54,8 @@ def valider_lot(lot, origine="lot") -> None:
         for champ in ("question", "espace"):
             exiger(champ not in a or _texte(a[champ]), f"{ou} : « {champ} » doit être une chaîne non vide")
         exiger("objet" not in a or _objet(a["objet"]), f"{ou} : « objet » : une clé ou une liste de clés")
+        exiger("variante" not in a,
+               f"{ou} : « variante » : départager les deux corrections proposées, puis retirer le champ")
         if a["type"] == "mot_generique":
             exiger(_texte(a.get("mot")), f"{ou} : « mot » manque")
             continue

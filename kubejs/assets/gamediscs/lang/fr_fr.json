@@ -1,7 +1,17 @@
 {
+  "creativetab.game_discs_tab": "Disques de jeu",
+  "gamediscs.flappy_bird": "Flappy Bee",
   "gamediscs.pong_game": "Pong",
   "gamediscs.rabbit": "Lapin",
+  "gui.gamingconsole.died": "Vous avez perdu !",
+  "gui.gamingconsole.new_best_score": "Nouveau record",
+  "gui.gamingconsole.press_any_key": "Appuyer sur une touche",
+  "gui.gamingconsole.select_game": "Choisir un jeu",
   "item.gamediscs.control_pad": "Manette",
   "item.gamediscs.game_disc_rabbit": "Disque de jeu",
-  "item.gamediscs.redstone_circuit": "Circuit de redstone"
+  "item.gamediscs.redstone_circuit": "Circuit de redstone",
+  "sounds.gamediscs.click": "Console de jeux - Bouton cliqué",
+  "sounds.gamediscs.jump": "Console de jeux - Saut",
+  "sounds.gamediscs.new_best": "Console de jeux - Nouveau record",
+  "sounds.gamediscs.swing": "Console de jeux - Balayer"
 }

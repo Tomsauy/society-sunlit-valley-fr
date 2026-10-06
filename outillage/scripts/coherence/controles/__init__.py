@@ -2,8 +2,8 @@
 from __future__ import annotations
 
 from . import (accents, anglais_residuel, casse, codes, conventions, couverture, decisions, everycomp, familles,
-               gabarits, homonymes, largeur, orthographe, references, scripts_patches, terminologie)
+               gabarits, homonymes, largeur, nombres, orthographe, references, scripts_patches, terminologie)
 
 MODULES = (accents, anglais_residuel, casse, codes, conventions, couverture, decisions, everycomp, familles,
-           gabarits, homonymes, largeur, orthographe, references, scripts_patches, terminologie)
+           gabarits, homonymes, largeur, nombres, orthographe, references, scripts_patches, terminologie)
 CONTROLES = {module.NOM: module.verifier for module in MODULES}

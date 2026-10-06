@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Emplacements :$()$(li)Structure : Générateurs de slimes des Terres désolées de l'Ombre (Caverne du Crâne)$(br2)$(l)Risques :$()$(br)Téléporte les entités jusqu'à lui et se téléporte vers les sources de nourriture."
+            "text": "$(l)Emplacements :$()$(li)Structure : Générateurs de Slimes des Terres désolées de l'Ombre (Caverne du Crâne)$(br2)$(l)Risques :$()$(br)Téléporte les entités jusqu'à lui et se téléporte vers les sources de nourriture."
         },
         {
             "type": "patchouli:entity",

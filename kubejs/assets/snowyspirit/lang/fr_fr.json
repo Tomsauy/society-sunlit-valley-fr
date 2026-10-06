@@ -1,4 +1,6 @@
 {
+  "advancements.adventure.ride_sled_fast.title": "Tout roule",
+  "advancements.adventure.sled_with_wolf.title": "Laissez un loup tirer une luge à coffre",
   "block.snowyspirit.ginger_crate": "Caisse de gingembre",
   "block.snowyspirit.gingerbread": "Pain d'épices",
   "block.snowyspirit.gingerbread_door": "Porte en pain d'épices",
@@ -30,7 +32,7 @@
   "block.snowyspirit.gumdrop_green": "Bonbon vert",
   "block.snowyspirit.gumdrop_light_blue": "Bonbon bleu clair",
   "block.snowyspirit.gumdrop_light_gray": "Bonbon gris clair",
-  "block.snowyspirit.gumdrop_lime": "Bonbon citron vert",
+  "block.snowyspirit.gumdrop_lime": "Bonbon vert clair",
   "block.snowyspirit.gumdrop_magenta": "Bonbon magenta",
   "block.snowyspirit.gumdrop_orange": "Bonbon orange",
   "block.snowyspirit.gumdrop_pink": "Bonbon rose",
@@ -43,6 +45,7 @@
   "block.snowyspirit.wild_ginger": "Gingembre sauvage",
   "entity.snowyspirit.container_entity": "Coffre de luge",
   "entity.snowyspirit.gingerbread_golem": "Golem en pain d'épices",
+  "gui.snowyspirit.snow_season_on": "Saison des neiges activée",
   "item.snowyspirit.eggnog": "Lait de poule",
   "item.snowyspirit.ginger_flower": "Fleur de gingembre",
   "item.snowyspirit.gingerbread_cookie": "Biscuit en pain d'épices",
@@ -65,6 +68,7 @@
   "item.snowyspirit.glow_lights_white": "Lumières éclatantes blanches",
   "item.snowyspirit.glow_lights_yellow": "Lumières éclatantes jaunes",
   "item.snowyspirit.music_disc_winter": "Disque",
+  "item.snowyspirit.sled": "Luge en %s",
   "item.snowyspirit.sled_acacia": "Luge en acacia",
   "item.snowyspirit.sled_bamboo": "Luge en bambou",
   "item.snowyspirit.sled_birch": "Luge en bouleau",
@@ -73,5 +77,6 @@
   "item.snowyspirit.sled_jungle": "Luge en acajou",
   "item.snowyspirit.sled_mangrove": "Luge en palétuvier",
   "item.snowyspirit.sled_oak": "Luge en chêne",
-  "item.snowyspirit.sled_spruce": "Luge en sapin"
+  "item.snowyspirit.sled_spruce": "Luge en sapin",
+  "subtitle.snowyspirit.sled": "Glissade en luge"
 }

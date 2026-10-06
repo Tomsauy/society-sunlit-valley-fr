@@ -23,8 +23,9 @@ def donnees_vides() -> dict:
         ("exceptions", []), ("dette", []), ("familles", {"familles": [], "accords": {}}), ("gabarits", {}),
         ("largeurs", []), ("scripts_patches", {}), ("mots_generiques", {}), ("mods_retires", {}),
         ("formes_interdites", []), ("noms_propres", {}), ("majuscules", {}), ("termes_imposes", []),
-        ("regles", {"casse_textes": False, "pourcentages": ""}), ("double_sens", []), ("homographes", {}),
-        ("renvois", []))}
+        ("regles", {"casse_textes": False, "pourcentages": "", "nombres": False, "largeurs_mods": False,
+                     "terminologie_interdits": False}), ("double_sens", []),
+        ("homographes", {}), ("renvois", []))}
     fichiers.update({"accents/vocabulaire.json": {}, "provenance.json": {"cles": {}}, "KEEP-ENGLISH.md": "",
                      "references/mc_en_us.json": {}, "references/mc_fr_fr.json": {}, "society-corrected-en.json": {}})
     return fichiers

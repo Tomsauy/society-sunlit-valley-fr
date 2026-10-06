@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Emplacements :$()$(li)Structure : Générateurs de slimes des Terres désolées de l'Ombre (Caverne du Crâne)$(li)Fusion de coeurs$(br2)$(l)Risques :$()$(br)Provoque l'effet Coup de foudre quand il est contrarié. Explose violemment quand il est furieux et se révèle très glissant. Humeur extrêmement changeante."
+            "text": "$(l)Emplacements :$()$(li)Structure : Générateurs de Slimes des Terres désolées de l'Ombre (Caverne du Crâne)$(li)Fusion de coeurs$(br2)$(l)Risques :$()$(br)Provoque l'effet Coup de foudre quand il est contrarié. Explose violemment quand il est furieux et se révèle très glissant. Humeur extrêmement changeante."
         },
         {
             "type": "patchouli:entity",

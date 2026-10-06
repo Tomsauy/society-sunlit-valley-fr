@@ -1,3 +1,7 @@
 {
-  "main_screen.btn.csl.muffled": "Silencieux"
+  "key.open_muffler_gui": "Ouvrir l'écran du silencieux",
+  "log.error.loadAnchorList": "ESM : Erreur lors du chargement de la liste des ancres :\\n %s",
+  "main_screen.btn.csl.muffled": "Silencieux",
+  "tip.left_buttons": "Vous pouvez déplacer à gauche les boutons du silencieux et de lecture dans la configuration",
+  "tip.play_sound": "Vous pouvez jouer n'importe quel son en appuyant sur le bouton de lecture correspondant"
 }

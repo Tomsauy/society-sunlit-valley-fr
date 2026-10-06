@@ -1,6 +1,12 @@
 {
+  "bountiful.advancement.bounty_complete.desc": "Accomplissez une prime !",
+  "bountiful.advancement.bounty_taken.desc": "Prenez une prime au tableau de primes",
+  "bountiful.advancement.procrastinator.desc": "Accomplissez une prime à moins de cinq secondes de son expiration",
+  "bountiful.advancement.procrastinator.title": "Maître procrastinateur",
+  "bountiful.advancement.rush_order.desc": "Accomplissez une prime en moins d'une minute",
   "bountiful.bounty.expired": "Cette prime a expiré.",
   "bountiful.decree.inventor.name": "Invention",
+  "bountiful.decree.shepherd.name": "Élevage ovin",
   "bountiful.decree.tinker.name": "Bricolage",
   "bountiful.entry.cleric_obj_brew_swiftness": "Préparer une potion de rapidité simple",
   "bountiful.entry.cleric_obj_cure_zombie_villager": "Soigner un zombie-villageois",
@@ -11,5 +17,11 @@
   "bountiful.entry.mapper_obj_candles": "N'importe quelle bougie",
   "bountiful.entry.shepherd_obj_banner_wildcard": "N'importe quelle bannière",
   "bountiful.entry.shepherd_obj_bed_wildcard": "N'importe quel lit",
-  "bountiful.entry.shepherd_obj_wool_wildcard": "N'importe quelle laine"
+  "bountiful.entry.shepherd_obj_wool_wildcard": "N'importe quelle laine",
+  "stat.bountiful.bounties_done": "Primes accomplies (Total)",
+  "stat.bountiful.bounties_done_0": "Primes accomplies (Commun)",
+  "stat.bountiful.bounties_done_1": "Primes accomplies (Peu commun)",
+  "stat.bountiful.bounties_done_2": "Primes accomplies (Rare)",
+  "stat.bountiful.bounties_done_3": "Primes accomplies (Épique)",
+  "stat.bountiful.bounties_taken": "Primes acceptées"
 }

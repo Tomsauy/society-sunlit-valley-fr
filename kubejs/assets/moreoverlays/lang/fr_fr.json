@@ -39,5 +39,5 @@
   "gui.config.moreoverlays.undo": "Annuler les modifications",
   "key.moreoverlays.category": "More Overlays Updated",
   "key.moreoverlays.chunkbounds.desc": "Basculer les limites de chunk",
-  "key.moreoverlays.lightoverlay.desc": "Basculer la superposition de lumière"
+  "key.moreoverlays.lightoverlay.desc": "Basculer l'affichage de lumière"
 }

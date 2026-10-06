@@ -23,7 +23,8 @@ DEFAUTS = {
     "noms_propres": {},
     "majuscules": {},
     "termes_imposes": [],
-    "regles": {"casse_textes": False, "pourcentages": ""},
+    "regles": {"casse_textes": False, "pourcentages": "", "nombres": False, "largeurs_mods": False,
+               "terminologie_interdits": False},
     "double_sens": [],
     "homographes": {},
     "renvois": [],
@@ -32,7 +33,8 @@ VOCABULAIRE, PROVENANCE, GARDER_ANGLAIS = "accents/vocabulaire.json", "provenanc
 # Chemins, relatifs à l'espace de travail, des fichiers que lit charger_config : tous requis.
 FICHIERS_REQUIS = tuple(f"coherence/{nom}.json" for nom in DEFAUTS) + (VOCABULAIRE, PROVENANCE, GARDER_ANGLAIS)
 # Valeur que prend une règle en attente de décision quand les tests les activent toutes.
-ACTIVATION_DE_TEST = {"casse_textes": True, "pourcentages": "espace"}
+ACTIVATION_DE_TEST = {"casse_textes": True, "pourcentages": "espace", "nombres": True, "largeurs_mods": True,
+                      "terminologie_interdits": True}
 TERME_GARDE = re.compile(r"^\|\s*\*\*(.+?)\*\*\s*\|", re.M)
 
 
@@ -212,10 +214,29 @@ def _gabarits(chemin, donnees):
                 f"« {cle} » : une liste, par argument, de types parmi {', '.join(TYPES_ARGUMENT)}")
 
 
+def contrainte_de_mod(entree) -> bool:
+    """Une entrée de largeurs.json venue de l'inventaire des mods (elle porte sa preuve) : son « motif » est une
+    expression sur la clé, et elle n'est lue que sous la règle largeurs_mods. Sans preuve, c'est l'ancienne entrée
+    manuelle {cle, limite, motif}, dont le motif est la justification, toujours active."""
+    return "preuve" in entree
+
+
 def _largeurs(chemin, donnees):
-    _enregistrements(chemin, donnees, ("cle", "motif"))
+    _enregistrements(chemin, donnees)
     for i, e in enumerate(donnees):
         _exiger(_entier(e.get("limite")) and e["limite"] > 0, chemin, f"entrée {i} : « limite » : un entier de pixels")
+        requis = ("comportement", "mod", "preuve") if contrainte_de_mod(e) else ("cle", "motif")
+        for champ in requis:
+            _exiger(isinstance(e.get(champ), str) and e[champ].strip(), chemin,
+                    f"entrée {i} : « {champ} » manque ou n'est pas une chaîne")
+        if not contrainte_de_mod(e):
+            continue
+        for champ, test, attendu in (("cle", _chaine, "une chaîne"), ("cles", _chaines, "une liste de clés"),
+                                     ("motif", _regex, "une expression régulière valide"),
+                                     ("lignes", lambda v: _entier(v) and v > 0, "un entier positif")):
+            _exiger(champ not in e or test(e[champ]), chemin, f"entrée {i} : « {champ} » doit être {attendu}")
+        _exiger(e.get("cle") or e.get("cles") or e.get("motif"), chemin,
+                f"entrée {i} : « cle », « cles » ou « motif » est requis")
 
 
 def _scripts_patches(chemin, donnees):
@@ -244,6 +265,9 @@ def _regles(chemin, donnees):
     _exiger(isinstance(donnees, dict) and set(donnees) == set(DEFAUTS["regles"]), chemin,
             f"un objet avec exactement {', '.join(DEFAUTS['regles'])} est attendu")
     _exiger(_booleen(donnees["casse_textes"]), chemin, "« casse_textes » : true ou false")
+    _exiger(_booleen(donnees["nombres"]), chemin, "« nombres » : true ou false")
+    _exiger(_booleen(donnees["largeurs_mods"]), chemin, "« largeurs_mods » : true ou false")
+    _exiger(_booleen(donnees["terminologie_interdits"]), chemin, "« terminologie_interdits » : true ou false")
     _exiger(donnees["pourcentages"] in POURCENTAGES, chemin,
             "« pourcentages » : \"\" (règle en attente), \"espace\" ou \"colle\"")
 

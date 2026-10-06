@@ -1,3 +1,10 @@
 {
-  "item.snuffles.snuffle_spawn_egg": "Caisse d'apparition de nasiller"
+  "block.snuffles.snuffle_fluff": "Duvet de nasiller",
+  "block.snuffles.snuffle_fluff_carpet": "Tapis de duvet de nasiller",
+  "item.snuffles.snuffle_spawn_egg": "Caisse d'apparition de nasiller",
+  "snuffles.subtitles.block.frosty_fluff.thaw": "Dégel du duvet givré",
+  "snuffles.subtitles.entity.snuffle.death": "Nasiller qui meurt",
+  "snuffles.subtitles.entity.snuffle.hurt": "Nasiller blessé",
+  "snuffles.subtitles.entity.snuffle.step": "Nasiller qui marche",
+  "snuffles.subtitles.entity.snuffle.style": "Boule de slime qui s'écrase"
 }

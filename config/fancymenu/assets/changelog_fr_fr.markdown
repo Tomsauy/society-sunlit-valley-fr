@@ -13,7 +13,7 @@ Un café bien à soi
 - Ajout du rendu des skins fins pour les clients du Cozy Cafe
 - Les plats du Cozy Cafe s'affichent en 3D dans les assiettes quand l'aliment existe aussi sous forme de bloc
 - Correction des erreurs de texture sur les arbalètes et les tableaux
-- Correction de messages de journal qui s'affichaient
+- Correction de messages de journalisation qui s'affichaient à tort
 - Correction de certaines pousses dépourvues de tags
 - Correction de bugs du classement des pièces
 - Correction des comptes en banque qui basculaient à -2 milliards au-delà de 2 milliards
@@ -23,12 +23,12 @@ Un café bien à soi
 - Ajout de Cozy Cafe, un mod créé pour le pack, qui ajoute un mini-jeu de gestion de café dans l'esprit de Diner Dash et Plate Up !
 - Ajout de nouveaux villageois : le Marchand, la Sorcière et le Bibliothécaire (anciennement Magasinier)
 - Ajout d'un nouveau système pour la boutique de construction (auparavant dans le livre de quêtes), utilisant les matériaux de construction
-- Ajout de l'ensemble de bâtiments Ferme rurale et villageois, par Duy Luong
-- Ajout de l'ensemble de bâtiments Ferme fleurie, par SianaTheSavage
-- Ajout de l'ensemble de bâtiments Ferme Sakura, par EeveeBeby
+- Ajout de l'ensemble de bâtiments Maison de ferme rurale et villageois, par Duy Luong
+- Ajout de l'ensemble de bâtiments Maison de ferme florale, par SianaTheSavage
+- Ajout de l'ensemble de bâtiments Maison de ferme sakura, par EeveeBeby
 - Ajout des mécaniques d'élevage et de génétique des papillons de jour et de nuit
 - Ajout des oeufs de chenille et de la boîte à chenilles
-- Ajout de longwings : le papillon Leafwing tropical et le papillon Comète
+- Ajout de longwings : l'aile-feuille tropicale et le papillon comète
 - Ajout de valeurs de vente pour les papillons de jour et de nuit, calculées selon leur rareté et leur taille
 - Ajout du livre de compétence : La Métamorphosation
 - Ajout des gnomes vivants, qui existent vraiment, promis
@@ -56,18 +56,18 @@ Un café bien à soi
 - Ajout de la mayonnaise suprême comme base de balise
 - Ajout de groupes de piles dans EMI et JEI
 - Refonte de l'horloge de mana : elle fonctionne désormais exactement comme l'horloge dorée, mais avec un rayon plus petit et un coût en mana
-- Refonte des catalogues de mobilier : ce sont maintenant des boutiques, au lieu de contenir des objets uniques
+- Refonte des catalogues de meubles : ce sont maintenant des boutiques, au lieu de contenir des objets uniques
 - Traduction portugaise du Brésil mise à jour (merci RafaelJMBR !)
 - Textes de l'Épée galactique et de Miaoumageddon rendus scintillants
 - Taux de conversion de la terre cuite augmenté : 1/30 s → 1/10 s
 - Production de l'engrais d'abondance augmentée à la fabrication : 1 → 4
-- Tolérance de portée des coins de pêche augmentée
+- Tolérance de portée des zones de pêche augmentée
 - Amélioration de pompe avancée réintégrée, les problèmes ayant été corrigés
 - Mana maximal des cultures à fruits de mana réduit, pour qu'elles absorbent moins de mana
 - Consommation de mana du recycleur de sparkstone réduite par recyclage : 10 000 → 5 000
-- Amélioration maximale réduite, des golems de foin à l'engrais de qualité élevée
+- Amélioration maximale des golems de foin réduite à l'engrais de qualité élevée
 - Coût effectif des types de bâtiment les plus grands de la boutique de construction réduit
-- Chaleur requise réduite pour les thés vert, d'hibiscus, de yerba maté et de rooibos
+- Chaleur requise réduite pour les thés vert, d'hibiscus, de yerba mate et de rooibos
 - Volume sonore des arroseurs de mana réduit
 - Retrait de la radio beachparty, à cause de problèmes
 - Retrait des types de fluide des raisins secondaires, désormais unifiés en rouge et blanc
@@ -76,13 +76,13 @@ Un café bien à soi
 - Correction de la zone d'action erronée de l'arroseur de mana
 - Correction de l'horloge de mana qui ne fonctionnait pas
 - Correction de la dent de déchiqueteur qui ne fonctionnait pas
-- Correction de la baguette en diamant qui ne fonctionnait pas avec le coeur de destruction
-- Correction de Élevage horaire qui n'apparaissait pas chez le libraire / à la Foire aux livres
+- Correction de la baguette en diamant qui ne fonctionnait pas avec le noyau de destruction
+- Correction du livre L'Élevage à toute heure, qui n'apparaissait pas chez le libraire / à la Foire aux livres
 - Correction de l'amélioration Opale noire du cristalarium, qui ne fonctionnait pas sur les récoltes manuelles
 - Correction de la viande de pélican qui n'avait pas les bons tags
 - Correction du trait Sommelière qui ne tenait pas compte du nombre de résultats d'une recette (par exemple les éclats d'artéfact)
 - Correction des blocs d'algues du bas, qui n'étaient pas des blocs d'eau valides pour un étang à poissons
-- Correction du lien de redstone, qui utilisait un châssis en laiton au lieu d'un châssis en andésite
+- Correction de la liaison de redstone, qui utilisait un boîtier de laiton au lieu d'un boîtier d'andésite
 - Correction des ensembles de bâtiments, dont le nombre d'abreuvoirs était incohérent
 - Correction des blocs de tesson prismatique et de sparkstone, qui n'avaient pas de tag « minable »
 
@@ -90,13 +90,13 @@ Un café bien à soi
 - Ajout d'un message unique à la connexion, au sujet du changement de la boutique de construction
 - Ajout d'un message signalant qu'un nouveau villageois peut être invité
 - Ajout de flèches en vente à la guilde
-- Ajout de l'absence de restriction de tchat
+- Ajout du mod No Chat Restrictions (aucune restriction de tchat)
 - Traduction chinoise mise à jour (merci Thirace !)
 - Longueur des comptes partagés du classement des pièces raccourcie
-- Correction de la quête « Construire une ferme », qui n'avait pas été mise à jour avec les nouveaux plans
+- Correction de la quête « Construire ta maison de ferme », qui n'avait pas été mise à jour avec les nouveaux plans
 - Correction du message de cadeau maximal de Veronica, qui était erroné
 - Correction du classement des pièces, qui ne fonctionnait pas
-- Correction des boîtes fantaisie, qui ne fonctionnaient pas
+- Correction des boîtes fantastiques, qui ne fonctionnaient pas
 - Correction des entonnoirs d'artisan, des paniers d'étang à poissons et des auto-ramasseurs, qui ne tenaient pas compte des compétences à cause du changement de mise en cache
 - Correction du problème de modèles manquants pour les arbalètes et les peintures (probablement)
 - Correction du plantage avec Create Central Kitchen
@@ -123,10 +123,10 @@ Un café bien à soi
 - Correction des zones inexactes de la hutte Ribbit et du tambour de la corne d'abondance vues à la loupe
 - Correction des tomates qui ne grimpaient pas aux cordes
 - Correction des cafés servant uniquement des boissons, qui provoquaient un flânage sans fin
-- Correction de l'aspirateur de slimes qui supprimait les largos en main secondaire
-- Correction du bloc de feuilles de thé vert mélangées qui donnait du thé vert au lieu du thé vert séché
+- Correction de l'aspirateur de Slimes qui supprimait les largos en main secondaire
+- Correction du bloc de feuilles de thé mélangé qui donnait du thé vert au lieu du thé vert séché
 - Correction des dialogues qui n'apparaissaient pas au cinquième cadeau
-- Correction de la tige et du treillis de vigne qui n'affichaient pas le compteur de jours dans Jade
+- Correction du piquet et du treillis de vigne qui n'affichaient pas le compteur de jours dans Jade
 - Correction de l'engrais de croissance qui ne s'appliquait pas aux buissons à baies alors que Jade indiquait le contraire
 
 ## 4.1.3
@@ -138,7 +138,7 @@ Un café bien à soi
 - Ajout de l'artéfact Clé rouge
 - Ajout de la prise en charge des jetons de surplus pour les comptes partagés (rééquiper la carte bancaire pour mettre à jour)
 - Échange du marchand de cristaux de terre modifié : du riz vers le coton
-- Échange du marchand de jade modifié : du vin Aegis vers le citron séché
+- Échange de jade du Marchand modifié : du vin Aegis vers le citron séché
 - Le classement des pièces récupère désormais les données une seule fois au lieu d'une fois par classement, ce qui améliore les performances sur les gros serveurs
 - Hauteur du classement des pièces augmentée d'un quart de bloc, pour un rendu moins baveux
 - Mod Quality Food mis à jour, avec diverses corrections de qualité

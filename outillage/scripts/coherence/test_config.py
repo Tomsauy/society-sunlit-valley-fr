@@ -21,7 +21,8 @@ class TestConfig(unittest.TestCase):
         c = config_mod.charger_config(self.espace)
         self.assertEqual((c.exceptions, c.dette, c.familles), ([], [], {"familles": [], "accords": {}}))
         self.assertEqual(c.provenance, {"cles": {}})
-        self.assertEqual(c.regles, {"casse_textes": False, "pourcentages": ""})
+        self.assertEqual(c.regles, {"casse_textes": False, "pourcentages": "", "nombres": False,
+                                    "largeurs_mods": False, "terminologie_interdits": False})
         self.assertEqual(c.majuscules, {})
 
     def test_fichier_absent(self):
@@ -94,6 +95,31 @@ class TestConfig(unittest.TestCase):
                     config_mod.charger_config(self.espace)
                 ecrire(self.espace, {chemin: donnees_vides()[chemin]})
         config_mod.charger_config(self.espace)  # tout est revenu à sa valeur vide, valide
+
+    def test_largeurs_contraintes_des_mods(self):
+        """largeurs.json : l'ancienne entrée {cle, limite, motif} et les contraintes des mods {cle?, cles?, motif?,
+        limite, lignes?, comportement, mod, preuve}, où motif est une expression sur la clé."""
+        nouvelle = {"cles": ["a"], "motif": "^gui\\.", "limite": 40, "lignes": 2, "comportement": "coupé",
+                    "mod": "m", "preuve": "p"}
+        ecrire(self.espace, {"coherence/largeurs.json": [{"cle": "a", "limite": 46, "motif": "m"}, nouvelle]})
+        self.assertEqual(len(config_mod.charger_config(self.espace).largeurs), 2)
+        invalides = [dict(nouvelle, motif="gui("), {k: v for k, v in nouvelle.items() if k not in ("cles", "motif")},
+                     dict(nouvelle, lignes=0), dict(nouvelle, cles="a"), {k: v for k, v in nouvelle.items() if k != "mod"},
+                     dict(nouvelle, limite=None)]
+        for entree in invalides:
+            with self.subTest(entree=entree):
+                ecrire(self.espace, {"coherence/largeurs.json": [entree]})
+                with self.assertRaisesRegex(config_mod.ConfigInvalide, "largeurs.json"):
+                    config_mod.charger_config(self.espace)
+        ecrire(self.espace, {"coherence/largeurs.json": []})
+        ecrire(self.espace, {"coherence/regles.json": {"casse_textes": False, "pourcentages": "", "nombres": False,
+                                                      "largeurs_mods": "oui", "terminologie_interdits": False}})
+        with self.assertRaisesRegex(config_mod.ConfigInvalide, "largeurs_mods"):
+            config_mod.charger_config(self.espace)
+        ecrire(self.espace, {"coherence/regles.json": {"casse_textes": False, "pourcentages": "", "nombres": False,
+                                                      "largeurs_mods": False, "terminologie_interdits": "oui"}})
+        with self.assertRaisesRegex(config_mod.ConfigInvalide, "terminologie_interdits"):
+            config_mod.charger_config(self.espace)
 
     def test_regles_en_attente(self):
         c = config_mod.charger_config(self.espace)

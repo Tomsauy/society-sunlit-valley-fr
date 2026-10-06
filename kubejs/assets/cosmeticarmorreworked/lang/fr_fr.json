@@ -1,0 +1,6 @@
+{
+  "cos.command.clearcosarmor.success.multiple": "Suppression de %s objets dans l'inventaire d'armure cosmétique de %s joueurs",
+  "cos.command.clearcosarmor.success.single": "Suppression de %s objets dans l'inventaire d'armure cosmétique du joueur %s",
+  "cos.gui.buttoncos": "Armure cosmétique",
+  "cos.key.opencosarmorinventory": "Inventaire d'armure cosmétique"
+}

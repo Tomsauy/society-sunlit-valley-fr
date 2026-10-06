@@ -73,6 +73,7 @@
  "Ender Dragon": "Nom du dragon dans le français de Mojang (« Ender Dragon ») : « Fruit de l'Ender Dragon », jeu de mots conservé par STYLE.md §7.",
  "Enderman": "Créature de Minecraft gardée en anglais : le français de Mojang l'écrit avec la majuscule dans ses noms (« Oeuf d'apparition de Enderman ») ; « Croiser le regard d'un Enderman ».",
  "Endermite": "Créature de Minecraft gardée en anglais : le français de Mojang l'écrit avec la majuscule dans ses noms (« Oeuf d'apparition de Endermite ») ; « qu'un Endermite apparaisse ».",
+ "Endermites": "Créature de Minecraft gardée en anglais : le français de Mojang l'écrit avec la majuscule dans ses noms (« Oeuf d'apparition d'Endermite ») ; ici au pluriel (« faire apparaître des Endermites », lot rq-04a).",
  "Epic Fight": "Nom de mod : « Oeuf d'apparition Epic Fight %s ».",
  "Esperanca": "Nom d'une collection de meubles de Cluttered, gardé tel quel : « Carrelage Esperanca ».",
  "Ex-Press-O": "Titre de quête, jeu de mots gardé tel quel (expresso et presse mécanique).",
@@ -289,5 +290,6 @@
  "solite": "Pierre ou matière inventée par Botania, gardée telle quelle et écrite en minuscules comme une matière (« Dalle de solite »). Déclarée en minuscules : elle n'exempte pas une majuscule interne.",
  "sparkstone": "Nom inventé du pack, intouché (CLAUDE.md), employé comme nom commun de matière (« Bloc de sparkstone », « de la sparkstone ») : déclaré en minuscules, il n'exempte pas une majuscule en corps de phrase ; le titre « La Sparkstone se lève aussi » suit l'usage des titres d'oeuvres.",
  "veridium": "Pierre ou matière inventée par Create, gardée telle quelle et écrite en minuscules comme une matière (« Pilier de veridium »). Déclarée en minuscules : elle n'exempte pas une majuscule interne.",
- "Évier Sweetheart": "Nom d'une collection de meubles de Cluttered, gardé tel quel : « Évier Sweetheart » ; déclaré avec le mot qui le précède parce que « sweetheart » est aussi un mot anglais courant, qu'il ne faut pas exempter ailleurs."
+ "Évier Sweetheart": "Nom d'une collection de meubles de Cluttered, gardé tel quel : « Évier Sweetheart » ; déclaré avec le mot qui le précède parce que « sweetheart » est aussi un mot anglais courant, qu'il ne faut pas exempter ailleurs.",
+ "Parmentier": "Nom propre (Antoine Parmentier) dans le nom du plat « Hachis Parmentier », écrit avec sa majuscule (fiche du sous-projet 3 : hachis-parmentier)."
 }

@@ -1,7 +1,23 @@
 {
   "item.patchouli:pamphlet.landing": "Un livret de test, un livre qui ne contient qu'une seule catégorie.",
   "item.patchouli:pamphlet.name": "Livret de test",
+  "patchouli.gui.lexicon.add_bookmark": "Ajouter aux favoris",
+  "patchouli.gui.lexicon.button.back.info": "Maj + clic pour l'accueil",
+  "patchouli.gui.lexicon.button.editor.info": "(Maj + clic pour recharger)",
   "patchouli.gui.lexicon.button.resize.size0": "Par défaut",
   "patchouli.gui.lexicon.button.toggle_mock_header": "Basculer l'exemple d'en-tête",
-  "patchouli.gui.lexicon.complete": "Terminé !"
+  "patchouli.gui.lexicon.complete": "Terminé !",
+  "patchouli.gui.lexicon.dev_edition": "de l'auteur",
+  "patchouli.gui.lexicon.editor.info": "Ceci est un éditeur pour les chapitres Patchouli. Il existe pour aider les développeurs et les traducteurs. Il ne vous sera pas utile si vous êtes un joueur.$(br2)Consultez le $(l:https://github.com/Vazkii/Patchouli/wiki/Text-Formatting-101)wiki Patchouli$() pour les codes de mise en forme utilisables.",
+  "patchouli.gui.lexicon.history.info": "Cette section liste les chapitres que vous avez récemment visités.$(br2)Les chapitres sont automatiquement ajoutés et supprimés, au fur et à mesure que vous parcourez le livre. Si vous souhaitez y accéder plus facilement, vous pouvez les mettre en favori.$(br2)$(o)Conseil : essayez Maj + clic sur un chapitre !$()",
+  "patchouli.gui.lexicon.multiblock_bookmark": "Structure visualisée",
+  "patchouli.gui.lexicon.progress_meter": "Progression :",
+  "patchouli.gui.lexicon.progress_tooltip": "%d/%d débloqués",
+  "patchouli.gui.lexicon.progress_tooltip.info": "Accomplir des progrès pour en débloquer davantage !",
+  "patchouli.gui.lexicon.progress_tooltip.secret": "Et %d secrets",
+  "patchouli.gui.lexicon.progress_tooltip.secret1": "Et 1 secret",
+  "patchouli.gui.lexicon.remove_bookmark": "(Maj + clic pour enlever)",
+  "patchouli.gui.lexicon.shift_for_recipe": "Maj + clic pour la recette",
+  "patchouli.gui.lexicon.sneak": "S'accroupir pour voir",
+  "patchouli.subtitle.book_open": "Livre qui s'ouvre"
 }

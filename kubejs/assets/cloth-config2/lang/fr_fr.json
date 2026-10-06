@@ -1,4 +1,6 @@
 {
+  "option.cloth-config.disableSmoothScroll": "Désactiver le défilement fluide",
+  "option.cloth-config.setDefaultSmoothScroll": "Définir le défilement fluide par défaut",
   "text.cloth-config.disabled_tooltip": "Désactivé (conditions non remplies)",
   "text.cloth-config.error.color.invalid_alpha": "Valeur invalide ! (alpha)",
   "text.cloth-config.error.color.invalid_blue": "Valeur invalide ! (bleu)",
@@ -14,6 +16,8 @@
   "text.cloth-config.error.too_large": "Trop grand ! (maximum : %d)",
   "text.cloth-config.error.too_small": "Trop petit ! (minimum : %d)",
   "text.cloth-config.error_cannot_save": "Erreur !",
+  "text.cloth-config.list.add": "Insérer un nouvel élément",
+  "text.cloth-config.quit_discard": "Quitter et annuler les modifications",
   "text.cloth-config.reset_value": "Réinitialiser",
   "text.cloth-config.save_and_done": "Sauvegarder et quitter",
   "text.cloth-config.testing.1": "Vous êtes développeur de mods et vous voulez utiliser %1$s ? Rendez-vous sur le %2$s pour commencer. Vous pouvez aussi %3$s.",

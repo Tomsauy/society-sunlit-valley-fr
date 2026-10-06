@@ -5,6 +5,10 @@
   "entity.amendments.medium_fireball": "Boule de feu",
   "gui.amendments.quill.default": "Par défaut",
   "item.amendments.dragon_charge": "Boule de feu de dragon",
+  "item.amendments.dye_bottle": "Fiole de teinture",
   "item.amendments.dye_bottle.crimson": "Carmin",
+  "item.amendments.dye_bottle.navy": "Bleu marine",
+  "item.amendments.dye_bottle.royal_blue": "Bleu roi",
+  "item.amendments.dye_bottle.tan": "Brun clair",
   "subtitles.amendments.fireball_explosion": "Explosion de boule de feu"
 }

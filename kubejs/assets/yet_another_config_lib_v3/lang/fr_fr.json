@@ -2,6 +2,8 @@
   "yacl.control.color.color_picker_title": "Sélecteur de couleur",
   "yacl.control.dropdown.dropdown_widget_title": "Sélecteur déroulant",
   "yacl.control.text.blank": "<vide>",
+  "yacl.gui.cancel.tooltip": "Oublie les changements en cours et ferme l'interface.",
+  "yacl.gui.finished.tooltip": "Ferme l'interface.",
   "yacl.list.move_down": "Déplacer vers le bas",
   "yacl.list.move_up": "Déplacer vers le haut",
   "yacl.list.remove": "Supprimer"

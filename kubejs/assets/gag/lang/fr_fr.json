@@ -19,7 +19,7 @@
   "item.gag.hearthstone": "Pierre de foyer",
   "item.gag.hearthstone.info": "Téléporte le joueur à son point d'apparition personnel ou, si activé, au point d'apparition du monde.",
   "item.gag.hearthstone.info_adv": "Cette pierre de foyer a canalisé l'énergie de la foudre qui l'a frappée,",
-  "item.gag.hearthstone.info_adv_2": "et permet désormais de se téléporter vers un emplacement lié au choix ! (utiliser en s'accroupissant pour lier)",
+  "item.gag.hearthstone.info_adv_2": "et permet désormais de se téléporter vers un emplacement lié au choix ! (utiliser en étant accroupi pour lier)",
   "item.gag.hearthstone.info_adv_3": "À noter : pour réinitialiser la pierre plus tard, il faudra la frapper à nouveau avec la foudre.",
   "item.gag.hearthstone.no_target": "Impossible de trouver un endroit où se téléporter. As-tu défini ton point d'apparition ?",
   "item.gag.hearthstone.target.bound": "Actuellement liée à %s",

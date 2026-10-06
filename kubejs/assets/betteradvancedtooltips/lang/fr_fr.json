@@ -3,8 +3,8 @@
   "betteradvancedtooltips.configuration.fuel_tooltip": "Info-bulle du combustible",
   "betteradvancedtooltips.configuration.remove_component_count_tooltip": "Supprimer l'info-bulle du compte des composants",
   "betteradvancedtooltips.configuration.remove_creative_tab_tooltip": "Supprimer l'info-bulle de l'onglet créatif",
-  "betteradvancedtooltips.configuration.tag_tooltip": "Info-bulle des mots clés",
+  "betteradvancedtooltips.configuration.tag_tooltip": "Info-bulle des tags",
   "key.betteradvancedtooltips.view_nbt": "Affichage des données NBT",
-  "key.betteradvancedtooltips.view_tags": "Affichage des mots clés et infos",
+  "key.betteradvancedtooltips.view_tags": "Affichage des tags et infos",
   "key.categories.betteradvancedtooltips": "Info-bulles avancées améliorées"
 }

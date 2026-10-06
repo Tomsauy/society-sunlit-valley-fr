@@ -9,7 +9,7 @@
   "constructionwand.description.wand": "La %1$s peut placer jusqu'à %2$d blocs sur la face du bâtiment visée et dure %3$s.\n\nMaintenir %5$s et faire défiler pour changer la restriction de placement (Horizontale, Verticale, Nord/Sud, Est/Ouest, Aucune).\n\nOuvrir l'écran d'options avec %6$s§9+Clic droit§0.\n\n§5§nANNULER§0§r\nMaintenir §9S'accroupir+§0%4$s en regardant un bloc affiche les derniers blocs placés, entourés d'une bordure verte. §9S'accroupir+§0%4$s§9+Clic droit§0 sur l'un d'eux annule l'opération et rend tous les objets. Si le noyau de destruction a été utilisé, les blocs sont restaurés.\n\n§5§nCONTENEURS§0§r\nLes boîtes de Shulker, les sacs et de nombreux conteneurs d'autres mods peuvent fournir des blocs de construction à la baguette.\n\n§5§nPRIORITÉ À LA MAIN SECONDAIRE§0§r\nAvec des blocs dans la main secondaire, ce sont eux qui sont placés à la place du bloc visé.",
   "constructionwand.option.cores": "",
   "constructionwand.option.cores.constructionwand:core_angel": "§6Noyau d'ange",
-  "constructionwand.option.cores.constructionwand:core_angel.desc": "Placer derrière les blocs et en plein air",
+  "constructionwand.option.cores.constructionwand:core_angel.desc": "Placer derrière les blocs et dans les airs",
   "constructionwand.option.cores.constructionwand:core_destruction": "§cNoyau de destruction",
   "constructionwand.option.cores.constructionwand:core_destruction.desc": "Détruire les blocs sur la face visée",
   "constructionwand.option.cores.constructionwand:default": "Noyau de construction",

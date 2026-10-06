@@ -22,6 +22,9 @@ class TestLot(unittest.TestCase):
                         {"type": "trace", "cle": "a", "fr": "x", "motif": "m", "question": "longwings-descriptions"},
                         {"type": "renvoi", "controle": "references", "cle": "a", "motif": "m"}))
 
+    def test_nature_chasse(self):
+        valider_lot(lot(CORRECTION, nature="chasse"))
+
     def test_refus(self):
         cas = {
             "sans identifiant": lot(CORRECTION, lot=""),
@@ -33,6 +36,7 @@ class TestLot(unittest.TestCase):
             "exception sans contrôle": lot({"type": "exception", "cle": "a", "motif": "m"}),
             "question vide": lot(dict(CORRECTION, question="")),
             "trop d'actions": lot(*[dict(CORRECTION, cle=f"k{i}") for i in range(MAX_ACTIONS + 1)]),
+            "variante non départagée": lot(dict(CORRECTION, variante="z"), nature="chasse"),
         }
         for nom, donnees in cas.items():
             with self.subTest(nom), self.assertRaises(LotInvalide):

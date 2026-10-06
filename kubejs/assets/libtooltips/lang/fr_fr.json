@@ -7,7 +7,7 @@
   "libtooltips.configuration.line_after": "Ligne vide après",
   "libtooltips.configuration.line_after.tooltip": "Ajoute une ligne vide APRÈS la description",
   "libtooltips.configuration.line_before": "Ligne vide avant",
-  "libtooltips.configuration.line_before.tooltip": "Ajoute une ligne vide AVANT la description, APRÈS le [shift]",
+  "libtooltips.configuration.line_before.tooltip": "Ajoute une ligne vide AVANT la description, APRÈS le [Maj]",
   "libtooltips.configuration.title": "Configuration de LibTooltips",
   "tooltip.always.namespace.path.0": "Cette info-bulle s'affichera toujours !",
   "tooltip.libtooltips.generic.empty": "",

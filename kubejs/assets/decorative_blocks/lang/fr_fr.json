@@ -45,7 +45,7 @@
   "block.decorative_blocks.willow_seat": "Siège en saule",
   "block.decorative_blocks.willow_support": "Soutien en saule",
   "key.decorative_blocks.switch_item_state": "Changer l'état de l'objet",
-  "wiki.decorative_blocks.copy1": "§3Utilisation par défaut pour coller, accroupi pour copier.",
+  "wiki.decorative_blocks.copy1": "§3Utiliser pour coller, utiliser accroupi pour copier.",
   "wiki.decorative_blocks.copy2": "§3Copié : %s",
   "wiki.decorative_blocks.seat": "§3Utiliser accroupi dans le vide pour changer d'état.",
   "wiki.decorative_blocks.support.behavior1": "§3Retourner le bloc à l'envers",
@@ -53,5 +53,6 @@
   "wiki.decorative_blocks.support.behavior3": "§3Cacher/afficher un côté",
   "wiki.decorative_blocks.support.condition1": "§7Clic droit accroupi dans le vide :",
   "wiki.decorative_blocks.support.condition2": "§7Clic droit avec une hache :",
-  "wiki.decorative_blocks.support.condition3": "§7Clic droit accroupi avec une hache :"
+  "wiki.decorative_blocks.support.condition3": "§7Clic droit accroupi avec une hache :",
+  "wiki.decorative_blocks.thatch": "Ouvrez une botte de paille avec des cisailles."
 }

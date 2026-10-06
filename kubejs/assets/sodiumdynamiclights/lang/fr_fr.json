@@ -9,9 +9,17 @@
   "sodium.dynamiclights.options.mode.desc": "Configure la fréquence de mise à jour des sources de lumière dynamiques",
   "sodium.dynamiclights.options.page": "Lumières dynamiques",
   "sodium.dynamiclights.options.self": "Éclairage des objets en main",
-  "sodium.dynamiclights.options.self.desc": "Active les lumières dynamiques provenant du personnage à la première personne. Il est recommandé de désactiver cette option si des shaders qui ont leur propre éclairage dynamique sont utilisés.",
+  "sodium.dynamiclights.options.self.desc": "Active l'éclairage dynamique à la première personne. Il est recommandé de désactiver cette option si des shaders qui ont leur propre éclairage dynamique sont utilisés.",
   "sodium.dynamiclights.options.tnt": "Qualité de l'éclairage de la TNT",
   "sodium.dynamiclights.options.tnt.desc": "Configure la fréquence de mise à jour de l'éclairage de la TNT.",
   "sodium.dynamiclights.options.underwater": "Extinction sous l'eau",
-  "sodium.dynamiclights.options.underwater.desc": "Active la vérification des sources de lumière sensibles à l'eau. Cela signifie que certains objets n'émettront pas de lumière lorsqu'ils sont immergés dans l'eau."
+  "sodium.dynamiclights.options.underwater.desc": "Active la vérification des sources de lumière sensibles à l'eau. Cela signifie que certains objets n'émettront pas de lumière lorsqu'ils sont immergés dans l'eau.",
+  "sodiumdynamiclights.menu.canvas.1": "La désactivation de l'éclairage dynamique provenant des entités est recommandée avec Canvas !",
+  "sodiumdynamiclights.tooltip.block_entities": "Active l'éclairage dynamique provenant des entités de blocs.",
+  "sodiumdynamiclights.tooltip.creeper_lighting": "Détermine le mode d'éclairage dynamique des Creepers.\n- %s : désactive l'éclairage dynamique des Creepers.\n- %s : ajoute un niveau de lumière constant.\n- %s : ajoute un niveau de lumière dynamique.",
+  "sodiumdynamiclights.tooltip.entities": "Active l'éclairage dynamique provenant des entités. Note : toujours actif pour les joueurs.",
+  "sodiumdynamiclights.tooltip.mode.1": "Active les lumières dynamiques. Par exemple, si l'option est activée, un joueur tenant une torche va éclairer l'espace autour de lui.",
+  "sodiumdynamiclights.tooltip.mode.2": "%s et %s vont avoir un léger retard mais minimisent les mises à jour de lumière.",
+  "sodiumdynamiclights.tooltip.self_light_source": "Active l'éclairage dynamique à la première personne. Il est recommandé de désactiver cette option avec des shaders qui ont leur propre éclairage dynamique.",
+  "sodiumdynamiclights.tooltip.tnt_lighting": "Détermine le mode d'éclairage dynamique de la TNT.\n- %s : désactive l'éclairage dynamique de la TNT.\n- %s : ajoute un niveau de lumière constant.\n- %s : ajoute un niveau de lumière dynamique."
 }
