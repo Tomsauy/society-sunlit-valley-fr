@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Installe la traduction FR dans une instance de jeu Society: Sunlit Valley.
 
-Usage : python3 install_fr.py <chemin-instance-de-jeu> [--dry-run] [--resourcepack]
+Usage : python3 install_fr.py <chemin-instance-de-jeu> [--dry-run] [--resourcepack] [--sans-accent-fold]
 
 L'instance cible est le dossier contenant kubejs/, patchouli_books/, resourcepacks/
 (souvent .minecraft/ ou le dossier d'instance du launcher).
@@ -11,6 +11,8 @@ Méthode par défaut — copie directe (recommandée) :
   patchouli_books/<livre>/fr_fr/       → livres-guides
   config/fancymenu/assets/changelog_fr_fr.markdown → journal du menu titre, choisi
                                        par le layout selon la langue du jeu
+  mods/accentfold-<version>.jar        → le mod Accent Fold, s'il est construit dans
+                                       ../accent-fold/build/libs (--sans-accent-fold : non)
   Cette méthode REMPLACE les anciennes traductions FR communautaires du pack.
 
 Option --resourcepack : installe à la place le zip dans resourcepacks/ (à activer dans le jeu).
@@ -32,6 +34,8 @@ from pathlib import Path
 
 SRC_ROOT = Path(__file__).resolve().parents[2]
 SRC_REPO = SRC_ROOT / "society-sunlit-valley"
+# Le mod Accent Fold vit dans son propre dépôt, à côté de celui-ci.
+ACCENT_FOLD = SRC_ROOT.parent / "accent-fold" / "build" / "libs"
 RELEVE = ".traduction-fr.json"
 
 # Ce que des versions antérieures du script posaient sans jamais le reprendre. Les
@@ -92,6 +96,7 @@ def main() -> None:
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     dry = "--dry-run" in sys.argv
     use_rp = "--resourcepack" in sys.argv
+    sans_mod = "--sans-accent-fold" in sys.argv
     if not args:
         print(__doc__)
         sys.exit(1)
@@ -121,6 +126,8 @@ def main() -> None:
     books = [(b.name, b / "fr_fr", dest / "patchouli_books" / b.name / "fr_fr")
              for b in sorted((SRC_REPO / "patchouli_books").iterdir()) if (b / "fr_fr").is_dir()]
     changelog = Path("config/fancymenu/assets/changelog_fr_fr.markdown")
+    jars = [] if sans_mod else sorted(ACCENT_FOLD.glob("accentfold-*.jar"))
+    jar = jars[-1] if jars else None
 
     pose = [changelog.as_posix()]
     pose += [f"patchouli_books/{name}/fr_fr" for name, _, _ in books]
@@ -128,7 +135,14 @@ def main() -> None:
         pose.append("resourcepacks/Society_FR.zip")
     else:
         pose += [f"kubejs/assets/{f.parents[1].name}/lang/fr_fr.json" for f in lang_files]
+    if jar:
+        pose.append(f"mods/{jar.name}")
     obsoletes = a_retirer(dest, sorted(pose))
+    # Une autre version d'Accent Fold dans mods/ ferait planter Forge (deux fois le
+    # même mod) : elle est mise de côté en .bak-fr, que Forge ne charge pas.
+    autres_jars = [] if not jar else [
+        a for a in sorted((dest / "mods").glob("accentfold-*.jar"))
+        if a.name != jar.name and f"mods/{a.name}" not in obsoletes]
 
     print(f"\nInstallation vers : {dest}")
     if use_rp:
@@ -139,8 +153,14 @@ def main() -> None:
     for name, src, _ in books:
         print(f"  2. livre « {name} » → patchouli_books/{name}/fr_fr/  ({len(list(src.rglob('*.json')))} fichiers)")
     print(f"  3. {changelog.name} → {changelog.parent}/  [journal du menu titre]")
+    if jar:
+        print(f"  4. mod {jar.name} → mods/  [recherche sans accents]")
+    for a in autres_jars:
+        print(f"     autre version mise de côté : mods/{a.name} → {a.name}.bak-fr")
     if obsoletes:
-        print(f"  4. {len(obsoletes)} fichiers retirés — la traduction ne les porte plus :")
+        accord = ("fichier retiré — la traduction ne le porte plus" if len(obsoletes) == 1
+                  else "fichiers retirés — la traduction ne les porte plus")
+        print(f"  5. {len(obsoletes)} {accord} :")
         for c in obsoletes:
             rendue = " (sauvegarde restaurée)" if (
                 (dest / c).with_suffix(".json.bak-fr").exists()
@@ -179,6 +199,15 @@ def main() -> None:
         dst.parent.mkdir(parents=True, exist_ok=True)
         shutil.copytree(src, dst)
 
+    for a in autres_jars:
+        bak = a.with_name(a.name + ".bak-fr")
+        if bak.exists():
+            bak.unlink()
+        shutil.move(str(a), str(bak))
+    if jar:
+        (dest / "mods").mkdir(exist_ok=True)
+        shutil.copy2(jar, dest / "mods" / jar.name)
+
     for c in obsoletes:
         retirer(dest / c, dest)
     (dest / RELEVE).write_text(json.dumps(
@@ -192,11 +221,14 @@ def main() -> None:
     print("  - Options → Langue → Français (France)")
     print("  - Les livres Patchouli et les fichiers de langue sont chargés automatiquement.")
 
-    print()
-    print("  Le mod Accent Fold est vivement conseillé : sans lui, la recherche")
-    print("  d'objets fonctionne, mais il faut taper les accents — « Blé », pas")
-    print("  « ble ». Avec lui, les deux marchent.")
-    print("  Le jar se prend sur https://github.com/Tomsauy/accent-fold.")
+    if jar:
+        print("  - Accent Fold est installé : « ble » trouve « Blé » dans les recherches.")
+    else:
+        print()
+        print("  Le mod Accent Fold est vivement conseillé : sans lui, la recherche")
+        print("  d'objets fonctionne, mais il faut taper les accents — « Blé », pas")
+        print("  « ble ». Avec lui, les deux marchent.")
+        print("  Le jar se prend sur https://github.com/Tomsauy/accent-fold.")
 
 if __name__ == "__main__":
     main()

@@ -142,6 +142,10 @@ class TestMain(BaseInstance):
         self._src_avant = install_fr.SRC_REPO
         install_fr.SRC_REPO = self.src
         self.addCleanup(lambda: setattr(install_fr, "SRC_REPO", self._src_avant))
+        # Le mod n'est pas construit ici : sans jar, rien n'est posé dans mods/.
+        self._jars_avant = install_fr.ACCENT_FOLD
+        install_fr.ACCENT_FOLD = Path(self.tmp.name) / "sans-mod"
+        self.addCleanup(lambda: setattr(install_fr, "ACCENT_FOLD", self._jars_avant))
         poser(self.dest, "kubejs/.gardien", "")
         poser(self.dest, "pakku.json", json.dumps({"version": "4.1.5"}))
 
@@ -179,6 +183,18 @@ class TestMain(BaseInstance):
         poser(self.dest, "kubejs/assets/emi/aliases/society_fr.json", '{"alias": 1}')
         self.lancer()
         self.assertFalse((self.dest / "kubejs/assets/emi/aliases").exists())
+
+    def test_le_mod_est_pose_et_une_autre_version_mise_de_cote(self):
+        poser(Path(self.tmp.name), "jars/accentfold-1.0.0.jar", "jar")
+        install_fr.ACCENT_FOLD = Path(self.tmp.name) / "jars"
+        poser(self.dest, "mods/accentfold-0.9.0.jar", "vieux")
+        self.lancer()
+        self.assertTrue((self.dest / "mods/accentfold-1.0.0.jar").exists())
+        self.assertTrue((self.dest / "mods/accentfold-0.9.0.jar.bak-fr").exists())
+        self.assertFalse((self.dest / "mods/accentfold-0.9.0.jar").exists())
+        self.assertIn("mods/accentfold-1.0.0.jar", lire_releve(self.dest))
+        self.lancer("--sans-accent-fold")
+        self.assertFalse((self.dest / "mods/accentfold-1.0.0.jar").exists())
 
     def test_dry_run_n_ecrit_ni_ne_detruit_rien(self):
         residu = poser(self.dest, "kubejs/assets/emi/aliases/society_fr.json", '{"alias": 1}')
