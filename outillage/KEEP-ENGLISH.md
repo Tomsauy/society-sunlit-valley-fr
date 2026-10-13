@@ -1,68 +1,83 @@
-# Termes gardés en anglais — justification et emplacements
+# Termes gardés en anglais
 
-48 termes réels + 7 placeholders purement techniques.
+Généré par `python3 fr-workspace/scripts/glossaire.py --md` depuis les entrées du glossaire de `provenance.json` marquées `garde_anglais` : ne pas éditer ce fichier à la main. Les contrôles `casse` et `anglais_residuel` du vérificateur ne relèvent pas ces termes.
 
-## Termes réels
+Dans les raisons, « jar » désigne la traduction française qu'un mod embarque dans son fichier .jar (« jar Quark » : celle de Quark) ; « vanilla » ou « vanilla_fr », le français de Minecraft par Mojang ; « coréen », « ko », « chinois », les traductions du pack qui servent de témoins.
 
-| Terme | Pourquoi | Où (namespaces) | Exemples de clés | Occurrences |
-|---|---|---|---|---|
-| **ADD** | étiquette de mode de la jauge d'entiers d'Extra Gauges, gardée comme les portes AND/OR de la jauge logique, suivie de son explication en français (fiche du sous-projet 3 : modes-jauge-entiers, garder) | extra_gauges | `integer_gauge.mode.add` | 1 |
-| **Backyard** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.backyard.title`, `painting.trials.backyard.title` | 2 |
-| **Baroque** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.baroque.title`, `painting.trials.baroque.title` | 2 |
-| **Binome** | nom propre d'artiste, KO garde tel quel | galena_hats, windswept | `galena_hats.hat_type.binome`, `painting.windswept.cliffside.author` | 2 |
-| **Bitwise** | nom de slime informatique, coréen translittéré | almanac, splendid_slimes | `slime.splendid_slimes.bitwise`, `name` | 2 |
-| **Cavebird** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.cavebird.title`, `painting.trials.cavebird.title` | 2 |
-| **Changing** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.changing.title`, `painting.trials.changing.title` | 2 |
-| **Chapple** | créature mot-valise (chicken+apple), KO translittère | almanac, etcetera | `entity.etcetera.chapple`, `name` | 2 |
-| **Create** | nom propre du mod Create ici, pas le verbe vanilla | jade, jadeaddons | `jade.theme.jade.create`, `jade.modName.jadeaddons.create` | 2 |
-| **Cruncher** | créature du mod Species, coréen translittéré | almanac, species | `entity.species.cruncher`, `name` | 2 |
-| **CurseForge** | nom propre de plateforme | golemoverhaul, midnightlib | `config.golemoverhaul.links.curseforge`, `midnightlib.curseforge` | 2 |
-| **Discord** | marque; le coréen garde l'anglais | etcetera, golemoverhaul, observable, twigs | `mod.etcetera.contact.discord`, `config.golemoverhaul.links.discord`, `text.observable.discord` | 4 |
-| **Don't talk to me or my tomato ever again.** | easter egg ; le témoin coréen conserve l'anglais | botania, quark | `botania.tater.my_tomato`, `quark.misc.my_tomato` | 2 |
-| **Endboss** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.endboss.title`, `painting.trials.endboss.title` | 2 |
-| **Ender** | terme vanilla iconique conservé en français | almanac, splendid_slimes | `slime.splendid_slimes.ender`, `name` | 2 |
-| **Finding** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.finding.title`, `painting.trials.finding.title` | 2 |
-| **five** | pseudonyme d'artiste; le coréen garde l'anglais | atmospheric, buzzier_bees, clayworks | `painting.atmospheric.canyon.author`, `painting.atmospheric.fateful_outing.author`, `painting.atmospheric.lost.author` | 8 |
-| **Frostbiter** | créature du mod Windswept, coréen translittéré | almanac, windswept | `entity.windswept.frostbiter`, `name` | 2 |
-| **Galliraptor** | nom de créature latinisant, KO translittère | almanac, farmlife | `entity.farmlife.galliraptor`, `name` | 2 |
-| **Goober** | créature du mod Species, coréen translittéré | almanac, species | `entity.species.goober`, `name` | 2 |
-| **Humble** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.humble.title`, `painting.trials.humble.title` | 2 |
-| **Kristoffer Zetterstrand** | vanilla_fr; nom d'artiste réel conservé | gallery, trials | `painting.gallery.backyard.author`, `painting.gallery.bouquet.author`, `painting.gallery.cavebird.author` | 30 |
-| **Lowmist** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.lowmist.title`, `painting.trials.lowmist.title` | 2 |
-| **Mammutilation** | jeu de mots intraduisible, coréen translittéré | almanac, species | `entity.species.mammutilation`, `name` | 2 |
-| **Meditative** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.meditative.title`, `painting.trials.meditative.title` | 2 |
-| **Modrinth** | nom propre de plateforme | golemoverhaul, midnightlib | `config.golemoverhaul.links.modrinth`, `midnightlib.modrinth` | 2 |
-| **Moobloom** | créature iconique Minecraft Earth ; nom propre conservé | almanac, buzzier_bees | `entity.buzzier_bees.moobloom`, `name` | 2 |
-| **MULTIPLY** | étiquette de mode de la jauge d'entiers d'Extra Gauges, gardée comme les portes AND/OR de la jauge logique, suivie de son explication en français (fiche du sous-projet 3 : modes-jauge-entiers, garder) | extra_gauges | `integer_gauge.mode.multiply` | 1 |
-| **Orb** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.orb.title`, `painting.trials.orb.title` | 2 |
-| **Orby** | nom fantaisiste, coréen translittéré | almanac, splendid_slimes | `slime.splendid_slimes.orby`, `name` | 2 |
-| **Owlemons** | titre d'œuvre mot-valise, KO garde l'anglais | gallery, trials | `painting.gallery.owlemons.title`, `painting.trials.owlemons.title` | 2 |
-| **Passage** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.passage.title`, `painting.trials.passage.title` | 2 |
-| **Perfection** | terminologie officielle Stardew Valley FR | ftbquestlocalizer, society, vinery | `advancement.vinery.vintage_perfection.desc`, `society.trofers.perfection`, `ftbquests.chapter.longwings.subtitle0` | 13 |
-| **Pond** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.pond.title`, `painting.trials.pond.title` | 2 |
-| **Prisma** | nom fantaisiste, coréen translittéré | almanac, splendid_slimes | `slime.splendid_slimes.prisma`, `name` | 2 |
-| **Relics** | nom propre de mod, conservé aussi en coréen | ftbquestlocalizer, relics | `itemGroup.relics`, `ftbquests.chapter.relics.title` | 2 |
-| **Sarah Boeving** | artiste réelle; le coréen garde l'anglais | gallery, trials | `painting.gallery.baroque.author`, `painting.gallery.humble.author`, `painting.gallery.meditative.author` | 10 |
-| **SHIFT** | touche clavier; le coréen garde l'anglais | jei, perfectplushieapi, perfectplushies, refurbished_furniture | `jei.key.shift`, `tooltip.perfectplushies.shift`, `tooltip.perfectplushies.shift` | 4 |
-| **Sneep Snorp** | nom de poisson fantaisiste; le coréen translittère | fish_finder, society_tips, unusualfishmod | `society_tips.tip.sneep_snorp_one`, `entity.unusualfishmod.sneep_snorp`, `item.unusualfishmod.raw_sneep_snorp` | 4 |
-| **SUBTRACT** | étiquette de mode de la jauge d'entiers d'Extra Gauges, gardée comme les portes AND/OR de la jauge logique, suivie de son explication en français (fiche du sous-projet 3 : modes-jauge-entiers, garder) | extra_gauges | `integer_gauge.mode.subtract` | 1 |
-| **Sunflowers** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.sunflowers.title`, `painting.trials.sunflowers.title` | 2 |
-| **Ticker** | nom d'élément de FancyMenu (exécute des actions à intervalle) ; la traduction du mod le garde tel quel dans ses descriptions (« Si le ticker doit s'exécuter… ») ; lot 5-01 | fancymenu | `fancymenu.customization.items.ticker` | 1 |
-| **Tides** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.tides.title`, `painting.trials.tides.title` | 2 |
-| **Unpacked** | titre d'œuvre, KO garde l'anglais | gallery, trials | `painting.gallery.unpacked.title`, `painting.trials.unpacked.title` | 2 |
-| **Vanilla** | terme iconique du modding, KO translittère | entity_texture_features, ok_zoomer | `config.entity_texture_features.player_skin_editor.cape.none`, `config.ok_zoomer.features.cinematic_camera.vanilla` | 2 |
-| **Wraptor** | jeu de mots intraduisible, coréen translittéré | almanac, species | `entity.species.wraptor`, `name` | 2 |
-| **X** | technique | atmospheric, ftbquests | `potion.potency.9`, `ftbquests.chapter.image.x`, `ftbquests.quest.appearance.x` | 4 |
-| **Yapettoshen** | nom d'artiste fictif; le coréen translittère | portfolio, species, windswept | `painting.portfolio.alpha.author`, `painting.portfolio.an_intruder.author`, `painting.portfolio.ancestor.author` | 101 |
+## Termes — 61
 
-## Placeholders techniques (aucun texte à traduire)
-
-| Valeur | Où |
+| Terme | Pourquoi |
 |---|---|
-| `%s` | automobility, everycomp, loot_journal, seasonhud (11 occ.) |
-| `%s %%` | loot_journal (1 occ.) |
-| `%s %s` | jade (1 occ.) |
-| `%s %s %s` | jade, refurbished_furniture (2 occ.) |
-| `%s (%s)` | jade, quality_food, quark (4 occ.) |
-| `%s / %s` | jade, refurbished_furniture (2 occ.) |
-| `%s/%s` | species (1 occ.) |
+| **ADD** | Mode de la jauge d'entiers d'Extra Gauges (integer_gauge.mode.add), gardé en anglais comme AND, OR, XOR de la jauge logique : étiquette de mode, suivie de son explication en français |
+| **Backyard** | Titre d'oeuvre ; le coréen garde l'anglais |
+| **Baroque** | Titre d'oeuvre ; le coréen garde l'anglais |
+| **Binome** | Nom propre d'artiste ; le coréen garde tel quel |
+| **Bitwise** | Nom de slime informatique, coréen translittéré |
+| **Cavebird** | Titre d'oeuvre ; le coréen garde l'anglais |
+| **Changing** | Titre d'oeuvre ; le coréen garde l'anglais |
+| **Chapple** | Créature mot-valise (chicken+apple), le coréen translittère |
+| **COUNTRY ROADS** | Invariant légitime (marque, chanson, nom propre, mot identique) |
+| **Country roads, take me home...** | Invariant légitime (marque, chanson, nom propre, mot identique) |
+| **Cranberry** | Anglicisme retenu par choix utilisateur (usage courant en France) |
+| **Create** | Nom propre du mod Create ici, pas le verbe vanilla |
+| **Cruncher** | Créature du mod Species, coréen translittéré |
+| **CurseForge** | Nom propre de plateforme |
+| **Discord** | Marque ; le coréen garde l'anglais |
+| **Don't talk to me or my tomato ever again.** | Easter egg ; le témoin coréen conserve l'anglais |
+| **Endboss** | Titre d'oeuvre ; le coréen garde l'anglais |
+| **Ender** | Terme vanilla iconique conservé en français |
+| **Famine** | Invariant légitime (marque, chanson, nom propre, mot identique) |
+| **Fashionista** | Invariant légitime (marque, chanson, nom propre, mot identique) |
+| **Finding** | Titre d'oeuvre ; le coréen garde l'anglais |
+| **five** | Pseudonyme d'artiste ; le coréen garde l'anglais |
+| **Frostbiter** | Créature du mod Windswept, coréen translittéré |
+| **Galliraptor** | Nom de créature latinisant, le coréen translittère |
+| **Goober** | Créature du mod Species, coréen translittéré |
+| **Humble** | Titre d'oeuvre ; le coréen garde l'anglais |
+| **Kristoffer Zetterstrand** | Vanilla_fr ; nom d'artiste réel conservé |
+| **Lowmist** | Titre d'oeuvre ; le coréen garde l'anglais |
+| **Mammutilation** | Jeu de mots intraduisible, coréen translittéré |
+| **Meditative** | Titre d'oeuvre ; le coréen garde l'anglais |
+| **Modrinth** | Nom propre de plateforme |
+| **Mon Bazou** | Invariant légitime (marque, chanson, nom propre, mot identique) |
+| **Moobloom** | Créature iconique Minecraft Earth ; nom propre conservé |
+| **MOUNTAIN MAMAAAAAA** | Invariant légitime (marque, chanson, nom propre, mot identique) |
+| **MULTIPLY** | Mode de la jauge d'entiers d'Extra Gauges (integer_gauge.mode.multiply), gardé en anglais comme AND, OR, XOR de la jauge logique : étiquette de mode, suivie de son explication en français |
+| **Orb** | Titre d'oeuvre ; le coréen garde l'anglais |
+| **Orby** | Nom fantaisiste, coréen translittéré |
+| **Owlemons** | Titre d'oeuvre mot-valise ; le coréen garde l'anglais |
+| **Passage** | Titre d'oeuvre ; le coréen garde l'anglais |
+| **Perfection** | Terminologie officielle Stardew Valley FR |
+| **Pond** | Titre d'oeuvre ; le coréen garde l'anglais |
+| **Prisma** | Nom fantaisiste, coréen translittéré |
+| **Relics** | Nom propre de mod, conservé aussi en coréen |
+| **Sarah Boeving** | Artiste réelle ; le coréen garde l'anglais |
+| **SHIFT** | Touche clavier ; le coréen garde l'anglais |
+| **Sneep Snorp** | Nom de poisson fantaisiste ; le coréen translittère |
+| **Society** | Invariant légitime (marque, chanson, nom propre, mot identique) |
+| **Society: Sunlit Valley** | Invariant légitime (marque, chanson, nom propre, mot identique) |
+| **SUBTRACT** | Mode de la jauge d'entiers d'Extra Gauges (integer_gauge.mode.subtract), gardé en anglais comme AND, OR, XOR de la jauge logique : étiquette de mode, suivie de son explication en français |
+| **Sunflowers** | Titre d'oeuvre ; le coréen garde l'anglais |
+| **Sunlit** | Invariant légitime (marque, chanson, nom propre, mot identique) |
+| **TAKE ME HOME** | Invariant légitime (marque, chanson, nom propre, mot identique) |
+| **Ticker** | Nom d'élément de FancyMenu, qui exécute des actions à intervalle ; la traduction du mod le garde tel quel (« Si le ticker doit s'exécuter… ») |
+| **Tides** | Titre d'oeuvre ; le coréen garde l'anglais |
+| **To the place I belong...** | Invariant légitime (marque, chanson, nom propre, mot identique) |
+| **Unpacked** | Titre d'oeuvre ; le coréen garde l'anglais |
+| **Vanilla** | Terme iconique du modding, le coréen translittère |
+| **WEST VIRGINIA** | Invariant légitime (marque, chanson, nom propre, mot identique) |
+| **Wraptor** | Jeu de mots intraduisible, coréen translittéré |
+| **X** | Technique |
+| **Yapettoshen** | Nom d'artiste fictif ; le coréen translittère |
+
+## Placeholders techniques, sans texte à traduire — 7
+
+| Valeur |
+|---|
+| `%s` |
+| `%s %%` |
+| `%s %s` |
+| `%s %s %s` |
+| `%s (%s)` |
+| `%s / %s` |
+| `%s/%s` |

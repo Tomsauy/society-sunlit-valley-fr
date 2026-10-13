@@ -10,7 +10,7 @@ const jetons = (s) => (s ?? "").match(JETON)?.sort().join("|") ?? "";
 
 // Mêmes règles que fr-workspace/scripts/validate_translation.py, qui fait foi pour le
 // corpus : clés, placeholders, non-traduit. Aucune règle d'accents des deux côtés — la
-// politique s'est inversée (DECISION-ACCENTS.md, quatrième épisode) : tout le français
+// politique s'est inversée (docs/specs/2026-09-14-reaccentuation-des-noms-design.md) : tout le français
 // est accentué, noms d'objets compris, et la recherche en jeu tient du mod Accent Fold,
 // plus d'un nom appauvri. Le contrôle `--accent-free` a disparu du script Python ;
 // l'interdiction qui vivait ici, et qui faisait répondre 422 à toute correction

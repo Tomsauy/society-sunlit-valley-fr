@@ -73,21 +73,27 @@ export function readMeta(workspace = WORKSPACE) {
   const prov = lire("provenance.json", { cles: {}, glossaire: [] },
     (v) => v !== null && typeof v === "object" && !Array.isArray(v));
   const provenance = new Map(Object.entries(prov.cles ?? {}));
-  const glossaire = new Map((prov.glossaire ?? []).map(g => [g.en, g]));
+  // Un anglais peut porter plusieurs entrées, une par sens (champ `sens`) : la Map rend le
+  // sens général, l'entrée sans `sens` ; termesDe() rend tous les sens d'un terme trouvé.
+  const entrees = prov.glossaire ?? [];
+  const glossaire = new Map();
+  for (const g of entrees) {
+    if (!glossaire.has(g.en) || (glossaire.get(g.en).sens && !g.sens)) glossaire.set(g.en, g);
+  }
   const aRevoir = lire("a-revoir.json", [], Array.isArray);
 
   // Les termes du glossaire présents dans un texte donné, du plus long au plus court
   // pour que « Hops Seeds » ne masque pas « Hops ». Les expressions régulières sont
   // compilées une seule fois ici, à la lecture — pas à chaque appel de termesDe() —
-  // sans quoi 1 698 termes seraient recompilés à chaque sélection dans l'interface.
-  const parLongueur = [...glossaire.values()]
+  // sans quoi près de 1 900 termes seraient recompilés à chaque sélection dans l'interface.
+  const parLongueur = entrees
     .filter(g => g.en.length >= 3)
     .map(g => ({ g, re: motifDuTerme(g.en) }))
     .sort((a, b) => b.g.en.length - a.g.en.length);
 
   const termesDe = (texte) => {
     if (!texte) return [];
-    return parLongueur.filter(({ re }) => re.test(texte)).map(({ g }) => g).slice(0, 8);
+    return parLongueur.filter(({ re }) => re.test(texte)).map(({ g }) => g).slice(0, 12);
   };
 
   return { provenance, glossaire, aRevoir, termesDe, illisibles };

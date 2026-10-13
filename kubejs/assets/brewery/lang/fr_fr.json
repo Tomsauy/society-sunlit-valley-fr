@@ -124,10 +124,10 @@
   "brewery.sound.brewstation_oven": "Crépitement du four",
   "brewery.sound.brewstation_timer": "Tic-tac du minuteur",
   "brewery.sound.brewstation_whistle": "Sifflement de la vapeur",
-  "brewery.sound.cabinet_close": "Fermeture de l'armoire",
-  "brewery.sound.cabinet_open": "Ouverture de l'armoire",
-  "brewery.sound.drawer_close": "Fermeture du tiroir",
-  "brewery.sound.drawer_open": "Ouverture du tiroir",
+  "brewery.sound.cabinet_close": "Armoire qui se ferme",
+  "brewery.sound.cabinet_open": "Armoire qui s'ouvre",
+  "brewery.sound.drawer_close": "Tiroir qui se ferme",
+  "brewery.sound.drawer_open": "Tiroir qui s'ouvre",
   "brewery.sound.timer_ticking": "Tic-tac du minuteur",
   "disclaimer.brewery.alcohol": " Les pintes en pixels, c'est pour s'amuser,\ndans la vraie vie, la modération s'impose",
   "disclaimer.brewery.disclaimer": "Avertissement Brewery",
@@ -225,7 +225,7 @@
   "tooltip.brewfest.brewfest_seteffect": "Bonus de panoplie :",
   "tooltip.brewfest.brewfestboots": "[Bottes de Brewfest]",
   "tooltip.brewfest.brewfestbreastplate": "[Vêtement de Brewfest]",
-  "tooltip.brewfest.brewfestdrop": "Vendu par le villageois maître brasseur",
+  "tooltip.brewfest.brewfestdrop": "Vendu par le villageois Maître brasseur",
   "tooltip.brewfest.brewfesthelmet": "[Chapeau de Brewfest]",
   "tooltip.brewfest.brewfestleggings": "[Pantalon de Brewfest]"
 }

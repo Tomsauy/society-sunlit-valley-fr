@@ -3,6 +3,9 @@
 import json, re, sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from corrections.glossaire import entrees
+
 ROOT = Path(__file__).resolve().parents[2]
 WS = ROOT / "fr-workspace"
 CHUNK = 200
@@ -14,7 +17,8 @@ def relevant_glossary(chunk: dict, entries: list) -> list:
     for e in entries:
         t = e["en"].lower()
         if len(t) >= 3 and t in text:
-            out.append({"en": e["en"], "fr": e["fr"], "keep_english": e.get("keep_english", False)})
+            out.append({"en": e["en"], "fr": e["fr"], "keep_english": e.get("garde_anglais", False),
+                        **({"sens": e["sens"]} if e.get("sens") else {})})
     return out
 
 def main() -> None:
@@ -22,7 +26,7 @@ def main() -> None:
     if "--kinds" in sys.argv:
         kinds = set(sys.argv[sys.argv.index("--kinds") + 1].split(","))
     inv = json.loads((WS / "inventaire.json").read_text())
-    glossary = json.loads((WS / "glossaire.json").read_text())["entries"]
+    glossary = entrees(WS)
     (WS / "batches").mkdir(exist_ok=True)
     made = []
     for u in inv["units"]:

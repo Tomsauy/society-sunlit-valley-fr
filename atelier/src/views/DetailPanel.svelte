@@ -251,7 +251,7 @@
         <div class="box">
           {#each d.glossaire as g}
             <div><span>{g.en}</span><b>{g.garde_anglais ? "gardé en anglais" : g.fr}
-              <span class="path">— {g.origine}</span></b></div>
+              <span class="path">— {g.sens ? `${g.sens} · ` : ""}{g.origine}</span></b></div>
           {/each}
         </div>
       {/if}
