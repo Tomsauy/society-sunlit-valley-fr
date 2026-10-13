@@ -10411,6 +10411,13 @@
     "temoins": {
      "zh_cn": "橱柜：关闭"
     }
+   },
+   {
+    "type": "correction",
+    "lot": "sous-titres-01",
+    "fr": "Armoire qui se ferme",
+    "raison": "[sous-titres-01] décision de l'utilisateur du 13/10/2026 : les sous-titres d'ouverture et de fermeture prennent la forme de Mojang (« Coffre qui s'ouvre », « Tonneau qui se ferme »), comme Furniture et Meadow",
+    "date": "2026-10-13"
    }
   ],
   "brewery.sound.cabinet_open": [
@@ -10423,6 +10430,13 @@
     "temoins": {
      "zh_cn": "橱柜：打开"
     }
+   },
+   {
+    "type": "correction",
+    "lot": "sous-titres-01",
+    "fr": "Armoire qui s'ouvre",
+    "raison": "[sous-titres-01] décision de l'utilisateur du 13/10/2026 : les sous-titres d'ouverture et de fermeture prennent la forme de Mojang (« Coffre qui s'ouvre », « Tonneau qui se ferme »), comme Furniture et Meadow",
+    "date": "2026-10-13"
    }
   ],
   "brewery.sound.drawer_close": [
@@ -10435,6 +10449,13 @@
     "temoins": {
      "zh_cn": "抽屉：关闭"
     }
+   },
+   {
+    "type": "correction",
+    "lot": "sous-titres-01",
+    "fr": "Tiroir qui se ferme",
+    "raison": "[sous-titres-01] décision de l'utilisateur du 13/10/2026 : les sous-titres d'ouverture et de fermeture prennent la forme de Mojang (« Coffre qui s'ouvre », « Tonneau qui se ferme »), comme Furniture et Meadow",
+    "date": "2026-10-13"
    }
   ],
   "brewery.sound.drawer_open": [
@@ -10447,6 +10468,13 @@
     "temoins": {
      "zh_cn": "抽屉：打开"
     }
+   },
+   {
+    "type": "correction",
+    "lot": "sous-titres-01",
+    "fr": "Tiroir qui s'ouvre",
+    "raison": "[sous-titres-01] décision de l'utilisateur du 13/10/2026 : les sous-titres d'ouverture et de fermeture prennent la forme de Mojang (« Coffre qui s'ouvre », « Tonneau qui se ferme »), comme Furniture et Meadow",
+    "date": "2026-10-13"
    }
   ],
   "brewery.sound.timer_ticking": [
@@ -10627,6 +10655,13 @@
     "fr": "Aucune course de cochons en cours ! Achète un ticket multijoueur auprès d'un banquier !",
     "raison": "Registre incohérent : vouvoiement alors que tous les autres messages de la course de cochons (society.pig_race.*) tutoient le joueur.",
     "fichier": "kubejs/assets/society/lang/fr_fr.json"
+   },
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Aucune course de cochons en cours ! Achète un ticket multijoueur auprès d'un Banquier !",
+    "raison": "[metiers-01] le Banquier du village, qui vend les tickets multijoueur de la course de cochons",
+    "date": "2026-10-13"
    }
   ],
   "command.society.pig_race.no_bet": [
@@ -13608,6 +13643,13 @@
     "fr": "Atteindre le fond de la &6Caverne du Crâne&r n'est pas une mince affaire. La &6corde magique&r, en vente chez le marchand, te téléporte instantanément au palier inférieur. ",
     "raison": "Cohérence : « layer » = « palier » (convention dominante du chapitre : Palier I/II/III, « palier gelé »).",
     "fichier": "kubejs/assets/ftbquestlocalizer/lang/fr_fr.json"
+   },
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Atteindre le fond de la &6Caverne du Crâne&r n'est pas une mince affaire. La &6corde magique&r, en vente chez le Marchand, te téléporte instantanément au palier inférieur. ",
+    "raison": "[metiers-01] le Marchand (villageois Trader de Society), qui vend la corde magique",
+    "date": "2026-10-13"
    }
   ],
   "ftbquests.chapter.iv__prismatic_farming.quest2F83B8F22344FAD7.description1": [
@@ -22093,6 +22135,13 @@
     "raison": "fiche du 30/09, question flotteur : « Flotteur » partout",
     "date": "2026-10-01",
     "question": "flotteur"
+   },
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Le Pêcheur vend désormais le §dRecycleur d'oeufs de poisson§7.\nLe Pêcheur vend désormais le §dFlotteur aiguille§7 et le §dFlotteur filet§7.",
+    "raison": "[metiers-01] le Pêcheur du village (deux occurrences), dont la boutique gagne le recycleur et les flotteurs",
+    "date": "2026-10-13"
    }
   ],
   "society_skills.mining.furniture_archaeologist.description": [
@@ -22171,6 +22220,13 @@
     "fr": "Envie de décorer ? Achète un catalogue de meubles chez la sorcière !",
     "raison": "Capitalisation anglaise : profession en minuscule dans le corps de phrase, comme partout ailleurs dans le pack.",
     "fichier": "kubejs/assets/society_tips/lang/fr_fr.json"
+   },
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Envie de décorer ? Achète un catalogue de meubles chez la Sorcière !",
+    "raison": "[metiers-01] la Sorcière du village, qui vend le catalogue de meubles",
+    "date": "2026-10-13"
    }
   ],
   "society_tips.tip.gold_slimes": [
@@ -22218,6 +22274,13 @@
     "fr": "Tu n'aimes pas les compétences que tu as choisies ? Achète un cristal de regret chez une sorcière !",
     "raison": "Capitalisation anglaise : les professions restent en minuscules dans le corps de phrase (\"la sorcière vend\", \"le forgeron\", \"le barman\").",
     "fichier": "kubejs/assets/society_tips/lang/fr_fr.json"
+   },
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Tu n'aimes pas les compétences que tu as choisies ? Achète un cristal de regret chez une Sorcière !",
+    "raison": "[metiers-01] la Sorcière du village, qui vend les cristaux de regret",
+    "date": "2026-10-13"
    }
   ],
   "sodium.console.broken_nvidia_driver": [
@@ -22248,6 +22311,13 @@
     "fr": "Fermeture d'une armoire",
     "raison": "cite « Cabinet », dont le nom affiché est « Armoire »",
     "date": "2026-10-01"
+   },
+   {
+    "type": "correction",
+    "lot": "sous-titres-01",
+    "fr": "Armoire qui se ferme",
+    "raison": "[sous-titres-01] décision de l'utilisateur du 13/10/2026 : les sous-titres d'ouverture et de fermeture prennent la forme de Mojang (« Coffre qui s'ouvre », « Tonneau qui se ferme »), comme Furniture et Meadow",
+    "date": "2026-10-13"
    }
   ],
   "sound.doapi.drawer_close": [
@@ -22256,6 +22326,13 @@
     "fr": "Fermeture d'un tiroir",
     "raison": "Même problème : \"Tiroir se ferme\" (article manquant) face à \"Ouverture d'un tiroir\".",
     "fichier": "kubejs/assets/doapi/lang/fr_fr.json"
+   },
+   {
+    "type": "correction",
+    "lot": "sous-titres-01",
+    "fr": "Tiroir qui se ferme",
+    "raison": "[sous-titres-01] décision de l'utilisateur du 13/10/2026 : les sous-titres d'ouverture et de fermeture prennent la forme de Mojang (« Coffre qui s'ouvre », « Tonneau qui se ferme »), comme Furniture et Meadow",
+    "date": "2026-10-13"
    }
   ],
   "splendid_slimes.advancement.root.title": [
@@ -24692,6 +24769,13 @@
     "temoins": {
      "zh_cn": "酿酒师村民售卖"
     }
+   },
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Vendu par le villageois Maître brasseur",
+    "raison": "[metiers-01] le villageois Maître brasseur (profession brewer) qui vend l'objet ; seul le premier mot prend la majuscule",
+    "date": "2026-10-13"
    }
   ],
   "tooltip.copycats.characteristics.ct_toggle.description": [
@@ -32108,6 +32192,13 @@
     "fr": "^^^\nUn café bien à soi\n## Cozy Cafe\n### v4.1.5\n### Joyeux 2e anniversaire, Sunlit Valley !!\n^^^\n--- \n\n- Ajout des points de vente et des sous-comptes, venus de la mise à jour de Create: Numismatics\n- Ajout de l'abrègement des nombres dans les classements des pièces\n- Retrait de l'achat des jetons de surplus, l'équipe de Numismatics ayant corrigé le débordement ! Les jetons restent utilisables\n- Retrait de l'intégration de Waterframes, pour qu'on puisse le retirer du pack sans risque s'il ne fonctionne pas sur ta machine\n- Ajout du rendu des skins fins pour les clients du Cozy Cafe\n- Les plats du Cozy Cafe s'affichent en 3D dans les assiettes quand l'aliment existe aussi sous forme de bloc\n- Correction des erreurs de texture sur les arbalètes et les tableaux\n- Correction de messages de journalisation qui s'affichaient à tort\n- Correction de certaines pousses dépourvues de tags\n- Correction de bugs du classement des pièces\n- Correction des comptes en banque qui basculaient à -2 milliards au-delà de 2 milliards\n- Correction des menus du Cozy Cafe composés uniquement de desserts, qui avaient des assiettes sales\n\n## 4.0.0\n- Ajout de Cozy Cafe, un mod créé pour le pack, qui ajoute un mini-jeu de gestion de café dans l'esprit de Diner Dash et Plate Up !\n- Ajout de nouveaux villageois : le Marchand, la Sorcière et le Bibliothécaire (anciennement Magasinier)\n- Ajout d'un nouveau système pour la boutique de construction (auparavant dans le livre de quêtes), utilisant les matériaux de construction\n- Ajout de l'ensemble de bâtiments Maison de ferme rurale et villageois, par Duy Luong\n- Ajout de l'ensemble de bâtiments Maison de ferme florale, par SianaTheSavage\n- Ajout de l'ensemble de bâtiments Maison de ferme sakura, par EeveeBeby\n- Ajout des mécaniques d'élevage et de génétique des papillons de jour et de nuit\n- Ajout des oeufs de chenille et de la boîte à chenilles\n- Ajout de longwings : l'aile-feuille tropicale et le papillon comète\n- Ajout de valeurs de vente pour les papillons de jour et de nuit, calculées selon leur rareté et leur taille\n- Ajout du livre de compétence : La Métamorphosation\n- Ajout des gnomes vivants, qui existent vraiment, promis\n- Ajout de l'écloserie d'étang à poissons\n- Ajout du gestionnaire d'étang à poissons (merci Mayhan !)\n- Ajout du tambour de la corne d'abondance\n- Ajout du totem de sécheresse\n- Ajout du totem de pluie\n- Ajout du totem de tonnerre\n- Ajout de la poussière de fée\n- Ajout de la capacité de la baguette sylvestre à consulter le niveau de mana des blocs Botania personnalisés (ça a l'air bancal, mais ça marche !)\n- Ajout d'objets de mobilier tirés au hasard chaque jour, en vente chez le charpentier\n- Ajout d'un support Jade plus complet pour la croissance des cultures (merci Hexagreen !)\n- Ajout d'une recette de remplissage pour la cacahuète grillée au miel (merci Emma !)\n- Ajout de la possibilité de se lier d'amitié avec le mystique Chêne sage\n- Ajout d'une recette de fabrication pour l'oeuf d'apparition de tatou\n- Ajout de la mise à jour Chaos Cubed via Vanilla Backport\n- Ajout du retour des villages vanille, ainsi que d'un nouveau type\n- Ajout des boissons énergisantes blanche, rose et au mana (non vieillissables, le vieillissement de la boisson énergisante normale étant appelé à disparaître)\n- Ajout d'une mise en cache hors ligne pour l'entonnoir d'artisan, l'auto-ramasseur et le panier d'étang à poissons (merci simonLeary42 !)\n- Ajout de valeurs de vente pour les parts de gâteau et les plats de festin\n- Ajout de la carte d'arpentage à la guilde\n- Ajout de la prise en charge des comptes partagés dans le classement des pièces\n- Ajout des fenêtres Create d'everycompat avec RP, pour de plus jolies textures\n- Ajout de la mayonnaise suprême comme base de balise\n- Ajout de groupes de piles dans EMI et JEI\n- Refonte de l'horloge de mana : elle fonctionne désormais exactement comme l'horloge dorée, mais avec un rayon plus petit et un coût en mana\n- Refonte des catalogues de meubles : ce sont maintenant des boutiques, au lieu de contenir des objets uniques\n- Traduction portugaise du Brésil mise à jour (merci RafaelJMBR !)\n- Textes de l'Épée galactique et de Miaoumageddon rendus scintillants\n- Taux de conversion de la terre cuite augmenté : 1/30 s → 1/10 s\n- Production de l'engrais d'abondance augmentée à la fabrication : 1 → 4\n- Tolérance de portée des zones de pêche augmentée\n- Amélioration de pompe avancée réintégrée, les problèmes ayant été corrigés\n- Mana maximal des cultures à fruits de mana réduit, pour qu'elles absorbent moins de mana\n- Consommation de mana du recycleur de sparkstone réduite par recyclage : 10 000 → 5 000\n- Amélioration maximale des golems de foin réduite à l'engrais de qualité élevée\n- Coût effectif des types de bâtiment les plus grands de la boutique de construction réduit\n- Chaleur requise réduite pour les thés vert, d'hibiscus, de yerba mate et de rooibos\n- Volume sonore des arroseurs de mana réduit\n- Retrait de la radio beachparty, à cause de problèmes\n- Retrait des types de fluide des raisins secondaires, désormais unifiés en rouge et blanc\n- Libraire renommé en Foire aux livres\n- Correction de certains blocs society qui n'avaient pas le tag « minable à la pioche »\n- Correction de la zone d'action erronée de l'arroseur de mana\n- Correction de l'horloge de mana qui ne fonctionnait pas\n- Correction de la dent de déchiqueteur qui ne fonctionnait pas\n- Correction de la baguette en diamant qui ne fonctionnait pas avec le noyau de destruction\n- Correction du livre L'Élevage à toute heure, qui n'apparaissait pas chez le libraire / à la Foire aux livres\n- Correction de l'amélioration Opale noire du cristalarium, qui ne fonctionnait pas sur les récoltes manuelles\n- Correction de la viande de pélican qui n'avait pas les bons tags\n- Correction du trait Sommelière qui ne tenait pas compte du nombre de résultats d'une recette (par exemple les éclats d'artéfact)\n- Correction des blocs d'algues du bas, qui n'étaient pas des blocs d'eau valides pour un étang à poissons\n- Correction de la liaison de redstone, qui utilisait un boîtier de laiton au lieu d'un boîtier d'andésite\n- Correction des ensembles de bâtiments, dont le nombre d'abreuvoirs était incohérent\n- Correction des blocs de tesson prismatique et de sparkstone, qui n'avaient pas de tag « minable »\n\n## 4.1.1\n- Ajout d'un message unique à la connexion, au sujet du changement de la boutique de construction\n- Ajout d'un message signalant qu'un nouveau villageois peut être invité\n- Ajout de flèches en vente à la guilde\n- Ajout du mod No Chat Restrictions (aucune restriction de tchat)\n- Traduction chinoise mise à jour (merci Thirace !)\n- Longueur des comptes partagés du classement des pièces raccourcie\n- Correction de la quête « Construire ta maison de ferme », qui n'avait pas été mise à jour avec les nouveaux plans\n- Correction du message de cadeau maximal de Veronica, qui était erroné\n- Correction du classement des pièces, qui ne fonctionnait pas\n- Correction des boîtes fantastiques, qui ne fonctionnaient pas\n- Correction des entonnoirs d'artisan, des paniers d'étang à poissons et des auto-ramasseurs, qui ne tenaient pas compte des compétences à cause du changement de mise en cache\n- Correction du problème de modèles manquants pour les arbalètes et les peintures (probablement)\n- Correction du plantage avec Create Central Kitchen\n\n## 4.1.2\n- Ajout d'une recette convertissant les nouilles de pomme de terre en pâtes crues\n- Ajout d'une recette convertissant la plume de canard en plume\n- Ajout de la traduction du journal des modifications (merci Hexagreen !)\n- Ajout du tag « minable à la hache » au menu de café\n- Ajout d'émojis pour les nouveaux PNJ\n- Traduction chinoise mise à jour (merci Thirace !)\n- Traduction coréenne mise à jour (merci Hexagreen !)\n- Nettoyage des tags des blocs Whimsy Deco\n- Correction des problèmes de dialogue du Chêne sage\n- Correction de l'écloserie d'étang à poissons qui ne se liait pas aux joueurs (il faudra la casser et la reposer)\n- Correction des quêtes de nouveaux villageois qui acceptaient n'importe quelle invitation\n- Correction de la dépendance erronée de la quête du bibliothécaire\n- Correction des objets retirés qui restaient obtenables dans le butin\n- Correction de l'écloserie d'étang à poissons qui ne pouvait pas être améliorée\n- Correction de la triple truffe qui ne fonctionnait pas avec les auto-ramasseurs\n- Correction des problèmes de schémas Create\n- Correction du Chêne sage qui possédait une invitation\n- Correction de l'écloserie d'étang à poissons qui ne fonctionnait pas avec la loupe\n- Correction des zones inexactes de la hutte Ribbit et du tambour de la corne d'abondance vues à la loupe\n- Correction des tomates qui ne grimpaient pas aux cordes\n- Correction des cafés servant uniquement des boissons, qui provoquaient un flânage sans fin\n- Correction de l'aspirateur de Slimes qui supprimait les largos en main secondaire\n- Correction du bloc de feuilles de thé mélangé qui donnait du thé vert au lieu du thé vert séché\n- Correction des dialogues qui n'apparaissaient pas au cinquième cadeau\n- Correction du piquet et du treillis de vigne qui n'affichaient pas le compteur de jours dans Jade\n- Correction de l'engrais de croissance qui ne s'appliquait pas aux buissons à baies alors que Jade indiquait le contraire\n\n## 4.1.3\n- Ajout de l'ensemble de maisons de villageois Pineconetown, par beawitched\n- Ajout du Deep-a-Mochi\n- Ajout des beignets au citron\n- Ajout du thé au lait suspect\n- Ajout de l'artéfact Outil des bâtisseurs anciens\n- Ajout de l'artéfact Clé rouge\n- Ajout de la prise en charge des jetons de surplus pour les comptes partagés (rééquiper la carte bancaire pour mettre à jour)\n- Échange du marchand de cristaux de terre modifié : du riz vers le coton\n- Échange de jade du Marchand modifié : du vin Aegis vers le citron séché\n- Le classement des pièces récupère désormais les données une seule fois au lieu d'une fois par classement, ce qui améliore les performances sur les gros serveurs\n- Hauteur du classement des pièces augmentée d'un quart de bloc, pour un rendu moins baveux\n- Mod Quality Food mis à jour, avec diverses corrections de qualité\n- Traduction chinoise mise à jour (merci Thirace !)\n- Traduction coréenne mise à jour (merci Hexagreen !)\n- Retrait de la possibilité d'appliquer le masque Wicked à certaines entités, à cause des bannissements de chunks\n- Correction des comptes partagés du classement des pièces, pour de bon cette fois (rééquiper la carte bancaire) (merci ManlyTorch !)\n- Correction du golem de slime et de la loutre, qui décimaient les populations\n- Correction de certaines bûches à champignons qui donnaient des colonies de champignons rouges au lieu de brunes\n- Correction des problèmes de l'ensemble de bâtiments Sakura\n- Correction des gnomes qui n'étaient pas des gnomes sur Gnomeymap\n- Correction de l'achigan à petite bouche, impossible à pêcher la nuit en automne\n- Correction des peluches Sylvestre, qui agissaient au mauvais endroit\n- Correction d'EMI qui ne permettait plus la recherche par tag de bloc, en revenant à une version antérieure\n\n## 4.1.4\n- Ajout d'un pack de ressources retexturant les pièces (merci Jamiscus !)\n- Correction des blocs à qualité tirée au hasard, qui ne se ramassaient pas\n- Correction des particules de nourriture de qualité, qui ne s'arrêtaient jamais\n- Correction du plantage lié aux copycats\n- Correction de l'achat groupé avec Maj, qui achetait jusqu'à remplir l'inventaire et ruinait les fermiers de toute la vallée\n",
     "raison": "[rq-05b] relecture P6 des lots rq, défauts hors lot : « slime » en minuscule contre STYLE §2 (décision du 29/09) : le Slime garde sa majuscule partout, comme un nom de personne (« Coeur de Slime fabricable », « Seau de Slime ») ; la matière garde la minuscule comme chez Mojang (« Boule de slime », « Bloc de slime », golem et zombies de slime, porte couverte de slime) ; journal : « aspirateur de Slimes » (journal#126)",
     "date": "2026-10-06"
+   },
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "^^^\nUn café bien à soi\n## Cozy Cafe\n### v4.1.5\n### Joyeux 2e anniversaire, Sunlit Valley !!\n^^^\n--- \n\n- Ajout des points de vente et des sous-comptes, venus de la mise à jour de Create: Numismatics\n- Ajout de l'abrègement des nombres dans les classements des pièces\n- Retrait de l'achat des jetons de surplus, l'équipe de Numismatics ayant corrigé le débordement ! Les jetons restent utilisables\n- Retrait de l'intégration de Waterframes, pour qu'on puisse le retirer du pack sans risque s'il ne fonctionne pas sur ta machine\n- Ajout du rendu des skins fins pour les clients du Cozy Cafe\n- Les plats du Cozy Cafe s'affichent en 3D dans les assiettes quand l'aliment existe aussi sous forme de bloc\n- Correction des erreurs de texture sur les arbalètes et les tableaux\n- Correction de messages de journalisation qui s'affichaient à tort\n- Correction de certaines pousses dépourvues de tags\n- Correction de bugs du classement des pièces\n- Correction des comptes en banque qui basculaient à -2 milliards au-delà de 2 milliards\n- Correction des menus du Cozy Cafe composés uniquement de desserts, qui avaient des assiettes sales\n\n## 4.0.0\n- Ajout de Cozy Cafe, un mod créé pour le pack, qui ajoute un mini-jeu de gestion de café dans l'esprit de Diner Dash et Plate Up !\n- Ajout de nouveaux villageois : le Marchand, la Sorcière et le Bibliothécaire (anciennement Magasinier)\n- Ajout d'un nouveau système pour la boutique de construction (auparavant dans le livre de quêtes), utilisant les matériaux de construction\n- Ajout de l'ensemble de bâtiments Maison de ferme rurale et villageois, par Duy Luong\n- Ajout de l'ensemble de bâtiments Maison de ferme florale, par SianaTheSavage\n- Ajout de l'ensemble de bâtiments Maison de ferme sakura, par EeveeBeby\n- Ajout des mécaniques d'élevage et de génétique des papillons de jour et de nuit\n- Ajout des oeufs de chenille et de la boîte à chenilles\n- Ajout de longwings : l'aile-feuille tropicale et le papillon comète\n- Ajout de valeurs de vente pour les papillons de jour et de nuit, calculées selon leur rareté et leur taille\n- Ajout du livre de compétence : La Métamorphosation\n- Ajout des gnomes vivants, qui existent vraiment, promis\n- Ajout de l'écloserie d'étang à poissons\n- Ajout du gestionnaire d'étang à poissons (merci Mayhan !)\n- Ajout du tambour de la corne d'abondance\n- Ajout du totem de sécheresse\n- Ajout du totem de pluie\n- Ajout du totem de tonnerre\n- Ajout de la poussière de fée\n- Ajout de la capacité de la baguette sylvestre à consulter le niveau de mana des blocs Botania personnalisés (ça a l'air bancal, mais ça marche !)\n- Ajout d'objets de mobilier tirés au hasard chaque jour, en vente chez le Charpentier\n- Ajout d'un support Jade plus complet pour la croissance des cultures (merci Hexagreen !)\n- Ajout d'une recette de remplissage pour la cacahuète grillée au miel (merci Emma !)\n- Ajout de la possibilité de se lier d'amitié avec le mystique Chêne sage\n- Ajout d'une recette de fabrication pour l'oeuf d'apparition de tatou\n- Ajout de la mise à jour Chaos Cubed via Vanilla Backport\n- Ajout du retour des villages vanille, ainsi que d'un nouveau type\n- Ajout des boissons énergisantes blanche, rose et au mana (non vieillissables, le vieillissement de la boisson énergisante normale étant appelé à disparaître)\n- Ajout d'une mise en cache hors ligne pour l'entonnoir d'artisan, l'auto-ramasseur et le panier d'étang à poissons (merci simonLeary42 !)\n- Ajout de valeurs de vente pour les parts de gâteau et les plats de festin\n- Ajout de la carte d'arpentage à la guilde\n- Ajout de la prise en charge des comptes partagés dans le classement des pièces\n- Ajout des fenêtres Create d'everycompat avec RP, pour de plus jolies textures\n- Ajout de la mayonnaise suprême comme base de balise\n- Ajout de groupes de piles dans EMI et JEI\n- Refonte de l'horloge de mana : elle fonctionne désormais exactement comme l'horloge dorée, mais avec un rayon plus petit et un coût en mana\n- Refonte des catalogues de meubles : ce sont maintenant des boutiques, au lieu de contenir des objets uniques\n- Traduction portugaise du Brésil mise à jour (merci RafaelJMBR !)\n- Textes de l'Épée galactique et de Miaoumageddon rendus scintillants\n- Taux de conversion de la terre cuite augmenté : 1/30 s → 1/10 s\n- Production de l'engrais d'abondance augmentée à la fabrication : 1 → 4\n- Tolérance de portée des zones de pêche augmentée\n- Amélioration de pompe avancée réintégrée, les problèmes ayant été corrigés\n- Mana maximal des cultures à fruits de mana réduit, pour qu'elles absorbent moins de mana\n- Consommation de mana du recycleur de sparkstone réduite par recyclage : 10 000 → 5 000\n- Amélioration maximale des golems de foin réduite à l'engrais de qualité élevée\n- Coût effectif des types de bâtiment les plus grands de la boutique de construction réduit\n- Chaleur requise réduite pour les thés vert, d'hibiscus, de yerba mate et de rooibos\n- Volume sonore des arroseurs de mana réduit\n- Retrait de la radio beachparty, à cause de problèmes\n- Retrait des types de fluide des raisins secondaires, désormais unifiés en rouge et blanc\n- Libraire renommé en Foire aux livres\n- Correction de certains blocs society qui n'avaient pas le tag « minable à la pioche »\n- Correction de la zone d'action erronée de l'arroseur de mana\n- Correction de l'horloge de mana qui ne fonctionnait pas\n- Correction de la dent de déchiqueteur qui ne fonctionnait pas\n- Correction de la baguette en diamant qui ne fonctionnait pas avec le noyau de destruction\n- Correction du livre L'Élevage à toute heure, qui n'apparaissait pas chez le libraire / à la Foire aux livres\n- Correction de l'amélioration Opale noire du cristalarium, qui ne fonctionnait pas sur les récoltes manuelles\n- Correction de la viande de pélican qui n'avait pas les bons tags\n- Correction du trait Sommelière qui ne tenait pas compte du nombre de résultats d'une recette (par exemple les éclats d'artéfact)\n- Correction des blocs d'algues du bas, qui n'étaient pas des blocs d'eau valides pour un étang à poissons\n- Correction de la liaison de redstone, qui utilisait un boîtier de laiton au lieu d'un boîtier d'andésite\n- Correction des ensembles de bâtiments, dont le nombre d'abreuvoirs était incohérent\n- Correction des blocs de tesson prismatique et de sparkstone, qui n'avaient pas de tag « minable »\n\n## 4.1.1\n- Ajout d'un message unique à la connexion, au sujet du changement de la boutique de construction\n- Ajout d'un message signalant qu'un nouveau villageois peut être invité\n- Ajout de flèches en vente à la guilde\n- Ajout du mod No Chat Restrictions (aucune restriction de tchat)\n- Traduction chinoise mise à jour (merci Thirace !)\n- Longueur des comptes partagés du classement des pièces raccourcie\n- Correction de la quête « Construire ta maison de ferme », qui n'avait pas été mise à jour avec les nouveaux plans\n- Correction du message de cadeau maximal de Veronica, qui était erroné\n- Correction du classement des pièces, qui ne fonctionnait pas\n- Correction des boîtes fantastiques, qui ne fonctionnaient pas\n- Correction des entonnoirs d'artisan, des paniers d'étang à poissons et des auto-ramasseurs, qui ne tenaient pas compte des compétences à cause du changement de mise en cache\n- Correction du problème de modèles manquants pour les arbalètes et les peintures (probablement)\n- Correction du plantage avec Create Central Kitchen\n\n## 4.1.2\n- Ajout d'une recette convertissant les nouilles de pomme de terre en pâtes crues\n- Ajout d'une recette convertissant la plume de canard en plume\n- Ajout de la traduction du journal des modifications (merci Hexagreen !)\n- Ajout du tag « minable à la hache » au menu de café\n- Ajout d'émojis pour les nouveaux PNJ\n- Traduction chinoise mise à jour (merci Thirace !)\n- Traduction coréenne mise à jour (merci Hexagreen !)\n- Nettoyage des tags des blocs Whimsy Deco\n- Correction des problèmes de dialogue du Chêne sage\n- Correction de l'écloserie d'étang à poissons qui ne se liait pas aux joueurs (il faudra la casser et la reposer)\n- Correction des quêtes de nouveaux villageois qui acceptaient n'importe quelle invitation\n- Correction de la dépendance erronée de la quête du Bibliothécaire\n- Correction des objets retirés qui restaient obtenables dans le butin\n- Correction de l'écloserie d'étang à poissons qui ne pouvait pas être améliorée\n- Correction de la triple truffe qui ne fonctionnait pas avec les auto-ramasseurs\n- Correction des problèmes de schémas Create\n- Correction du Chêne sage qui possédait une invitation\n- Correction de l'écloserie d'étang à poissons qui ne fonctionnait pas avec la loupe\n- Correction des zones inexactes de la hutte Ribbit et du tambour de la corne d'abondance vues à la loupe\n- Correction des tomates qui ne grimpaient pas aux cordes\n- Correction des cafés servant uniquement des boissons, qui provoquaient un flânage sans fin\n- Correction de l'aspirateur de Slimes qui supprimait les largos en main secondaire\n- Correction du bloc de feuilles de thé mélangé qui donnait du thé vert au lieu du thé vert séché\n- Correction des dialogues qui n'apparaissaient pas au cinquième cadeau\n- Correction du piquet et du treillis de vigne qui n'affichaient pas le compteur de jours dans Jade\n- Correction de l'engrais de croissance qui ne s'appliquait pas aux buissons à baies alors que Jade indiquait le contraire\n\n## 4.1.3\n- Ajout de l'ensemble de maisons de villageois Pineconetown, par beawitched\n- Ajout du Deep-a-Mochi\n- Ajout des beignets au citron\n- Ajout du thé au lait suspect\n- Ajout de l'artéfact Outil des bâtisseurs anciens\n- Ajout de l'artéfact Clé rouge\n- Ajout de la prise en charge des jetons de surplus pour les comptes partagés (rééquiper la carte bancaire pour mettre à jour)\n- Échange de cristaux de terre du Marchand modifié : du riz vers le coton\n- Échange de jade du Marchand modifié : du vin Aegis vers le citron séché\n- Le classement des pièces récupère désormais les données une seule fois au lieu d'une fois par classement, ce qui améliore les performances sur les gros serveurs\n- Hauteur du classement des pièces augmentée d'un quart de bloc, pour un rendu moins baveux\n- Mod Quality Food mis à jour, avec diverses corrections de qualité\n- Traduction chinoise mise à jour (merci Thirace !)\n- Traduction coréenne mise à jour (merci Hexagreen !)\n- Retrait de la possibilité d'appliquer le masque Wicked à certaines entités, à cause des bannissements de chunks\n- Correction des comptes partagés du classement des pièces, pour de bon cette fois (rééquiper la carte bancaire) (merci ManlyTorch !)\n- Correction du golem de slime et de la loutre, qui décimaient les populations\n- Correction de certaines bûches à champignons qui donnaient des colonies de champignons rouges au lieu de brunes\n- Correction des problèmes de l'ensemble de bâtiments Sakura\n- Correction des gnomes qui n'étaient pas des gnomes sur Gnomeymap\n- Correction de l'achigan à petite bouche, impossible à pêcher la nuit en automne\n- Correction des peluches Sylvestre, qui agissaient au mauvais endroit\n- Correction d'EMI qui ne permettait plus la recherche par tag de bloc, en revenant à une version antérieure\n\n## 4.1.4\n- Ajout d'un pack de ressources retexturant les pièces (merci Jamiscus !)\n- Correction des blocs à qualité tirée au hasard, qui ne se ramassaient pas\n- Correction des particules de nourriture de qualité, qui ne s'arrêtaient jamais\n- Correction du plantage lié aux copycats\n- Correction de l'achat groupé avec Maj, qui achetait jusqu'à remplir l'inventaire et ruinait les fermiers de toute la vallée\n",
+    "raison": "[metiers-01] journal du menu titre, relecture P6 : le Charpentier qui vend le mobilier, la quête du Bibliothécaire, l'échange du Marchand (« Earth Crystal trader trade », tourné comme la ligne suivante, « Échange de jade du Marchand »)",
+    "date": "2026-10-13"
    }
   ],
   "curios.modifiers.slots.plus.1": [
@@ -40584,6 +40675,13 @@
     "fr": "Ouverture d'une armoire",
     "raison": "cite « Cabinet », dont le nom affiché est « Armoire »",
     "date": "2026-10-01"
+   },
+   {
+    "type": "correction",
+    "lot": "sous-titres-01",
+    "fr": "Armoire qui s'ouvre",
+    "raison": "[sous-titres-01] décision de l'utilisateur du 13/10/2026 : les sous-titres d'ouverture et de fermeture prennent la forme de Mojang (« Coffre qui s'ouvre », « Tonneau qui se ferme »), comme Furniture et Meadow",
+    "date": "2026-10-13"
    }
   ],
   "subtitles.beachparty.sound.cabinet_close": [
@@ -40593,6 +40691,13 @@
     "fr": "Fermeture d'une armoire",
     "raison": "cite « Cabinet », dont le nom affiché est « Armoire »",
     "date": "2026-10-01"
+   },
+   {
+    "type": "correction",
+    "lot": "sous-titres-01",
+    "fr": "Armoire qui se ferme",
+    "raison": "[sous-titres-01] décision de l'utilisateur du 13/10/2026 : les sous-titres d'ouverture et de fermeture prennent la forme de Mojang (« Coffre qui s'ouvre », « Tonneau qui se ferme »), comme Furniture et Meadow",
+    "date": "2026-10-13"
    }
   ],
   "subtitles.beachparty.sound.cabinet_open": [
@@ -40602,6 +40707,13 @@
     "fr": "Ouverture d'une armoire",
     "raison": "cite « Cabinet », dont le nom affiché est « Armoire »",
     "date": "2026-10-01"
+   },
+   {
+    "type": "correction",
+    "lot": "sous-titres-01",
+    "fr": "Armoire qui s'ouvre",
+    "raison": "[sous-titres-01] décision de l'utilisateur du 13/10/2026 : les sous-titres d'ouverture et de fermeture prennent la forme de Mojang (« Coffre qui s'ouvre », « Tonneau qui se ferme »), comme Furniture et Meadow",
+    "date": "2026-10-13"
    }
   ],
   "block.botania.potted_heisei_dream": [
@@ -42977,6 +43089,13 @@
     "fr": "Le marchand propose désormais le §dNoyau recyclé§7 au troc.\nLe forgeron vend désormais la §dStatue du gnome de la lune§7.",
     "raison": "le nom « Statue du gnome de la lune » mis en valeur en entier, avec la majuscule de son premier mot (STYLE §2), comme « le §dNoyau recyclé§7 » du même texte",
     "date": "2026-10-01"
+   },
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Le Marchand propose désormais le §dNoyau recyclé§7 au troc.\nLe Forgeron vend désormais la §dStatue du gnome de la lune§7.",
+    "raison": "[metiers-01] le Marchand (villageois Trader de Society), qui propose le Noyau recyclé au troc, et le Forgeron du village, dont la boutique gagne la Statue du gnome de la lune",
+    "date": "2026-10-13"
    }
   ],
   "ftbquests.chapter.getting_started.quest3385C414574E7FE2.description2": [
@@ -80638,6 +80757,13 @@
     "fr": "Le marché vend désormais des §dSparkpods§7 et des §dPousses de saule mystique§7.\nRécolter des cultures a une chance de faire tomber des §dPousses de sombrepin§7.",
     "raison": "[chasse society-1] mineur : « Spark-Pods » reprend la graphie anglaise du texte, alors que l'objet s'affiche « Sparkpod » ; les pousses ont leurs noms affichés",
     "date": "2026-10-05"
+   },
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Le Marché vend désormais des §dSparkpods§7 et des §dPousses de saule mystique§7.\nRécolter des cultures a une chance de faire tomber des §dPousses de sombrepin§7.",
+    "raison": "[metiers-01] le Marché de Leon (villageois du marché), dont la boutique gagne Sparkpods et pousses de saule mystique",
+    "date": "2026-10-13"
    }
   ],
   "block.society.fish_pond.fish_quest": [
@@ -112371,6 +112497,429 @@
     "raison": "[rq-06] relecture P6 de rq-05, objection A4 : ligature « œ » d'une description de jar (JEED), contre la convention du projet « oe », jamais la ligature (CLAUDE.md, STYLE) ; français du jar repris sur l'anglais (« turf » : territoire ; « Charger » est un nom de créature du mod, gardé)",
     "date": "2026-10-06"
    }
+  ],
+  "sound.doapi.drawer_open": [
+   {
+    "type": "correction",
+    "lot": "sous-titres-01",
+    "fr": "Tiroir qui s'ouvre",
+    "raison": "[sous-titres-01] décision de l'utilisateur du 13/10/2026 : les sous-titres d'ouverture et de fermeture prennent la forme de Mojang (« Coffre qui s'ouvre », « Tonneau qui se ferme »), comme Furniture et Meadow",
+    "date": "2026-10-13"
+   }
+  ],
+  "subtitles.vinery.cabinet_close": [
+   {
+    "type": "correction",
+    "lot": "sous-titres-01",
+    "fr": "Armoire qui se ferme",
+    "raison": "[sous-titres-01] décision de l'utilisateur du 13/10/2026 : les sous-titres d'ouverture et de fermeture prennent la forme de Mojang (« Coffre qui s'ouvre », « Tonneau qui se ferme »), comme Furniture et Meadow",
+    "date": "2026-10-13"
+   }
+  ],
+  "subtitles.vinery.cabinet_open": [
+   {
+    "type": "correction",
+    "lot": "sous-titres-01",
+    "fr": "Armoire qui s'ouvre",
+    "raison": "[sous-titres-01] décision de l'utilisateur du 13/10/2026 : les sous-titres d'ouverture et de fermeture prennent la forme de Mojang (« Coffre qui s'ouvre », « Tonneau qui se ferme »), comme Furniture et Meadow",
+    "date": "2026-10-13"
+   }
+  ],
+  "subtitles.vinery.drawer_close": [
+   {
+    "type": "correction",
+    "lot": "sous-titres-01",
+    "fr": "Tiroir qui se ferme",
+    "raison": "[sous-titres-01] décision de l'utilisateur du 13/10/2026 : les sous-titres d'ouverture et de fermeture prennent la forme de Mojang (« Coffre qui s'ouvre », « Tonneau qui se ferme »), comme Furniture et Meadow",
+    "date": "2026-10-13"
+   }
+  ],
+  "subtitles.vinery.drawer_open": [
+   {
+    "type": "correction",
+    "lot": "sous-titres-01",
+    "fr": "Tiroir qui s'ouvre",
+    "raison": "[sous-titres-01] décision de l'utilisateur du 13/10/2026 : les sous-titres d'ouverture et de fermeture prennent la forme de Mojang (« Coffre qui s'ouvre », « Tonneau qui se ferme »), comme Furniture et Meadow",
+    "date": "2026-10-13"
+   }
+  ],
+  "botanist_workbench.description": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Établi pour la villageoise Sorcière.",
+    "raison": "[metiers-01] la Sorcière du village (profession botanist), dont c'est l'établi de travail",
+    "date": "2026-10-13"
+   }
+  ],
+  "ftbquests.chapter.getting_started.quest1A4FD076999BF29F.description2": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Tu peux en voir un aperçu en parlant à Ace le Charpentier et en choisissant 'Construire des bâtiments de ferme'.",
+    "raison": "[metiers-01] Ace, le Charpentier du village, à qui on parle pour voir les bâtiments",
+    "date": "2026-10-13"
+   }
+  ],
+  "ftbquests.chapter.getting_started.quest1E5531421815CDB3.description1": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Pour améliorer tes outils au-delà du bois, il te faut une &6Table de forge&r. Aux paliers supérieurs, il faudra un modèle de forge acheté auprès d'un &6Villageois Forgeron&r.",
+    "raison": "[metiers-01] le villageois Forgeron, qui vend les modèles de forge",
+    "date": "2026-10-13"
+   }
+  ],
+  "ftbquests.chapter.getting_started.quest24C86673E1F57A3E.task.7417262034328619829.title": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Villageois Forgeron invité",
+    "raison": "[metiers-01] le Forgeron, villageois qu'on invite (titre de tâche, comme « Villageois Banquier invité »)",
+    "date": "2026-10-13"
+   }
+  ],
+  "ftbquests.chapter.getting_started.quest66D159252C70D5F2.task.8616531338673694050.title": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Villageois Charpentier invité",
+    "raison": "[metiers-01] le Charpentier, villageois qu'on invite (titre de tâche, comme « Villageois Banquier invité »)",
+    "date": "2026-10-13"
+   }
+  ],
+  "ftbquests.chapter.ii__building_up_the_farm.quest1F12BF72B966E0CC.description1": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Fatigué de payer le Forgeron pour ouvrir tes &6Géodes&r ? Achète-lui donc un &6Extractinateur&r !",
+    "raison": "[metiers-01] le Forgeron du village, à qui on paie l'ouverture des géodes et qui vend l'Extractinateur",
+    "date": "2026-10-13"
+   }
+  ],
+  "info.society.villager_unlock_condition.blacksmith": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Inviter le villageois Charpentier pour débloquer l'invitation",
+    "raison": "[metiers-01] le Charpentier, villageois qu'il faut avoir invité",
+    "date": "2026-10-13"
+   }
+  ],
+  "info.society.villager_unlock_condition.market": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Inviter le villageois Charpentier pour débloquer l'invitation",
+    "raison": "[metiers-01] le Charpentier, villageois qu'il faut avoir invité",
+    "date": "2026-10-13"
+   }
+  ],
+  "info.society.villager_unlock_condition.shepherd": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Inviter le villageois Charpentier pour débloquer l'invitation",
+    "raison": "[metiers-01] le Charpentier, villageois qu'il faut avoir invité",
+    "date": "2026-10-13"
+   }
+  ],
+  "item.society.geode.description": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Il y a quelque chose à l'intérieur ! Un Forgeron peut aider à l'ouvrir.",
+    "raison": "[metiers-01] le Forgeron du village, qui ouvre les géodes contre paiement",
+    "date": "2026-10-13"
+   }
+  ],
+  "shop.society_trading.bs_banker.description": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Une maison pour qu'un Banquier s'installe au village",
+    "raison": "[metiers-01] le villageois Banquier qui viendra habiter la maison achetée",
+    "date": "2026-10-13"
+   }
+  ],
+  "shop.society_trading.bs_blacksmith.description": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Une maison pour qu'un Forgeron s'installe au village",
+    "raison": "[metiers-01] le villageois Forgeron qui viendra habiter la maison achetée",
+    "date": "2026-10-13"
+   }
+  ],
+  "shop.society_trading.bs_carpenter.description": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Une maison pour qu'un Charpentier s'installe au village",
+    "raison": "[metiers-01] le villageois Charpentier qui viendra habiter la maison achetée",
+    "date": "2026-10-13"
+   }
+  ],
+  "shop.society_trading.bs_fisher.description": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Une maison pour qu'un Pêcheur s'installe au village",
+    "raison": "[metiers-01] le villageois Pêcheur qui viendra habiter la maison achetée",
+    "date": "2026-10-13"
+   }
+  ],
+  "shop.society_trading.bs_librarian.description": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Une maison pour qu'un Bibliothécaire s'installe au village",
+    "raison": "[metiers-01] le villageois Bibliothécaire qui viendra habiter la maison achetée",
+    "date": "2026-10-13"
+   }
+  ],
+  "shop.society_trading.bs_shepherd.description": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Une maison pour qu'un Berger s'installe au village",
+    "raison": "[metiers-01] le villageois Berger qui viendra habiter la maison achetée",
+    "date": "2026-10-13"
+   }
+  ],
+  "shop.society_trading.bs_witch.description": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Une maison pour qu'une Sorcière s'installe au village",
+    "raison": "[metiers-01] la villageoise Sorcière qui viendra habiter la maison achetée",
+    "date": "2026-10-13"
+   }
+  ],
+  "society.login_update.desc_0": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Merci de jouer ! La boutique de construction a été retirée du livre de quêtes. Tu peux désormais acheter des plans auprès d'Ace le Charpentier.",
+    "raison": "[metiers-01] Ace, le Charpentier du village, qui vend désormais les plans",
+    "date": "2026-10-13"
+   }
+  ],
+  "society_skills.mastery.adventuring_mastery.description": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "La guilde vend désormais des objets pour améliorer les animaux familiers.\nLa Sorcière vend désormais la §dTable d'enchantement§7.",
+    "raison": "[metiers-01] la Sorcière du village, dont la boutique gagne la Table d'enchantement",
+    "date": "2026-10-13"
+   }
+  ],
+  "society_skills.mastery.husbandry_mastery.description": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Des §dBiscuits pour animaux§7 et des §fCapsules de peluches§7 peuvent désormais être trouvés dans le monde.\nLa Sorcière vend désormais des §dCristaux Sunlit§7.",
+    "raison": "[metiers-01] la Sorcière du village, dont la boutique gagne les Cristaux Sunlit",
+    "date": "2026-10-13"
+   }
+  ],
+  "society_tips.tip.barkeeper": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Le Barman vend de la nourriture au prix fort pour ceux qui ont la flemme de cuisiner. Tu vois de qui je parle.",
+    "raison": "[metiers-01] le Barman, villageois (profession barkeeper) qui vend des plats",
+    "date": "2026-10-13"
+   }
+  ],
+  "society_tips.tip.exotic_trader": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Le Marchand exotique vend des améliorations pour les machines d'artisan.",
+    "raison": "[metiers-01] le Marchand exotique, villageois (profession fletcher) qui vend les améliorations ; seul le premier mot prend la majuscule",
+    "date": "2026-10-13"
+   }
+  ],
+  "block.farm_and_charm.onion_crop": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "SUPPRIMÉ ! Acheter des graines d'oignon au Marché !",
+    "raison": "[metiers-01] le Marché de Leon (villageois du marché), qui vend les graines d'oignon",
+    "date": "2026-10-13"
+   }
+  ],
+  "dialog.npc.blacksmith.chatter_friendship3.9.line_0": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Hmmm, Leon me doit toujours quelque chose pour la réparation de cette étagère... Je me demande si je peux trouver une douceur au Marché aujourd'hui !",
+    "raison": "[metiers-01] le Marché de Leon (villageois du marché), où le Forgeron compte acheter une douceur",
+    "date": "2026-10-13"
+   }
+  ],
+  "dialog.npc.carpenter.chatter_friendship0.10.line_0": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Tu commences à bien maîtriser l'agriculture ? Inviter quelqu'un pour gérer le Marché te permettra d'obtenir de nouvelles graines.",
+    "raison": "[metiers-01] le Marché de Leon (villageois du marché), qu'on invite pour avoir de nouvelles graines",
+    "date": "2026-10-13"
+   }
+  ],
+  "dialog.npc.carpenter.chatter_friendship4.6.line_0": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Les fruits déshydratés font d'excellentes provisions de voyage. Le Marché vend un déshydrateur, si ça t'intéresse.",
+    "raison": "[metiers-01] le Marché de Leon (villageois du marché), qui vend le déshydrateur",
+    "date": "2026-10-13"
+   }
+  ],
+  "dialog.npc.market.chatter_friendship0.6.line_2": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Bienvenue au Marché, qu'est-ce que je peux faire pour toi !",
+    "raison": "[metiers-01] le Marché de Leon (villageois du marché), accueil de Leon dans sa boutique",
+    "date": "2026-10-13"
+   }
+  ],
+  "dialog.npc.market.chatter_friendship3.5.line_0": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Beurk, Haruna empeste le Marché avec son poisson ces derniers temps...",
+    "raison": "[metiers-01] le Marché de Leon (villageois du marché), que Haruna empeste avec son poisson",
+    "date": "2026-10-13"
+   }
+  ],
+  "dialog.npc.market.chatter_friendship5.12.line_2": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Pour le Marché, bien sûr !",
+    "raison": "[metiers-01] le Marché de Leon (villageois du marché) : Leon veut du vin pour sa boutique (line_0–1)",
+    "date": "2026-10-13"
+   }
+  ],
+  "dialog.npc.shepherd.chatter_friendship3.7.line_0": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Leon a du matériel de couture en stock au Marché.",
+    "raison": "[metiers-01] le Marché de Leon (villageois du marché), où Leon a du matériel de couture en stock",
+    "date": "2026-10-13"
+   }
+  ],
+  "dialog.npc.shepherd.gift_liked.2.line_0": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Je cherchais justement ça au Marché l'autre jour ! Comment tu as deviné ?",
+    "raison": "[metiers-01] le Marché de Leon (villageois du marché), où le Berger cherchait l'objet",
+    "date": "2026-10-13"
+   }
+  ],
+  "ftbquests.chapter.villagers.quest1348507AE17E187E.description2": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Le Marchand peut être invité par téléphone après ta première visite de la &6Caverne du Crâne&r.",
+    "raison": "[metiers-01] le Marchand (villageois Trader de Society), qu'on invite par téléphone",
+    "date": "2026-10-13"
+   }
+  ],
+  "info.society.villager_unlock_condition.banker": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Inviter le villageois du Marché pour débloquer l'invitation",
+    "raison": "[metiers-01] le Marché de Leon (villageois du marché), villageois qu'il faut avoir invité",
+    "date": "2026-10-13"
+   }
+  ],
+  "info.society.villager_unlock_condition.fisher": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Inviter le villageois du Marché pour débloquer l'invitation",
+    "raison": "[metiers-01] le Marché de Leon (villageois du marché), villageois qu'il faut avoir invité",
+    "date": "2026-10-13"
+   }
+  ],
+  "info.society.villager_unlock_condition.librarian": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Inviter le villageois du Marché pour débloquer l'invitation",
+    "raison": "[metiers-01] le Marché de Leon (villageois du marché), villageois qu'il faut avoir invité",
+    "date": "2026-10-13"
+   }
+  ],
+  "item.society.universal_methods_of_farming.description": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Le Marché vend toutes les graines de base en toute saison.",
+    "raison": "[metiers-01] le Marché de Leon (villageois du marché), qui vend toutes les graines de base",
+    "date": "2026-10-13"
+   }
+  ],
+  "society.advancement.obtain_dehydrator.description": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Achète un déshydrateur au Marché.",
+    "raison": "[metiers-01] le Marché de Leon (villageois du marché), qui vend le déshydrateur",
+    "date": "2026-10-13"
+   }
+  ],
+  "society_skills.books.universal_methods_of_farming.description": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Le Marché vend toutes les graines de base en toute saison.",
+    "raison": "[metiers-01] le Marché de Leon (villageois du marché), qui vend toutes les graines de base",
+    "date": "2026-10-13"
+   }
+  ],
+  "jei.society_trading.invited_market": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Nécessite d'inviter le Marché",
+    "raison": "[metiers-01] le Marché de Leon (villageois du marché), villageois qu'il faut avoir invité",
+    "date": "2026-10-13"
+   }
+  ],
+  "jei.society_trading.trader_clothing": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Se lier d'amitié avec le Marchand",
+    "raison": "[metiers-01] le Marchand (villageois Trader de Society), dont on devient l'ami",
+    "date": "2026-10-13"
+   }
+  ],
+  "shop.society_trading.bs_market.description": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Une maison pour qu'un Marché s'installe au village",
+    "raison": "[metiers-01] le Marché de Leon (villageois du marché), villageois qui viendra habiter la maison achetée",
+    "date": "2026-10-13"
+   }
+  ],
+  "shop.society_trading.bs_trader.description": [
+   {
+    "type": "correction",
+    "lot": "metiers-01",
+    "fr": "Une maison pour qu'un Marchand s'installe au village",
+    "raison": "[metiers-01] le Marchand (villageois Trader de Society) qui viendra habiter la maison achetée",
+    "date": "2026-10-13"
+   }
   ]
  },
  "reconciliation_par_chaine_anglaise": [
@@ -116826,7 +117375,7 @@
    "fr": "Yapettoshen",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "nom d'artiste fictif; le coréen translittère"
+   "raison": "nom d'artiste fictif ; le coréen translittère"
   },
   {
    "en": "Dyeable",
@@ -116840,7 +117389,7 @@
    "fr": "Kristoffer Zetterstrand",
    "garde_anglais": true,
    "origine": "Minecraft vanilla (officiel Mojang)",
-   "raison": "vanilla_fr; nom d'artiste réel conservé"
+   "raison": "vanilla_fr ; nom d'artiste réel conservé"
   },
   {
    "en": "Stackable",
@@ -116861,7 +117410,7 @@
    "fr": "Aucune",
    "garde_anglais": false,
    "origine": "Minecraft vanilla (officiel Mojang)",
-   "raison": "vanilla_fr; jars divergents ignorés"
+   "raison": "vanilla_fr ; jars divergents ignorés"
   },
   {
    "en": "This bed is occupied",
@@ -116882,7 +117431,7 @@
    "fr": "Désactivé",
    "garde_anglais": false,
    "origine": "traduction officielle du mod",
-   "raison": "jars divergents; « Désactivé » majoritaire et naturel"
+   "raison": "jars divergents ; « Désactivé » majoritaire et naturel"
   },
   {
    "en": "%s",
@@ -116910,7 +117459,7 @@
    "fr": "Sarah Boeving",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "artiste réelle; le coréen garde l'anglais"
+   "raison": "artiste réelle ; le coréen garde l'anglais"
   },
   {
    "en": "Cancel",
@@ -116924,7 +117473,7 @@
    "fr": "Activé",
    "garde_anglais": false,
    "origine": "traduction officielle du mod",
-   "raison": "jars divergents; « Activé » majoritaire et naturel"
+   "raison": "jars divergents ; « Activé » majoritaire et naturel"
   },
   {
    "en": "Banner Pattern",
@@ -116938,7 +117487,7 @@
    "fr": "five",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "pseudonyme d'artiste; le coréen garde l'anglais"
+   "raison": "pseudonyme d'artiste ; le coréen garde l'anglais"
   },
   {
    "en": "Type",
@@ -116966,7 +117515,7 @@
    "fr": "Lorsqu'il est placé :",
    "garde_anglais": false,
    "origine": "traduction officielle du mod",
-   "raison": "jars divergents; version bakery plus naturelle"
+   "raison": "jars divergents ; version bakery plus naturelle"
   },
   {
    "en": "Skull Cavern",
@@ -117015,7 +117564,7 @@
    "fr": "Haut",
    "garde_anglais": false,
    "origine": "traduction officielle du mod",
-   "raison": "jars divergents; « Haut » majoritaire"
+   "raison": "jars divergents ; « Haut » majoritaire"
   },
   {
    "en": "Items",
@@ -117029,7 +117578,7 @@
    "fr": "Amical",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "trait de créature; traduction naturelle"
+   "raison": "trait de créature ; traduction naturelle"
   },
   {
    "en": "Witch",
@@ -117057,14 +117606,14 @@
    "fr": "Table",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "jar « Tableau » = autre sens (affichage); ici meuble"
+   "raison": "jar « Tableau » = autre sens (affichage) ; ici meuble"
   },
   {
    "en": "Clear",
    "fr": "Effacer",
    "garde_anglais": false,
    "origine": "traduction officielle du mod",
-   "raison": "jars divergents; « Effacer » adapté aux boutons"
+   "raison": "jars divergents ; « Effacer » adapté aux boutons"
   },
   {
    "en": "General",
@@ -117099,7 +117648,7 @@
    "fr": "Tout",
    "garde_anglais": false,
    "origine": "Minecraft vanilla (officiel Mojang)",
-   "raison": "vanilla_fr; jars divergents ignorés"
+   "raison": "vanilla_fr ; jars divergents ignorés"
   },
   {
    "en": "Blocks",
@@ -117113,7 +117662,7 @@
    "fr": "Retour",
    "garde_anglais": false,
    "origine": "Minecraft vanilla (officiel Mojang)",
-   "raison": "vanilla_fr; jars majoritaires concordants"
+   "raison": "vanilla_fr ; jars majoritaires concordants"
   },
   {
    "en": "Always",
@@ -117134,35 +117683,35 @@
    "fr": "Haches",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "tag d'outils; pluriel vanilla"
+   "raison": "tag d'outils ; pluriel vanilla"
   },
   {
    "en": "Hoes",
    "fr": "Houes",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "tag d'outils; pluriel vanilla"
+   "raison": "tag d'outils ; pluriel vanilla"
   },
   {
    "en": "Pickaxes",
    "fr": "Pioches",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "tag d'outils; pluriel vanilla"
+   "raison": "tag d'outils ; pluriel vanilla"
   },
   {
    "en": "Shovels",
    "fr": "Pelles",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "tag d'outils; pluriel vanilla"
+   "raison": "tag d'outils ; pluriel vanilla"
   },
   {
    "en": "Swords",
    "fr": "Épées",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "tag d'outils; pluriel vanilla"
+   "raison": "tag d'outils ; pluriel vanilla"
   },
   {
    "en": "Search...",
@@ -117211,7 +117760,7 @@
    "fr": "Espèce",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "le coréen traduit; nom commun malgré le mod homonyme"
+   "raison": "le coréen traduit ; nom commun malgré le mod homonyme"
   },
   {
    "en": "Input",
@@ -117239,7 +117788,7 @@
    "fr": "Sneep Snorp",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "nom de poisson fantaisiste; le coréen translittère"
+   "raison": "nom de poisson fantaisiste ; le coréen translittère"
   },
   {
    "en": "Librarian",
@@ -117267,7 +117816,7 @@
    "fr": "Nom : %s",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "traduction directe; typographie française"
+   "raison": "traduction directe ; typographie française"
   },
   {
    "en": "X",
@@ -117278,7 +117827,7 @@
   },
   {
    "en": "Eggs",
-   "fr": "Œufs",
+   "fr": "Oeufs",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "pluriel du terme vanilla"
@@ -117358,7 +117907,7 @@
    "fr": "Divers",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "jar bookshelf erroné (« Days »); traduction usuelle"
+   "raison": "jar bookshelf erroné (« Days ») ; traduction usuelle"
   },
   {
    "en": "Client",
@@ -117428,7 +117977,7 @@
    "fr": "Supprimer",
    "garde_anglais": false,
    "origine": "Minecraft vanilla (officiel Mojang)",
-   "raison": "vanilla_fr; jars divergents ignorés"
+   "raison": "vanilla_fr ; jars divergents ignorés"
   },
   {
    "en": "No",
@@ -117470,14 +118019,14 @@
    "fr": "Discord",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "marque; le coréen garde l'anglais"
+   "raison": "marque ; le coréen garde l'anglais"
   },
   {
    "en": "Large",
    "fr": "Grand",
    "garde_anglais": false,
    "origine": "traduction officielle du mod",
-   "raison": "jars divergents; « Grand » majoritaire"
+   "raison": "jars divergents ; « Grand » majoritaire"
   },
   {
    "en": "Butterfly",
@@ -117498,7 +118047,7 @@
    "fr": "SHIFT",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "touche clavier; le coréen garde l'anglais"
+   "raison": "touche clavier ; le coréen garde l'anglais"
   },
   {
    "en": "Owl",
@@ -117526,14 +118075,14 @@
    "fr": "Capacité :",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "traduction directe; typographie française"
+   "raison": "traduction directe ; typographie française"
   },
   {
    "en": "Block",
    "fr": "Bloc",
    "garde_anglais": false,
    "origine": "traduction officielle du mod",
-   "raison": "jars divergents; ici sens « bloc » (tâches de quêtes)"
+   "raison": "jars divergents ; ici sens « bloc » (tâches de quêtes)"
   },
   {
    "en": "Fish",
@@ -117554,28 +118103,28 @@
    "fr": "Chêne sage",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "PNJ; le coréen traduit"
+   "raison": "PNJ ; le coréen traduit"
   },
   {
    "en": "Bank Meter",
    "fr": "Compteur bancaire",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "objet affichant le solde; traduction descriptive"
+   "raison": "objet affichant le solde ; traduction descriptive"
   },
   {
    "en": "Nether",
    "fr": "Nether",
    "garde_anglais": false,
    "origine": "Minecraft vanilla (officiel Mojang)",
-   "raison": "vanilla_fr; terme officiel inchangé"
+   "raison": "vanilla_fr ; terme officiel inchangé"
   },
   {
    "en": "Fishing",
    "fr": "Pêche",
    "garde_anglais": false,
    "origine": "terminologie Stardew Valley FR",
-   "raison": "jar bountiful; compétence type Stardew"
+   "raison": "jar bountiful ; compétence type Stardew"
   },
   {
    "en": "Shepherd",
@@ -117589,21 +118138,21 @@
    "fr": "Barman",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "métier de PNJ; traduction naturelle"
+   "raison": "métier de PNJ ; traduction naturelle"
   },
   {
    "en": "Carpenter",
    "fr": "Charpentier",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "métier de PNJ; traduction naturelle"
+   "raison": "métier de PNJ ; traduction naturelle"
   },
   {
    "en": "Complete the Abandoned Farm",
    "fr": "Terminer la Ferme abandonnée",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "exigence de quête; lieu du pack"
+   "raison": "exigence de quête ; lieu du pack"
   },
   {
    "en": "Complete the Vault",
@@ -117617,21 +118166,21 @@
    "fr": "En conserve !",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "titre de succès; clin d'œil au Bocal"
+   "raison": "titre de succès ; clin d'oeil au Bocal"
   },
   {
    "en": "Count: %s",
    "fr": "Nombre : %s",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "quantité affichée; typographie française"
+   "raison": "quantité affichée ; typographie française"
   },
   {
    "en": "Cochineal",
    "fr": "Cochenille",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "insecte réel; traduction directe"
+   "raison": "insecte réel ; traduction directe"
   },
   {
    "en": "Stonecutter",
@@ -117651,28 +118200,28 @@
    "en": "Black Dyes",
    "fr": "Teintures noires",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture noire »"
   },
   {
    "en": "Blue Dyes",
    "fr": "Teintures bleues",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture bleue »"
   },
   {
    "en": "Brown Dyes",
    "fr": "Teintures marron",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture marron »"
   },
   {
    "en": "Cyan Dyes",
    "fr": "Teintures cyan",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture cyan »"
   },
   {
@@ -117686,7 +118235,7 @@
    "en": "Dyes",
    "fr": "Teintures",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture »"
   },
   {
@@ -117700,42 +118249,42 @@
    "en": "Gray Dyes",
    "fr": "Teintures grises",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture grise »"
   },
   {
    "en": "Green Dyes",
    "fr": "Teintures vertes",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture verte »"
   },
   {
    "en": "Light Blue Dyes",
    "fr": "Teintures bleu clair",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture bleu clair »"
   },
   {
    "en": "Light Gray Dyes",
    "fr": "Teintures gris clair",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture gris clair »"
   },
   {
    "en": "Lime Dyes",
    "fr": "Teintures vert clair",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture vert clair »"
   },
   {
    "en": "Magenta Dyes",
    "fr": "Teintures magenta",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture magenta »"
   },
   {
@@ -117749,7 +118298,7 @@
    "en": "Orange Dyes",
    "fr": "Teintures orange",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture orange »"
   },
   {
@@ -117763,35 +118312,35 @@
    "en": "Pink Dyes",
    "fr": "Teintures roses",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture rose »"
   },
   {
    "en": "Purple Dyes",
    "fr": "Teintures violettes",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture violette »"
   },
   {
    "en": "Red Dyes",
    "fr": "Teintures rouges",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture rouge »"
   },
   {
    "en": "White Dyes",
    "fr": "Teintures blanches",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture blanche »"
   },
   {
    "en": "Yellow Dyes",
    "fr": "Teintures jaunes",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question teinture : pluriel du nom Mojang « Teinture jaune »"
   },
   {
@@ -117810,10 +118359,10 @@
   },
   {
    "en": "Opening Cabinet",
-   "fr": "Ouverture d'un placard",
+   "fr": "Armoire qui s'ouvre",
    "garde_anglais": false,
-   "origine": "arbitrage de traduction",
-   "raison": "sous-titre sonore, style vanilla"
+   "origine": "décision de l'utilisateur",
+   "raison": "sous-titre sonore à la manière de Mojang (« Coffre qui s'ouvre »)"
   },
   {
    "en": "Paste",
@@ -117841,14 +118390,14 @@
    "fr": "Bas",
    "garde_anglais": false,
    "origine": "Minecraft vanilla (officiel Mojang)",
-   "raison": "vanilla_fr; jars concordants"
+   "raison": "vanilla_fr ; jars concordants"
   },
   {
    "en": "Up",
    "fr": "Haut",
    "garde_anglais": false,
    "origine": "Minecraft vanilla (officiel Mojang)",
-   "raison": "vanilla_fr; jars concordants"
+   "raison": "vanilla_fr ; jars concordants"
   },
   {
    "en": "Glass",
@@ -117883,14 +118432,14 @@
    "fr": "Direction : ",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "traduction directe; espace final conservée"
+   "raison": "traduction directe ; espace final conservée"
   },
   {
    "en": "Can",
    "fr": "Boîte de conserve",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "sens multiples; sens « conserve » retenu pour les objets"
+   "raison": "sens multiples ; sens « conserve » retenu pour les objets"
   },
   {
    "en": "Deepslate Ores",
@@ -117904,7 +118453,7 @@
    "fr": "Minerais de pierre",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "tag technique; traduction directe"
+   "raison": "tag technique ; traduction directe"
   },
   {
    "en": "Copper Storage Blocks",
@@ -118295,8 +118844,8 @@
    "en": "Tags",
    "fr": "Tags",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
-   "raison": "Mojang (tag d'objet, commands.tag) ; lot rendus-01 ; « Mots clés » reste aux étiquettes de quêtes (ftbquests.tags)"
+   "origine": "décision de l'utilisateur",
+   "raison": "Mojang (tag d'objet, commands.tag) ; « Mots clés » reste aux étiquettes de quêtes (ftbquests.tags)"
   },
   {
    "en": "Match NBT",
@@ -118412,7 +118961,7 @@
   },
   {
    "en": "Eyeball Fish",
-   "fr": "Poisson-œil",
+   "fr": "Poisson-oeil",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "composé descriptif traduit"
@@ -118552,7 +119101,7 @@
   },
   {
    "en": "Amber Goby",
-   "fr": "Gobie ambré",
+   "fr": "Gobie ambre",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "nom de poisson descriptif traduit"
@@ -118622,10 +119171,10 @@
   },
   {
    "en": "Triple Twirl Pleco",
-   "fr": "Pléco à triple spirale",
+   "fr": "Pleco à triple spirale",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "pléco est le nom français usuel"
+   "raison": "pleco, nom courant du poisson-chat d'aquarium ; spirale triple du motif"
   },
   {
    "en": "Raccoon",
@@ -118891,7 +119440,7 @@
    "fr": "Vieillissement ancestral",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "catégorie de recettes Society, formulation naturelle"
+   "raison": "« Vieillissement ancestral », nom de la compétence dans le pack"
   },
   {
    "en": "Crop Collector",
@@ -118944,7 +119493,7 @@
   },
   {
    "en": "Tappers output double. Doesn't affect Auto-Tappers.",
-   "fr": "Les collecteurs de sève produisent le double. Sans effet sur les collecteurs automatiques.",
+   "fr": "Les collecteurs produisent le double. Sans effet sur les auto-collecteurs de sève.",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "description traduite, tapper = collecteur de sève"
@@ -118958,7 +119507,7 @@
   },
   {
    "en": "Prize Tickets give double the prizes.",
-   "fr": "Les tickets de prix donnent deux fois plus de lots.",
+   "fr": "Les tickets de récompense donnent deux fois plus de lots.",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "description de livre traduite"
@@ -118972,21 +119521,21 @@
   },
   {
    "en": "Mining Lead ore no longer causes Brain Damage clouds.",
-   "fr": "Miner du minerai de plomb ne crée plus de nuages de dommages cérébraux.",
+   "fr": "Miner du minerai de plomb ne crée plus de nuages de lésion cérébrale.",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "description de livre traduite"
   },
   {
    "en": "Naming animals grants an additional heart of affection.",
-   "fr": "Nommer les animaux accorde un cœur d'affection supplémentaire.",
+   "fr": "Nommer les animaux accorde un coeur d'affection supplémentaire.",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "description de livre traduite"
   },
   {
    "en": "1 additional crop drop per harvest.",
-   "fr": "1 produit supplémentaire par récolte.",
+   "fr": "1 produit de culture supplémentaire par récolte.",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "description de livre traduite"
@@ -119063,7 +119612,7 @@
   },
   {
    "en": "Complete the Boiler Room",
-   "fr": "Terminez la chaufferie",
+   "fr": "Terminer la Chaufferie",
    "garde_anglais": false,
    "origine": "terminologie Stardew Valley FR",
    "raison": "Stardew : Boiler Room = Chaufferie"
@@ -119343,10 +119892,10 @@
   },
   {
    "en": "Warped Lattice",
-   "fr": "Treillis enveloppé",
+   "fr": "Treillis biscornu",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "jar (vinery) repris ; vanilla dirait plutôt biscornu"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Treillis enveloppé », français du mod"
   },
   {
    "en": "Don't talk to me or my tomato ever again.",
@@ -119394,7 +119943,7 @@
    "en": "Partystarter",
    "fr": "Boute-en-train",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09 : partystarter"
   },
   {
@@ -119933,7 +120482,7 @@
    "en": "Apple Cider",
    "fr": "Cidre",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09 : homonyme-apple-cider"
   },
   {
@@ -120029,10 +120578,10 @@
   },
   {
    "en": "Dragonfly Spawn Egg",
-   "fr": "Œuf d'apparition de libellule",
+   "fr": "Oeuf d'apparition de libellule",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "modèle vanilla Œuf d'apparition"
+   "raison": "modèle vanilla Oeuf d'apparition"
   },
   {
    "en": "Silk",
@@ -120050,10 +120599,10 @@
   },
   {
    "en": "Closing Cabinet",
-   "fr": "Armoire se ferme",
+   "fr": "Armoire qui se ferme",
    "garde_anglais": false,
-   "origine": "arbitrage de traduction",
-   "raison": "style sous-titre vanilla ; cohérent avec Cabinet = Armoire"
+   "origine": "décision de l'utilisateur",
+   "raison": "sous-titre sonore à la manière de Mojang (« Coffre qui se ferme »)"
   },
   {
    "en": "Rejuvenation",
@@ -120410,7 +120959,7 @@
    "fr": "Vanilla",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "terme iconique du modding, KO translittère"
+   "raison": "terme iconique du modding, le coréen translittère"
   },
   {
    "en": "The End",
@@ -120445,7 +120994,7 @@
    "fr": "Chapple",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "créature mot-valise (chicken+apple), KO translittère"
+   "raison": "créature mot-valise (chicken+apple), le coréen translittère"
   },
   {
    "en": "Hammer",
@@ -120585,14 +121134,14 @@
    "fr": "Tri-bull domestique",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "nom de créature conservé, descripteur traduit (KO idem)"
+   "raison": "nom de créature conservé, descripteur traduit (le coréen idem)"
   },
   {
    "en": "Galliraptor",
    "fr": "Galliraptor",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "nom de créature latinisant, KO translittère"
+   "raison": "nom de créature latinisant, le coréen translittère"
   },
   {
    "en": "Painting",
@@ -120612,7 +121161,7 @@
    "en": "Hide",
    "fr": "Masquer",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "réponse de l'utilisateur du 06/10 (masquer-ou-cacher) : « masquer » dans l'interface (boutons, options, infobulles d'affichage), comme Mojang (Masquer dans le tchat) et Hidden = Masqué ; « caché » au sens de dissimulé reste (Progrès caché, trésors) ; lot rq-03b"
   },
   {
@@ -120724,7 +121273,7 @@
    "en": "Hide Tooltip",
    "fr": "Masquer l'info-bulle",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "réponse de l'utilisateur du 06/10 (masquer-ou-cacher) : cohérent avec Masquer et Info-bulle du glossaire ; lot rq-03b"
   },
   {
@@ -120921,7 +121470,7 @@
    "fr": "Champs de lavande",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "biome et tableau, traduction naturelle (KO traduit)"
+   "raison": "biome et tableau, traduction naturelle (le coréen traduit)"
   },
   {
    "en": "Sunflower",
@@ -120942,133 +121491,133 @@
    "fr": "Pierre de foyer",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "objet de retour au foyer, KO traduit aussi"
+   "raison": "objet de retour au foyer, le coréen traduit aussi"
   },
   {
    "en": "Binome",
    "fr": "Binome",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "nom propre d'artiste, KO garde tel quel"
+   "raison": "nom propre d'artiste ; le coréen garde tel quel"
   },
   {
    "en": "Backyard",
    "fr": "Backyard",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "titre d'œuvre, KO garde l'anglais"
+   "raison": "titre d'oeuvre ; le coréen garde l'anglais"
   },
   {
    "en": "Baroque",
    "fr": "Baroque",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "titre d'œuvre, KO garde l'anglais"
+   "raison": "titre d'oeuvre ; le coréen garde l'anglais"
   },
   {
    "en": "Cavebird",
    "fr": "Cavebird",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "titre d'œuvre, KO garde l'anglais"
+   "raison": "titre d'oeuvre ; le coréen garde l'anglais"
   },
   {
    "en": "Changing",
    "fr": "Changing",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "titre d'œuvre, KO garde l'anglais"
+   "raison": "titre d'oeuvre ; le coréen garde l'anglais"
   },
   {
    "en": "Endboss",
    "fr": "Endboss",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "titre d'œuvre, KO garde l'anglais"
+   "raison": "titre d'oeuvre ; le coréen garde l'anglais"
   },
   {
    "en": "Fern",
    "fr": "Fougère",
    "garde_anglais": false,
    "origine": "Minecraft vanilla (officiel Mojang)",
-   "raison": "vanilla, prioritaire malgré le KO anglais"
+   "raison": "vanilla, prioritaire malgré le coréen anglais"
   },
   {
    "en": "Finding",
    "fr": "Finding",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "titre d'œuvre, KO garde l'anglais"
+   "raison": "titre d'oeuvre ; le coréen garde l'anglais"
   },
   {
    "en": "Humble",
    "fr": "Humble",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "titre d'œuvre, KO garde l'anglais"
+   "raison": "titre d'oeuvre ; le coréen garde l'anglais"
   },
   {
    "en": "Lowmist",
    "fr": "Lowmist",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "titre d'œuvre, KO garde l'anglais"
+   "raison": "titre d'oeuvre ; le coréen garde l'anglais"
   },
   {
    "en": "Meditative",
    "fr": "Meditative",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "titre d'œuvre, KO garde l'anglais"
+   "raison": "titre d'oeuvre ; le coréen garde l'anglais"
   },
   {
    "en": "Orb",
    "fr": "Orb",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "titre d'œuvre, KO garde l'anglais"
+   "raison": "titre d'oeuvre ; le coréen garde l'anglais"
   },
   {
    "en": "Owlemons",
    "fr": "Owlemons",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "titre d'œuvre mot-valise, KO garde l'anglais"
+   "raison": "titre d'oeuvre mot-valise ; le coréen garde l'anglais"
   },
   {
    "en": "Passage",
    "fr": "Passage",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "titre d'œuvre, KO garde l'anglais"
+   "raison": "titre d'oeuvre ; le coréen garde l'anglais"
   },
   {
    "en": "Pond",
    "fr": "Pond",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "titre d'œuvre, KO garde l'anglais"
+   "raison": "titre d'oeuvre ; le coréen garde l'anglais"
   },
   {
    "en": "Sunflowers",
    "fr": "Sunflowers",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "titre d'œuvre, KO garde l'anglais"
+   "raison": "titre d'oeuvre ; le coréen garde l'anglais"
   },
   {
    "en": "Tides",
    "fr": "Tides",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "titre d'œuvre, KO garde l'anglais"
+   "raison": "titre d'oeuvre ; le coréen garde l'anglais"
   },
   {
    "en": "Unpacked",
    "fr": "Unpacked",
    "garde_anglais": true,
    "origine": "arbitrage de traduction",
-   "raison": "titre d'œuvre, KO garde l'anglais"
+   "raison": "titre d'oeuvre ; le coréen garde l'anglais"
   },
   {
    "en": "Fertilizer",
@@ -121303,17 +121852,17 @@
   },
   {
    "en": "Butterfly Spawn Egg",
-   "fr": "Œuf d'apparition de papillon",
+   "fr": "Oeuf d'apparition de papillon",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "modèle vanilla des œufs d'apparition"
+   "raison": "modèle vanilla des oeufs d'apparition"
   },
   {
    "en": "Scarab Spawn Egg",
-   "fr": "Œuf d'apparition de scarabée",
+   "fr": "Oeuf d'apparition de scarabée",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "modèle vanilla des œufs d'apparition"
+   "raison": "modèle vanilla des oeufs d'apparition"
   },
   {
    "en": "Slurping",
@@ -121376,14 +121925,14 @@
    "fr": "Vache laineuse",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "traduction directe (KO idem)"
+   "raison": "traduction directe (le coréen idem)"
   },
   {
    "en": "Wooly Sheep",
    "fr": "Mouton laineux",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "traduction directe (KO idem)"
+   "raison": "traduction directe (le coréen idem)"
   },
   {
    "en": "Cheese Sandwich",
@@ -121467,7 +122016,7 @@
    "fr": "Élasticité",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "attribut physique, KO traduit de même"
+   "raison": "attribut physique, le coréen traduit de même"
   },
   {
    "en": "Whitelist",
@@ -121478,7 +122027,7 @@
   },
   {
    "en": "Hold %s for more information",
-   "fr": "Maintenez %s pour plus d'informations",
+   "fr": "Maintenir %s pour plus d'informations",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "formulation standard des info-bulles"
@@ -121520,24 +122069,24 @@
   },
   {
    "en": "Brass Wrapped Locometal",
-   "fr": "Locométal enveloppée de laiton",
+   "fr": "Locométal enveloppé de laiton",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "repris du jar Railways"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Locométal enveloppée de laiton », français du mod"
   },
   {
    "en": "Copper Wrapped Locometal",
-   "fr": "Locométal enveloppée de cuivre",
+   "fr": "Locométal enveloppé de cuivre",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "repris du jar Railways"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Locométal enveloppée de cuivre », français du mod"
   },
   {
    "en": "Iron Wrapped Locometal",
-   "fr": "Locométal enveloppée de fer",
+   "fr": "Locométal enveloppé de fer",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "repris du jar Railways"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Locométal enveloppée de fer », français du mod"
   },
   {
    "en": "Apply",
@@ -121849,10 +122398,10 @@
   },
   {
    "en": "Polished Tuff Slab",
-   "fr": "Dalle en tuf poli",
+   "fr": "Dalle de tuf poli",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "repris du jar Quark"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Dalle en tuf poli », français du mod"
   },
   {
    "en": "Polished Tuff Stairs",
@@ -121870,10 +122419,10 @@
   },
   {
    "en": "Tuff Stairs",
-   "fr": "Escalier de tuf",
+   "fr": "Escalier en tuf",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "repris du jar Quark"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Escalier de tuf », français du mod"
   },
   {
    "en": "Tuff Wall",
@@ -121984,7 +122533,7 @@
    "en": "Progresses nearby Artisan Machines once a day at 7am",
    "fr": "Fait progresser les machines d'artisan à proximité une fois par jour, à 7 h du matin",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09 : machine-artisan"
   },
   {
@@ -122045,10 +122594,10 @@
   },
   {
    "en": "In Overworld",
-   "fr": "Dans l'Overworld",
+   "fr": "À la Surface",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "repris du jar SDRP"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Dans l'Overworld », français du mod"
   },
   {
    "en": "In Nether",
@@ -122304,10 +122853,10 @@
   },
   {
    "en": "Dark Oak Lattice",
-   "fr": "Treillis de chêne noir",
+   "fr": "Treillis en chêne noir",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "repris du jar Vinery"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Treillis de chêne noir », français du mod"
   },
   {
    "en": "Jungle Lattice",
@@ -122370,7 +122919,7 @@
    "fr": "On m'appelle Vazkki",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "jar défectueux ; Vazkki (clin d'œil à Vazkii) conservé"
+   "raison": "jar défectueux ; Vazkki (clin d'oeil à Vazkii) conservé"
   },
   {
    "en": "Wow, is this for me?",
@@ -122479,24 +123028,24 @@
   },
   {
    "en": "Eat a Tomato",
-   "fr": "Mangez une tomate",
+   "fr": "Manger une tomate",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "repris du jar Farm & Charm"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Mangez une tomate », français du mod"
   },
   {
    "en": "Find Wild Crops and collect them",
-   "fr": "Trouvez des plantes sauvages et récoltez-les",
+   "fr": "Trouvez des cultures sauvages et récoltez-les",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "jar Farm & Charm retenu (plus naturel), majuscules corrigées"
   },
   {
    "en": "Craft and place a Stove",
-   "fr": "Fabriquer et placer un poêle",
+   "fr": "Fabriquer et placer une cuisinière",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "repris du jar Bakery"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Fabriquer et placer un poêle », français du mod"
   },
   {
    "en": "Acacia Cabinet",
@@ -122535,10 +123084,10 @@
   },
   {
    "en": "Crimson Cabinet",
-   "fr": "Armoire en carmin",
+   "fr": "Armoire carmin",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "jar Farmer's Delight, conforme au vanilla (carmin)"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Armoire en carmin », français du mod"
   },
   {
    "en": "Dark Oak Cabinet",
@@ -122591,10 +123140,10 @@
   },
   {
    "en": "Warped Cabinet",
-   "fr": "Armoire en biscornu",
+   "fr": "Armoire biscornue",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "jar Farmer's Delight, conforme au vanilla (biscornu)"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Armoire en biscornu », français du mod"
   },
   {
    "en": "Flower Crown",
@@ -122731,10 +123280,10 @@
   },
   {
    "en": "Hanging Flower Pot",
-   "fr": "Pot de fleur suspendu",
+   "fr": "Pot de fleurs suspendu",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "jar amendments"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Pot de fleur suspendu », français du mod"
   },
   {
    "en": "Red Mushroom",
@@ -122768,7 +123317,7 @@
    "en": "Construction Core",
    "fr": "Coeur de construction",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "jar Refined Storage ; « oe », jamais la ligature (fiche du 30/09, question coeur-noyau)"
   },
   {
@@ -122909,7 +123458,8 @@
    "fr": "Pot",
    "garde_anglais": false,
    "origine": "traduction officielle du mod",
-   "raison": "jars bakery et supplementaries concordants"
+   "raison": "jars bakery et supplementaries concordants",
+   "sens": "nom officiel du bloc dans plusieurs mods (Supplementaries, Bakery, Create Factory Logistics)"
   },
   {
    "en": "Not enough speed",
@@ -122920,17 +123470,17 @@
   },
   {
    "en": "The outputs can also be extracted by automation",
-   "fr": "Les sorties peuvent aussi être extraites avec des automatisations",
+   "fr": "Les sorties peuvent aussi être extraites par des systèmes automatisés",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "jar Create"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Les sorties peuvent aussi être extraites avec des automatisations », français du mod"
   },
   {
    "en": "Information about %s",
-   "fr": "Information à propos de %s",
+   "fr": "Informations sur %s",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "jar du mod lui-même"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Information à propos de %s », français du mod"
   },
   {
    "en": "When R-Clicked",
@@ -122955,10 +123505,10 @@
   },
   {
    "en": "%s excluded",
-   "fr": "%s exclu",
+   "fr": "%s exclue(s)",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "jar du mod lui-même"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « %s exclu », français du mod"
   },
   {
    "en": "Delete Category",
@@ -123424,7 +123974,7 @@
   },
   {
    "en": "Spawn Eggs",
-   "fr": "Œufs d'apparition",
+   "fr": "Oeufs d'apparition",
    "garde_anglais": false,
    "origine": "Minecraft vanilla (officiel Mojang)",
    "raison": "vanilla"
@@ -123468,7 +124018,7 @@
    "en": "Wrench",
    "fr": "Clé à molette",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "jars divergents ; forme la moins ambiguë (supplementaries) ; fiche du sous-projet 3 : create-cle-a-molette, « clé à molette » partout (« clé » seul est ambigu : la Clé de Supplementaries)"
   },
   {
@@ -123634,10 +124184,10 @@
   },
   {
    "en": "Sweets",
-   "fr": "Bonbons",
+   "fr": "Sucreries",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "jar farm_and_charm"
+   "origine": "arbitrage de traduction",
+   "raison": "étiquette de Farmer's Delight qui réunit gâteaux, tartes et confiseries : « bonbons » serait trop étroit"
   },
   {
    "en": "Bread",
@@ -123718,17 +124268,17 @@
   },
   {
    "en": "Raw Cod",
-   "fr": "Morue crue",
+   "fr": "Morue",
    "garde_anglais": false,
-   "origine": "Minecraft vanilla (officiel Mojang)",
-   "raison": "vanilla"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Morue crue », français de Mojang"
   },
   {
    "en": "Raw Salmon",
-   "fr": "Saumon cru",
+   "fr": "Saumon",
    "garde_anglais": false,
-   "origine": "Minecraft vanilla (officiel Mojang)",
-   "raison": "vanilla"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Saumon cru », français de Mojang"
   },
   {
    "en": "Raw Mutton",
@@ -123853,7 +124403,7 @@
    "en": "Toggle Minimap",
    "fr": "Afficher/masquer la mini-carte",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "réponse de l'utilisateur du 06/10 (masquer-ou-cacher) : « masquer », comme Afficher/masquer la grande carte (JourneyMap, FTB Chunks) ; lot rq-03b"
   },
   {
@@ -123914,10 +124464,10 @@
   },
   {
    "en": "Reset Progress",
-   "fr": "Réinitialiser le progrès",
+   "fr": "Réinitialiser la progression",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "jar Create"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Réinitialiser le progrès », français du mod"
   },
   {
    "en": "Restore",
@@ -124049,7 +124599,7 @@
    "en": "Boat in a Jar",
    "fr": "Bateau en bouteille",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09 : homonyme-boat-in-a-jar"
   },
   {
@@ -124243,10 +124793,10 @@
   },
   {
    "en": "Show Uses",
-   "fr": "Montrer les utilisations",
+   "fr": "Afficher les utilisations",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "jar JEI"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Montrer les utilisations », français du mod"
   },
   {
    "en": "Blaze Burner",
@@ -124460,10 +125010,10 @@
   },
   {
    "en": "mB",
-   "fr": "mS",
+   "fr": "mB",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "jar Create (milliseau, unité de fluide)"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « mS », français du mod"
   },
   {
    "en": "Go Back",
@@ -124656,10 +125206,10 @@
   },
   {
    "en": "Crafter",
-   "fr": "Crafteur",
+   "fr": "Fabricateur",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "jar Refined Storage"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Crafteur », français du mod"
   },
   {
    "en": "Blank",
@@ -124726,10 +125276,10 @@
   },
   {
    "en": "When you use a dye item on a smokestack",
-   "fr": "Quand tu utilises un objet de teinture sur une cheminée",
+   "fr": "Quand tu utilises une teinture sur une cheminée",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "jar Railways"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Quand tu utilises un objet de teinture sur une cheminée », français du mod"
   },
   {
    "en": "When you use soul sand or soul soil on a smokestack",
@@ -124740,24 +125290,24 @@
   },
   {
    "en": "Locometal Boilers",
-   "fr": "Chaudières de Locométal",
+   "fr": "Chaudières en locométal",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "jar Railways, pluriel rétabli"
+   "raison": "étiquette des chaudières de Steam 'n' Rails ; « en locométal », la matière, comme « Escalier en tuf »"
   },
   {
    "en": "Brass Wrapped Locometal Boilers",
-   "fr": "Chaudières de Locométal enveloppées de laiton",
+   "fr": "Chaudières en locométal enveloppé de laiton",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "jar Railways, accord corrigé"
+   "raison": "étiquette des chaudières de Steam 'n' Rails ; « en locométal », la matière, comme « Escalier en tuf »"
   },
   {
    "en": "Copper Wrapped Locometal Boilers",
-   "fr": "Chaudières de Locométal enveloppées de cuivre",
+   "fr": "Chaudières en locométal enveloppé de cuivre",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "jar Railways, accord corrigé"
+   "raison": "étiquette des chaudières de Steam 'n' Rails ; « en locométal », la matière, comme « Escalier en tuf »"
   },
   {
    "en": "Flat Riveted Locometal",
@@ -124775,10 +125325,10 @@
   },
   {
    "en": "Iron Wrapped Locometal Boilers",
-   "fr": "Chaudières de Locométal enveloppées de fer",
+   "fr": "Chaudières en locométal enveloppé de fer",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "jar Railways, accord corrigé"
+   "raison": "étiquette des chaudières de Steam 'n' Rails ; « en locométal », la matière, comme « Escalier en tuf »"
   },
   {
    "en": "Locometal Pillars",
@@ -124987,166 +125537,166 @@
    "en": "Lime Brass Wrapped Locometal",
    "fr": "Locométal vert clair enveloppé de laiton",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "jar Railways, ordre couleur et accord corrigés ; « vert clair » par la fiche du sous-projet 3 : vert-clair-lime"
   },
   {
    "en": "Lime Copper Wrapped Locometal",
    "fr": "Locométal vert clair enveloppé de cuivre",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "jar Railways, ordre couleur et accord corrigés ; « vert clair » par la fiche du sous-projet 3 : vert-clair-lime"
   },
   {
    "en": "Lime Iron Wrapped Locometal",
    "fr": "Locométal vert clair enveloppé de fer",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "jar Railways, ordre couleur et accord corrigés ; « vert clair » par la fiche du sous-projet 3 : vert-clair-lime"
   },
   {
    "en": "Magenta Brass Wrapped Locometal",
-   "fr": "Locométal enveloppé de laiton magenta",
+   "fr": "Locométal magenta enveloppé de laiton",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Railways, accord corrigé (enveloppé)"
   },
   {
    "en": "Magenta Copper Wrapped Locometal",
-   "fr": "Locométal enveloppé de cuivre magenta",
+   "fr": "Locométal magenta enveloppé de cuivre",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Railways, accord corrigé (enveloppé)"
   },
   {
    "en": "Magenta Iron Wrapped Locometal",
-   "fr": "Locométal enveloppé de fer magenta",
+   "fr": "Locométal magenta enveloppé de fer",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Railways, accord corrigé (enveloppé)"
   },
   {
    "en": "Orange Brass Wrapped Locometal",
-   "fr": "Locométal enveloppé de laiton orange",
+   "fr": "Locométal orange enveloppé de laiton",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Railways, accord corrigé (enveloppé)"
   },
   {
    "en": "Orange Copper Wrapped Locometal",
-   "fr": "Locométal enveloppé de cuivre orange",
+   "fr": "Locométal orange enveloppé de cuivre",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Railways, accord corrigé (enveloppé)"
   },
   {
    "en": "Orange Iron Wrapped Locometal",
-   "fr": "Locométal enveloppé de fer orange",
+   "fr": "Locométal orange enveloppé de fer",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Railways, accord corrigé (enveloppé)"
   },
   {
    "en": "Pink Brass Wrapped Locometal",
-   "fr": "Locométal enveloppé de laiton rose",
+   "fr": "Locométal rose enveloppé de laiton",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Railways, accord corrigé (enveloppé)"
   },
   {
    "en": "Pink Copper Wrapped Locometal",
-   "fr": "Locométal enveloppé de cuivre rose",
+   "fr": "Locométal rose enveloppé de cuivre",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Railways, accord corrigé (enveloppé)"
   },
   {
    "en": "Pink Iron Wrapped Locometal",
-   "fr": "Locométal enveloppé de fer rose",
+   "fr": "Locométal rose enveloppé de fer",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Railways, accord corrigé (enveloppé)"
   },
   {
    "en": "Purple Brass Wrapped Locometal",
-   "fr": "Locométal enveloppé de laiton violet",
+   "fr": "Locométal violet enveloppé de laiton",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Railways, accord corrigé (enveloppé)"
   },
   {
    "en": "Purple Copper Wrapped Locometal",
-   "fr": "Locométal enveloppé de cuivre violet",
+   "fr": "Locométal violet enveloppé de cuivre",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Railways, accord corrigé (enveloppé)"
   },
   {
    "en": "Purple Iron Wrapped Locometal",
-   "fr": "Locométal enveloppé de fer violet",
+   "fr": "Locométal violet enveloppé de fer",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Railways, accord corrigé (enveloppé)"
   },
   {
    "en": "Red Brass Wrapped Locometal",
-   "fr": "Locométal enveloppé de laiton rouge",
+   "fr": "Locométal rouge enveloppé de laiton",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Railways, accord corrigé (enveloppé)"
   },
   {
    "en": "Red Copper Wrapped Locometal",
-   "fr": "Locométal enveloppé de cuivre rouge",
+   "fr": "Locométal rouge enveloppé de cuivre",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Railways, accord corrigé (enveloppé)"
   },
   {
    "en": "Red Iron Wrapped Locometal",
-   "fr": "Locométal enveloppé de fer rouge",
+   "fr": "Locométal rouge enveloppé de fer",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Railways, accord corrigé (enveloppé)"
   },
   {
    "en": "White Brass Wrapped Locometal",
-   "fr": "Locométal enveloppé de laiton blanc",
+   "fr": "Locométal blanc enveloppé de laiton",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Railways, accord corrigé (enveloppé)"
   },
   {
    "en": "White Copper Wrapped Locometal",
-   "fr": "Locométal enveloppé de cuivre blanc",
+   "fr": "Locométal blanc enveloppé de cuivre",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Railways, accord corrigé (enveloppé)"
   },
   {
    "en": "White Iron Wrapped Locometal",
-   "fr": "Locométal enveloppé de fer blanc",
+   "fr": "Locométal blanc enveloppé de fer",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Railways, accord corrigé (enveloppé)"
   },
   {
    "en": "Yellow Brass Wrapped Locometal",
-   "fr": "Locométal enveloppé de laiton jaune",
+   "fr": "Locométal jaune enveloppé de laiton",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Railways, accord corrigé (enveloppé)"
   },
   {
    "en": "Yellow Copper Wrapped Locometal",
-   "fr": "Locométal enveloppé de cuivre jaune",
+   "fr": "Locométal jaune enveloppé de cuivre",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Railways, accord corrigé (enveloppé)"
   },
   {
    "en": "Yellow Iron Wrapped Locometal",
-   "fr": "Locométal enveloppé de fer jaune",
+   "fr": "Locométal jaune enveloppé de fer",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Railways, accord corrigé (enveloppé)"
@@ -125636,10 +126186,10 @@
   },
   {
    "en": "Gave backpack to %s",
-   "fr": "J'ai donné un sac à dos à %s",
+   "fr": "Don d'un sac à dos à %s",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "Jar Sophisticated Backpacks"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « J'ai donné un sac à dos à %s », français du mod"
   },
   {
    "en": "Do Not Refill Crafting Grid",
@@ -125692,10 +126242,10 @@
   },
   {
    "en": "Infinity Upgrade (Admin)",
-   "fr": "Amélioration Infini (Admin)",
+   "fr": "Amélioration infinie (admin)",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "Jar Sophisticated Storage"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Amélioration Infini (Admin) », français du mod"
   },
   {
    "en": "Stack Downgrade Tier 1",
@@ -125748,10 +126298,10 @@
   },
   {
    "en": "Survival Infinity Upgrade",
-   "fr": "Amélioration Infini Survie",
+   "fr": "Amélioration infinie de survie",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "Jar Sophisticated Storage"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Amélioration Infini Survie », français du mod"
   },
   {
    "en": "Sort Inventory",
@@ -125804,10 +126354,10 @@
   },
   {
    "en": "Scroll to change",
-   "fr": "Faites défiler pour changer",
+   "fr": "Faire défiler pour changer",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "Jar Create"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Faites défiler pour changer », français du mod"
   },
   {
    "en": "Crafting",
@@ -126000,17 +126550,17 @@
   },
   {
    "en": "Copper Door",
-   "fr": "Porte de cuivre",
+   "fr": "Porte en cuivre",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "Jar Create"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Porte de cuivre », français du mod"
   },
   {
    "en": "Tuff Brick Slab",
-   "fr": "Dalle en tuf taillé",
+   "fr": "Dalle de tuf taillé",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "Jar Quark"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Dalle en tuf taillé », français du mod"
   },
   {
    "en": "Tuff Brick Stairs",
@@ -126021,7 +126571,7 @@
   },
   {
    "en": "Tuff Brick Wall",
-   "fr": "Muret en tuf taillé",
+   "fr": "Muret de tuf taillé",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Quark erroné (spéléothème) ; aligné sur « tuf taillé »"
@@ -126049,10 +126599,10 @@
   },
   {
    "en": "Calcite Stairs",
-   "fr": "Escalier de calcite",
+   "fr": "Escalier en calcite",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "Jar Quark"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Escalier de calcite », français du mod"
   },
   {
    "en": "Calcite Wall",
@@ -126077,7 +126627,7 @@
   },
   {
    "en": "Polished Calcite Slab",
-   "fr": "Dalle en calcite polie",
+   "fr": "Dalle de calcite polie",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Quark, accord corrigé (calcite est féminin)"
@@ -126126,7 +126676,7 @@
   },
   {
    "en": "Completionist Banner: §5Vinery",
-   "fr": "Bannière d'achèvement : §5Vinery",
+   "fr": "Bannière du perfectionniste : §5Vinery",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Jar Vinery, typographie corrigée ; nom du mod conservé"
@@ -126161,24 +126711,24 @@
   },
   {
    "en": "Turkey Spawn Egg",
-   "fr": "Œuf d'apparition de dinde",
+   "fr": "Oeuf d'apparition de dinde",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "Jar Autumnity, ligature Œ rétablie"
+   "raison": "Jar Autumnity, ligature Oe rétablie"
   },
   {
    "en": "Turkey gobbles",
-   "fr": "La dinde gobe",
+   "fr": "La dinde glougloute",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "jar (autumnity)"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « La dinde gobe », français du mod"
   },
   {
    "en": "Turkey dies",
-   "fr": "La dinde meurt",
+   "fr": "Dinde qui meurt",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "jar (autumnity)"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « La dinde meurt », français du mod"
   },
   {
    "en": "Kinetic Damage",
@@ -126245,10 +126795,10 @@
   },
   {
    "en": "Shale Stairs",
-   "fr": "Escalier de shale",
+   "fr": "Escalier en shale",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "jar (quark)"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Escalier de shale », français du mod"
   },
   {
    "en": "Shale Wall",
@@ -126280,10 +126830,10 @@
   },
   {
    "en": "Causes damage to enemies when they attack you.",
-   "fr": "Inflige des dégâts aux ennemis lorsqu'ils vous attaquent.",
+   "fr": "Inflige des dégâts aux ennemis lorsqu'ils attaquent le porteur.",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "jar (enchdesc)"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Inflige des dégâts aux ennemis lorsqu'ils vous attaquent. », français du mod"
   },
   {
    "en": "Candy Cane",
@@ -126329,10 +126879,10 @@
   },
   {
    "en": "Ride a sled down a slope",
-   "fr": "Descendez une pente en luge",
+   "fr": "Descends une pente en luge",
    "garde_anglais": false,
-   "origine": "traduction officielle du mod",
-   "raison": "jar (snowyspirit)"
+   "origine": "arbitrage de traduction",
+   "raison": "notre traduction remplace « Descendez une pente en luge », français du mod"
   },
   {
    "en": "It's All Downhill From Here",
@@ -126521,11 +127071,11 @@
    "fr": "Noisetella",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "jeu de mots type Nutella, le KO calque aussi"
+   "raison": "jeu de mots type Nutella, le coréen calque aussi"
   },
   {
    "en": "Chocolate Donut",
-   "fr": "Donut au chocolat",
+   "fr": "Beignet au chocolat",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction naturelle"
@@ -126534,7 +127084,7 @@
    "en": "Small Core",
    "fr": "Petit coeur",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question coeur-noyau : les pièces de Just Hammers disent « coeur » (« Coeur d'impact », « Coeur renforcé »)"
   },
   {
@@ -126616,10 +127166,10 @@
   },
   {
    "en": "Yerba Mate Leaf Block",
-   "fr": "Bloc de feuilles de maté",
+   "fr": "Bloc de feuilles de yerba mate",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "yerba mate = maté en français"
+   "raison": "« yerba mate », nom sous lequel la plante se vend en France"
   },
   {
    "en": "Rooibos Leaf Block",
@@ -126637,7 +127187,7 @@
   },
   {
    "en": "Greenhouse Glass Slab",
-   "fr": "Dalle en verre de serre",
+   "fr": "Dalle de verre de serre",
    "garde_anglais": false,
    "origine": "terminologie Stardew Valley FR",
    "raison": "Greenhouse = Serre (Stardew)"
@@ -126651,10 +127201,10 @@
   },
   {
    "en": "Sunlit Singing Frog",
-   "fr": "Grenouille chanteuse Sunlit",
+   "fr": "Grenouille chantante Sunlit",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "Sunlit = marque du pack, conservée (le KO translittère)"
+   "raison": "Sunlit = marque du pack, conservée (le coréen translittère)"
   },
   {
    "en": "Apple Juice Bucket",
@@ -126805,17 +127355,17 @@
   },
   {
    "en": "Only usable if Ancient Aging skill unlocked",
-   "fr": "Utilisable uniquement si la compétence Vieillissement ancien est débloquée",
+   "fr": "Utilisable uniquement si la compétence Vieillissement ancestral est débloquée",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "traduction naturelle"
+   "raison": "« Vieillissement ancestral », nom de la compétence dans le pack"
   },
   {
    "en": "You need the Farming skill \"Ancient Aging\" to use this...",
-   "fr": "La compétence d'agriculture « Vieillissement ancien » est requise pour utiliser ceci...",
+   "fr": "La compétence d'Agriculture \"Vieillissement ancestral\" est requise pour utiliser ceci...",
    "garde_anglais": false,
    "origine": "terminologie Stardew Valley FR",
-   "raison": "Farming = Agriculture (Stardew), guillemets français"
+   "raison": "« Vieillissement ancestral », nom de la compétence dans le pack"
   },
   {
    "en": "Only usable if Farmer's Blessing skill unlocked",
@@ -126826,28 +127376,28 @@
   },
   {
    "en": "Give me 64 of something ancient for something prismatic...",
-   "fr": "Offrez-moi 64 choses anciennes contre quelque chose de prismatique...",
+   "fr": "Offre-moi 64 choses anciennes contre quelque chose de prismatique...",
    "garde_anglais": false,
    "origine": "terminologie Stardew Valley FR",
    "raison": "ton mystique conservé, prismatique (Stardew)"
   },
   {
    "en": "Give me 64 of something spicy for something sparky...",
-   "fr": "Offrez-moi 64 choses épicées contre quelque chose d'électrisant...",
+   "fr": "Offre-moi 64 choses épicées contre quelque chose d'électrisant...",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "ton mystique conservé"
   },
   {
    "en": "Give me 64 of something cobbed for a something pristine...",
-   "fr": "Offrez-moi 64 choses en épi contre quelque chose d'immaculé...",
+   "fr": "Offre-moi 64 choses en épi contre quelque chose d'immaculé...",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "cobbed = en épi (maïs)"
   },
   {
    "en": "You've already received this blessing today.",
-   "fr": "Vous avez déjà reçu cette bénédiction aujourd'hui.",
+   "fr": "Tu as déjà reçu cette bénédiction aujourd'hui.",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction naturelle"
@@ -126861,10 +127411,10 @@
   },
   {
    "en": "Makes batteries from lightning storms. Doesn't protect area",
-   "fr": "Fabrique des piles pendant les orages. Ne protège pas la zone",
+   "fr": "Fabrique des batteries pendant les orages. Ne protège pas la zone",
    "garde_anglais": false,
    "origine": "terminologie Stardew Valley FR",
-   "raison": "battery = pile (usage Stardew)"
+   "raison": "« batterie », le nom de l'objet dans le pack (« Batterie »)"
   },
   {
    "en": "Turns any milk into cheese",
@@ -126910,7 +127460,7 @@
   },
   {
    "en": "Turns Ground Coffee into Espresso and steams milk",
-   "fr": "Transforme le café moulu en expresso et fait mousser le lait",
+   "fr": "Transforme le café moulu en espresso et prépare du lait vapeur",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction naturelle"
@@ -126945,7 +127495,7 @@
   },
   {
    "en": "🔔: We'd feel more at home with %s of these:",
-   "fr": "🔔 : Nous nous sentirions plus chez nous avec %s de ceci :",
+   "fr": "🔔 : Nous nous sentirions plus chez nous avec %s de ces objets :",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction, placeholder conservé"
@@ -126973,7 +127523,7 @@
   },
   {
    "en": "🔔: Fine sure! We'll take %s of these:",
-   "fr": "🔔 : Bon, d'accord ! Nous prendrons %s de ceci :",
+   "fr": "🔔 : Bon, d'accord ! Nous prendrons %s de ces objets :",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction, placeholder conservé"
@@ -127001,21 +127551,21 @@
   },
   {
    "en": "Turns an egg into mayonnaise",
-   "fr": "Transforme un œuf en mayonnaise",
+   "fr": "Transforme un oeuf en mayonnaise",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction naturelle"
   },
   {
    "en": "Turns 5 of the same crop into a preserve",
-   "fr": "Transforme 5 récoltes identiques en conserve",
+   "fr": "Transforme 5 cultures identiques en conserve",
    "garde_anglais": false,
    "origine": "terminologie Stardew Valley FR",
    "raison": "preserves = conserves (esprit Stardew)"
   },
   {
    "en": "Redeem Prize Tickets for a Reward!",
-   "fr": "Échangez vos tickets de prix contre une récompense !",
+   "fr": "Échanger des tickets de récompense contre un lot !",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction naturelle"
@@ -127043,7 +127593,7 @@
   },
   {
    "en": "Turns 3 of the same crop into seeds",
-   "fr": "Transforme 3 récoltes identiques en graines",
+   "fr": "Transforme 3 cultures identiques en graines",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction naturelle"
@@ -127053,7 +127603,7 @@
    "fr": "10 % de chances de rendre la sparkstone de la machine reliée",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "sparkstone = terme du pack, conservé (KO translittère)"
+   "raison": "sparkstone = terme du pack, conservé (le coréen translittère)"
   },
   {
    "en": "Place on tree to tap for resources",
@@ -127078,7 +127628,7 @@
   },
   {
    "en": "Turns 3 of the same crop into wine",
-   "fr": "Transforme 3 récoltes identiques en vin",
+   "fr": "Transforme 3 cultures identiques en vin",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction naturelle"
@@ -127092,14 +127642,14 @@
   },
   {
    "en": "This Artisan Hopper cannot work with a filter upgrade!",
-   "fr": "Cet entonnoir artisan est incompatible avec l'amélioration de filtre !",
+   "fr": "Cet entonnoir d'artisan est incompatible avec l'amélioration de filtrage !",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Hopper = Entonnoir (vanilla)"
   },
   {
    "en": "Upgrade with Magic Shears to collect drops.",
-   "fr": "Améliorez avec des cisailles magiques pour collecter les butins.",
+   "fr": "Améliorer avec des cisailles magiques pour collecter les butins.",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Shears = Cisailles (vanilla)"
@@ -127127,7 +127677,7 @@
   },
   {
    "en": "Upgrade with a Bucket to extract fish when mature.",
-   "fr": "Améliorez avec un seau pour récupérer les poissons arrivés à maturité.",
+   "fr": "Améliorer avec un seau pour récupérer les poissons arrivés à maturité.",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction naturelle"
@@ -127144,7 +127694,7 @@
    "fr": "Nécessite du Spark-Gro chaque jour",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "Spark-Gro = objet du pack, conservé (KO translittère)"
+   "raison": "Spark-Gro = objet du pack, conservé (le coréen translittère)"
   },
   {
    "en": "Harvest fruits from nearby trees at 7am",
@@ -127155,7 +127705,7 @@
   },
   {
    "en": "Milks nearby farm animals",
-   "fr": "Trait les animaux de ferme à proximité",
+   "fr": "Trait les animaux de la ferme à proximité",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction naturelle"
@@ -127179,11 +127729,11 @@
    "fr": "Pas assez de place pour poser la hutte ribbit !",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "Ribbit = peuple du pack, conservé (KO translittère)"
+   "raison": "Ribbit = peuple du pack, conservé (le coréen translittère)"
   },
   {
    "en": "Break the door to demolish the Ribbit Hut",
-   "fr": "Cassez la porte pour démolir la hutte ribbit",
+   "fr": "Casser la porte pour démolir la hutte Ribbit",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "Ribbit conservé, cohérent"
@@ -127204,7 +127754,7 @@
   },
   {
    "en": "It's said to promote relaxation.\nWhat do you have to lose?",
-   "fr": "On dit qu'il favorise la détente.\nQu'avez-vous à perdre ?",
+   "fr": "On dit qu'il favorise la détente.\nQu'as-tu à perdre ?",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction, retour à la ligne conservé"
@@ -127260,14 +127810,14 @@
   },
   {
    "en": "You need to have Mining Mastery unlocked to use this...",
-   "fr": "Vous devez avoir débloqué la maîtrise de minage pour utiliser ceci...",
+   "fr": "Tu dois avoir débloqué la Maîtrise du minage pour utiliser ceci...",
    "garde_anglais": false,
    "origine": "terminologie Stardew Valley FR",
    "raison": "Mastery = Maîtrise (Stardew 1.6)"
   },
   {
    "en": "You've already received a blessing today.",
-   "fr": "Vous avez déjà reçu une bénédiction aujourd'hui.",
+   "fr": "Tu as déjà reçu une bénédiction aujourd'hui.",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction naturelle"
@@ -127295,10 +127845,10 @@
   },
   {
    "en": "Nitwit Ribbits love to bang on this",
-   "fr": "Les Ribbits crétins adorent taper dessus",
+   "fr": "Les Ribbits idiots adorent taper dessus",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "Nitwit = Crétin (vanilla), Ribbit conservé"
+   "raison": "« idiot », le métier de Mojang (Nitwit = Idiot)"
   },
   {
    "en": "Some sort of wetware circuit",
@@ -127330,14 +127880,14 @@
   },
   {
    "en": "Writhing and unnatural",
-   "fr": "Grouillant et contre nature",
+   "fr": "Convulsive et contre nature",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction naturelle"
   },
   {
    "en": "Derived from a Gold Sea Coin",
-   "fr": "Obtenu à partir d'une pièce de mer en or",
+   "fr": "Obtenue à partir d'une pièce de mer en or",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction directe, description d'objet"
@@ -127347,7 +127897,7 @@
    "fr": "Méticuleusement texturée par une araignée intello",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "soie d'araignée (féminin), clin d'œil aux artistes du mod"
+   "raison": "soie d'araignée (féminin), clin d'oeil aux artistes du mod"
   },
   {
    "en": "Was once used to summon a beast",
@@ -127358,14 +127908,14 @@
   },
   {
    "en": "« Limited to 2 passengers : ants »",
-   "fr": "« Limité à 2 passagers : fourmis »",
+   "fr": "\"Limité à 2 passagers : fourmis\"",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction directe, guillemets conservés"
   },
   {
    "en": "It wants you to eat it",
-   "fr": "Elle veut que vous la mangiez",
+   "fr": "Elle veut que tu la manges",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "cerise parfaite : féminin"
@@ -127379,7 +127929,7 @@
   },
   {
    "en": "\"Whispers: Don't rewind...\"",
-   "fr": "\"Murmure : ne rembobinez pas...\"",
+   "fr": "\"Murmure : ne rembobine pas...\"",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "cassette VHS glitchée, traduction directe"
@@ -127389,7 +127939,7 @@
    "fr": "Qu'a-t-il bien pu servir à rechercher ?",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "clin d'œil Factorio, traduction directe"
+   "raison": "clin d'oeil Factorio, traduction directe"
   },
   {
    "en": "From the lost city of Beemonica",
@@ -127424,7 +127974,7 @@
    "fr": "Il vibre d'énergie aquamagique",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "néologisme aquamagique conservé, cœur : masculin"
+   "raison": "néologisme aquamagique conservé, coeur : masculin"
   },
   {
    "en": "Filled with sticky bittersweet",
@@ -127435,14 +127985,14 @@
   },
   {
    "en": "Brine and Punishment +100%%",
-   "fr": "Saumure et Châtiment +100%%",
+   "fr": "Saumure et Châtiment +100 %%",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "parodie de Crime et Châtiment, %% conservés"
   },
   {
    "en": "Bluegill Meridian sets value to 666",
-   "fr": "Méridien de crapet fixe la valeur à 666",
+   "fr": "Méridien de crapet arlequin : valeur fixée à 666",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "parodie de Méridien de sang ; bluegill = crapet (aquaculture)"
@@ -127500,7 +128050,7 @@
    "en": "Use on an Artisan Machine to progress it by 1 day",
    "fr": "À utiliser sur une machine d'artisan pour la faire avancer d'un jour",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09 : machine-artisan"
   },
   {
@@ -127533,10 +128083,10 @@
   },
   {
    "en": "Use on a %s to double chance of non-Roe items",
-   "fr": "À utiliser sur %s pour doubler les chances d'objets autres que des œufs de poisson",
+   "fr": "À utiliser sur %s pour doubler les chances d'objets autres que des oeufs de poisson",
    "garde_anglais": false,
    "origine": "terminologie Stardew Valley FR",
-   "raison": "roe = œufs de poisson (Stardew)"
+   "raison": "roe = oeufs de poisson (Stardew)"
   },
   {
    "en": "Use on a %s to double output",
@@ -127547,14 +128097,14 @@
   },
   {
    "en": "Use on a %s to work and triple output in winter",
-   "fr": "À utiliser sur %s pour fonctionner en hiver et tripler la production",
+   "fr": "À utiliser sur %s pour le faire fonctionner en hiver et tripler la production",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "formulation neutre : %s de genre inconnu"
   },
   {
    "en": "Use on a %s to let it work without inputs",
-   "fr": "À utiliser sur %s pour fonctionner sans ingrédients",
+   "fr": "À utiliser sur %s pour le faire fonctionner sans ingrédients",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "formulation neutre : %s de genre inconnu"
@@ -127589,7 +128139,7 @@
   },
   {
    "en": "Teleports you down a level in the Skull Cavern",
-   "fr": "Vous téléporte un niveau plus bas dans la Caverne du Crâne",
+   "fr": "Te téléporte un niveau plus bas dans la Caverne du Crâne",
    "garde_anglais": false,
    "origine": "terminologie Stardew Valley FR",
    "raison": "terminologie Stardew : Caverne du Crâne"
@@ -127603,7 +128153,7 @@
   },
   {
    "en": "There isn't a cave below you...",
-   "fr": "Il n'y a pas de grotte en dessous de vous...",
+   "fr": "Il n'y a pas de grotte en dessous de toi...",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction directe"
@@ -127634,7 +128184,7 @@
    "fr": "Dénichée par certains animaux de la ferme, comme les cochons",
    "garde_anglais": false,
    "origine": "terminologie Stardew Valley FR",
-   "raison": "truffe : féminin, clin d'œil Stardew"
+   "raison": "truffe : féminin, clin d'oeil Stardew"
   },
   {
    "en": "Milks farm animals",
@@ -127673,7 +128223,7 @@
   },
   {
    "en": "Increases affection by a full heart",
-   "fr": "Augmente l'affection d'un cœur entier",
+   "fr": "Augmente l'affection d'un coeur entier",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction directe"
@@ -127694,7 +128244,7 @@
   },
   {
    "en": "Requires animals to trust you",
-   "fr": "Nécessite que les animaux vous fassent confiance",
+   "fr": "Nécessite que les animaux te fassent confiance",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction directe"
@@ -127708,21 +128258,21 @@
   },
   {
    "en": "Used with the \"Best Friends Forever\" Husbandry skill",
-   "fr": "S'utilise avec la compétence d'élevage « Meilleurs amis pour la vie »",
+   "fr": "S'utilise avec la compétence d'Élevage \"Meilleurs amis pour la vie\"",
    "garde_anglais": false,
    "origine": "terminologie Stardew Valley FR",
    "raison": "skill = compétence (Stardew), nom de talent traduit"
   },
   {
    "en": "Found in Slush. Chance increased with fortune",
-   "fr": "Trouvée dans la neige fondue. Chances accrues avec Fortune",
+   "fr": "Trouvée dans la gadoue. Chances accrues avec Fortune",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "larme gelée : féminin ; Fortune = enchantement vanilla"
   },
   {
    "en": "Use on an a Prize Machine for something good!",
-   "fr": "À utiliser sur une machine à lots pour obtenir quelque chose de bien !",
+   "fr": "À utiliser sur une machine à récompenses pour obtenir quelque chose de bien !",
    "garde_anglais": false,
    "origine": "terminologie Stardew Valley FR",
    "raison": "prize machine = machine à lots (esprit Stardew 1.6)"
@@ -127781,7 +128331,7 @@
    "fr": "Il y a quelque chose à l'intérieur ! Un forgeron peut aider à l'ouvrir.",
    "garde_anglais": false,
    "origine": "terminologie Stardew Valley FR",
-   "raison": "clin d'œil Stardew (géode chez le forgeron)"
+   "raison": "clin d'oeil Stardew (géode chez le forgeron)"
   },
   {
    "en": "There isn't an animal inside of this plushie!",
@@ -127834,7 +128384,7 @@
   },
   {
    "en": "Hold [%s] to view blocks",
-   "fr": "Maintenez [%s] pour voir les blocs",
+   "fr": "Maintenir [%s] pour voir les blocs",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction directe, %s conservé"
@@ -127862,7 +128412,7 @@
   },
   {
    "en": "This tree only bears fruit in %s!",
-   "fr": "Cet arbre ne porte des fruits qu'en %s !",
+   "fr": "Cet arbre ne porte des fruits qu'une saison par an : %s !",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "%s = saison ; formulation tolérante au genre"
@@ -127960,14 +128510,14 @@
   },
   {
    "en": "Summons a ring of lucky dig spots around you",
-   "fr": "Fait apparaître un cercle de points de fouille chanceux autour de vous",
+   "fr": "Fait apparaître un cercle de zones de fouille chanceuses autour de toi",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction directe"
   },
   {
    "en": "Summons a ring of lucky fishing spots around you",
-   "fr": "Fait apparaître un cercle de points de pêche chanceux autour de vous",
+   "fr": "Fait apparaître un cercle de zones de pêche chanceuses autour de toi",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
    "raison": "traduction directe"
@@ -128061,7 +128611,7 @@
    "fr": "Lots",
    "garde_anglais": false,
    "origine": "terminologie Stardew Valley FR",
-   "raison": "CORRIGE : l'entree precedente disait « Sacs », origine « Minecraft vanilla (officiel Mojang) ». Autorite mal appliquee — « Sac » est le nom Mojang de item.minecraft.bundle, un contenant d'inventaire, alors qu'il s'agit ici des collections d'objets a donner au Centre communautaire, heritees de Stardew Valley. Deux notions distinctes partageant un mot anglais. « Lot » etait deja l'usage majoritaire (23 contre 8), dit juste, et laisse « Sac » a l'objet vanilla, qui est reference dans le pack (addJeiItems.js, boutique du marche). « Collection » etait exclu : le mot nomme deja un groupe de chapitres du livre et sert 72 fois pour l'anglais Collection/Set. Le coreen (꾸러미) et le chinois (包裹) emploient un mot unique dans tous les chapitres."
+   "raison": "les collections d'objets à donner au Centre communautaire, héritées de Stardew Valley ; « Sac » reste le nom de Mojang pour item.minecraft.bundle, le contenant d'inventaire. « Collection » nomme déjà un groupe de chapitres du livre"
   },
   {
    "en": "Villagers",
@@ -128193,8 +128743,8 @@
    "en": "Lettuce Crop",
    "fr": "Pousse de salade",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
-   "raison": "fiche du sous-projet 3 : laitue-ou-salade, garder (option salade-garder) ; nom du jar farm_and_charm, majuscule corrigée (lots 4a)"
+   "origine": "décision de l'utilisateur",
+   "raison": "fiche du sous-projet 3 : laitue-ou-salade, garder (option salade-garder) ; nom du jar farm_and_charm, majuscule corrigée"
   },
   {
    "en": "Oat Crop",
@@ -128263,14 +128813,14 @@
    "en": "Arrau Turtle",
    "fr": "Tortue tartaruga",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : aquaculture-especes, garder ; nom officiel du jar Aquaculture, nom secondaire attesté de la tortue arrau (Podocnemis expansa)"
   },
   {
    "en": "Atlantic Cod",
    "fr": "Morue de l'Atlantique",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question morue-atlantique : distincte de la « Morue » de Mojang"
   },
   {
@@ -128291,7 +128841,7 @@
    "en": "Bayad",
    "fr": "Carangue",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : aquaculture-especes, garder ; nom officiel du jar Aquaculture, gardé par décision malgré l'espèce (Bagrus bajad, poisson-chat d'eau douce)"
   },
   {
@@ -128396,7 +128946,7 @@
    "en": "Muskellunge",
    "fr": "Brochet",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : aquaculture-especes, garder ; nom officiel du jar Aquaculture, gardé par décision malgré l'espèce (le maskinongé, Esox masquinongy)"
   },
   {
@@ -128562,7 +129112,7 @@
   },
   {
    "en": "Preserves Jar",
-   "fr": "Bocal",
+   "fr": "Bocal à conserves",
    "garde_anglais": false,
    "origine": "terminologie Stardew Valley FR",
    "raison": "terminologie officielle Stardew Valley FR"
@@ -128705,7 +129255,7 @@
    "fr": "Remise",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "Batiment de rangement de ferme, convertible en cafe. « Remise » est le terme francais pour une dependance de rangement ; « cabane » designe un abri rustique ou une habitation. La boutique de construction et l'astuce en jeu disaient deja « remise », les 30 plans disaient « cabane » : un joueur lisant l'astuce ne trouvait pas l'objet. Le coreen et le chinois emploient un mot unique aux deux endroits (헛간 / 棚屋)."
+   "raison": "bâtiment de rangement de la ferme, convertible en café : « remise » est le terme français pour une dépendance de rangement, « cabane » désigne un abri rustique"
   },
   {
    "en": "Large Shed",
@@ -128726,19 +129276,20 @@
    "fr": "Bocal",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "Recipient en verre : « bocal » est le terme juste, « pot » designe un recipient opaque et bas. Le terme n'etait pas au glossaire, d'ou trois rendus en « pot » face a neuf en « bocal ». Le plus grave etait la quete d'agriculture avancee, qui disait « pot de fermentation » alors que le bloc s'appelle « Bocal de fermentation » — le joueur ne trouvait pas l'objet. Ne pas confondre avec Barrel, rendu par « tonneau » (Fermenting Barrel -> tonneaux de fermentation, un bloc different)."
+   "raison": "récipient en verre : « bocal » est le terme juste, « pot » désigne un récipient opaque et bas (« Bocal de fermentation »). Ne pas confondre avec Barrel, « tonneau »"
   },
   {
    "en": "Cash Register",
    "fr": "Caisse",
    "garde_anglais": false,
    "origine": "arbitrage de traduction",
-   "raison": "EXCEPTION de longueur a l'entree « Cash Register -> Caisse enregistreuse ». Les caisses de whimsy_deco s'appellent « Curio Cash Register » : aucune forme gardant « enregistreuse » ne tient dans les 102 px de la boutique, meme en abandonnant « curiosites ». « Caisse » seul designe deja le comptoir de paiement en francais. Reservee aux noms d'objets contraints ; « caisse enregistreuse » reste la forme normale ailleurs."
+   "raison": "les caisses de Whimsy Deco s'appellent « Curio Cash Register » : aucune forme gardant « enregistreuse » ne tient dans les 102 px de la boutique. Ailleurs, « caisse enregistreuse »",
+   "sens": "noms d'objets contraints par la largeur de la boutique"
   },
   {
    "en": "Core",
    "fr": "Noyau",
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question coeur-noyau : « Noyau » pour la baguette de construction (pièce interchangeable qui détermine le mode) ; Just Hammers et Refined Storage disent « coeur »",
    "garde_anglais": false
   },
@@ -128746,97 +129297,107 @@
    "en": "Darkwood",
    "fr": "sombre",
    "origine": "contrainte d'affichage",
-   "raison": "« en bois sombre » ne tient pas avec « geometrique » : Fauteuil geometrique = 103 px et Etagere geometrique = 104 px face aux 102 px de la boutique. « bois » tombe, « sombre » reste, et les deux familles (geometrique, sudiste) s'alignent."
+   "raison": "« en bois sombre » ne tient pas : Fauteuil géométrique = 103 px et Étagère géométrique = 104 px face aux 102 px de la boutique ; « bois » tombe, « sombre » reste",
+   "sens": "noms de meubles contraints par la largeur de la boutique",
+   "garde_anglais": false
   },
   {
    "en": "Glowshroom",
    "fr": "champi. lumineux",
    "origine": "contrainte d'affichage",
-   "raison": "abregement impose par les 102 px de la boutique ; la forme pleine ne tient sur aucun decoupage"
+   "raison": "abrègement imposé par les 102 px de la boutique ; la forme pleine ne tient sur aucun découpage",
+   "garde_anglais": false
   },
   {
    "en": "Checkered",
-   "fr": "a damier",
-   "origine": "observation en jeu",
-   "raison": "le pack disait « a carreaux » sur 2 papiers peints et rien sur 3 autres. Or les 18 autres « a carreaux » du corpus traduisent Tile (portes a fenetre), pas Checkered. « a damier » etait deja le rendu de chipped:checkered_trapdoor."
+   "fr": "à damier",
+   "origine": "arbitrage de traduction",
+   "raison": "motif en damier (« Trappe à damier ») ; « à carreaux » est réservé à Tile, les portes à fenêtre",
+   "garde_anglais": false
   },
   {
    "en": "Tile",
-   "fr": "a carreaux",
-   "origine": "observation en jeu",
-   "raison": "reserve aux 18 portes a fenetre ; ne doit plus servir a Checkered."
+   "fr": "à carreaux",
+   "origine": "arbitrage de traduction",
+   "raison": "réservé aux portes à fenêtre ; Checkered se dit « à damier »",
+   "garde_anglais": false
   },
   {
    "en": "Checker",
-   "fr": "a damier",
-   "origine": "correction du francais du mod",
-   "raison": "supplementaries traduit Checker Block par « Bloc de verification » — contresens sur checker (damier / verificateur). La texture s'appelle checkerboard.png et l'allemand dit Karoblock, l'italien scacchiera, le russe шахматная. Notre pack passe par-dessus."
+   "fr": "à damier",
+   "origine": "arbitrage de traduction",
+   "raison": "Supplementaries traduit Checker Block par « Bloc de vérification », contresens sur checker (damier / vérificateur) : la texture s'appelle checkerboard.png ; notre traduction passe par-dessus",
+   "garde_anglais": false
   },
   {
    "en": "Wallpaper",
    "fr": "Papier peint <motif>",
-   "origine": "usage commercial francais",
-   "raison": "le motif s'appose sans preposition — « papier peint fleurs », non « papier peint aux fleurs ». La famille melait « aux X » (16), « a motif X » (109), « d'X » (3) et l'apposition (31) ; 138 valeurs sont ramenees a l'apposition."
-  },
-  {
-   "en": "— recherche EMI —",
-   "fr": "alias sans accents",
-   "origine": "lecture du bytecode d'EMI 1.1.24",
-   "raison": "EmiSearch$CompiledQuery ajoute AliasQuery sans condition (offset 284-291, aucun test de config) et l'unit a NameQuery par un LogicalOrQuery : les alias comptent dans la recherche par defaut. Un alias sans accents rend l'objet trouvable sans toucher a son nom affiche. Voie preferable a l'ecrasement du francais embarque des mods."
+   "origine": "arbitrage de traduction",
+   "raison": "le motif s'appose sans preposition — « papier peint fleurs », non « papier peint aux fleurs ». La famille melait « aux X » (16), « a motif X » (109), « d'X » (3) et l'apposition (31) ; 138 valeurs sont ramenees a l'apposition.",
+   "garde_anglais": false
   },
   {
    "en": "Locometal",
    "fr": "Locométal",
-   "origine": "arbitrage de l'utilisateur, 29/08/2026",
-   "raison": "mot-valise de Create: Steam 'n Rails (locomotive + metal), 1 208 cles du mod. L'allemand adapte (Lokometall), le polonais aussi (lokometal), l'espagnol garde, le russe et le chinois traduisent (« fer de locomotive »). Les deux moities du mot-valise etant francaises, on francise l'accent. Le pack ecrivait deja les deux formes — 933 sans accent, 266 avec ; les 742 noms d'objets et 190 textes de prose sont desormais alignes sur « Locométal », alias EMI sans accent a l'appui."
+   "origine": "décision de l'utilisateur",
+   "raison": "mot-valise de Create: Steam 'n' Rails (locomotive + métal) dont les deux moitiés sont françaises : on francise l'accent, partout, noms d'objets compris (l'allemand dit Lokometall)",
+   "garde_anglais": false
   },
   {
    "en": "Bank Account",
    "fr": "compte en banque",
-   "origine": "harmonisation 4.1.5",
-   "raison": "le pack disait « compte en banque » 9 fois et « compte bancaire » 2 ; Create: Numismatics dit « compte bancaire » 3 fois dans son francais embarque. Une seule forme desormais, la majoritaire : les 3 cles du mod sont recouvertes et nos 2 ecarts corriges."
+   "origine": "arbitrage de traduction",
+   "raison": "une seule forme, la majoritaire dans le pack ; les clés de Create: Numismatics, qui disent « compte bancaire », sont recouvertes",
+   "garde_anglais": false
   },
   {
    "en": "Salepoint",
    "fr": "Point de vente",
-   "origine": "4.1.5, Create: Numismatics",
-   "raison": "bloc neuf du mod ; « point de vente » est le terme commercial francais et evite la confusion avec « Boutique », deja pris par Vendor dans le francais du mod."
+   "origine": "arbitrage de traduction",
+   "raison": "Create: Numismatics ; terme commercial français, qui évite la confusion avec « Boutique », déjà pris par Vendor dans le français du mod",
+   "garde_anglais": false
   },
   {
    "en": "Sub Account",
    "fr": "sous-compte",
-   "origine": "4.1.5, Create: Numismatics",
-   "raison": "forme courante en francais bancaire"
+   "origine": "arbitrage de traduction",
+   "raison": "Create: Numismatics ; forme courante en français bancaire",
+   "garde_anglais": false
   },
   {
    "en": "Authorized Card",
-   "fr": "Carte autorisee",
-   "origine": "4.1.5, Create: Numismatics",
-   "raison": "suit la famille du mod (Carte bancaire, Carte d'identite) ; sans accents comme toutes nos surcharges de noms d'objets, la ou le mod garde les siens"
+   "fr": "Carte autorisée",
+   "origine": "arbitrage de traduction",
+   "raison": "Create: Numismatics ; suit la famille du mod (Carte bancaire, Carte d'identité)",
+   "garde_anglais": false
   },
   {
    "en": "Trust List",
    "fr": "Liste de confiance",
-   "origine": "francais embarque du mod",
-   "raison": "repris tel quel pour ne pas diverger de l'interface du mod"
+   "origine": "traduction officielle du mod",
+   "raison": "repris tel quel pour ne pas diverger de l'interface du mod",
+   "garde_anglais": false
   },
   {
    "en": "Whispering",
    "fr": "murmurante",
-   "origine": "4.1.5, Macaw's Doors via Every Compat",
-   "raison": "nom de style decoratif sans equivalent etabli ; suit le registre des autres styles du mod, ou « Airy » a ete rendu par « ajouree »"
+   "origine": "arbitrage de traduction",
+   "raison": "Macaw's Doors via Every Compat ; nom de style décoratif sans équivalent établi, suit le registre des autres styles du mod (Airy : « ajourée »)",
+   "garde_anglais": false
   },
   {
    "en": "Kitchen Cabinet",
    "fr": "Placard de cuisine",
-   "origine": "4.1.5, Macaw's Furniture",
-   "raison": "« Meuble de cuisine » est deja pris par le Kitchen Cabinetry de refurbished_furniture ; le placard s'en distingue"
+   "origine": "arbitrage de traduction",
+   "raison": "Macaw's Furniture ; « Meuble de cuisine » est déjà pris par le Kitchen Cabinetry de Refurbished Furniture",
+   "garde_anglais": false
   },
   {
    "en": "Sidebar",
-   "fr": "barre laterale",
-   "origine": "Reliable EMI",
-   "raison": "forme deja employee par notre traduction d'EMI++ ; « onglet » entrerait en collision avec les onglets du mode Creatif, omnipresents dans la meme fenetre"
+   "fr": "barre latérale",
+   "origine": "arbitrage de traduction",
+   "raison": "forme de notre traduction d'EMI++ ; « onglet » entrerait en collision avec les onglets du mode Créatif, dans la même fenêtre",
+   "garde_anglais": false
   },
   {
    "en": "Talc",
@@ -128874,8 +129435,8 @@
    "en": "Azulejo",
    "fr": "azulejo",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
-   "raison": "Le mot français s'écrit comme l'anglais : carreau de faïence, sans accent ; confirmé par la fiche du sous-projet 3 : azulejo-accent (option sans-accent), les 16 blocs « Azulejo »",
+   "origine": "décision de l'utilisateur",
+   "raison": "Le mot français s'écrit comme l'anglais : carreau de faïence, sans accent ; confirmé par la fiche du sous-projet 3 : azulejo-accent, les 16 blocs « Azulejo »",
    "date": "2026-09-29"
   },
   {
@@ -129147,7 +129708,7 @@
    "fr": "cartoon",
    "garde_anglais": false,
    "origine": "identique en français",
-   "raison": "Le mot français s'écrit comme l'anglais : « Œuf cartoon » (Simple Hats).",
+   "raison": "Le mot français s'écrit comme l'anglais : « Oeuf cartoon » (Simple Hats).",
    "date": "2026-09-29"
   },
   {
@@ -129370,175 +129931,175 @@
    "en": "Crab Trap",
    "fr": "Casier à crabes",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09 : crabes"
   },
   {
    "en": "Bobber",
    "fr": "Flotteur",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09 : flotteur"
   },
   {
    "en": "Artisan Machine",
    "fr": "Machine d'artisan",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09 : machine-artisan"
   },
   {
    "en": "Stack Upgrade",
    "fr": "Amélioration de pile",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09 : amelioration-pile"
   },
   {
    "en": "Aging Cask",
    "fr": "Tonneau de vieillissement",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09 : fut-tonneau"
   },
   {
    "en": "Ancient Cask",
    "fr": "Tonneau ancien",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09 : fut-tonneau"
   },
   {
    "en": "Dark Cherry",
    "fr": "Cerisier noir",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question cerisier-noir : essence de Vinery (« Planches de cerisier noir »)"
   },
   {
    "en": "Dripstone",
    "fr": "Spéléothème",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du 30/09, question dripstone : nom de Mojang (« Bloc de spéléothème »), de Create et de Quark ; Railways suit"
   },
   {
    "en": "Trumpet (Quark)",
    "fr": "Trompette",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "réponse du 01/10 à la question trompette-quark : le bois Trumpet de Quark (« Planches de trompette », « Pousse de trompette givrée ») ; « cerisier » reste le bois de Mojang"
   },
   {
    "en": "Boat with Furnace",
    "fr": "Bateau en … motorisé",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "réponse du 01/10 à la question bateau-motorise : comme le « Wagonnet motorisé » de Mojang ; le fourneau n'est pas nommé"
   },
   {
    "en": "Brush (Better Archeology)",
    "fr": "Pinceau",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "réponse du 01/10 à la question pinceau-better-archeology : versions du pinceau de Mojang (« Pinceau en fer »)"
   },
   {
    "en": "Waystone",
    "fr": "Pierre de voyage",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "réponse du 01/10 à la question sharestone : tout le mod Waystones en français ; variantes « moussue », « en grès », « en roche noire », « en ardoise des abîmes », « en pierre de l'End » (la matière prend « en »)"
   },
   {
    "en": "Sharestone",
    "fr": "Pierre de partage",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "réponse du 01/10 à la question sharestone : couleur accordée au féminin après le nom (« Pierre de partage blanche »), comme tous les textes du pack"
   },
   {
    "en": "Portstone",
    "fr": "Pierre de départ",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "réponse du 01/10 à la question sharestone : on part de cette pierre, on ne peut pas y arriver (« Can not be teleported to. »)"
   },
   {
    "en": "Thumbstick",
    "fr": "Joystick",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "lot 5-01 : Controllable, manette (« Joystick gauche », « Zone morte des joysticks ») ; mot entré dans l'usage français"
   },
   {
    "en": "Bumper",
    "fr": "Bouton supérieur",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "lot 5-01 : Controllable, bouton d'épaule de la manette (« Bouton supérieur gauche ») ; « gâchette » reste le Trigger"
   },
   {
    "en": "Trigger (manette)",
    "fr": "Gâchette",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "lot 5-01 : Controllable, déjà « Zone morte des gâchettes » dans le pack (« Gâchette droite »)"
   },
   {
    "en": "Binding (touches)",
    "fr": "Assignation",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "lot 5-01 : Controllable ; Mojang « Assignation des touches » (« Modifier les assignations »)"
   },
   {
    "en": "Radial Menu",
    "fr": "Menu radial",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "lot 5-01 : Controllable (« Ouvrir le menu radial »)"
   },
   {
    "en": "Mapping (manette)",
    "fr": "Correspondance",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "lot 5-01 : Controllable, déjà « Mettre à jour les correspondances » dans le pack (« Correspondance manquante ! »)"
   },
   {
    "en": "Dithering",
    "fr": "Tramage",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "lot 5-01 : Zetter (« Tramage ») ; Immersive Paintings suit (« dither »)"
   },
   {
    "en": "Sepia",
    "fr": "Sépia",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "lot 5-01 : mot français (Quark, filtre « Sépia ») ; « Globe sépia » de Supplementaries"
   },
   {
    "en": "Smokestack (burner)",
    "fr": "Cheminée à brûleur à …",
    "garde_anglais": false,
-   "origine": "décision de l'utilisateur, 02/10",
+   "origine": "décision de l'utilisateur",
    "raison": "lot R-16 : un seul modèle pour Woodburner/Coalburner/Oilburner Smokestack, « Cheminée à brûleur à bois / à charbon / à pétrole [en <corps> à chapeau de <chapeau>] » ; remplace « à brûleur de bois » et « de brûleur à … »"
   },
   {
    "en": "Silk Moth / Japanese Silk Moth",
    "fr": "Papillon du ver à soie / Papillon du ver à soie japonais",
    "garde_anglais": false,
-   "origine": "décision de l'utilisateur, 02/10",
-   "raison": "lot R-17 : noms parlants (option 2) pour les deux bombyx de Longwings, objets et titres du guide ; remplace « Bombyx de la soie » et « Bombyx de la soie du Japon »"
+   "origine": "décision de l'utilisateur",
+   "raison": "lot R-17 : noms parlants pour les deux bombyx de Longwings, objets et titres du guide ; remplace « Bombyx de la soie » et « Bombyx de la soie du Japon »"
   },
   {
    "en": "Kelp (Crimson/Warped Kelp, Kelp Shake…)",
    "fr": "Algue (Algue carmin, Algue biscornue, Milkshake aux algues…)",
    "garde_anglais": false,
-   "origine": "décision de l'utilisateur, 02/10 : Kelp = Algue, comme Mojang",
+   "origine": "décision de l'utilisateur",
    "raison": "lot R-18 : Mojang nomme Kelp « Algue » (« Tige d'algue », « Algue séchée », « Bloc d'algues séchées ») ; les algues carmin et biscornues de Nether Depths Upgrade, leurs blocs, tapis et makis, et le milkshake de Crabber's Delight suivent ; remplace « varech », désormais forme interdite"
   },
   {
@@ -129546,393 +130107,552 @@
    "fr": "bandana",
    "garde_anglais": false,
    "origine": "identique en français",
-   "raison": "Le mot français s'écrit comme l'anglais : foulard noué, « Bandana » et « Bandana RGB » (Simple Hats). Avant le lot botania-2-01, le faux « Bandana rouge » de Botania (Red Ribbons) le faisait tenir pour français.",
+   "raison": "Le mot français s'écrit comme l'anglais : foulard noué, « Bandana » et « Bandana RGB » (Simple Hats). Ne pas confondre avec les Red Ribbons de Botania, des rubans.",
    "date": "2026-10-05"
   },
   {
    "en": "Track (train)",
    "fr": "Rail",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
-   "raison": "fiche du sous-projet 3 : rail-ou-voie ; réponse de l'utilisateur (option rail) : « rail » pour les rails de train de Create et de Railways (« Rail de train », « Rail en chêne », « Rail en chêne étroit »), au masculin, jamais « voie » ni « voie de chemin de fer » (termes_imposes.json) ; ne vise pas les rails de wagonnet de Mojang (« Rails », « Rails de propulsion », « Rails détecteurs », « Rails déclencheurs »), qui gardent leurs noms"
+   "origine": "décision de l'utilisateur",
+   "raison": "fiche du sous-projet 3 : rail-ou-voie ; décision de l'utilisateur : « rail » pour les rails de train de Create et de Railways (« Rail de train », « Rail en chêne », « Rail en chêne étroit »), au masculin, jamais « voie » ni « voie de chemin de fer » (termes_imposes.json) ; ne vise pas les rails de wagonnet de Mojang (« Rails », « Rails de propulsion », « Rails détecteurs », « Rails déclencheurs »), qui gardent leurs noms"
   },
   {
    "en": "Mob",
    "fr": "créature",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : mob-ou-creature"
   },
   {
    "en": "Mob Spring",
    "fr": "Ressort à créatures",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : mob-ou-creature"
   },
   {
    "en": "Chunk",
    "fr": "chunk",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : chunk-ou-troncon"
   },
   {
    "en": "Fir",
    "fr": "sapin blanc",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : sapin-fir ; le Fir (Abies), distinct du Spruce que Mojang appelle « sapin » ; le Douglas Fir (Pseudotsuga, un autre arbre) garde « sapin douglas » (6 rails de TFC)"
   },
   {
    "en": "Casing",
    "fr": "Boîtier",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : create-boitier"
   },
   {
    "en": "Cargo",
    "fr": "Cargaison",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : create-cargaison"
   },
   {
    "en": "Encased Chain Drive",
    "fr": "Chaîne de transmission",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : create-chaine"
   },
   {
    "en": "Hold [%1$s] to Focus",
    "fr": "Maintenez [%1$s] pour activer le focus",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : create-focus"
   },
   {
    "en": "Diorite Locometal",
    "fr": "Locométal de diorite",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : locometal-de ; « locométal de X » pour toutes les variantes de pierre (granite, calcaire, ochrum, scorchia, tuf, spéléothème)"
   },
   {
    "en": "Split Knuckle Coupler",
    "fr": "Coupleur à mâchoire articulée fendue",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : attelage-knuckle"
   },
   {
    "en": "Snuffle Fluff",
    "fr": "Duvet de nasiller",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : duvet-de-nasiller ; le duvet du Nasiller (Snuffle), et non « à priser », contresens né de « snuff »"
   },
   {
    "en": "Ribwort",
    "fr": "plantain lancéolé",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : plantain-lanceole ; Plantago lanceolata (INPN), « Thé de plantain lancéolé », « Plantain lancéolé sauvage »"
   },
   {
    "en": "Lime (couleur)",
    "fr": "vert clair",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : vert-clair-lime ; la teinture de Mojang, invariable (« Fauteuil vert clair ») ; le fruit reste « citron vert »"
   },
   {
    "en": "Resistance Lens",
    "fr": "Lentille de résistance",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : botania-noms-officiels (option garder-corriger) ; comme la forme courte « Résistance » des lentilles composites ; « durabilité » est l'usure des objets chez Mojang"
   },
   {
    "en": "Clock Eye",
    "fr": "Oeil-horloge",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : botania-noms-officiels (option garder-corriger) ; la texture est un cadran doré, « Cache-oeil blanc » est le Wicked Eyepatch ; les six autres noms officiels de Botania restent"
   },
   {
    "en": "%s Mosaic",
    "fr": "Mosaïque de %s",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : mosaique-gabarits (option mojang) ; comme « Mosaïque de bambou » : « Dalle de mosaïque de %s », « Escalier en mosaïque de %s », « Plaque de pression en mosaïque de %s »"
   },
   {
    "en": "Potato Face",
    "fr": "Petite patate",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : botania-face-de-patate, garder ; motifs de bannière « <Color> Potato Face » : « Petite patate <couleur> » (« Petite patate rouge »), comme les 416 motifs des mods, sans couleur héraldique"
   },
   {
    "en": "Entropinnyum Setup",
    "fr": "Énergie explosive",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : botania-titres-defis, garder ; titre thématique du jar, l'icône et la description nomment la fleur"
   },
   {
    "en": "Kekimurus Setup",
    "fr": "Énergie pâtissière",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : botania-titres-defis, garder ; titre thématique du jar, l'icône et la description nomment la fleur"
   },
   {
    "en": "Shulk Me Not Setup",
    "fr": "Énergie aérienne",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : botania-titres-defis, garder ; titre thématique du jar, l'icône et la description nomment la fleur"
   },
   {
    "en": "Spectrolus Setup",
    "fr": "Énergie colorée",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : botania-titres-defis, garder ; titre thématique du jar, l'icône et la description nomment la fleur"
   },
   {
    "en": "Value Panel",
    "fr": "panneau de valeur",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : create-panneau-de-valeur, garder ; traduction officielle des ponders de Create, constante dans les 10 textes"
   },
   {
    "en": "Input Panel",
    "fr": "panneau de saisie",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : create-panneau-de-valeur, garder ; traduction officielle des ponders de Create (moteur créatif, poignée de vanne)"
   },
   {
    "en": "Lettuce",
    "fr": "Salade",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : laitue-ou-salade, garder (option salade-garder) ; nom officiel de Farm and Charm ; les plats de Candlelight et le jeu de mots de Veggies Delight gardent « laitue » sous exception"
   },
   {
    "en": "Coil (Species)",
    "fr": "Ressort",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : species-coil, garder (option ressort) ; objet, entité et 4 sous-titres de Species (« Ressort relié », « Ressort ajusté »)"
   },
   {
    "en": "Persimmon Travertine",
    "fr": "Travertin papaye",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : travertin-persimmon, garder (option papaye) ; traduction officielle du jar Atmospheric, gardée pour les 7 blocs malgré le fruit (le persimmon est le kaki)"
   },
   {
    "en": "SUBTRACT",
    "fr": "SUBTRACT",
    "garde_anglais": true,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : modes-jauge-entiers, garder ; mode de la jauge d'entiers d'Extra Gauges (integer_gauge.mode.subtract), gardé en anglais comme AND, OR, XOR de la jauge logique : étiquette de mode, suivie de son explication en français"
   },
   {
    "en": "MULTIPLY",
    "fr": "MULTIPLY",
    "garde_anglais": true,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : modes-jauge-entiers, garder ; mode de la jauge d'entiers d'Extra Gauges (integer_gauge.mode.multiply), gardé en anglais comme AND, OR, XOR de la jauge logique : étiquette de mode, suivie de son explication en français"
   },
   {
    "en": "ADD",
    "fr": "ADD",
    "garde_anglais": true,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : modes-jauge-entiers, garder ; mode de la jauge d'entiers d'Extra Gauges (integer_gauge.mode.add), gardé en anglais comme AND, OR, XOR de la jauge logique : étiquette de mode, suivie de son explication en français"
   },
   {
    "en": "Fluid Grid",
    "fr": "Grille à fluide",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "lot largeurs-03 : le titre de l'écran de la grille (Refined Storage, 73 px) est le nom du bloc ; « Grille de fluide » dépassait, le nom est raccourci partout (Grille à fluide sans fil comprise)"
   },
   {
    "en": "Pattern Grid",
    "fr": "Grille à modèle",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "lot largeurs-03 : le titre de l'écran de la grille (Refined Storage, 73 px) est le nom du bloc ; « Grille de modèle » dépassait, le nom est raccourci partout"
   },
   {
    "en": "Bunting",
    "fr": "Fanions",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : bunting-fanions"
   },
   {
    "en": "Lunar Observatory Paper Basket",
    "fr": "Corbeille à papiers de l'observatoire",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : corbeille-observatoire ; « lunaire » tombe faute de place dans la boîte de 102 px de la boutique (deux lignes au plus)"
   },
   {
    "en": "Shepherd's Pie",
    "fr": "Hachis Parmentier",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : hachis-parmentier"
   },
   {
    "en": "Plate of Shepherd's Pie",
    "fr": "Assiette de hachis Parmentier",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : hachis-parmentier"
   },
   {
    "en": "Pipe (Classic Pipes)",
    "fr": "Tuyau",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : pipe-ou-tuyau ; au masculin (« Tuyau de recette en réseau », « Tuyau avancé en cuivre ») ; « Fluid Pipe » donne « Tuyau à fluide », comme Create, et « Item Pipe » « Tuyau à objets », comme Pipez ; « Classic Pipes » reste le nom du mod"
   },
   {
    "en": "Tan (couleur)",
    "fr": "brun clair",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "fiche du sous-projet 3 : tan-teinture ; flacon de teinture d'Amendments (« Brun clair »), verre et vitre de cristal d'Oreganized (« Verre de cristal brun clair »)"
   },
   {
    "en": "Light Blue",
    "fr": "bleu clair",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "réponse de l'utilisateur du 06/10 : light-blue-botania, « bleu clair » comme Mojang et le reste du pack, y compris Botania"
   },
   {
    "en": "X Bricks (pierre des mods, hors Create)",
    "fr": "X taillé(e) ; X taillé(e) en briques quand « X taillé(e) » nomme déjà le Cut X (grès, lunalite)",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "réponse de l'utilisateur du 06/10 (briques-ou-taille) : « taille-partout », comme Mojang (Pierre taillée, Tuf taillé) et Quark (Calcite taillée) ; « Marbre taillé », « Shale poli taillé », « Roche alpine taillée moussue », « Calcite taillée motif panier » ; « Grès taillé en briques » car « Grès taillé » est le Cut Sandstone de Mojang ; les briques cuites ou d'une matière qui n'est pas de la pierre (argile, terre crue, Nether, quartz, prismarine, résine, pain d'épices, glace, neige, sel, cendre, limon) gardent « Briques » ; Create au lot suivant"
   },
   {
    "en": "Cut X Bricks (Create)",
    "fr": "X coupé(e) taillé(e)",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "réponse de l'utilisateur du 06/10 (briques-ou-taille) : « taille-partout », partie Create : « Andésite coupée taillée », « Dalle d'andésite coupée taillée », « Escalier en andésite coupée taillée », « Muret d'andésite coupée taillée » ; « coupé(e) » est le Cut X de Create, « taillé(e) » ses briques, comme Mojang (Pierre taillée, Ardoise des abîmes taillée) ; « Bloc de spéléothème coupé taillé » comme le Bloc de spéléothème coupé ; les Small X Bricks gardent « Petites briques de X » (hors de la question, forme distincte du taillé)"
   },
   {
    "en": "Picket Fence, Picket Fence Gate",
    "fr": "Barrière à piquets, Portillon à piquets",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "réponse de l'utilisateur du 06/10 (barriere-a-piquets) : « barrière », mots de Mojang (Barrière, Portillon) ; « Barrière à piquets en marbre », « Portillon à piquets en calcédoine profonde » ; « Palissade » reste aux Palisade (Decorative Blocks) et Stockade Fence ; lot rq-03a"
   },
   {
    "en": "X Bottle (contenant : la Glass Bottle de Mojang)",
    "fr": "Fiole de X",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "réponse de l'utilisateur du 06/10 (fiole-ou-bouteille) : « fiole », comme Mojang (Fiole, Fiole de miel) quand l'objet est fait avec la Fiole (minecraft:glass_bottle, recette vérifiée) : « Fiole de sève », « Fiole d'abeille », « Fiole de vinaigre », « Fiole d'ichor » ; un objet fait avec une vraie bouteille du pack garde « Bouteille » (Bouteille de vin, Bouteille de lait, Message dans une bouteille, conserves « en bouteille ») ; lot rq-03a"
   },
   {
    "en": "Wildcard",
    "fr": "caractère générique",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "réponse de l'utilisateur du 06/10 (joker-ou-caractere-generique) : « caractère générique », comme Create (traduction officielle) et JEI ; « joker » disparaît ; lot rq-03a"
   },
   {
    "en": "Lag",
    "fr": "ralentissement",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "réponse de l'utilisateur du 06/10 (lag-ou-ralentissement) : le jeu ou le serveur qui rame se dit « ralentissement » (« peut causer des ralentissements », « Éviter le ralentissement raffiné ») ; « latence » est le retard du réseau ; la caméra de Horseman et Sodium (retards) ne sont pas visés ; lot rq-03a"
   },
   {
    "en": "Ominous",
    "fr": "funeste",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
-   "raison": "réponse de l'utilisateur du 06/10 (ominous-funeste) : « funeste », comme Mojang (Fiole funeste, Clé des épreuves funeste, Bannière funeste) ; « Coffre-fort des épreuves funeste » ; remplace « inquiétant » (lot rendus-05) ; lot rq-03a"
+   "origine": "décision de l'utilisateur",
+   "raison": "réponse de l'utilisateur du 06/10 (ominous-funeste) : « funeste », comme Mojang (Fiole funeste, Clé des épreuves funeste, Bannière funeste) ; « Coffre-fort des épreuves funeste » ; remplace « inquiétant » ; lot rq-03a"
   },
   {
    "en": "Trial Key, Trial Spawner, Trial Vault, Trial Chamber",
    "fr": "Clé / Générateur / Coffre-fort / Chambre des épreuves",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "lot rendus-05 : Mojang (Clé des épreuves, Générateur des épreuves) ; « Carte de la chambre des épreuves de la Caverne du Crâne » ; Ominous devient « funeste » (réponse ominous-funeste du 06/10, lot rq-03a : Clé des épreuves funeste) ; Trial Omen reste « Présage d'épreuve » (Mojang)"
   },
   {
    "en": "Overgrown (Chipped, Dramatic Doors)",
    "fr": "envahi(e) de végétation",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "réponse de l'utilisateur du 06/10 (portes-envahies) : « envahie », comme Chipped (Porte envahie de végétation en %s) : « Petite porte envahie de végétation en chêne » ; « verdoyante » disparaît ; lot rq-03a"
   },
   {
    "en": "Pride (LGBT)",
    "fr": "des fiertés",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "réponse de l'utilisateur du 06/10 (pride-ou-fiertes) : « des fiertés », comme Quark (Joyeux mois des fiertés !) : « drapeaux des fiertés », « Flèche des fiertés », chapeau « Fiertés » ; l'orgueil de Botania, la fierté comme sentiment et le disque « CPH101 - Pride » ne sont pas visés ; lot rq-03a"
   },
   {
    "en": "Smokestack Extension (Steam 'n' Rails)",
    "fr": "Extension de cheminée",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "réponse de l'utilisateur du 06/10 (rallonge-de-cheminee) : « extension », comme Create (Extension de sifflet à vapeur) : « Extension de cheminée à brûleur à bois », « Extension de double cheminée » ; lot rq-03a"
   },
   {
    "en": "Cobbled Alpinestone (Meadow)",
    "fr": "Pierres de roche alpine",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "réponse de l'utilisateur du 06/10 (roche-alpine-concassee) : « pierres », comme Mojang (Pierres, Pierres des abîmes, Pierres moussues) : « Dalle de pierres de roche alpine », « Pierres de roche alpine moussues » ; « concassé » reste au minerai broyé de Create ; lot rq-03a"
   },
   {
    "en": "Favorite Food (Slimes)",
    "fr": "aliment préféré",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "réponse de l'utilisateur du 06/10 (slimes-aliment-prefere) : « aliment », sur le ticket de Slime, le trait pompeux et les quêtes (« Aliments préférés ») ; les plats préférés de Candlelight ne sont pas visés ; lot rq-03a"
   },
   {
    "en": "Font Scale (JourneyMap)",
    "fr": "taille de police",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
-   "raison": "réponse de l'utilisateur du 06/10 (taille-de-police) : « police », comme Mojang (Options de police) ; JourneyMap et FTB Chunks (« Taille de police ») ; remplace « taille des caractères » (lot rendus-06) ; lot rq-03a"
+   "origine": "décision de l'utilisateur",
+   "raison": "réponse de l'utilisateur du 06/10 (taille-de-police) : « police », comme Mojang (Options de police) ; JourneyMap et FTB Chunks (« Taille de police ») ; remplace « taille des caractères » ; lot rq-03a"
   },
   {
    "en": "Lunchbox",
    "fr": "Boîte à repas",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "lot rq-04a, verdict majeur de mesure-finale-3 du 06/10 (society_tips.tip.lunchboxes) : nom affiché d'item.solonion.lunchbox ; jamais « boîte-repas » (terme imposé)"
   },
   {
    "en": "Feast",
    "fr": "Festin",
    "garde_anglais": false,
-   "origine": "décision de la fiche",
+   "origine": "décision de l'utilisateur",
    "raison": "lot rq-04a, verdict mineur de mesure-finale-3 du 06/10 (advancements.farmersdelight.place_feast.title) : tag « Festins », effet « Festin » ; jamais « fête » (terme imposé, sauf le verbe « Feast on » de Nether Depths Upgrade)"
+  },
+  {
+   "en": "Count",
+   "fr": "Quantité",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "",
+   "sens": "nombre d'objets d'une tâche ou d'une récompense de quête"
+  },
+  {
+   "en": "Any",
+   "fr": "Quelconque",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "",
+   "sens": "valeur indifférente : régime d'un slime, quantité ou fluide quelconque"
+  },
+  {
+   "en": "Baking",
+   "fr": "Cuisson",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "",
+   "sens": "catégorie de recettes au four"
+  },
+  {
+   "en": "Fancy",
+   "fr": "Détaillé",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "",
+   "sens": "variante de verre décoratif, au singulier"
+  },
+  {
+   "en": "Fern",
+   "fr": "Fern",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "",
+   "sens": "titre de tableau, gardé en anglais comme les autres titres d'oeuvres"
+  },
+  {
+   "en": "Smithing",
+   "fr": "Table de forge",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "",
+   "sens": "amélioration de sac à dos (Sophisticated Backpacks)"
+  },
+  {
+   "en": "Speed",
+   "fr": "Vitesse",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "",
+   "sens": "statistique de véhicule (Automobility)"
+  },
+  {
+   "en": "Start",
+   "fr": "Début",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "",
+   "sens": "position ou point de départ (alignement, début d'une plage), pas l'action de lancer"
+  },
+  {
+   "en": "Respawn",
+   "fr": "Faire réapparaître",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "",
+   "sens": "action sur un PNJ (Easy NPC)"
+  },
+  {
+   "en": "Clock",
+   "fr": "Horloge",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "",
+   "sens": "mode d'affichage de l'heure (FTB Chunks)"
+  },
+  {
+   "en": "Key Binds",
+   "fr": "Touches",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "",
+   "sens": "onglet de réglages (Jade)"
+  },
+  {
+   "en": "Jump",
+   "fr": "Saut",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "",
+   "sens": "attribut du joueur, nom"
+  },
+  {
+   "en": "Moody",
+   "fr": "Lunatique",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "",
+   "sens": "trait de slime (Splendid Slimes)"
+  },
+  {
+   "en": "Item Display",
+   "fr": "Affichage d'objet",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "",
+   "sens": "réglage de Sophisticated, pas le bloc de Mojang"
+  },
+  {
+   "en": "Pulse",
+   "fr": "Pulsation",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "",
+   "sens": "groupe de réglages (Loot Journal)"
+  },
+  {
+   "en": "Recessive",
+   "fr": "Récessif",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "",
+   "sens": "trait de slime (Splendid Slimes)"
+  },
+  {
+   "en": "Extracting",
+   "fr": "Extraction",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "",
+   "sens": "catégorie de recettes JEI"
+  },
+  {
+   "en": "Composting",
+   "fr": "Compostage",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "",
+   "sens": "catégorie de recettes EMI"
+  },
+  {
+   "en": "Construction Core",
+   "fr": "Noyau de construction",
+   "garde_anglais": false,
+   "origine": "arbitrage de traduction",
+   "raison": "",
+   "sens": "noyau de la baguette de construction (Construction Wand)"
+  },
+  {
+   "en": "Ticker",
+   "fr": "Ticker",
+   "garde_anglais": true,
+   "origine": "traduction officielle du mod",
+   "raison": "nom d'élément de FancyMenu, qui exécute des actions à intervalle ; la traduction du mod le garde tel quel (« Si le ticker doit s'exécuter… »)"
   }
  ],
  "cles_mortes_ecartees": [

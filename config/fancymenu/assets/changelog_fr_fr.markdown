@@ -40,7 +40,7 @@ Un café bien à soi
 - Ajout du totem de tonnerre
 - Ajout de la poussière de fée
 - Ajout de la capacité de la baguette sylvestre à consulter le niveau de mana des blocs Botania personnalisés (ça a l'air bancal, mais ça marche !)
-- Ajout d'objets de mobilier tirés au hasard chaque jour, en vente chez le charpentier
+- Ajout d'objets de mobilier tirés au hasard chaque jour, en vente chez le Charpentier
 - Ajout d'un support Jade plus complet pour la croissance des cultures (merci Hexagreen !)
 - Ajout d'une recette de remplissage pour la cacahuète grillée au miel (merci Emma !)
 - Ajout de la possibilité de se lier d'amitié avec le mystique Chêne sage
@@ -113,7 +113,7 @@ Un café bien à soi
 - Correction des problèmes de dialogue du Chêne sage
 - Correction de l'écloserie d'étang à poissons qui ne se liait pas aux joueurs (il faudra la casser et la reposer)
 - Correction des quêtes de nouveaux villageois qui acceptaient n'importe quelle invitation
-- Correction de la dépendance erronée de la quête du bibliothécaire
+- Correction de la dépendance erronée de la quête du Bibliothécaire
 - Correction des objets retirés qui restaient obtenables dans le butin
 - Correction de l'écloserie d'étang à poissons qui ne pouvait pas être améliorée
 - Correction de la triple truffe qui ne fonctionnait pas avec les auto-ramasseurs
@@ -137,7 +137,7 @@ Un café bien à soi
 - Ajout de l'artéfact Outil des bâtisseurs anciens
 - Ajout de l'artéfact Clé rouge
 - Ajout de la prise en charge des jetons de surplus pour les comptes partagés (rééquiper la carte bancaire pour mettre à jour)
-- Échange du marchand de cristaux de terre modifié : du riz vers le coton
+- Échange de cristaux de terre du Marchand modifié : du riz vers le coton
 - Échange de jade du Marchand modifié : du vin Aegis vers le citron séché
 - Le classement des pièces récupère désormais les données une seule fois au lieu d'une fois par classement, ce qui améliore les performances sur les gros serveurs
 - Hauteur du classement des pièces augmentée d'un quart de bloc, pour un rendu moins baveux

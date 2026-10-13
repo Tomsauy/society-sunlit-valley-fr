@@ -5,14 +5,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from validate_translation import validate
+from corrections.glossaire import termes_gardes
 
 ROOT = Path(__file__).resolve().parents[2]
 REPO = ROOT / "society-sunlit-valley"
 WS = ROOT / "fr-workspace"
-
-def accent_prefixes() -> tuple:
-    txt = (WS / "DECISION-ACCENTS.md").read_text()
-    return ("item.", "block.", "entity.") if '["item.", "block.", "entity."]' in txt else ()
 
 def set_pointer(obj, pointer: str, value: str) -> None:
     parts = pointer.split("/")
@@ -25,12 +22,10 @@ def set_pointer(obj, pointer: str, value: str) -> None:
         obj[last] = value
 
 def main() -> None:
-    gl = json.loads((WS / "glossaire.json").read_text())
-    keep = set(gl["keep_english_terms"])
+    keep = termes_gardes(WS)
     inv_p = WS / "invariants.json"
     if inv_p.exists():
         keep |= set(json.loads(inv_p.read_text()))
-    pfx = accent_prefixes()
     all_errors = {}
     applied = 0
     for batch_path in sys.argv[1:]:

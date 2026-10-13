@@ -8853,14 +8853,14 @@
  {
   "controle": "casse",
   "cle": "block.society.ancient_goddess_statue.description.warn",
-  "motif": "nom d'un talent de l'arbre de compétences, cité comme tel : il garde sa majuscule, comme les cinq compétences (STYLE §7, « l'expérience en Agriculture ») et « la Maîtrise de la pêche »",
+  "motif": "nom d'un talent de l'arbre de compétences, cité comme tel : il garde sa majuscule, comme les cinq compétences (STYLE §2, « l'expérience en Agriculture ») et « la Maîtrise de la pêche »",
   "date": "2026-10-01",
   "empreinte": "c3aaadea5dd6"
  },
  {
   "controle": "casse",
   "cle": "block.society.ancient_goddess_statue.no_skill",
-  "motif": "nom d'un talent de l'arbre de compétences, cité comme tel : il garde sa majuscule, comme les cinq compétences (STYLE §7, « l'expérience en Agriculture ») et « la Maîtrise de la pêche »",
+  "motif": "nom d'un talent de l'arbre de compétences, cité comme tel : il garde sa majuscule, comme les cinq compétences (STYLE §2, « l'expérience en Agriculture ») et « la Maîtrise de la pêche »",
   "date": "2026-10-01",
   "empreinte": "06dbbbf7151d"
  },
@@ -9175,21 +9175,21 @@
  {
   "controle": "casse",
   "cle": "society_tips.tip.fishing_skill_leveling",
-  "motif": "nom d'un talent de l'arbre de compétences, cité comme tel : il garde sa majuscule, comme les cinq compétences (STYLE §7, « l'expérience en Agriculture ») et « la Maîtrise de la pêche »",
+  "motif": "nom d'un talent de l'arbre de compétences, cité comme tel : il garde sa majuscule, comme les cinq compétences (STYLE §2, « l'expérience en Agriculture ») et « la Maîtrise de la pêche »",
   "date": "2026-10-01",
   "empreinte": "c7ee4b4eee50"
  },
  {
   "controle": "casse",
   "cle": "society_tips.tip.mining_skill_leveling_one",
-  "motif": "nom d'un talent de l'arbre de compétences, cité comme tel : il garde sa majuscule, comme les cinq compétences (STYLE §7, « l'expérience en Agriculture ») et « la Maîtrise de la pêche »",
+  "motif": "nom d'un talent de l'arbre de compétences, cité comme tel : il garde sa majuscule, comme les cinq compétences (STYLE §2, « l'expérience en Agriculture ») et « la Maîtrise de la pêche »",
   "date": "2026-10-01",
   "empreinte": "c543c752012e"
  },
  {
   "controle": "casse",
   "cle": "society_tips.tip.mining_skill_leveling_two",
-  "motif": "nom d'un talent de l'arbre de compétences, cité comme tel : il garde sa majuscule, comme les cinq compétences (STYLE §7, « l'expérience en Agriculture ») et « la Maîtrise de la pêche »",
+  "motif": "nom d'un talent de l'arbre de compétences, cité comme tel : il garde sa majuscule, comme les cinq compétences (STYLE §2, « l'expérience en Agriculture ») et « la Maîtrise de la pêche »",
   "date": "2026-10-01",
   "empreinte": "a93bc10749ef"
  },

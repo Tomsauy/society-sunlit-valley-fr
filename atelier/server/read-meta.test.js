@@ -19,6 +19,13 @@ test("charge le glossaire indexé par terme anglais", () => {
   expect(meta.glossaire.get("Copper").fr).toBe("Cuivre");
 });
 
+test("un anglais à plusieurs sens : la Map garde le sens général, termesDe rend tous les sens", () => {
+  expect(meta.glossaire.get("Clock").sens).toBeUndefined();
+  const t = meta.termesDe("Clock").filter(x => x.en === "Clock");
+  expect(t.length).toBeGreaterThanOrEqual(2);
+  expect(t.some(x => x.sens)).toBe(true);
+});
+
 test("charge la file à revoir", () => {
   expect(Array.isArray(meta.aRevoir)).toBe(true);
 });

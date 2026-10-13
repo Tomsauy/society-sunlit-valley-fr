@@ -49,7 +49,7 @@ test("refuse un placeholder perdu", () => {
   expect(pb[0]).toMatch(/placeholder/i);
 });
 
-// --- La politique d'accents, abrogée (DECISION-ACCENTS.md, quatrième épisode) ---
+// --- La politique d'accents, abrogée (docs/specs/2026-09-14-reaccentuation-des-noms-design.md) ---
 //
 // Ces quatre cas figeaient la règle inverse : ils refusaient un accent sur un nom
 // cherchable, et l'Atelier répondait 422 à qui corrigeait « Blé ». Le mod Accent Fold

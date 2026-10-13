@@ -51,7 +51,10 @@ nom comme dans une phrase, quel que soit son mod. Un matériau (« Cherry Planks
 
 Les mots français identiques à l'anglais (« tunnel », « talc ») s'ajoutent au glossaire de
 `provenance.json` (`garde_anglais: false`) ; les termes gardés en anglais aussi (`garde_anglais:
-true`) : `anglais_residuel` et `casse` les lisent là.
+true`) : `anglais_residuel` et `casse` les lisent là. Le glossaire s'écrit par `scripts/glossaire.py`, qui
+régénère `GLOSSAIRE.md` et `KEEP-ENGLISH.md` ; un anglais à plusieurs sens porte une entrée par sens (champ
+`sens`). Le contrôle `glossaire` exige qu'une entrée dont l'anglais est aussi l'anglais entier d'un texte du
+projet soit le français d'au moins un de ces textes, et refuse la ligature « œ ».
 
 Une exception couvre les constats de son contrôle sur sa clé ; avec `objet`, seulement ceux qui
 visent cet objet. Une exception `epingle: true` du contrôle `references` ne couvre rien : elle

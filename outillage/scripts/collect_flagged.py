@@ -6,11 +6,12 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from validate_translation import validate
+from corrections.glossaire import termes_gardes
 
 WS = Path(__file__).resolve().parents[1]
 
 def main() -> None:
-    keep = set(json.loads((WS / "glossaire.json").read_text())["keep_english_terms"])
+    keep = termes_gardes(WS)
     keep |= set(json.loads((WS / "invariants.json").read_text()))
     flagged = []
     for bp in Path(sys.argv[1]).read_text().splitlines():

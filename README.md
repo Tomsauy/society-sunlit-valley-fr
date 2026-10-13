@@ -29,8 +29,8 @@ Traduction communautaire francaise du modpack Minecraft [Society: Sunlit Valley]
 | Chemin | Contenu |
 |--------|---------|
 | `outillage/STYLE.md` | Guide de style : registre, capitalisation, politique d'accents, conventions de nommage |
-| `outillage/GLOSSAIRE.md` | Glossaire (1 678 termes) classe par origine : vanilla Mojang, traductions officielles des mods, terminologie Stardew Valley |
-| `outillage/KEEP-ENGLISH.md` | Termes volontairement laisses en anglais, avec justification et emplacements |
+| `outillage/GLOSSAIRE.md` | Glossaire (1 885 entrées), un terme par sens, classé par origine ; généré depuis `provenance.json` et confronté à la traduction par le vérificateur |
+| `outillage/KEEP-ENGLISH.md` | Termes volontairement laissés en anglais, avec justification ; généré depuis `provenance.json` |
 | `outillage/provenance.json` | Tracabilite de 2 432 cles et 2 552 decisions : arbitrages, corrections de relecture et leurs motifs |
 | `outillage/scripts/` | Pipeline complet : inventaire, validation mecanique, reconciliation, generation du pack |
 | `docs/` | Specification, plan de travail et rapport final |
@@ -41,8 +41,8 @@ ou modifiees et ne retraduit que le delta. Voir `docs/RAPPORT-TRADUCTION-FR.md`.
 ## Verifier la traduction
 
 `outillage/scripts/verifier.py` relit tout le francais du pack et fait foi avant chaque
-publication. Il enchaine seize controles (couverture, codes de formatage, accents,
-terminologie, casse, familles de noms, largeur d'affichage, decisions tracees dans
+publication. Il enchaine dix-huit controles (couverture, codes de formatage, accents,
+terminologie, glossaire, casse, familles de noms, largeur d'affichage, decisions tracees dans
 `provenance.json`...). Ses donnees sont dans `outillage/coherence/` (voir son `LISEZMOI.md`) :
 un ecart volontaire s'y inscrit comme exception motivee, et la dette connue
 (`dette.json`) ne peut que decroitre — un nouvel ecart non motive bloque.
