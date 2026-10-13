@@ -8,10 +8,14 @@ Contenu du paquet, tel qu'il se décompresse sur le dossier de l'instance :
   config/fancymenu/assets/changelog_fr_fr.markdown
                                            journal des modifications du menu titre,
                                            choisi par le layout via la langue du jeu
+  mods/accentfold-<version>.jar            le mod Accent Fold (recherche sans
+                                           accents), pris dans ../accent-fold/build/libs
   optionnel/Society_FR.zip                 même chose que les lang, en pack de
                                            ressources, pour qui ne veut pas toucher
                                            à kubejs/ (ne couvre pas les livres)
-  Installer-Windows.bat, LISEZ-MOI.txt
+  installer.ps1, Installer-Windows.bat     l'installeur Windows (PowerShell, sans Python)
+                                           et son lanceur ; version.txt, sa version cible
+  LISEZ-MOI.txt
 """
 import json, zipfile
 from pathlib import Path
@@ -21,42 +25,21 @@ import verifier
 ROOT = Path(__file__).resolve().parents[2]
 REPO = ROOT / "society-sunlit-valley"
 DEST = ROOT / "dist" / "Society_FR_installation.zip"
+# Le mod Accent Fold vit dans son propre dépôt, à côté de celui-ci.
+ACCENT_FOLD = ROOT.parent / "accent-fold" / "build" / "libs"
 
-# Le .bat reste sans accents : l'encodage de la console Windows n'est pas garanti.
+# Le .bat n'est qu'un lanceur : toute la logique est dans installer.ps1. Il existe
+# parce qu'un .ps1 ne se lance pas d'un double-clic (Windows l'ouvre dans le Bloc-notes),
+# que la politique d'exécution bloque souvent les scripts venus d'un zip téléchargé, et
+# que l'Explorateur n'accepte pas qu'on glisse un dossier sur un .ps1. -ExecutionPolicy
+# Bypass ne vaut que pour ce lancement. Sans accents : la console n'est pas sûre.
 BAT = """@echo off
 setlocal
-echo.
-echo   Traduction francaise -- Society: Sunlit Valley {version}
-echo.
-set "SRC=%~dp0"
-set "DEST=%~1"
-if "%DEST%"=="" (
-  echo   Glissez le dossier de votre instance sur ce fichier, ou lancez :
-  echo     Installer-Windows.bat "C:\\Users\\vous\\curseforge\\minecraft\\Instances\\Society"
-  echo.
-  pause
-  exit /b 1
-)
-if not exist "%DEST%\\kubejs" (
-  echo   ERREUR : "%DEST%" ne contient pas de dossier kubejs.
-  echo   Ce n'est pas le dossier de l'instance du modpack.
-  echo.
-  pause
-  exit /b 1
-)
-echo   Installation vers %DEST%
-xcopy "%SRC%kubejs" "%DEST%\\kubejs" /E /I /Y >nul || goto :err
-xcopy "%SRC%patchouli_books" "%DEST%\\patchouli_books" /E /I /Y >nul || goto :err
-xcopy "%SRC%config" "%DEST%\\config" /E /I /Y >nul || goto :err
-echo.
-echo   OK. Dans le jeu : Options ^> Langue ^> Francais (France).
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0installer.ps1" %*
+set "CODE=%ERRORLEVEL%"
 echo.
 pause
-exit /b 0
-:err
-echo   ECHEC de la copie. Verifiez que le jeu est ferme.
-pause
-exit /b 1
+exit /b %CODE%
 """
 
 LISEZMOI = """Traduction française — Society: Sunlit Valley {version}
@@ -70,21 +53,31 @@ INSTALLATION SUR WINDOWS
      Modrinth     %APPDATA%\\com.modrinth.theseus\\profiles\\<nom>
      Officiel     %APPDATA%\\.minecraft
    Depuis CurseForge : bouton « ... » sur le pack, puis « Open Folder ».
-2. Fermez le jeu, puis au choix :
+2. Fermez le jeu, décompressez cette archive, puis au choix :
      - faites glisser le dossier de l'instance SUR Installer-Windows.bat ;
-     - ou copiez à la main les dossiers kubejs, patchouli_books et config de
-       cette archive dans l'instance. Windows demande quoi faire : choisissez
-       « Remplacer les fichiers dans la destination ». Les dossiers sont
-       fusionnés, rien d'autre n'est supprimé.
+     - ou double-cliquez Installer-Windows.bat et collez le chemin de l'instance.
+   L'installeur copie la traduction et le mod Accent Fold, garde une sauvegarde
+   .bak-fr de chaque fichier remplacé, et retire ce qu'une version précédente de
+   la traduction avait posé et que celle-ci ne porte plus (la sauvegarde reprend
+   alors sa place). Rien d'autre n'est touché. Pour voir ce qu'il ferait sans
+   rien écrire, ouvrez PowerShell dans ce dossier et tapez :
+     powershell -ExecutionPolicy Bypass -File .\\installer.ps1 "<dossier de l'instance>" -DryRun
+   (« .\\installer.ps1 » tout court est refusé par Windows ; mettez le chemin
+   sans barre \\ à la fin.)
+   Sans le mod : ajoutez -SansAccentFold.
 3. Lancez le jeu : Options > Langue > Français (France). C'est tout —
    KubeJS charge kubejs/assets/<mod>/lang/fr_fr.json tout seul, il n'y a
    AUCUN pack de ressources à activer.
 
 INSTALLATION SUR MACOS / LINUX
-Même principe, en fusionnant (le /. final compte) :
+Avec PowerShell installé (pwsh), le même installeur fonctionne :
+  pwsh installer.ps1 "/chemin/instance"
+Sinon, copiez en fusionnant (le /. final compte) — mais cette copie ne retire
+pas ce qu'une version précédente aurait laissé :
   cp -R kubejs/. "/chemin/instance/kubejs/"
   cp -R patchouli_books/. "/chemin/instance/patchouli_books/"
   cp -R config/. "/chemin/instance/config/"
+  cp -R mods/. "/chemin/instance/mods/"
 Sur macOS, ne glissez pas les dossiers dans le Finder : il REMPLACE le dossier
 kubejs au lieu de le fusionner, et les scripts du pack sont perdus.
 
@@ -110,10 +103,11 @@ IMPORTANT
 - Tout est accentué, y compris les noms d'objets et de blocs. La recherche en
   jeu fonctionne comme avant, mais à la lettre : il faut taper « Blé » pour
   trouver « Blé ».
-- Le mod Accent Fold, facultatif, lève cette contrainte — « ble » retrouve
-  alors « Blé », dans les neuf écrans de recherche du pack. Il se télécharge à
-  part, sur https://github.com/Tomsauy/accent-fold ; le jar va dans le dossier
-  « mods » de l'instance, comme n'importe quel mod.
+- Le mod Accent Fold, fourni dans mods/, lève cette contrainte — « ble »
+  retrouve alors « Blé », dans les neuf écrans de recherche du pack. Il est
+  installé avec le reste (dossier « mods » de l'instance). Il est vivement
+  conseillé mais pas obligatoire : pour s'en passer, supprimez simplement
+  mods/accentfold-*.jar de l'instance. Source : https://github.com/Tomsauy/accent-fold
 - Si vous repérez un texte encore en anglais, signalez-le : certains objets
   créés par les scripts du pack n'ont aucune source anglaise et ne se
   détectent qu'en jouant.
@@ -192,6 +186,9 @@ def main() -> None:
                    if (b / "fr_fr").is_dir() for p in (b / "fr_fr").rglob("*") if p.is_file())
     changelog = REPO / "config" / "fancymenu" / "assets" / "changelog_fr_fr.markdown"
     rp = REPO / "resourcepacks" / "Society_FR.zip"
+    jars = sorted(ACCENT_FOLD.glob("accentfold-*.jar"))
+    if not jars:
+        raise SystemExit(f"ERREUR : aucun accentfold-*.jar dans {ACCENT_FOLD} — construire le mod ?")
     for f in (changelog, rp):
         if not f.exists():
             raise SystemExit(f"ERREUR : {f} manquant — lancer build_fr_resourcepack.py ?")
@@ -204,8 +201,11 @@ def main() -> None:
             z.write(f, str(f.relative_to(REPO)))
         z.write(changelog, str(changelog.relative_to(REPO)))
         z.write(rp, "optionnel/Society_FR.zip")
-        z.writestr("Installer-Windows.bat",
-                   BAT.format(version=version).replace("\n", "\r\n"))
+        z.write(jars[-1], f"mods/{jars[-1].name}")
+        z.writestr("Installer-Windows.bat", BAT.replace("\n", "\r\n"))
+        # Les octets tels quels : le BOM du .ps1 est indispensable à PowerShell 5.1.
+        z.write(Path(__file__).resolve().parent / "installer.ps1", "installer.ps1")
+        z.writestr("version.txt", version + "\n")
         # tous les fichiers d'infobulles portant le correctif, pas un seul :
         # le pack en compte quatre, et deux ont ete corriges.
         patches = sorted(
@@ -224,7 +224,7 @@ def main() -> None:
 
     print(f"écrit {DEST.relative_to(ROOT)} — version {version} : "
           f"{len(langs)} fichiers lang, {len(books)} fichiers de livres, "
-          f"1 changelog, {DEST.stat().st_size // 1024} Ko")
+          f"1 changelog, mod {jars[-1].name}, {DEST.stat().st_size // 1024} Ko")
 
 if __name__ == "__main__":
     main()
